@@ -1,0 +1,794 @@
+{
+  "metadata": {
+    "chapter_number": 2,
+    "chapter_title": "Network and Internet Concepts",
+    "chapter_title_hindi": "नेटवर्क और इंटरनेट की अवधारणाएं",
+    "subject": "Computer Science - Class 10",
+    "board": "HPBOSE",
+    "total_questions": 30,
+    "version": "1.0",
+    "naming_convention": "10_CS_CH02_Network_and_Internet.json"
+  },
+  "questions": [
+    {
+      "question_id": 1,
+      "question": {
+        "en": "What is a Computer Network?",
+        "hi": "कंप्यूटर नेटवर्क क्या है?"
+      },
+      "options": {
+        "a": {"en": "A single computer used by one person", "hi": "एक व्यक्ति द्वारा उपयोग किया जाने वाला एकल कंप्यूटर"},
+        "b": {"en": "A group of two or more computers connected to share resources", "hi": "संसाधनों को साझा करने के लिए जुड़े दो या दो से अधिक कंप्यूटरों का समूह"},
+        "c": {"en": "A software used to type letters", "hi": "पत्र टाइप करने के लिए उपयोग किया जाने वाला सॉफ्टवेयर"},
+        "d": {"en": "A collection of hard disks kept in a box", "hi": "एक बॉक्स में रखी हार्ड डिस्क का संग्रह"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Think of it like a telephone system where different phones talk to each other.",
+        "hi": "इसे एक टेलीफोन सिस्टम की तरह सोचें जहाँ अलग-अलग फोन एक-दूसरे से बात करते हैं।"
+      },
+      "explanation": {
+        "en": "A computer network is a collection of computers and devices connected together via communication devices and transmission media. The main purpose is to share 'Resources' (like a single printer shared by 10 computers) and 'Data' (sending files to each other).",
+        "hi": "कंप्यूटर नेटवर्क संचार उपकरणों और ट्रांसमिशन माध्यमों के माध्यम से एक साथ जुड़े कंप्यूटरों और उपकरणों का एक संग्रह है। इसका मुख्य उद्देश्य 'संसाधन' (जैसे 10 कंप्यूटरों द्वारा साझा किया गया एक एकल प्रिंटर) और 'डेटा' (एक दूसरे को फाइलें भेजना) साझा करना है।"
+      },
+      "key_takeaway": {
+        "en": "Network = Connection + Sharing.",
+        "hi": "नेटवर्क = कनेक्शन + शेयरिंग।"
+      }
+    },
+    {
+      "question_id": 2,
+      "question": {
+        "en": "What is the full form of 'NIC', a hardware component necessary for networking?",
+        "hi": "नेटवर्किंग के लिए आवश्यक हार्डवेयर घटक 'NIC' का फुल फॉर्म क्या है?"
+      },
+      "options": {
+        "a": {"en": "National Information Card", "hi": "नेशनल इंफॉर्मेशन कार्ड"},
+        "b": {"en": "Network Interface Card", "hi": "नेटवर्क इंटरफेस कार्ड (Network Interface Card)"},
+        "c": {"en": "New Internal Connection", "hi": "न्यू इंटरनल कनेक्शन"},
+        "d": {"en": "Network Indian Card", "hi": "नेटवर्क इंडियन कार्ड"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "This was specifically asked in your Model Question Paper.",
+        "hi": "यह विशेष रूप से आपके मॉडल प्रश्न पत्र में पूछा गया था।"
+      },
+      "explanation": {
+        "en": "NIC stands for Network Interface Card. It is a small hardware circuit board installed in a computer that allows it to connect to a network. Every computer on a network must have an NIC. It acts as the 'doorway' for data to enter or leave the PC.",
+        "hi": "NIC का अर्थ नेटवर्क इंटरफेस कार्ड है। यह कंप्यूटर में स्थापित एक छोटा हार्डवेयर सर्किट बोर्ड है जो इसे नेटवर्क से जुड़ने की अनुमति देता है। नेटवर्क पर प्रत्येक कंप्यूटर में एक NIC होना चाहिए। यह PC में डेटा के प्रवेश करने या बाहर जाने के लिए 'दरवाजे' के रूप में कार्य करता है।"
+      },
+      "key_takeaway": {
+        "en": "NIC = Hardware required to connect a PC to a network.",
+        "hi": "NIC = PC को नेटवर्क से जोड़ने के लिए आवश्यक हार्डवेयर।"
+      }
+    },
+    {
+      "question_id": 3,
+      "question": {
+        "en": "Which type of network is used to connect personal devices like a smartphone and a laptop within a very short range (approx. 10 meters)?",
+        "hi": "बहुत कम दूरी (लगभग 10 मीटर) के भीतर स्मार्टफोन और लैपटॉप जैसे व्यक्तिगत उपकरणों को जोड़ने के लिए किस प्रकार के नेटवर्क का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "LAN", "hi": "LAN"},
+        "b": {"en": "PAN", "hi": "PAN (Personal Area Network)"},
+        "c": {"en": "MAN", "hi": "MAN"},
+        "d": {"en": "WAN", "hi": "WAN"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Bluetooth is a common example of this network type.",
+        "hi": "ब्लूटूथ इस नेटवर्क प्रकार का एक सामान्य उदाहरण है।"
+      },
+      "explanation": {
+        "en": "PAN stands for Personal Area Network. It is the smallest type of network, centered around an individual person. For example, when you connect your phone to your wireless earphones or share a file from one phone to another via Bluetooth, you are using a PAN.",
+        "hi": "PAN का अर्थ पर्सनल एरिया नेटवर्क है। यह नेटवर्क का सबसे छोटा प्रकार है, जो एक व्यक्ति के इर्द-गिर्द केंद्रित होता है। उदाहरण के लिए, जब आप अपने फोन को अपने वायरलेस इयरफ़ोन से जोड़ते हैं या ब्लूटूथ के माध्यम से एक फोन से दूसरे फोन में फाइल साझा करते हैं, तो आप PAN का उपयोग कर रहे होते हैं।"
+      },
+      "key_takeaway": {
+        "en": "PAN = Personal use + Smallest range (Bluetooth).",
+        "hi": "PAN = व्यक्तिगत उपयोग + सबसे छोटी रेंज (ब्लूटूथ)।"
+      }
+    },
+    {
+      "question_id": 4,
+      "question": {
+        "en": "A network that connects computers within a small geographical area like a single room, a house, or a school building is called ______.",
+        "hi": "एक छोटे भौगोलिक क्षेत्र जैसे कि एक कमरे, घर या स्कूल की इमारत के भीतर कंप्यूटरों को जोड़ने वाले नेटवर्क को ______ कहा जाता है।"
+      },
+      "options": {
+        "a": {"en": "WAN", "hi": "WAN"},
+        "b": {"en": "MAN", "hi": "MAN"},
+        "c": {"en": "LAN", "hi": "LAN (Local Area Network)"},
+        "d": {"en": "Internet", "hi": "इंटरनेट"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "Your school's computer lab likely uses this type of network.",
+        "hi": "आपके स्कूल की कंप्यूटर लैब संभवतः इसी प्रकार के नेटवर्क का उपयोग करती है।"
+      },
+      "explanation": {
+        "en": "LAN stands for Local Area Network. It is private, very fast, and connects computers in a limited area like an office or a campus. It uses cables (Ethernet) or Wi-Fi to link devices so they can share a common printer or server.",
+        "hi": "LAN का अर्थ लोकल एरिया नेटवर्क है। यह निजी, बहुत तेज़ है और एक सीमित क्षेत्र जैसे कार्यालय या परिसर में कंप्यूटरों को जोड़ता है। यह उपकरणों को जोड़ने के लिए केबल (ईथरनेट) या वाई-फाई का उपयोग करता है ताकि वे एक सामान्य प्रिंटर या सर्वर साझा कर सकें।"
+      },
+      "key_takeaway": {
+        "en": "LAN = Local use + High speed + Single building/campus.",
+        "hi": "LAN = स्थानीय उपयोग + उच्च गति + एकल भवन/परिसर।"
+      }
+    },
+    {
+      "question_id": 5,
+      "question": {
+        "en": "Which network type covers a whole city or a large campus, like a cable TV network?",
+        "hi": "कौन सा नेटवर्क प्रकार पूरे शहर या एक बड़े परिसर को कवर करता है, जैसे कि केबल टीवी नेटवर्क?"
+      },
+      "options": {
+        "a": {"en": "PAN", "hi": "PAN"},
+        "b": {"en": "LAN", "hi": "LAN"},
+        "c": {"en": "MAN", "hi": "MAN (Metropolitan Area Network)"},
+        "d": {"en": "WAN", "hi": "WAN"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "The name refers to a 'Metropolis' or a large city.",
+        "hi": "नाम एक 'महानगर' (Metropolis) या बड़े शहर को संदर्भित करता है।"
+      },
+      "explanation": {
+        "en": "MAN stands for Metropolitan Area Network. It is larger than a LAN but smaller than a WAN. It typically connects several LANs across a city. A perfect example is your local cable TV network that spreads across the entire town.",
+        "hi": "MAN का अर्थ मेट्रोपॉलिटन एरिया नेटवर्क है। यह LAN से बड़ा लेकिन WAN से छोटा है। यह आमतौर पर एक शहर में कई LAN को जोड़ता है। एक बेहतरीन उदाहरण आपका स्थानीय केबल टीवी नेटवर्क है जो पूरे शहर में फैला हुआ है।"
+      },
+      "key_takeaway": {
+        "en": "MAN = City-wide range.",
+        "hi": "MAN = शहर-व्यापी रेंज।"
+      }
+    },
+    {
+      "question_id": 6,
+      "question": {
+        "en": "The 'Internet' is the best and largest example of which type of network?",
+        "hi": "'इंटरनेट' किस प्रकार के नेटवर्क का सबसे अच्छा और सबसे बड़ा उदाहरण है?"
+      },
+      "options": {
+        "a": {"en": "PAN", "hi": "PAN"},
+        "b": {"en": "LAN", "hi": "LAN"},
+        "c": {"en": "WAN", "hi": "WAN (Wide Area Network)"},
+        "d": {"en": "MAN", "hi": "MAN"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "This network covers countries, continents, and the entire world.",
+        "hi": "यह नेटवर्क देशों, महाद्वीपों और पूरी दुनिया को कवर करता है।"
+      },
+      "explanation": {
+        "en": "WAN stands for Wide Area Network. It spans a large geographical area, such as a country or even the entire globe. The Internet is a global WAN that connects billions of computers across the world using satellites and undersea cables.",
+        "hi": "WAN का अर्थ वाइड एरिया नेटवर्क है। यह एक बड़े भौगोलिक क्षेत्र, जैसे देश या पूरे विश्व में फैला होता है। इंटरनेट एक वैश्विक WAN है जो उपग्रहों और समुद्र के नीचे बिछी केबलों का उपयोग करके दुनिया भर के अरबों कंप्यूटरों को जोड़ता है।"
+      },
+      "key_takeaway": {
+        "en": "WAN = Global range + Connection of multiple LANs/MANs.",
+        "hi": "WAN = वैश्विक रेंज + कई LAN/MAN का कनेक्शन।"
+      }
+    },
+    {
+      "question_id": 7,
+      "question": {
+        "en": "What is the primary difference between a 'Server' and a 'Client' in a network?",
+        "hi": "नेटवर्क में 'सर्वर' और 'क्लाइंट' के बीच प्राथमिक अंतर क्या है?"
+      },
+      "options": {
+        "a": {"en": "Server requests data; Client provides data", "hi": "सर्वर डेटा का अनुरोध करता है; क्लाइंट डेटा प्रदान करता है"},
+        "b": {"en": "Server provides services; Client requests services", "hi": "सर्वर सेवाएँ प्रदान करता है; क्लाइंट सेवाओं का अनुरोध करता है"},
+        "c": {"en": "Clients are more powerful than servers", "hi": "क्लाइंट सर्वर से अधिक शक्तिशाली होते हैं"},
+        "d": {"en": "There is no difference", "hi": "कोई अंतर नहीं है"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Think of a restaurant: the waiter (Server) provides food to the customer (Client).",
+        "hi": "एक रेस्तरां के बारे में सोचें: वेटर (सर्वर) ग्राहक (क्लाइंट) को भोजन प्रदान करता है।"
+      },
+      "explanation": {
+        "en": "A Server is a powerful computer that 'serves' or provides resources (like files, websites, or emails) to other computers. A Client is a computer (like your PC or phone) that 'requests' and uses those resources from the server.",
+        "hi": "सर्वर एक शक्तिशाली कंप्यूटर है जो अन्य कंप्यूटरों को संसाधन (जैसे फाइलें, वेबसाइट या ईमेल) 'परोसता' या प्रदान करता है। क्लाइंट एक कंप्यूटर (जैसे आपका पीसी या फोन) है जो सर्वर से उन संसाधनों का 'अनुरोध' करता है और उनका उपयोग करता है।"
+      },
+      "key_takeaway": {
+        "en": "Server = Provider; Client = User.",
+        "hi": "सर्वर = प्रदाता; क्लाइंट = उपयोगकर्ता।"
+      }
+    },
+    {
+      "question_id": 8,
+      "question": {
+        "en": "What is the 'Internet'?",
+        "hi": "'इंटरनेट' क्या है?"
+      },
+      "options": {
+        "a": {"en": "A single website owned by Google", "hi": "गूगल के स्वामित्व वाली एक एकल वेबसाइट"},
+        "b": {"en": "A global network of networks connecting millions of computers", "hi": "लाखों कंप्यूटरों को जोड़ने वाला नेटवर्क का एक वैश्विक नेटवर्क"},
+        "c": {"en": "A program used to type text", "hi": "टेक्स्ट टाइप करने के लिए उपयोग किया जाने वाला एक प्रोग्राम"},
+        "d": {"en": "A hardware device like a mouse", "hi": "माउस जैसा एक हार्डवेयर डिवाइस"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is often called the 'Information Superhighway'.",
+        "hi": "इसे अक्सर 'सूचना का सुपरहाइवे' कहा जाता है।"
+      },
+      "explanation": {
+        "en": "The Internet is a worldwide system of interconnected computer networks. It allows people to share information, communicate through email, and access the World Wide Web from anywhere in the world.",
+        "hi": "इंटरनेट परस्पर जुड़े कंप्यूटर नेटवर्क की एक विश्वव्यापी प्रणाली है। यह लोगों को जानकारी साझा करने, ईमेल के माध्यम से संवाद करने और दुनिया में कहीं से भी वर्ल्ड वाइड वेब तक पहुंचने की अनुमति देता है।"
+      },
+      "key_takeaway": {
+        "en": "Internet = The World's largest network.",
+        "hi": "इंटरनेट = दुनिया का सबसे बड़ा नेटवर्क।"
+      }
+    },
+    {
+      "question_id": 9,
+      "question": {
+        "en": "In the history of the Internet, what was the name of the first network developed by the US Department of Defense?",
+        "hi": "इंटरनेट के इतिहास में, अमेरिकी रक्षा विभाग द्वारा विकसित पहले नेटवर्क का नाम क्या था?"
+      },
+      "options": {
+        "a": {"en": "WWW", "hi": "WWW"},
+        "b": {"en": "ARPANET", "hi": "ARPANET"},
+        "c": {"en": "Intranet", "hi": "इंट्रानेट"},
+        "d": {"en": "GoogleNet", "hi": "गूगलनेट"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It stands for Advanced Research Projects Agency Network.",
+        "hi": "इसका फुल फॉर्म एडवांस्ड रिसर्च प्रोजेक्ट्स एजेंसी नेटवर्क है।"
+      },
+      "explanation": {
+        "en": "ARPANET was the precursor to the modern Internet. It was created in the late 1960s to allow scientists to share data between different universities. The technologies developed for ARPANET eventually grew into the global Internet we use today.",
+        "hi": "ARPANET आधुनिक इंटरनेट का पूर्ववर्ती था। इसे 1960 के दशक के अंत में वैज्ञानिकों को विभिन्न विश्वविद्यालयों के बीच डेटा साझा करने की अनुमति देने के लिए बनाया गया था। ARPANET के लिए विकसित प्रौद्योगिकियां अंततः वैश्विक इंटरनेट में विकसित हुईं जिसका हम आज उपयोग करते हैं।"
+      },
+      "key_takeaway": {
+        "en": "ARPANET = The beginning of the Internet.",
+        "hi": "ARPANET = इंटरनेट की शुरुआत।"
+      }
+    },
+    {
+      "question_id": 10,
+      "question": {
+        "en": "What is a 'Web Browser'?",
+        "hi": "'वेब ब्राउज़र' (Web Browser) क्या है?"
+      },
+      "options": {
+        "a": {"en": "A hardware part inside the CPU", "hi": "CPU के अंदर का एक हार्डवेयर हिस्सा"},
+        "b": {"en": "A software application used to access and view websites", "hi": "वेबसाइटों तक पहुँचने और देखने के लिए उपयोग किया जाने वाला एक सॉफ्टवेयर एप्लिकेशन"},
+        "c": {"en": "The main cable of the internet", "hi": "इंटरनेट की मुख्य केबल"},
+        "d": {"en": "A person who fixes computers", "hi": "कंप्यूटर ठीक करने वाला व्यक्ति"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Examples include Google Chrome and Mozilla Firefox.",
+        "hi": "उदाहरणों में गूगल क्रोम और मोज़िला फ़ायरफ़ॉक्स शामिल हैं।"
+      },
+      "explanation": {
+        "en": "A web browser is the tool (software) you open on your PC or phone to visit websites. It 'translates' the code of a website (HTML) into the pictures and text you see on your screen.",
+        "hi": "वेब ब्राउज़र वह उपकरण (सॉफ्टवेयर) है जिसे आप वेबसाइटों पर जाने के लिए अपने पीसी या फोन पर खोलते हैं। यह वेबसाइट के कोड (HTML) को उन चित्रों और टेक्स्ट में 'अनुवादित' करता है जिन्हें आप अपनी स्क्रीन पर देखते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Browser = Viewer of web content.",
+        "hi": "ब्राउज़र = वेब सामग्री का व्यूअर (देखने वाला)।"
+      }
+    },
+    {
+      "question_id": 11,
+      "question": {
+        "en": "Which of the following is an example of a popular Web Browser?",
+        "hi": "निम्नलिखित में से कौन एक लोकप्रिय वेब ब्राउज़र का उदाहरण है?"
+      },
+      "options": {
+        "a": {"en": "Google Search", "hi": "गूगल सर्च"},
+        "b": {"en": "Mozilla Firefox", "hi": "मोज़िला फ़ायरफ़ॉक्स (Mozilla Firefox)"},
+        "c": {"en": "Yahoo", "hi": "याहू"},
+        "d": {"en": "Bing", "hi": "बिंग"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Don't confuse search engines with browsers. A browser is the app you click to open.",
+        "hi": "सर्च इंजन को ब्राउज़र के साथ भ्रमित न करें। ब्राउज़र वह ऐप है जिसे आप खोलने के लिए क्लिक करते हैं।"
+      },
+      "explanation": {
+        "en": "Mozilla Firefox, Google Chrome, Opera, and Microsoft Edge are all Browsers. Google Search, Yahoo, and Bing are NOT browsers; they are websites (Search Engines) that you visit using a browser.",
+        "hi": "मोज़िला फ़ायरफ़ॉक्स, गूगल क्रोम, ओपेरा और माइक्रोसॉफ्ट एज सभी ब्राउज़र हैं। गूगल सर्च, याहू और बिंग ब्राउज़र नहीं हैं; वे वेबसाइटें (सर्च इंजन) हैं जिन पर आप ब्राउज़र का उपयोग करके जाते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Standard browsers: Chrome, Firefox, Opera, Safari, Edge.",
+        "hi": "मानक ब्राउज़र: क्रोम, फ़ायरफ़ॉक्स, ओपेरा, सफारी, एज।"
+      }
+    },
+    {
+      "question_id": 12,
+      "question": {
+        "en": "What is the main function of a 'Search Engine'?",
+        "hi": "'सर्च इंजन' (Search Engine) का मुख्य कार्य क्या है?"
+      },
+      "options": {
+        "a": {"en": "To connect your PC to the internet", "hi": "आपके पीसी को इंटरनेट से जोड़ने के लिए"},
+        "b": {"en": "To find information on the World Wide Web using keywords", "hi": "कीवर्ड का उपयोग करके वर्ल्ड वाइड वेब पर जानकारी खोजने के लिए"},
+        "c": {"en": "To store your photos permanently", "hi": "आपकी तस्वीरों को स्थायी रूप से स्टोर करने के लिए"},
+        "d": {"en": "To check your computer for viruses", "hi": "आपके कंप्यूटर में वायरस की जाँच करने के लिए"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "You 'Google' something when you want to find an answer.",
+        "hi": "जब आप कोई उत्तर खोजना चाहते हैं तो आप कुछ 'Google' करते हैं।"
+      },
+      "explanation": {
+        "en": "A Search Engine is a special website that has an index of billions of pages on the internet. When you type a word (keyword), it searches its index and gives you a list of websites that contain that information.",
+        "hi": "सर्च इंजन एक विशेष वेबसाइट है जिसमें इंटरनेट पर अरबों पेजों का इंडेक्स होता है। जब आप कोई शब्द (कीवर्ड) टाइप करते हैं, तो यह अपने इंडेक्स में खोज करता है और आपको उन वेबसाइटों की सूची देता है जिनमें वह जानकारी होती है।"
+      },
+      "key_takeaway": {
+        "en": "Search Engine = Database to find websites.",
+        "hi": "सर्च इंजन = वेबसाइटों को खोजने के लिए डेटाबेस।"
+      }
+    },
+    {
+      "question_id": 13,
+      "question": {
+        "en": "Which of these is a popular Search Engine?",
+        "hi": "इनमें से कौन सा एक लोकप्रिय सर्च इंजन है?"
+      },
+      "options": {
+        "a": {"en": "Opera", "hi": "ओपेरा"},
+        "b": {"en": "Google", "hi": "गूगल (Google)"},
+        "c": {"en": "Mozilla", "hi": "मोज़िला"},
+        "d": {"en": "Internet Explorer", "hi": "इंटरनेट एक्सप्लोरर"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is the most used search engine in the world.",
+        "hi": "यह दुनिया में सबसे ज्यादा इस्तेमाल किया जाने वाला सर्च इंजन है।"
+      },
+      "explanation": {
+        "en": "Google, Bing, and Yahoo are the most common search engines. Opera and Internet Explorer are browsers that you use to visit these search engines.",
+        "hi": "गूगल, बिंग और याहू सबसे आम सर्च इंजन हैं। ओपेरा और इंटरनेट एक्सप्लोरर ब्राउज़र हैं जिनका उपयोग आप इन सर्च इंजन पर जाने के लिए करते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Standard Search Engines: Google, Bing, Yahoo.",
+        "hi": "मानक सर्च इंजन: गूगल, बिंग, याहू।"
+      }
+    },
+    {
+      "question_id": 14,
+      "question": {
+        "en": "What does 'E-mail' stand for?",
+        "hi": "'E-mail' का अर्थ क्या है?"
+      },
+      "options": {
+        "a": {"en": "Extra Mail", "hi": "एक्स्ट्रा मेल"},
+        "b": {"en": "Efficient Mail", "hi": "एफिशिएंट मेल"},
+        "c": {"en": "Electronic Mail", "hi": "इलेक्ट्रॉनिक मेल (Electronic Mail)"},
+        "d": {"en": "Everyday Mail", "hi": "एवरीडे मेल"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "It is the digital version of traditional letters sent through a post office.",
+        "hi": "यह डाकघर के माध्यम से भेजे जाने वाले पारंपरिक पत्रों का डिजिटल संस्करण है।"
+      },
+      "explanation": {
+        "en": "E-mail (Electronic Mail) is a method of exchanging digital messages between people using internet-connected devices. It is fast, cheap, and can include files and images.",
+        "hi": "E-mail (इलेक्ट्रॉनिक मेल) इंटरनेट से जुड़े उपकरणों का उपयोग करने वाले लोगों के बीच डिजिटल संदेशों के आदान-प्रदान की एक विधि है। यह तेज़, सस्ता है और इसमें फाइलें और चित्र शामिल हो सकते हैं।"
+      },
+      "key_takeaway": {
+        "en": "E-mail = Digital communication over the internet.",
+        "hi": "E-mail = इंटरनेट पर डिजिटल संचार।"
+      }
+    },
+    {
+      "question_id": 15,
+      "question": {
+        "en": "What types of files can be sent as an 'Attachment' in an E-mail?",
+        "hi": "ई-मेल में 'अटैचमेंट' (Attachment) के रूप में किस प्रकार की फाइलें भेजी जा सकती हैं?"
+      },
+      "options": {
+        "a": {"en": "Images and Photos", "hi": "चित्र और फोटो"},
+        "b": {"en": "Audio and Music files", "hi": "ऑडियो और संगीत फाइलें"},
+        "c": {"en": "Text and PDF documents", "hi": "टेक्स्ट और PDF दस्तावेज़"},
+        "d": {"en": "All of these", "hi": "ये सभी (All of these)"}
+      },
+      "correct_option": "d",
+      "hint": {
+        "en": "This was specifically mentioned in your Model Question Paper.",
+        "hi": "इसका उल्लेख विशेष रूप से आपके मॉडल प्रश्न पत्र में किया गया था।"
+      },
+      "explanation": {
+        "en": "An attachment is any file that is 'attached' to an email message. Modern email services allow you to send almost any digital file, including pictures, songs, videos, and office documents.",
+        "hi": "अटैचमेंट कोई भी फ़ाइल है जो ईमेल संदेश से 'संलग्न' (attached) होती है। आधुनिक ईमेल सेवाएँ आपको लगभग किसी भी डिजिटल फ़ाइल को भेजने की अनुमति देती हैं, जिसमें चित्र, गाने, वीडियो और ऑफिस दस्तावेज़ शामिल हैं।"
+      },
+      "key_takeaway": {
+        "en": "Email attachments support multiple file formats.",
+        "hi": "ईमेल अटैचमेंट कई फाइल फॉर्मेट को सपोर्ट करते हैं।"
+      }
+    },
+    {
+      "question_id": 16,
+      "question": {
+        "en": "In an e-mail address like 'student@gmail.com', what does the '@' symbol separate?",
+        "hi": "'student@gmail.com' जैसे ई-मेल पते में, '@' प्रतीक क्या अलग करता है?"
+      },
+      "options": {
+        "a": {"en": "Two different names", "hi": "दो अलग-अलग नाम"},
+        "b": {"en": "The username and the domain name", "hi": "यूजरनेम और डोमेन नेम (Domain name)"},
+        "c": {"en": "The city and the country", "hi": "शहर और देश"},
+        "d": {"en": "The subject and the body", "hi": "विषय और मुख्य भाग"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "'student' is who you are, and 'gmail.com' is where your account lives.",
+        "hi": "'student' वह है जो आप हैं, और 'gmail.com' वह जगह है जहाँ आपका खाता है।"
+      },
+      "explanation": {
+        "en": "Every email address has two parts separated by @. The part before @ is the 'Username' (unique identity), and the part after @ is the 'Domain' (the service provider like Google or Yahoo).",
+        "hi": "प्रत्येक ईमेल पते के दो भाग होते हैं जिन्हें @ द्वारा अलग किया जाता है। @ से पहले का भाग 'यूजरनेम' (विशिष्ट पहचान) है, और @ के बाद का भाग 'डोमेन' (गूगल या याहू जैसा सेवा प्रदाता) है।"
+      },
+      "key_takeaway": {
+        "en": "Email = Username + @ + Domain Name.",
+        "hi": "Email = यूजरनेम + @ + डोमेन नेम।"
+      }
+    },
+    {
+      "question_id": 17,
+      "question": {
+        "en": "What is the unique address used to identify a website on the internet called?",
+        "hi": "इंटरनेट पर किसी वेबसाइट की पहचान करने के लिए उपयोग किए जाने वाले अद्वितीय पते (unique address) को क्या कहा जाता है?"
+      },
+      "options": {
+        "a": {"en": "ISP", "hi": "ISP"},
+        "b": {"en": "URL", "hi": "URL (Uniform Resource Locator)"},
+        "c": {"en": "NIC", "hi": "NIC"},
+        "d": {"en": "Email", "hi": "ईमेल"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Example: http://www.google.com.",
+        "hi": "उदाहरण: http://www.google.com."
+      },
+      "explanation": {
+        "en": "URL stands for Uniform Resource Locator. Just like your house has a unique address, every page on the web has a unique URL that tells the browser exactly where to find it.",
+        "hi": "URL का अर्थ यूनिफ़ॉर्म रिसोर्स लोकेटर है। जैसे आपके घर का एक विशिष्ट पता होता है, वेब पर प्रत्येक पेज का एक विशिष्ट URL होता है जो ब्राउज़र को बताता है कि उसे कहाँ ढूँढना है।"
+      },
+      "key_takeaway": {
+        "en": "URL = Web Address.",
+        "hi": "URL = वेब एड्रेस।"
+      }
+    },
+    {
+      "question_id": 18,
+      "question": {
+        "en": "A set of rules that computers follow to communicate and exchange data over a network is known as a ______.",
+        "hi": "नियमों का एक समूह जिसका पालन कंप्यूटर नेटवर्क पर संचार करने और डेटा के आदान-प्रदान के लिए करते हैं, ______ के रूप में जाना जाता है।"
+      },
+      "options": {
+        "a": {"en": "Program", "hi": "प्रोग्राम"},
+        "b": {"en": "Protocol", "hi": "प्रोटोकॉल (Protocol)"},
+        "c": {"en": "Language", "hi": "भाषा"},
+        "d": {"en": "Router", "hi": "राउटर"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Examples include HTTP, FTP, and TCP/IP.",
+        "hi": "उदाहरणों में HTTP, FTP और TCP/IP शामिल हैं।"
+      },
+      "explanation": {
+        "en": "Protocols are the 'languages' of the internet. For two computers to understand each other, they must follow the same rules (protocol). HTTP is used for web pages, and SMTP is used for emails.",
+        "hi": "प्रोटोकॉल इंटरनेट की 'भाषाएं' हैं। दो कंप्यूटरों के एक-दूसरे को समझने के लिए, उन्हें समान नियमों (प्रोटोकॉल) का पालन करना चाहिए। HTTP का उपयोग वेब पेजों के लिए किया जाता है, और SMTP का उपयोग ईमेल के लिए किया जाता है।"
+      },
+      "key_takeaway": {
+        "en": "Protocol = Rules for communication.",
+        "hi": "प्रोटोकॉल = संचार के लिए नियम।"
+      }
+    },
+    {
+      "question_id": 19,
+      "question": {
+        "en": "What is the role of an 'ISP' in internet connectivity?",
+        "hi": "इंटरनेट कनेक्टिविटी में 'ISP' की क्या भूमिका है?"
+      },
+      "options": {
+        "a": {"en": "To manufacture computers", "hi": "कंप्यूटर बनाने के लिए"},
+        "b": {"en": "To provide internet access to users for a fee", "hi": "शुल्क लेकर उपयोगकर्ताओं को इंटरनेट एक्सेस प्रदान करने के लिए"},
+        "c": {"en": "To design websites", "hi": "वेबसाइट डिजाइन करने के लिए"},
+        "d": {"en": "To protect against rain", "hi": "बारिश से बचाने के लिए"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Examples include BSNL, Jio, and Airtel.",
+        "hi": "उदाहरणों में BSNL, Jio और Airtel शामिल हैं।"
+      },
+      "explanation": {
+        "en": "ISP stands for Internet Service Provider. It is the company you pay to get a connection to the global internet. They provide the wires and technology to link your home/office to the rest of the world.",
+        "hi": "ISP का अर्थ इंटरनेट सर्विस प्रोवाइडर है। यह वह कंपनी है जिसे आप वैश्विक इंटरनेट से कनेक्शन प्राप्त करने के लिए भुगतान करते हैं। वे आपके घर/कार्यालय को शेष दुनिया से जोड़ने के लिए तार और तकनीक प्रदान करते हैं।"
+      },
+      "key_takeaway": {
+        "en": "ISP = Internet Access Provider (BSNL, Jio, etc.).",
+        "hi": "ISP = इंटरनेट एक्सेस प्रदाता (BSNL, Jio, आदि)।"
+      }
+    },
+    {
+      "question_id": 20,
+      "question": {
+        "en": "Which of the following is the fastest type of physical connection to the internet?",
+        "hi": "इंटरनेट से भौतिक कनेक्शन (physical connection) का सबसे तेज़ प्रकार निम्नलिखित में से कौन सा है?"
+      },
+      "options": {
+        "a": {"en": "Dial-up", "hi": "डायल-अप"},
+        "b": {"en": "Satellite", "hi": "सैटेलाइट"},
+        "c": {"en": "Fiber Optic", "hi": "फाइबर ऑप्टिक (Fiber Optic)"},
+        "d": {"en": "Telephone wire", "hi": "टेलीफोन तार"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "It uses pulses of light sent through glass or plastic threads.",
+        "hi": "यह कांच या प्लास्टिक के धागों के माध्यम से भेजे गए प्रकाश के स्पंदों (pulses) का उपयोग करता है।"
+      },
+      "explanation": {
+        "en": "Fiber Optic cables transmit data as light signals. This allows for incredibly high speeds over long distances, making it superior to older copper wires.",
+        "hi": "फाइबर ऑप्टिक केबल डेटा को प्रकाश संकेतों के रूप में प्रसारित करते हैं। यह लंबी दूरी पर अविश्वसनीय रूप से उच्च गति की अनुमति देता है, जिससे यह पुराने तांबे के तारों से बेहतर हो जाता है।"
+      },
+      "key_takeaway": {
+        "en": "Fiber Optic = Speed of Light data transmission.",
+        "hi": "फाइबर ऑप्टिक = प्रकाश की गति से डेटा ट्रांसमिशन।"
+      }
+    },
+    {
+      "question_id": 21,
+      "question": {
+        "en": "In an e-mail, what is the 'CC' field used for?",
+        "hi": "ई-मेल में 'CC' फील्ड का उपयोग किसके लिए किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "To send a copy of the email to extra people", "hi": "अतिरिक्त लोगों को ईमेल की एक प्रति भेजने के लिए"},
+        "b": {"en": "To delete an email", "hi": "ईमेल को डिलीट करने के लिए"},
+        "c": {"en": "To hide the sender's identity", "hi": "प्रेषक की पहचान छिपाने के लिए"},
+        "d": {"en": "To change the font color", "hi": "फ़ॉन्ट का रंग बदलने के लिए"}
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "CC stands for Carbon Copy.",
+        "hi": "CC का अर्थ कार्बन कॉपी है।"
+      },
+      "explanation": {
+        "en": "When you want to keep someone 'in the loop' without expecting a direct reply, you put their address in CC. Everyone receiving the email can see the CC list.",
+        "hi": "जब आप किसी को सीधे उत्तर की अपेक्षा किए बिना 'लूप में' रखना चाहते हैं, तो आप उनका पता CC में डालते हैं। ईमेल प्राप्त करने वाला हर कोई CC सूची देख सकता है।"
+      },
+      "key_takeaway": {
+        "en": "CC = Carbon Copy (Publicly visible copies).",
+        "hi": "CC = कार्बन कॉपी (सार्वजनिक रूप से दिखने वाली प्रतियां)।"
+      }
+    },
+    {
+      "question_id": 22,
+      "question": {
+        "en": "Which of these is used to find a specific website when you do NOT know the exact URL?",
+        "hi": "जब आप सटीक URL नहीं जानते हों तो किसी विशिष्ट वेबसाइट को खोजने के लिए इनमें से किसका उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "Notepad", "hi": "नोटपैड"},
+        "b": {"en": "Search Engine", "hi": "सर्च इंजन (Search Engine)"},
+        "c": {"en": "Modem", "hi": "मॉडेम"},
+        "d": {"en": "VDU", "hi": "VDU"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It uses keywords to scan the web for you.",
+        "hi": "यह आपके लिए वेब स्कैन करने हेतु कीवर्ड का उपयोग करता है।"
+      },
+      "explanation": {
+        "en": "If you don't know the exact address (like www.hppsc.hp.gov.in), you can just type 'Himachal Govt job' into a Search Engine like Google, and it will find the link for you.",
+        "hi": "यदि आप सटीक पता (जैसे www.hppsc.hp.gov.in) नहीं जानते हैं, तो आप गूगल जैसे सर्च इंजन में 'Himachal Govt job' टाइप कर सकते हैं, और यह आपके लिए लिंक ढूंढ लेगा।"
+      },
+      "key_takeaway": {
+        "en": "Search Engine = Gateway to find info on the web.",
+        "hi": "सर्च इंजन = वेब पर जानकारी खोजने का प्रवेश द्वार।"
+      }
+    },
+    {
+      "question_id": 23,
+      "question": {
+        "en": "What does 'WWW' stand for?",
+        "hi": "'WWW' का अर्थ क्या है?"
+      },
+      "options": {
+        "a": {"en": "Whole World Web", "hi": "होल वर्ल्ड वेब"},
+        "b": {"en": "Wide World Web", "hi": "वाइड वर्ल्ड वेब"},
+        "c": {"en": "World Wide Web", "hi": "वर्ल्ड वाइड वेब (World Wide Web)"},
+        "d": {"en": "World Wired Web", "hi": "वर्ल्ड वायर्ड वेब"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "It is the collection of all public websites.",
+        "hi": "यह सभी सार्वजनिक वेबसाइटों का संग्रह है।"
+      },
+      "explanation": {
+        "en": "World Wide Web (WWW) is a system of internet servers that support specially formatted documents (HTML). It is only one part of the internet, but it's the part we use most often.",
+        "hi": "वर्ल्ड वाइड वेब (WWW) इंटरनेट सर्वरों की एक प्रणाली है जो विशेष रूप से स्वरूपित दस्तावेजों (HTML) का समर्थन करती है। यह इंटरनेट का केवल एक हिस्सा है, लेकिन यह वह हिस्सा है जिसका हम अक्सर उपयोग करते हैं।"
+      },
+      "key_takeaway": {
+        "en": "WWW = Global library of web pages.",
+        "hi": "WWW = वेब पेजों का वैश्विक पुस्तकालय।"
+      }
+    },
+    {
+      "question_id": 24,
+      "question": {
+        "en": "What is 'Wi-Fi'?",
+        "hi": "'Wi-Fi' क्या है?"
+      },
+      "options": {
+        "a": {"en": "A type of physical cable", "hi": "एक प्रकार की भौतिक केबल"},
+        "b": {"en": "Wireless technology used for connecting devices in a LAN", "hi": "LAN में उपकरणों को जोड़ने के लिए उपयोग की जाने वाली वायरलेस तकनीक"},
+        "c": {"en": "A search engine like Google", "hi": "गूगल जैसा एक सर्च इंजन"},
+        "d": {"en": "The name of the first computer", "hi": "पहले कंप्यूटर का नाम"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It allows your phone to connect to a router without any wires.",
+        "hi": "यह आपके फोन को बिना किसी तार के राउटर से जुड़ने की अनुमति देता है।"
+      },
+      "explanation": {
+        "en": "Wi-Fi uses radio waves to provide high-speed internet and network connections without cables. It is the standard for local wireless networking (WLAN).",
+        "hi": "वाई-फाई बिना केबल के हाई-स्पीड इंटरनेट और नेटवर्क कनेक्शन प्रदान करने के लिए रेडियो तरंगों का उपयोग करता है। यह स्थानीय वायरलेस नेटवर्किंग (WLAN) के लिए मानक है।"
+      },
+      "key_takeaway": {
+        "en": "Wi-Fi = Cable-free networking.",
+        "hi": "वाई-फाई = केबल-मुक्त नेटवर्किंग।"
+      }
+    },
+    {
+      "question_id": 25,
+      "question": {
+        "en": "Which of these devices is both a Network hardware and used to convert signals between digital and analog?",
+        "hi": "इनमें से कौन सा उपकरण नेटवर्क हार्डवेयर भी है और डिजिटल और एनालॉग के बीच संकेतों को बदलने के लिए उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "Mouse", "hi": "माउस"},
+        "b": {"en": "Modem", "hi": "मॉडेम (Modem)"},
+        "c": {"en": "Printer", "hi": "प्रिंटर"},
+        "d": {"en": "Keyboard", "hi": "कीबोर्ड"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It stands for Modulator-Demodulator.",
+        "hi": "इसका फुल फॉर्म मॉड्यूलेटर-डेमॉड्यूलेटर है।"
+      },
+      "explanation": {
+        "en": "A Modem converts the digital data from a computer into analog signals that can travel through phone lines, and vice versa. This allows your computer to 'talk' over the telephone network.",
+        "hi": "एक मॉडेम कंप्यूटर से डिजिटल डेटा को एनालॉग संकेतों में बदलता है जो फोन लाइनों के माध्यम से यात्रा कर सकते हैं, और इसके विपरीत। यह आपके कंप्यूटर को टेलीफोन नेटवर्क पर 'बात' करने की अनुमति देता है।"
+      },
+      "key_takeaway": {
+        "en": "Modem = Digital to Analog translation.",
+        "hi": "मॉडेम = डिजिटल से एनालॉग अनुवाद।"
+      }
+    },
+    {
+      "question_id": 26,
+      "question": {
+        "en": "What does 'BCC' in an e-mail stand for?",
+        "hi": "ई-मेल में 'BCC' का अर्थ क्या है?"
+      },
+      "options": {
+        "a": {"en": "Best Carbon Copy", "hi": "बेस्ट कार्बन कॉपी"},
+        "b": {"en": "Blind Carbon Copy", "hi": "ब्लाइंड कार्बन कॉपी (Blind Carbon Copy)"},
+        "c": {"en": "Brief Client Copy", "hi": "ब्रीफ क्लाइंट कॉपी"},
+        "d": {"en": "Back Computer Communication", "hi": "बैक कंप्यूटर कम्युनिकेशन"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is used when you want to send a copy to someone without the other recipients knowing.",
+        "hi": "इसका उपयोग तब किया जाता है जब आप दूसरों को बताए बिना किसी को एक प्रति भेजना चाहते हैं।"
+      },
+      "explanation": {
+        "en": "Blind Carbon Copy (BCC) sends a copy of the email to a recipient whose address is hidden from all other recipients. This is useful for privacy when sending to a large group.",
+        "hi": "ब्लाइंड कार्बन कॉपी (BCC) उस प्राप्तकर्ता को ईमेल की एक प्रति भेजता है जिसका पता अन्य सभी प्राप्तकर्ताओं से छिपा होता है। यह बड़े समूह को भेजते समय गोपनीयता के लिए उपयोगी है।"
+      },
+      "key_takeaway": {
+        "en": "BCC = Private copies of an email.",
+        "hi": "BCC = ईमेल की निजी प्रतियां।"
+      }
+    },
+    {
+      "question_id": 27,
+      "question": {
+        "en": "Which of the following is the 'homepage' of a website?",
+        "hi": "निम्नलिखित में से कौन सा किसी वेबसाइट का 'होमपेज' (homepage) है?"
+      },
+      "options": {
+        "a": {"en": "The last page of the site", "hi": "साइट का अंतिम पेज"},
+        "b": {"en": "The first or introductory page of the site", "hi": "साइट का पहला या परिचयात्मक पेज"},
+        "c": {"en": "A page used only for photos", "hi": "केवल फोटो के लिए उपयोग किया जाने वाला पेज"},
+        "d": {"en": "A printed version of the site", "hi": "साइट का प्रिंटेड वर्जन"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is the 'main entrance' to the website.",
+        "hi": "यह वेबसाइट का 'मुख्य प्रवेश द्वार' है।"
+      },
+      "explanation": {
+        "en": "A Homepage is the starting page that loads when you enter a main URL (like www.hpbose.org). It typically contains a menu and links to all other parts of the website.",
+        "hi": "होमपेज वह शुरुआती पेज है जो मुख्य URL (जैसे www.hpbose.org) दर्ज करने पर लोड होता है। इसमें आम तौर पर एक मेनू और वेबसाइट के अन्य सभी भागों के लिंक होते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Homepage = Default starting point of a website.",
+        "hi": "होमपेज = किसी वेबसाइट का डिफ़ॉल्ट शुरुआती बिंदु।"
+      }
+    },
+    {
+      "question_id": 28,
+      "question": {
+        "en": "The process of transfering files from a remote server to your local computer is called ______.",
+        "hi": "एक रिमोट सर्वर से अपने स्थानीय कंप्यूटर पर फाइलें स्थानांतरित करने की प्रक्रिया को ______ कहा जाता है।"
+      },
+      "options": {
+        "a": {"en": "Uploading", "hi": "अपलोडिंग"},
+        "b": {"en": "Downloading", "hi": "डाउनलोडिंग (Downloading)"},
+        "c": {"en": "Surfing", "hi": "सर्फिंग"},
+        "d": {"en": "Browsing", "hi": "ब्राउजिंग"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "You do this to get a new game or a song from the internet.",
+        "hi": "आप इंटरनेट से कोई नया गेम या गाना प्राप्त करने के लिए ऐसा करते हैं।"
+      },
+      "explanation": {
+        "en": "Downloading means receiving data from the internet. Uploading is the opposite: sending data from your computer to a server (like posting a photo on Facebook).",
+        "hi": "डाउनलोडिंग का अर्थ इंटरनेट से डेटा प्राप्त करना है। अपलोडिंग इसके विपरीत है: अपने कंप्यूटर से सर्वर पर डेटा भेजना (जैसे फेसबुक पर फोटो पोस्ट करना)।"
+      },
+      "key_takeaway": {
+        "en": "Download = Get; Upload = Give.",
+        "hi": "डाउनलोड = प्राप्त करना; अपलोड = देना।"
+      }
+    },
+    {
+      "question_id": 29,
+      "question": {
+        "en": "What is the function of the 'Inbox' in an email account?",
+        "hi": "ईमेल खाते में 'इनबॉक्स' (Inbox) का कार्य क्या है?"
+      },
+      "options": {
+        "a": {"en": "To store sent messages", "hi": "भेजे गए संदेशों को स्टोर करने के लिए"},
+        "b": {"en": "To store incoming messages", "hi": "आने वाले संदेशों को स्टोर करने के लिए"},
+        "c": {"en": "To delete unwanted mail", "hi": "अवांछित मेल को डिलीट करने के लिए"},
+        "d": {"en": "To create new messages", "hi": "नए संदेश बनाने के लिए"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is like the mailbox outside your house where people drop letters for you.",
+        "hi": "यह आपके घर के बाहर के लेटरबॉक्स की तरह है जहाँ लोग आपके लिए पत्र डालते हैं।"
+      },
+      "explanation": {
+        "en": "The Inbox is the default folder in an email application where all new incoming messages arrive. Until you move or delete them, they stay here for you to read.",
+        "hi": "इनबॉक्स ईमेल एप्लिकेशन का डिफ़ॉल्ट फ़ोल्डर है जहाँ सभी नए आने वाले संदेश पहुँचते हैं। जब तक आप उन्हें स्थानांतरित या डिलीट नहीं करते, वे आपके पढ़ने के लिए यहीं रहते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Inbox = Primary storage for received emails.",
+        "hi": "इनबॉक्स = प्राप्त ईमेल के लिए प्राथमिक स्टोरेज।"
+      }
+    },
+    {
+      "question_id": 30,
+      "question": {
+        "en": "What is 'Surfing' or 'Browsing' the web?",
+        "hi": "वेब 'सर्फिंग' या 'ब्राउजिंग' क्या है?"
+      },
+      "options": {
+        "a": {"en": "Playing games offline", "hi": "ऑफलाइन गेम खेलना"},
+        "b": {"en": "Moving from one website to another to find information", "hi": "जानकारी खोजने के लिए एक वेबसाइट से दूसरी वेबसाइट पर जाना"},
+        "c": {"en": "Printing a whole book", "hi": "पूरी किताब प्रिंट करना"},
+        "d": {"en": "Cleaning the browser history", "hi": "ब्राउज़र हिस्ट्री को साफ करना"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It's like wandering through a library looking at different books.",
+        "hi": "यह एक पुस्तकालय में घूमते हुए विभिन्न पुस्तकों को देखने जैसा है।"
+      },
+      "explanation": {
+        "en": "Web Surfing refers to the act of navigating through the World Wide Web by following hyperlinks. It involves moving across different pages and sites to explore or find specific content.",
+        "hi": "वेब सर्फिंग का तात्पर्य हाइपरलिंक के माध्यम से वर्ल्ड वाइड वेब पर नेविगेट करने के कार्य से है। इसमें जानकारी खोजने या तलाशने के लिए विभिन्न पेजों और साइटों पर जाना शामिल है।"
+      },
+      "key_takeaway": {
+        "en": "Surfing = Exploration of the digital web.",
+        "hi": "सर्फिंग = डिजिटल वेब की खोज।"
+      }
+    }
+  ]
+}
