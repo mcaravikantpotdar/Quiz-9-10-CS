@@ -1,0 +1,794 @@
+{
+  "metadata": {
+    "chapter_number": 3,
+    "chapter_title": "Digital Documentation - Word Processing (Advanced)",
+    "chapter_title_hindi": "डिजिटल दस्तावेजीकरण - वर्ड प्रोसेसिंग (उन्नत)",
+    "subject": "Computer Science - Class 10",
+    "board": "HPBOSE",
+    "total_questions": 30,
+    "version": "1.0",
+    "naming_convention": "10_CS_CH03_Digital_Documentation.json"
+  },
+  "questions": [
+    {
+      "question_id": 1,
+      "question": {
+        "en": "A small character that appears slightly below the normal line of text is called ______.",
+        "hi": "एक छोटा अक्षर जो सामान्य टेक्स्ट की लाइन से थोड़ा नीचे दिखाई देता है, उसे ______ कहा जाता है।"
+      },
+      "options": {
+        "a": {"en": "Superscript", "hi": "सुपरस्क्रिप्ट"},
+        "b": {"en": "Subscript", "hi": "सबस्क्रिप्ट (Subscript)"},
+        "c": {"en": "Lower Text", "hi": "लोअर टेक्स्ट"},
+        "d": {"en": "Dropped Cap", "hi": "ड्रॉप्ड कैप"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Think of chemical formulas like H₂O where the '2' is lower than the other letters.",
+        "hi": "H₂O जैसे रासायनिक सूत्रों के बारे में सोचें जहाँ '2' अन्य अक्षरों से नीचे होता है।"
+      },
+      "explanation": {
+        "en": "Subscript is a formatting style where characters are printed smaller and below the baseline. For example, in the formula for water (H₂O), the number '2' is a subscript. This was asked in your Model Question Paper.",
+        "hi": "सबस्क्रिप्ट एक फ़ॉर्मेटिंग शैली है जहाँ अक्षरों को बेसलाइन के नीचे और छोटा प्रिंट किया जाता है। उदाहरण के लिए, पानी के सूत्र (H₂O) में, संख्या '2' एक सबस्क्रिप्ट है। यह आपके मॉडल प्रश्न पत्र में पूछा गया था।"
+      },
+      "key_takeaway": {
+        "en": "Subscript = Below the line (used in Chemistry).",
+        "hi": "सबस्क्रिप्ट = लाइन के नीचे (रसायन विज्ञान में उपयोग किया जाता है)।"
+      }
+    },
+    {
+      "question_id": 2,
+      "question": {
+        "en": "A small character that appears slightly above the normal line of text is called ______.",
+        "hi": "एक छोटा अक्षर जो सामान्य टेक्स्ट की लाइन से थोड़ा ऊपर दिखाई देता है, उसे ______ कहा जाता है।"
+      },
+      "options": {
+        "a": {"en": "Subscript", "hi": "सबस्क्रिप्ट"},
+        "b": {"en": "Superscript", "hi": "सुपरस्क्रिप्ट (Superscript)"},
+        "c": {"en": "Upper Case", "hi": "अपर केस"},
+        "d": {"en": "Heading", "hi": "हेडिंग"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Think of mathematical powers like 5² or 10th where 'th' is higher.",
+        "hi": "गणितीय घात जैसे 5² या 10th के बारे में सोचें जहाँ 'th' ऊपर होता है।"
+      },
+      "explanation": {
+        "en": "Superscript is used for mathematical exponents or ordinal numbers. For example, in 5², the '2' is a superscript. It is the opposite of subscript.",
+        "hi": "सुपरस्क्रिप्ट का उपयोग गणितीय घात या क्रमसूचक संख्याओं के लिए किया जाता है। उदाहरण के लिए, 5² में '2' एक सुपरस्क्रिप्ट है। यह सबस्क्रिप्ट का उल्टा है।"
+      },
+      "key_takeaway": {
+        "en": "Superscript = Above the line (used in Math).",
+        "hi": "सुपरस्क्रिप्ट = लाइन के ऊपर (गणित में उपयोग किया जाता है)।"
+      }
+    },
+    {
+      "question_id": 3,
+      "question": {
+        "en": "Which powerful feature in MS Word allows you to create multiple personalized letters, envelopes, or labels for many people at once?",
+        "hi": "MS Word में कौन सी शक्तिशाली सुविधा आपको एक साथ कई लोगों के लिए व्यक्तिगत पत्र, लिफाफे या लेबल बनाने की अनुमति देती है?"
+      },
+      "options": {
+        "a": {"en": "Format Painter", "hi": "फॉर्मेट पेंटर"},
+        "b": {"en": "Mail Merge", "hi": "मेल मर्ज (Mail Merge)"},
+        "c": {"en": "Find and Replace", "hi": "फाइंड और रिप्लेस"},
+        "d": {"en": "AutoCorrect", "hi": "ऑटो-करेक्ट"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "This feature is the main focus of Advanced Digital Documentation.",
+        "hi": "यह सुविधा उन्नत डिजिटल दस्तावेजीकरण का मुख्य केंद्र है।"
+      },
+      "explanation": {
+        "en": "Mail Merge is used to send the same letter to many people but with their specific names and addresses. You take a 'Main Document' (the letter) and a 'Data Source' (address list) and merge them together to create hundreds of individual letters in seconds.",
+        "hi": "मेल मर्ज का उपयोग एक ही पत्र को कई लोगों को भेजने के लिए किया जाता है लेकिन उनके विशिष्ट नाम और पते के साथ। आप एक 'मुख्य दस्तावेज़' (पत्र) और एक 'डेटा स्रोत' (पते की सूची) लेते हैं और उन्हें एक साथ जोड़कर सेकंडों में सैकड़ों व्यक्तिगत पत्र बनाते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Mail Merge = Mass personalization of documents.",
+        "hi": "मेल मर्ज = दस्तावेजों का बड़े पैमाने पर वैयक्तिकरण।"
+      }
+    },
+    {
+      "question_id": 4,
+      "question": {
+        "en": "In Mail Merge, the file that contains the list of names, addresses, and other details of the recipients is called the ______.",
+        "hi": "मेल मर्ज में, वह फ़ाइल जिसमें प्राप्तकर्ताओं के नाम, पते और अन्य विवरणों की सूची होती है, उसे ______ कहा जाता है।"
+      },
+      "options": {
+        "a": {"en": "Main Document", "hi": "मुख्य दस्तावेज़"},
+        "b": {"en": "Data Source", "hi": "डेटा स्रोत (Data Source)"},
+        "c": {"en": "Template", "hi": "टेम्पलेट"},
+        "d": {"en": "Form Letter", "hi": "फॉर्म लेटर"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It provides the 'data' that changes for every letter.",
+        "hi": "यह वह 'डेटा' प्रदान करता है जो हर पत्र के लिए बदलता है।"
+      },
+      "explanation": {
+        "en": "The Data Source is like an address book. It is usually a table in Word or an Excel sheet that holds the variable information (like Name, Roll No, City) that Word will plug into each document.",
+        "hi": "डेटा स्रोत एक एड्रेस बुक की तरह है। यह आमतौर पर वर्ड में एक टेबल या एक्सेल शीट होती है जिसमें वह परिवर्तनशील जानकारी (जैसे नाम, रोल नंबर, शहर) होती है जिसे वर्ड प्रत्येक दस्तावेज़ में डालेगा।"
+      },
+      "key_takeaway": {
+        "en": "Data Source = List of recipient details.",
+        "hi": "डेटा स्रोत = प्राप्तकर्ताओं के विवरण की सूची।"
+      }
+    },
+    {
+      "question_id": 5,
+      "question": {
+        "en": "Which tool is used to copy only the 'formatting' (style, color, size) of a piece of text and apply it to another part of the document?",
+        "hi": "किस टूल का उपयोग केवल टेक्स्ट के 'फ़ॉर्मेटिंग' (शैली, रंग, आकार) को कॉपी करने और उसे दस्तावेज़ के दूसरे भाग पर लागू करने के लिए किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "Copy-Paste", "hi": "कॉपी-पेस्ट"},
+        "b": {"en": "Format Painter", "hi": "फॉर्मेट पेंटर (Format Painter)"},
+        "c": {"en": "Style Gallery", "hi": "स्टाइल गैलरी"},
+        "d": {"en": "Design Tab", "hi": "डिजाइन टैब"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Its icon looks like a small paintbrush in the Clipboard group.",
+        "hi": "क्लिपबोर्ड समूह में इसका आइकन एक छोटे पेंटब्रश जैसा दिखता है।"
+      },
+      "explanation": {
+        "en": "Format Painter allows you to copy all of the formatting from one object and apply it to another. If you have a heading that is Red, Bold, and Size 18, you don't need to set those three things manually for the next heading—just use the Format Painter to 'paint' the style onto it.",
+        "hi": "फॉर्मेट पेंटर आपको एक ऑब्जेक्ट से सभी फ़ॉर्मेटिंग को कॉपी करने और उसे दूसरे पर लागू करने की अनुमति देता है। यदि आपके पास एक हेडिंग है जो लाल, बोल्ड और साइज़ 18 है, तो आपको अगली हेडिंग के लिए उन तीन चीज़ों को मैन्युअल रूप से सेट करने की ज़रूरत नहीं है—बस उस पर स्टाइल को 'पेंट' करने के लिए फॉर्मेट पेंटर का उपयोग करें।"
+      },
+      "key_takeaway": {
+        "en": "Format Painter = Copying the look, not the words.",
+        "hi": "फॉर्मेट पेंटर = शब्दों को नहीं, बल्कि दिखावट (look) को कॉपी करना।"
+      }
+    },
+    {
+      "question_id": 6,
+      "question": {
+        "en": "Combining two or more cells in a table into a single large cell is called ______.",
+        "hi": "एक टेबल में दो या दो से अधिक सेल को एक बड़े सेल में मिलाने को ______ कहा जाता है।"
+      },
+      "options": {
+        "a": {"en": "Splitting Cells", "hi": "स्प्लिटिंग सेल्स"},
+        "b": {"en": "Merging Cells", "hi": "मर्जिंग सेल्स (Merging Cells)"},
+        "c": {"en": "Grouping Cells", "hi": "ग्रुपिंग सेल्स"},
+        "d": {"en": "Joining Rows", "hi": "जॉइनिंग रोज़"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "This is often used to create a single title spanning across multiple columns.",
+        "hi": "इसका उपयोग अक्सर कई कॉलमों में फैले एक शीर्षक को बनाने के लिए किया जाता है।"
+      },
+      "explanation": {
+        "en": "Merging is the process of joining adjacent cells into one. For example, if you want a table header to cover all columns, you select the top row and click 'Merge Cells'.",
+        "hi": "मर्ज करना आसन्न (adjacent) सेल को एक में जोड़ने की प्रक्रिया है। उदाहरण के लिए, यदि आप चाहते हैं कि टेबल हेडर सभी कॉलमों को कवर करे, तो आप टॉप रो चुनते हैं और 'मर्ज सेल्स' पर क्लिक करते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Merge = Join many into one; Split = Break one into many.",
+        "hi": "मर्ज = कई को एक में जोड़ना; स्प्लिट = एक को कई में तोड़ना।"
+      }
+    },
+    {
+      "question_id": 7,
+      "question": {
+        "en": "What is the function of 'Splitting' a cell in an MS Word table?",
+        "hi": "MS Word टेबल में सेल को 'स्प्लिट' (Split) करने का कार्य क्या है?"
+      },
+      "options": {
+        "a": {"en": "To delete the cell", "hi": "सेल को डिलीट करने के लिए"},
+        "b": {"en": "To divide one single cell into multiple rows or columns", "hi": "एक एकल सेल को कई रो या कॉलम में विभाजित करने के लिए"},
+        "c": {"en": "To change the color of the cell", "hi": "सेल का रंग बदलने के लिए"},
+        "d": {"en": "To hide the cell content", "hi": "सेल सामग्री को छिपाने के लिए"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is the exact opposite of 'Merging'.",
+        "hi": "यह 'मर्जिंग' का बिल्कुल उल्टा है।"
+      },
+      "explanation": {
+        "en": "Splitting allows you to take one cell and break it down into smaller cells. For instance, if you have a cell for 'Date', you can split it into three columns for Day, Month, and Year.",
+        "hi": "स्प्लिटिंग आपको एक सेल लेने और उसे छोटे सेल में तोड़ने की अनुमति देती है। उदाहरण के लिए, यदि आपके पास 'तारीख' के लिए एक सेल है, तो आप इसे दिन, महीने और वर्ष के लिए तीन कॉलम में विभाजित कर सकते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Split Cells = Sub-dividing a table unit.",
+        "hi": "स्प्लिट सेल्स = टेबल यूनिट को उप-विभाजित करना।"
+      }
+    },
+    {
+      "question_id": 8,
+      "question": {
+        "en": "Which feature is used to add decorative, artistic text effects to your document?",
+        "hi": "आपके दस्तावेज़ में सजावटी, कलात्मक टेक्स्ट प्रभाव जोड़ने के लिए किस सुविधा का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "Clip Art", "hi": "क्लिप आर्ट"},
+        "b": {"en": "Word Art", "hi": "वर्ड आर्ट (Word Art)"},
+        "c": {"en": "SmartArt", "hi": "स्मार्ट आर्ट"},
+        "d": {"en": "Notepad", "hi": "नोटपैड"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It allows you to bend, shadow, or add 3D effects to your words.",
+        "hi": "यह आपको अपने शब्दों को मोड़ने, छाया देने या 3D प्रभाव जोड़ने की अनुमति देता है।"
+      },
+      "explanation": {
+        "en": "Word Art is used to create eye-catching titles. Instead of standard text, it turns letters into graphics that can be stretched, rotated, and styled with unique colors and outlines.",
+        "hi": "वर्ड आर्ट का उपयोग आकर्षक शीर्षक बनाने के लिए किया जाता है। मानक टेक्स्ट के बजाय, यह अक्षरों को ग्राफिक्स में बदल देता है जिन्हें खींचा, घुमाया और अद्वितीय रंगों और आउटलाइन के साथ स्टाइल किया जा सकता है।"
+      },
+      "key_takeaway": {
+        "en": "Word Art = Stylized graphic text.",
+        "hi": "वर्ड आर्ट = स्टाइलिश ग्राफिक टेक्स्ट।"
+      }
+    },
+    {
+      "question_id": 9,
+      "question": {
+        "en": "What is 'Clip Art' in MS Word?",
+        "hi": "MS Word में 'क्लिप आर्ट' (Clip Art) क्या है?"
+      },
+      "options": {
+        "a": {"en": "A tool to cut paper", "hi": "कागज काटने का एक टूल"},
+        "b": {"en": "A gallery of pre-made pictures and illustrations", "hi": "पहले से बनी तस्वीरों और चित्रों की एक गैलरी"},
+        "c": {"en": "A way to copy text", "hi": "टेक्स्ट कॉपी करने का एक तरीका"},
+        "d": {"en": "The name of the font style", "hi": "फ़ॉन्ट शैली का नाम"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "You use it when you need a simple drawing of a 'computer' or 'flower' but don't have a photo.",
+        "hi": "आप इसका उपयोग तब करते हैं जब आपको 'कंप्यूटर' या 'फूल' के साधारण चित्र की आवश्यकता होती है लेकिन आपके पास फोटो नहीं होती।"
+      },
+      "explanation": {
+        "en": "Clip Art is a collection of ready-to-use images provided by Microsoft. You can search for a topic (like 'education' or 'sports') and insert a relevant cartoon or drawing into your document instantly.",
+        "hi": "क्लिप आर्ट माइक्रोसॉफ्ट द्वारा प्रदान की गई उपयोग के लिए तैयार छवियों का एक संग्रह है। आप किसी विषय (जैसे 'शिक्षा' या 'खेल') को खोज सकते हैं और अपने दस्तावेज़ में तुरंत एक प्रासंगिक कार्टून या चित्र डाल सकते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Clip Art = Pre-designed illustrations for documents.",
+        "hi": "क्लिप आर्ट = दस्तावेजों के लिए पहले से डिज़ाइन किए गए चित्र।"
+      }
+    },
+    {
+      "question_id": 10,
+      "question": {
+        "en": "Which option allows you to replace a specific word throughout the whole document with a new word in one single step?",
+        "hi": "कौन सा विकल्प आपको एक ही चरण में पूरे दस्तावेज़ में एक विशिष्ट शब्द को नए शब्द से बदलने की अनुमति देता है?"
+      },
+      "options": {
+        "a": {"en": "Find", "hi": "फाइंड"},
+        "b": {"en": "Replace (or Replace All)", "hi": "रिप्लेस (या रिप्लेस ऑल)"},
+        "c": {"en": "Mail Merge", "hi": "मेल मर्ज"},
+        "d": {"en": "Word Count", "hi": "वर्ड काउंट"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Shortcut: Ctrl + H.",
+        "hi": "शॉर्टकट: Ctrl + H।"
+      },
+      "explanation": {
+        "en": "The 'Replace All' command is a huge time-saver. If you wrote a 100-page story and want to change the character's name from 'Rahul' to 'Rohit', you don't have to do it 100 times manually. One click replaces every instance.",
+        "hi": "'रिप्लेस ऑल' कमांड समय की बड़ी बचत है। यदि आपने 100 पन्नों की कहानी लिखी है और पात्र का नाम 'राहुल' से बदलकर 'रोहित' करना चाहते हैं, तो आपको इसे 100 बार मैन्युअल रूप से करने की ज़रूरत नहीं है। एक क्लिक हर जगह इसे बदल देता है।"
+      },
+      "key_takeaway": {
+        "en": "Ctrl + H = Find and Replace tool.",
+        "hi": "Ctrl + H = फाइंड और रिप्लेस टूल।"
+      }
+    },
+    {
+      "question_id": 11,
+      "question": {
+        "en": "What does the 'Auto Format' feature in tables do?",
+        "hi": "टेबल में 'ऑटो फ़ॉर्मेट' (Auto Format) सुविधा क्या करती है?"
+      },
+      "options": {
+        "a": {"en": "It deletes the table automatically", "hi": "यह टेबल को अपने आप डिलीट कर देता है"},
+        "b": {"en": "It applies a professional set of colors and borders to the table automatically", "hi": "यह टेबल पर स्वचालित रूप से रंगों और बॉर्डरों का एक पेशेवर सेट लागू करता है"},
+        "c": {"en": "It types the data for you", "hi": "यह आपके लिए डेटा टाइप करता है"},
+        "d": {"en": "It sends the table to an email", "hi": "यह टेबल को ईमेल पर भेजता है"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It saves you from manually coloring rows and columns.",
+        "hi": "यह आपको रो और कॉलम को मैन्युअल रूप से रंगने से बचाता है।"
+      },
+      "explanation": {
+        "en": "Table Auto Format (Table Styles) provides pre-designed looks for tables. You can choose a style with alternating row colors, thick borders, and highlighted headers without having to design each part yourself.",
+        "hi": "टेबल ऑटो फ़ॉर्मेट (टेबल स्टाइल्स) टेबल के लिए पहले से डिज़ाइन किए गए लुक प्रदान करता है। आप प्रत्येक भाग को स्वयं डिज़ाइन किए बिना बारी-बारी से रो के रंगों, मोटे बॉर्डरों और हाइलाइट किए गए हेडर्स वाली शैली चुन सकते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Auto Format = One-click professional table styling.",
+        "hi": "ऑटो फ़ॉर्मेट = एक-क्लिक पेशेवर टेबल स्टाइलिंग।"
+      }
+    },
+    {
+      "question_id": 12,
+      "question": {
+        "en": "Where do you find options to change page margins, size, and orientation in MS Word?",
+        "hi": "MS Word में पेज मार्जिन, साइज़ और ओरिएंटेशन बदलने के विकल्प आपको कहाँ मिलते हैं?"
+      },
+      "options": {
+        "a": {"en": "Home Tab", "hi": "होम टैब"},
+        "b": {"en": "Insert Tab", "hi": "इंसर्ट टैब"},
+        "c": {"en": "Page Layout (or Layout) Tab", "hi": "पेज लेआउट (या लेआउट) टैब"},
+        "d": {"en": "View Tab", "hi": "व्यू टैब"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "These settings determine the overall 'layout' of the physical page.",
+        "hi": "ये सेटिंग्स भौतिक पेज के समग्र 'लेआउट' को निर्धारित करती हैं।"
+      },
+      "explanation": {
+        "en": "The Page Layout tab is used to prepare your document for printing. It contains 'Page Setup' tools to decide how wide the paper is, how much white space (margins) is at the edges, and if the page is vertical (Portrait) or horizontal (Landscape).",
+        "hi": "पेज लेआउट टैब का उपयोग आपके दस्तावेज़ को प्रिंट करने के लिए तैयार करने के लिए किया जाता है। इसमें 'पेज सेटअप' टूल होते हैं जो यह तय करते हैं कि कागज कितना चौड़ा है, किनारों पर कितना सफेद स्थान (मार्जिन) है, और क्या पेज लंबवत (पोट्रेट) है या क्षैतिज (लैंडस्केप)।"
+      },
+      "key_takeaway": {
+        "en": "Layout Tab = Global page physical settings.",
+        "hi": "लेआउट टैब = ग्लोबल पेज भौतिक सेटिंग्स।"
+      }
+    },
+    {
+      "question_id": 13,
+      "question": {
+        "en": "What is the purpose of 'Page Settings' in Word Processing?",
+        "hi": "वर्ड प्रोसेसिंग में 'पेज सेटिंग्स' का उद्देश्य क्या है?"
+      },
+      "options": {
+        "a": {"en": "To change the color of words", "hi": "शब्दों का रंग बदलने के लिए"},
+        "b": {"en": "To define the size, margins, and layout of the paper", "hi": "कागज के आकार, मार्जिन और लेआउट को परिभाषित करने के लिए"},
+        "c": {"en": "To check for virus", "hi": "वायरस की जांच करने के लिए"},
+        "d": {"en": "To play sound effects", "hi": "ध्वनि प्रभाव चलाने के लिए"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It tells the computer if you are using A4, Letter, or Legal paper size.",
+        "hi": "यह कंप्यूटर को बताता है कि आप A4, लेटर या लीगल पेपर साइज़ का उपयोग कर रहे हैं।"
+      },
+      "explanation": {
+        "en": "Page settings are essential to ensure that what you see on the screen matches what comes out of the printer. If your settings are for A4 paper but you put small cards in the printer, the text will be cut off.",
+        "hi": "पेज सेटिंग्स यह सुनिश्चित करने के लिए आवश्यक हैं कि जो आप स्क्रीन पर देखते हैं वह प्रिंटर से निकलने वाली चीज़ से मेल खाए। यदि आपकी सेटिंग्स A4 पेपर के लिए हैं लेकिन आपने प्रिंटर में छोटे कार्ड रखे हैं, तो टेक्स्ट कट जाएगा।"
+      },
+      "key_takeaway": {
+        "en": "Page Settings = Printing preparation.",
+        "hi": "पेज सेटिंग्स = प्रिंटिंग की तैयारी।"
+      }
+    },
+    {
+      "question_id": 14,
+      "question": {
+        "en": "Which feature is used to add a shadow or a colored background to a paragraph or a page?",
+        "hi": "किसी पैराग्राफ या पेज पर छाया (shadow) या रंगीन बैकग्राउंड जोड़ने के लिए किस सुविधा का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "Fonts", "hi": "फोंट"},
+        "b": {"en": "Borders and Shading", "hi": "बॉर्डर्स और शेडिंग (Borders and Shading)"},
+        "c": {"en": "Hyperlinks", "hi": "हाइपरलिंक"},
+        "d": {"en": "Thesaurus", "hi": "थिसॉरस"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "One puts a box around text, and the other fills the box with color.",
+        "hi": "एक टेक्स्ट के चारों ओर एक बॉक्स बनाता है, और दूसरा बॉक्स को रंग से भरता है।"
+      },
+      "explanation": {
+        "en": "Borders draw lines around text or the whole page. Shading applies a background color (like a highlighter) behind the text. Together, they make important information look like it is in a dedicated box.",
+        "hi": "बॉर्डर्स टेक्स्ट या पूरे पेज के चारों ओर लाइनें खींचते हैं। शेडिंग टेक्स्ट के पीछे एक बैकग्राउंड रंग (हाइलाइटर की तरह) लगाती है। साथ में, वे महत्वपूर्ण जानकारी को ऐसा दिखाते हैं जैसे वह एक समर्पित बॉक्स में हो।"
+      },
+      "key_takeaway": {
+        "en": "Borders = Outlines; Shading = Fill color.",
+        "hi": "बॉर्डर्स = रूपरेखा (Outlines); शेडिंग = भरने वाला रंग।"
+      }
+    },
+    {
+      "question_id": 15,
+      "question": {
+        "en": "In a document, what is 'Bullets and Numbering' used for?",
+        "hi": "दस्तावेज़ में, 'बुलेट्स और नंबरिंग' (Bullets and Numbering) का उपयोग किस लिए किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "To delete text", "hi": "टेक्स्ट को डिलीट करने के लिए"},
+        "b": {"en": "To organize information into clear lists", "hi": "जानकारी को स्पष्ट सूचियों में व्यवस्थित करने के लिए"},
+        "c": {"en": "To calculate math", "hi": "गणित की गणना करने के लिए"},
+        "d": {"en": "To insert images", "hi": "चित्र डालने के लिए"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Think of a 'To-Do' list or steps in a recipe.",
+        "hi": "किसी 'टू-डू' लिस्ट या रेसिपी के चरणों के बारे में सोचें।"
+      },
+      "explanation": {
+        "en": "Bullets (dots/symbols) are used for lists where the order doesn't matter (like grocery items). Numbering (1, 2, 3) is used for sequences where the order is important (like steps to solve a math problem).",
+        "hi": "बुलेट्स (बिंदु/प्रतीक) उन सूचियों के लिए उपयोग किए जाते हैं जहाँ क्रम मायने नहीं रखता (जैसे किराने के सामान)। नंबरिंग (1, 2, 3) का उपयोग उन अनुक्रमों के लिए किया जाता है जहाँ क्रम महत्वपूर्ण होता है (जैसे गणित की समस्या को हल करने के चरण)।"
+      },
+      "key_takeaway": {
+        "en": "Bullets = Unordered lists; Numbering = Ordered lists.",
+        "hi": "बुलेट्स = अव्यवस्थित सूचियाँ; नंबरिंग = व्यवस्थित सूचियाँ।"
+      }
+    },
+    {
+      "question_id": 16,
+      "question": {
+        "en": "Which command is used to add a 'Symbol' (like ©, ®, or Ω) that is not available on the keyboard?",
+        "hi": "किस कमांड का उपयोग 'सिंबल' (जैसे ©, ®, या Ω) जोड़ने के लिए किया जाता है जो कीबोर्ड पर उपलब्ध नहीं है?"
+      },
+      "options": {
+        "a": {"en": "Equation", "hi": "इक्वेशन"},
+        "b": {"en": "Symbol", "hi": "सिंबल (Symbol)"},
+        "c": {"en": "Clip Art", "hi": "क्लिप आर्ट"},
+        "d": {"en": "Hyperlink", "hi": "हाइपरलिंक"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Found under the 'Insert' tab on the far right.",
+        "hi": "बिल्कुल दाईं ओर 'इंसर्ट' टैब के तहत पाया जाता है।"
+      },
+      "explanation": {
+        "en": "MS Word has a vast library of characters called Symbols. These include Greek letters, currency signs (like ₹), and math symbols that you cannot type directly using a standard keyboard.",
+        "hi": "MS Word में सिंबल (Symbols) नामक अक्षरों की एक विशाल लाइब्रेरी है। इनमें ग्रीक अक्षर, मुद्रा चिह्न (जैसे ₹), और गणित के प्रतीक शामिल हैं जिन्हें आप मानक कीबोर्ड का उपयोग करके सीधे टाइप नहीं कर सकते।"
+      },
+      "key_takeaway": {
+        "en": "Insert -> Symbol = Accessing special non-keyboard characters.",
+        "hi": "Insert -> Symbol = विशेष गैर-कीबोर्ड अक्षरों तक पहुँचना।"
+      }
+    },
+    {
+      "question_id": 17,
+      "question": {
+        "en": "How can you add a new empty row to the end of a table very quickly?",
+        "hi": "आप टेबल के अंत में बहुत जल्दी एक नई खाली रो (row) कैसे जोड़ सकते हैं?"
+      },
+      "options": {
+        "a": {"en": "Restart MS Word", "hi": "MS Word को रीस्टार्ट करके"},
+        "b": {"en": "Press the TAB key when the cursor is in the very last cell", "hi": "जब कर्सर बिल्कुल अंतिम सेल में हो तो TAB की दबाकर"},
+        "c": {"en": "Delete the whole table and draw again", "hi": "पूरी टेबल को डिलीट करके और फिर से बनाकर"},
+        "d": {"en": "Right-click the Title Bar", "hi": "टाइटल बार पर राइट-क्लिक करके"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "The TAB key moves you from cell to cell; at the end, it creates a new row.",
+        "hi": "TAB की आपको एक सेल से दूसरे सेल में ले जाती है; अंत में, यह एक नई रो बनाती है।"
+      },
+      "explanation": {
+        "en": "The TAB key is a shortcut for table growth. When you reach the bottom-right cell and press TAB, Word automatically adds a new row with the same formatting as the row above.",
+        "hi": "TAB की टेबल विस्तार के लिए एक शॉर्टकट है। जब आप नीचे-दाएं सेल में पहुँचते हैं और TAB दबाते हैं, तो वर्ड स्वचालित रूप से ऊपर की रो जैसी ही फ़ॉर्मेटिंग वाली एक नई रो जोड़ देता है।"
+      },
+      "key_takeaway": {
+        "en": "Tab in last cell = Instant new row.",
+        "hi": "अंतिम सेल में Tab = तुरंत नई रो।"
+      }
+    },
+    {
+      "question_id": 18,
+      "question": {
+        "en": "Which of these is NOT a standard 'Line Spacing' option mentioned in your Model Question Paper distractors?",
+        "hi": "इनमें से कौन सा आपके मॉडल प्रश्न पत्र के विकल्पों में उल्लेखित एक मानक 'लाइन स्पेसिंग' (Line Spacing) विकल्प नहीं है?"
+      },
+      "options": {
+        "a": {"en": "Double", "hi": "डबल (Double)"},
+        "b": {"en": "Multiple", "hi": "मल्टीपल (Multiple)"},
+        "c": {"en": "Top text", "hi": "टॉप टेक्स्ट (Top text)"},
+        "d": {"en": "1.5 Lines", "hi": "1.5 लाइन्स"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "The other three are real ways to adjust space between lines of text.",
+        "hi": "अन्य तीन टेक्स्ट की लाइनों के बीच स्थान को समायोजित करने के वास्तविक तरीके हैं।"
+      },
+      "explanation": {
+        "en": "Line spacing refers to vertical distance. Double (2.0), Single (1.0), and 1.5 are common. 'Top text' is not a spacing term; it sounds more like an alignment or header term.",
+        "hi": "लाइन स्पेसिंग ऊर्ध्वाधर दूरी को संदर्भित करती है। डबल (2.0), सिंगल (1.0), और 1.5 सामान्य हैं। 'टॉप टेक्स्ट' स्पेसिंग शब्द नहीं है; यह अलाइनमेंट या हेडर शब्द जैसा लगता है।"
+      },
+      "key_takeaway": {
+        "en": "Standard Line Spacing: Single, 1.5, Double, At Least, Exactly, Multiple.",
+        "hi": "मानक लाइन स्पेसिंग: सिंगल, 1.5, डबल, कम से कम, ठीक, मल्टीपल।"
+      }
+    },
+    {
+      "question_id": 19,
+      "question": {
+        "en": "To change a document into a newspaper-like format with text flowing in two vertical sections, you use ______.",
+        "hi": "दस्तावेज़ को अखबार जैसे प्रारूप में बदलने के लिए जिसमें टेक्स्ट दो ऊर्ध्वाधर खंडों (vertical sections) में बहता है, आप ______ का उपयोग करते हैं।"
+      },
+      "options": {
+        "a": {"en": "Rows", "hi": "रोज़ (Rows)"},
+        "b": {"en": "Columns", "hi": "कॉलम्स (Columns)"},
+        "c": {"en": "Tables", "hi": "टेबल्स"},
+        "d": {"en": "Page Breaks", "hi": "पेज ब्रेक्स"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Look in the Page Layout tab. It divides the page vertically.",
+        "hi": "पेज लेआउट टैब में देखें। यह पेज को लंबवत रूप से विभाजित करता है।"
+      },
+      "explanation": {
+        "en": "Columns divide the page vertically so that text starts at the top of the left side, goes to the bottom, then continues at the top of the right side. This is standard for newsletters and magazines.",
+        "hi": "कॉलम पेज को लंबवत रूप से विभाजित करते हैं ताकि टेक्स्ट बाईं ओर के शीर्ष से शुरू हो, नीचे तक जाए, फिर दाईं ओर के शीर्ष पर जारी रहे। यह न्यूजलेटर्स और पत्रिकाओं के लिए मानक है।"
+      },
+      "key_takeaway": {
+        "en": "Columns = Vertical division of page text.",
+        "hi": "कॉलम = पेज टेक्स्ट का लंबवत विभाजन।"
+      }
+    },
+    {
+      "question_id": 20,
+      "question": {
+        "en": "In Mail Merge, the letter that contains the text and graphics that are the same for each version is called the ______.",
+        "hi": "मेल मर्ज में, वह पत्र जिसमें टेक्स्ट और ग्राफिक्स होते हैं जो प्रत्येक संस्करण के लिए समान होते हैं, उसे ______ कहा जाता है।"
+      },
+      "options": {
+        "a": {"en": "Data Source", "hi": "डेटा स्रोत"},
+        "b": {"en": "Main Document", "hi": "मुख्य दस्तावेज़ (Main Document)"},
+        "c": {"en": "Merged Document", "hi": "मर्ज किया गया दस्तावेज़"},
+        "d": {"en": "Envelope", "hi": "लिफाफा"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is the 'master' letter where you write your message.",
+        "hi": "यह वह 'मास्टर' पत्र है जहाँ आप अपना संदेश लिखते हैं।"
+      },
+      "explanation": {
+        "en": "The Main Document is the template of your letter. It contains fixed text (like 'Dear') and 'Merge Fields' (placeholders for names/addresses). Word combines this with the Data Source to make personalized results.",
+        "hi": "मुख्य दस्तावेज़ आपके पत्र का टेम्पलेट है। इसमें स्थिर टेक्स्ट (जैसे 'प्रिय') और 'मर्ज फील्ड्स' (नाम/पते के लिए प्लेसहोल्डर्स) होते हैं। वर्ड इसे डेटा स्रोत के साथ जोड़कर व्यक्तिगत परिणाम बनाता है।"
+      },
+      "key_takeaway": {
+        "en": "Main Document = Fixed Content; Data Source = Variable Content.",
+        "hi": "मुख्य दस्तावेज़ = स्थिर सामग्री; डेटा स्रोत = परिवर्तनशील सामग्री।"
+      }
+    },
+    {
+      "question_id": 21,
+      "question": {
+        "en": "Which feature helps you find synonyms (words with similar meanings) for a selected word?",
+        "hi": "कौन सी सुविधा आपको चुने गए शब्द के लिए पर्यायवाची (समान अर्थ वाले शब्द) खोजने में मदद करती है?"
+      },
+      "options": {
+        "a": {"en": "Spell Check", "hi": "स्पेल चेक"},
+        "b": {"en": "Thesaurus", "hi": "थिसॉरस (Thesaurus)"},
+        "c": {"en": "Find and Replace", "hi": "फाइंड और रिप्लेस"},
+        "d": {"en": "Grammar Check", "hi": "ग्रामर चेक"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Use this tool to improve your vocabulary while writing.",
+        "hi": "लिखते समय अपनी शब्दावली (vocabulary) को बेहतर बनाने के लिए इस टूल का उपयोग करें।"
+      },
+      "explanation": {
+        "en": "The Thesaurus is like a dictionary of synonyms built into MS Word. If you keep using the word 'Happy', you can use the Thesaurus to find better words like 'Joyful' or 'Cheerful'.",
+        "hi": "थिसॉरस MS Word में निर्मित पर्यायवाची शब्दों के शब्दकोश की तरह है। यदि आप 'Happy' शब्द का बार-बार उपयोग कर रहे हैं, तो आप 'Joyful' या 'Cheerful' जैसे बेहतर शब्द खोजने के लिए थिसॉरस का उपयोग कर सकते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Thesaurus = Digital synonym finder.",
+        "hi": "थिसॉरस = डिजिटल पर्यायवाची खोजक।"
+      }
+    },
+    {
+      "question_id": 22,
+      "question": {
+        "en": "What is the function of a 'Page Break' in MS Word?",
+        "hi": "MS Word में 'पेज ब्रेक' (Page Break) का कार्य क्या है?"
+      },
+      "options": {
+        "a": {"en": "To delete the page", "hi": "पेज को डिलीट करने के लिए"},
+        "b": {"en": "To force the text to start on a new page even if the current page is not full", "hi": "टेक्स्ट को नए पेज पर शुरू करने के लिए मजबूर करना भले ही वर्तमान पेज भरा न हो"},
+        "c": {"en": "To print the document", "hi": "दस्तावेज़ को प्रिंट करने के लिए"},
+        "d": {"en": "To turn off the computer", "hi": "कंप्यूटर को बंद करने के लिए"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Shortcut: Ctrl + Enter.",
+        "hi": "शॉर्टकट: Ctrl + Enter।"
+      },
+      "explanation": {
+        "en": "Instead of pressing 'Enter' many times to get to a new page, you use a Page Break. This is cleaner and ensures that even if you add text above, the new section always stays at the top of its own page.",
+        "hi": "नए पेज पर जाने के लिए कई बार 'Enter' दबाने के बजाय, आप पेज ब्रेक का उपयोग करते हैं। यह अधिक साफ तरीका है और यह सुनिश्चित करता है कि भले ही आप ऊपर टेक्स्ट जोड़ें, नया सेक्शन हमेशा अपने खुद के पेज के शीर्ष पर रहे।"
+      },
+      "key_takeaway": {
+        "en": "Ctrl + Enter = Manual Page Break.",
+        "hi": "Ctrl + Enter = मैन्युअल पेज ब्रेक।"
+      }
+    },
+    {
+      "question_id": 23,
+      "question": {
+        "en": "Which view in MS Word is best for reading a document like a book, hiding most of the toolbars?",
+        "hi": "MS Word में कौन सा व्यू किसी दस्तावेज़ को किताब की तरह पढ़ने के लिए सबसे अच्छा है, जो अधिकांश टूलबार को छिपा देता है?"
+      },
+      "options": {
+        "a": {"en": "Print Layout", "hi": "प्रिंट लेआउट"},
+        "b": {"en": "Read Mode (Full Screen Reading)", "hi": "रीड मोड (Read Mode)"},
+        "c": {"en": "Web Layout", "hi": "वेब लेआउट"},
+        "d": {"en": "Draft View", "hi": "ड्राफ्ट व्यू"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It maximizes the space for text to make reading comfortable.",
+        "hi": "यह पढ़ने को आरामदायक बनाने के लिए टेक्स्ट के लिए जगह को अधिकतम करता है।"
+      },
+      "explanation": {
+        "en": "Read Mode removes the editing tools and displays pages side-by-side like an open book. It is designed to reduce eye strain when reading long documents on a screen.",
+        "hi": "रीड मोड एडिटिंग टूल को हटा देता है और पेजों को खुली किताब की तरह साथ-साथ प्रदर्शित करता है। इसे स्क्रीन पर लंबे दस्तावेज़ पढ़ते समय आंखों के तनाव को कम करने के लिए डिज़ाइन किया गया है।"
+      },
+      "key_takeaway": {
+        "en": "Read Mode = Optimized for consumption, not editing.",
+        "hi": "रीड मोड = उपभोग (पढ़ने) के लिए अनुकूलित, एडिटिंग के लिए नहीं।"
+      }
+    },
+    {
+      "question_id": 24,
+      "question": {
+        "en": "What does a 'Watermark' in MS Word do?",
+        "hi": "MS Word में 'वाटरमार्क' (Watermark) क्या करता है?"
+      },
+      "options": {
+        "a": {"en": "It protects the computer from water damage", "hi": "यह कंप्यूटर को पानी से होने वाले नुकसान से बचाता है"},
+        "b": {"en": "It places a faint, transparent image or text behind the main content", "hi": "यह मुख्य सामग्री के पीछे एक धुंधली, पारदर्शी छवि या टेक्स्ट रखता है"},
+        "c": {"en": "It highlights the text in bright yellow", "hi": "यह टेक्स्ट को चमकीले पीले रंग में हाइलाइट करता है"},
+        "d": {"en": "It changes the color of the cursor", "hi": "यह कर्सर का रंग बदलता है"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "You often see 'Confidential' or 'Draft' written diagonally in the background of official letters.",
+        "hi": "आप अक्सर आधिकारिक पत्रों के बैकग्राउंड में तिरछे लिखे 'Confidential' या 'Draft' देखते हैं।"
+      },
+      "explanation": {
+        "en": "A watermark is a logo or text (like 'DO NOT COPY') that sits behind your writing. It identifies the owner of the document or its status without distracting the reader.",
+        "hi": "वाटरमार्क एक लोगो या टेक्स्ट (जैसे 'DO NOT COPY') है जो आपके लेखन के पीछे रहता है। यह पाठक का ध्यान भटकाए बिना दस्तावेज़ के मालिक या उसकी स्थिति की पहचान करता है।"
+      },
+      "key_takeaway": {
+        "en": "Watermark = Background identity text/image.",
+        "hi": "वाटरमार्क = बैकग्राउंड पहचान टेक्स्ट/इमेज।"
+      }
+    },
+    {
+      "question_id": 25,
+      "question": {
+        "en": "Which alignment pushes your text to the far right margin?",
+        "hi": "कौन सा अलाइनमेंट आपके टेक्स्ट को बिल्कुल दाएं मार्जिन की ओर धकेलता है?"
+      },
+      "options": {
+        "a": {"en": "Align Left", "hi": "अलाइन लेफ्ट"},
+        "b": {"en": "Center", "hi": "सेंटर"},
+        "c": {"en": "Align Right", "hi": "अलाइन राइट (Align Right)"},
+        "d": {"en": "Justify", "hi": "जस्टिफाई"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "Shortcut: Ctrl + R. Used for dates in letters.",
+        "hi": "शॉर्टकट: Ctrl + R. पत्रों में तारीखों के लिए उपयोग किया जाता है।"
+      },
+      "explanation": {
+        "en": "Right alignment is often used for the sender's address or the date in formal letters. It lines up the text along the right edge of the page.",
+        "hi": "दायां अलाइनमेंट अक्सर औपचारिक पत्रों में प्रेषक के पते या तारीख के लिए उपयोग किया जाता है। यह टेक्स्ट को पेज के दाएं किनारे के साथ एक लाइन में लगाता है।"
+      },
+      "key_takeaway": {
+        "en": "Ctrl + R = Right Alignment.",
+        "hi": "Ctrl + R = दायां अलाइनमेंट।"
+      }
+    },
+    {
+      "question_id": 26,
+      "question": {
+        "en": "What is 'Indentation' in word processing?",
+        "hi": "वर्ड प्रोसेसिंग में 'इंडेंटेशन' (Indentation) क्या है?"
+      },
+      "options": {
+        "a": {"en": "Deleting a line", "hi": "एक लाइन को डिलीट करना"},
+        "b": {"en": "The space between the page margin and where the text starts", "hi": "पेज मार्जिन और जहाँ से टेक्स्ट शुरू होता है, उसके बीच की जगह"},
+        "c": {"en": "The color of the page", "hi": "पेज का रंग"},
+        "d": {"en": "The total number of words", "hi": "शब्दों की कुल संख्या"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "You use the TAB key to create an indent at the start of a paragraph.",
+        "hi": "आप पैराग्राफ की शुरुआत में इंडेंट बनाने के लिए TAB की का उपयोग करते हैं।"
+      },
+      "explanation": {
+        "en": "Indentation is used to set a paragraph apart from the rest of the text. For example, 'First Line Indent' pushes only the first sentence of a paragraph slightly to the right.",
+        "hi": "इंडेंटेशन का उपयोग पैराग्राफ को बाकी टेक्स्ट से अलग करने के लिए किया जाता है। उदाहरण के लिए, 'फर्स्ट लाइन इंडेंट' पैराग्राफ के केवल पहले वाक्य को थोड़ा दाईं ओर धकेलता है।"
+      },
+      "key_takeaway": {
+        "en": "Indent = Horizontal offset of text from margins.",
+        "hi": "इंडेंट = मार्जिन से टेक्स्ट का क्षैतिज ऑफसेट (हटाव)।"
+      }
+    },
+    {
+      "question_id": 27,
+      "question": {
+        "en": "Which tool in the 'Insert' tab allows you to add pre-designed diagrams like flowcharts or relationship maps?",
+        "hi": "'इंसर्ट' टैब में कौन सा टूल आपको फ्लोचार्ट या रिलेशनशिप मैप जैसे पहले से डिज़ाइन किए गए डायग्राम जोड़ने की अनुमति देता है?"
+      },
+      "options": {
+        "a": {"en": "Clip Art", "hi": "क्लिप आर्ट"},
+        "b": {"en": "SmartArt", "hi": "स्मार्ट आर्ट (SmartArt)"},
+        "c": {"en": "Word Art", "hi": "वर्ड आर्ट"},
+        "d": {"en": "Shapes", "hi": "शेप्स"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is used for representing information visually through hierarchies or cycles.",
+        "hi": "इसका उपयोग पदानुक्रम (hierarchies) या चक्रों (cycles) के माध्यम से जानकारी को विजुअल रूप से दर्शाने के लिए किया जाता है।"
+      },
+      "explanation": {
+        "en": "SmartArt is a quick way to create professional graphics. Instead of drawing every box and arrow for a flowchart, you pick a SmartArt style and just type your text into it.",
+        "hi": "स्मार्ट आर्ट पेशेवर ग्राफिक्स बनाने का एक त्वरित तरीका है। फ्लोचार्ट के लिए हर बॉक्स और तीर बनाने के बजाय, आप एक स्मार्ट आर्ट शैली चुनते हैं और उसमें अपना टेक्स्ट टाइप कर देते हैं।"
+      },
+      "key_takeaway": {
+        "en": "SmartArt = Logical diagrams and charts.",
+        "hi": "स्मार्ट आर्ट = तार्किक डायग्राम और चार्ट।"
+      }
+    },
+    {
+      "question_id": 28,
+      "question": {
+        "en": "A large capital letter at the beginning of a paragraph that spans several lines is called a ______.",
+        "hi": "एक पैराग्राफ की शुरुआत में एक बड़ा कैपिटल अक्षर जो कई लाइनों में फैला होता है, उसे ______ कहा जाता है।"
+      },
+      "options": {
+        "a": {"en": "Superscript", "hi": "सुपरस्क्रिप्ट"},
+        "b": {"en": "Subscript", "hi": "सबस्क्रिप्ट"},
+        "c": {"en": "Drop Cap", "hi": "ड्रॉप कैप (Drop Cap)"},
+        "d": {"en": "Big Letter", "hi": "बिग लेटर"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "Commonly seen at the start of chapters in storybooks or magazines.",
+        "hi": "आमतौर पर कहानियों की किताबों या पत्रिकाओं में अध्यायों की शुरुआत में देखा जाता है।"
+      },
+      "explanation": {
+        "en": "Drop Cap (Dropped Capital) is a decorative feature. It makes the first letter of a paragraph much larger than the rest, 'dropping' it down into the lines below.",
+        "hi": "ड्रॉप कैप एक सजावटी सुविधा है। यह पैराग्राफ के पहले अक्षर को बाकी की तुलना में बहुत बड़ा बना देता है, और इसे नीचे की लाइनों में 'ड्रॉप' कर देता है।"
+      },
+      "key_takeaway": {
+        "en": "Drop Cap = Professional decorative start for paragraphs.",
+        "hi": "ड्रॉप कैप = पैराग्राफ के लिए पेशेवर सजावटी शुरुआत।"
+      }
+    },
+    {
+      "question_id": 29,
+      "question": {
+        "en": "What is the shortcut key to open the 'Print' dialog box?",
+        "hi": "'प्रिंट' (Print) डायलॉग बॉक्स खोलने की शॉर्टकट कुंजी क्या है?"
+      },
+      "options": {
+        "a": {"en": "Ctrl + S", "hi": "Ctrl + S"},
+        "b": {"en": "Ctrl + P", "hi": "Ctrl + P"},
+        "c": {"en": "Ctrl + O", "hi": "Ctrl + O"},
+        "d": {"en": "Ctrl + N", "hi": "Ctrl + N"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It uses the first letter of the word 'Print'.",
+        "hi": "यह 'Print' शब्द के पहले अक्षर का उपयोग करता है।"
+      },
+      "explanation": {
+        "en": "Ctrl + P opens the print menu where you can choose which pages to print, how many copies you need, and which printer to use.",
+        "hi": "Ctrl + P प्रिंट मेनू खोलता है जहाँ आप चुन सकते हैं कि कौन से पेज प्रिंट करने हैं, आपको कितनी प्रतियों की आवश्यकता है, और किस प्रिंटर का उपयोग करना है।"
+      },
+      "key_takeaway": {
+        "en": "Ctrl + P = Print.",
+        "hi": "Ctrl + P = प्रिंट।"
+      }
+    },
+    {
+      "question_id": 30,
+      "question": {
+        "en": "Which tab in MS Word 2010 onwards contains the 'Mail Merge' tools?",
+        "hi": "MS Word 2010 के बाद के संस्करणों के किस टैब में 'मेल मर्ज' (Mail Merge) टूल होते हैं?"
+      },
+      "options": {
+        "a": {"en": "Home", "hi": "होम"},
+        "b": {"en": "Insert", "hi": "इंसर्ट"},
+        "c": {"en": "Mailings", "hi": "मेलिंग्स (Mailings)"},
+        "d": {"en": "Review", "hi": "रिव्यू"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "The name is very similar to 'Email' or 'Post'.",
+        "hi": "नाम 'ईमेल' या 'पोस्ट' के बहुत समान है।"
+      },
+      "explanation": {
+        "en": "The 'Mailings' tab is dedicated to all tasks related to mass communication. It contains the Mail Merge wizard, options to select recipients, and tools to preview merged results.",
+        "hi": "'मेलिंग्स' टैब बड़े पैमाने पर संचार (mass communication) से संबंधित सभी कार्यों के लिए समर्पित है। इसमें मेल मर्ज विजार्ड, प्राप्तकर्ताओं को चुनने के विकल्प और मर्ज किए गए परिणामों को देखने के टूल होते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Mailings Tab = Control center for Mail Merge.",
+        "hi": "मेलिंग्स टैब = मेल मर्ज के लिए नियंत्रण केंद्र।"
+      }
+    }
+  ]
+}
