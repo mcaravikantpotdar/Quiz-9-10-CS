@@ -1,0 +1,794 @@
+{
+  "metadata": {
+    "chapter_number": 1,
+    "chapter_title": "Digital Literacy (Fundamental) - Basics of Computer",
+    "chapter_title_hindi": "डिजिटल साक्षरता (मौलिक) - कंप्यूटर की बुनियादी बातें",
+    "subject": "Computer Science - Class 9",
+    "board": "HPBOSE",
+    "total_questions": 30,
+    "version": "3.0",
+    "naming_convention": "09_CS_CH01_Intro_Fundamentals.json"
+  },
+  "questions": [
+    {
+      "question_id": 1,
+      "question": {
+        "en": "Which part of the computer system is widely known as the 'Brain of the computer'?",
+        "hi": "कंप्यूटर सिस्टम के किस भाग को व्यापक रूप से 'कंप्यूटर का मस्तिष्क' कहा जाता है?"
+      },
+      "options": {
+        "a": {"en": "UPS", "hi": "UPS"},
+        "b": {"en": "Control Unit", "hi": "कंट्रोल यूनिट"},
+        "c": {"en": "CPU", "hi": "CPU"},
+        "d": {"en": "Monitor", "hi": "मॉनिटर"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "This component performs all processing and controls other hardware.",
+        "hi": "यह घटक सभी प्रोसेसिंग करता है और अन्य हार्डवेयर को नियंत्रित करता है।"
+      },
+      "explanation": {
+        "en": "The CPU (Central Processing Unit) is called the brain because it executes instructions, performs calculations, and manages the flow of data across all other parts. Just as your brain tells your hand to move, the CPU tells the printer to print[cite: 1103, 1108].",
+        "hi": "CPU (सेंट्रल प्रोसेसिंग यूनिट) को मस्तिष्क कहा जाता है क्योंकि यह निर्देशों को निष्पादित करता है, गणना करता है, और अन्य सभी भागों में डेटा के प्रवाह का प्रबंधन करता है। जिस तरह आपका मस्तिष्क आपके हाथ को हिलने के लिए कहता है, उसी तरह CPU प्रिंटर को प्रिंट करने के लिए कहता है [cite: 1103, 1108]।"
+      },
+      "key_takeaway": {
+        "en": "CPU stands for Central Processing Unit and is the primary processing component.",
+        "hi": "CPU का अर्थ सेंट्रल प्रोसेसिंग यूनिट है और यह प्राथमिक प्रोसेसिंग घटक है ।"
+      }
+    },
+    {
+      "question_id": 2,
+      "question": {
+        "en": "How many bits make up one 'Nibble' in computer memory units?",
+        "hi": "कंप्यूटर मेमोरी यूनिट में एक 'निबल' (Nibble) कितने बिट्स से मिलकर बनता है?"
+      },
+      "options": {
+        "a": {"en": "8 bits", "hi": "8 बिट्स"},
+        "b": {"en": "4 bits", "hi": "4 बिट्स"},
+        "c": {"en": "1024 bits", "hi": "1024 बिट्स"},
+        "d": {"en": "2 bits", "hi": "2 बिट्स"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "A nibble is exactly half of one byte.",
+        "hi": "एक निबल ठीक एक बाइट का आधा होता है।"
+      },
+      "explanation": {
+        "en": "In memory measurement, a 'Bit' is the smallest unit (0 or 1). A group of 4 bits is called a Nibble, and a group of 8 bits is called a Byte[cite: 1100, 1106]. For example, if you have 8 bits, you essentially have 2 nibbles.",
+        "hi": "मेमोरी माप में, 'बिट' सबसे छोटी इकाई (0 या 1) है। 4 बिट्स के समूह को निबल कहा जाता है, और 8 बिट्स के समूह को बाइट कहा जाता है [cite: 1100, 1106]। उदाहरण के लिए, यदि आपके पास 8 बिट्स हैं, तो आपके पास अनिवार्य रूप से 2 निबल हैं।"
+      },
+      "key_takeaway": {
+        "en": "1 Nibble = 4 bits; 1 Byte = 8 bits.",
+        "hi": "1 निबल = 4 बिट्स; 1 बाइट = 8 बिट्स ।"
+      }
+    },
+    {
+      "question_id": 3,
+      "question": {
+        "en": "Which characteristic of a computer allows it to perform completely different types of work, such as playing music and calculating results simultaneously?",
+        "hi": "कंप्यूटर की कौन सी विशेषता उसे पूरी तरह से अलग प्रकार के कार्य करने की अनुमति देती है, जैसे एक ही समय में संगीत बजाना और परिणामों की गणना करना?"
+      },
+      "options": {
+        "a": {"en": "Speed", "hi": "गति"},
+        "b": {"en": "Diligence", "hi": "लगन"},
+        "c": {"en": "Versatility", "hi": "बहुमुखी प्रतिभा (Versatility)"},
+        "d": {"en": "Storage", "hi": "भंडारण"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "This term means being able to adapt or be used for many different functions.",
+        "hi": "इस शब्द का अर्थ है कई अलग-अलग कार्यों के लिए अनुकूल होने या उपयोग किए जाने में सक्षम होना।"
+      },
+      "explanation": {
+        "en": "Versatility means a computer is multi-purpose. One moment you can use it to type a letter, and the next moment you can use it to design a building or solve complex math. It isn't restricted to just one type of job.",
+        "hi": "बहुमुखी प्रतिभा (Versatility) का अर्थ है कि कंप्यूटर बहुउद्देश्यीय है। एक पल आप इसका उपयोग पत्र टाइप करने के लिए कर सकते हैं, और अगले ही पल आप इसका उपयोग भवन डिजाइन करने या जटिल गणित हल करने के लिए कर सकते हैं । यह केवल एक प्रकार के कार्य तक सीमित नहीं है।"
+      },
+      "key_takeaway": {
+        "en": "Versatility = Multi-tasking and multi-purpose capability.",
+        "hi": "बहुमुखी प्रतिभा = मल्टी-टास्किंग और बहु-उद्देश्यीय क्षमता।"
+      }
+    },
+    {
+      "question_id": 4,
+      "question": {
+        "en": "What does the abbreviation 'VDU' stand for in the context of computer components?",
+        "hi": "कंप्यूटर घटकों के संदर्भ में 'VDU' का संक्षिप्त रूप क्या है?"
+      },
+      "options": {
+        "a": {"en": "Visual Digital Unit", "hi": "विजुअल डिजिटल यूनिट"},
+        "b": {"en": "Virtual Display Unit", "hi": "वर्चुअल डिस्प्ले यूनिट"},
+        "c": {"en": "Visual Display Unit", "hi": "विजुअल डिस्प्ले यूनिट (Visual Display Unit)"},
+        "d": {"en": "Variable Data Unit", "hi": "वैरिएबल डेटा यूनिट"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "It is another name for the Monitor.",
+        "hi": "यह मॉनिटर का दूसरा नाम है।"
+      },
+      "explanation": {
+        "en": "VDU stands for Visual Display Unit. It is an output device that displays images and text generated by the computer. Most people simply call it a 'Monitor'.",
+        "hi": "VDU का अर्थ विजुअल डिस्प्ले यूनिट है। यह एक आउटपुट डिवाइस है जो कंप्यूटर द्वारा उत्पन्न छवियों और टेक्स्ट को प्रदर्शित करता है । अधिकांश लोग इसे केवल 'मॉनिटर' कहते हैं।"
+      },
+      "key_takeaway": {
+        "en": "VDU = Monitor = Primary Output Device for visuals.",
+        "hi": "VDU = मॉनिटर = दृश्यों के लिए प्राथमिक आउटपुट डिवाइस ।"
+      }
+    },
+    {
+      "question_id": 5,
+      "question": {
+        "en": "Which input device is specifically used for playing computer games more effectively?",
+        "hi": "विशेष रूप से कंप्यूटर गेम को अधिक प्रभावी ढंग से खेलने के लिए किस इनपुट डिवाइस का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "Scanner", "hi": "स्कैनर"},
+        "b": {"en": "MICR", "hi": "MICR"},
+        "c": {"en": "Joystick", "hi": "जॉयस्टिक (Joystick)"},
+        "d": {"en": "OCR", "hi": "OCR"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "It has a stick that pivots on a base and reports its angle or direction.",
+        "hi": "इसमें एक छड़ी होती है जो आधार पर घूमती है और अपने कोण या दिशा की रिपोर्ट करती है।"
+      },
+      "explanation": {
+        "en": "A Joystick is an input device consisting of a stick that can be moved in various directions to control the movement of objects in a video game. It is much better for flight simulators and racing games than a standard keyboard.",
+        "hi": "जॉयस्टिक एक इनपुट डिवाइस है जिसमें एक छड़ी होती है जिसे वीडियो गेम में वस्तुओं की गति को नियंत्रित करने के लिए विभिन्न दिशाओं में ले जाया जा सकता है । यह एक मानक कीबोर्ड की तुलना में फ्लाइट सिमुलेटर और रेसिंग गेम के लिए बहुत बेहतर है।"
+      },
+      "key_takeaway": {
+        "en": "Joystick = Specialized input device for gaming control.",
+        "hi": "जॉयस्टिक = गेमिंग नियंत्रण के लिए विशेष इनपुट डिवाइस ।"
+      }
+    },
+    {
+      "question_id": 6,
+      "question": {
+        "en": "Banks use which specialized input device to process and read information on cheques?",
+        "hi": "बैंक चेक पर जानकारी संसाधित करने और पढ़ने के लिए किस विशेष इनपुट डिवाइस का उपयोग करते हैं?"
+      },
+      "options": {
+        "a": {"en": "Bar Code Reader", "hi": "बार कोड रीडर"},
+        "b": {"en": "MICR", "hi": "MICR (Magnetic Ink Character Recognition)"},
+        "c": {"en": "Light Pen", "hi": "लाइट पेन"},
+        "d": {"en": "Digital Camera", "hi": "डिजिटल कैमरा"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It stands for Magnetic Ink Character Recognition.",
+        "hi": "इसका अर्थ मैग्नेटिक इंक कैरेक्टर रिकग्निशन है।"
+      },
+      "explanation": {
+        "en": "MICR (Magnetic Ink Character Recognition) is used by banks to read the special numbers printed at the bottom of cheques using magnetic ink. This allows for very fast and accurate processing of thousands of cheques.",
+        "hi": "MICR (मैग्नेटिक इंक कैरेक्टर रिकग्निशन) का उपयोग बैंकों द्वारा चुंबकीय स्याही का उपयोग करके चेक के नीचे छपे विशेष नंबरों को पढ़ने के लिए किया जाता है । यह हजारों चेक की बहुत तेज़ और सटीक प्रोसेसिंग की अनुमति देता है।"
+      },
+      "key_takeaway": {
+        "en": "MICR is essential for banking industry automation.",
+        "hi": "बैंकिंग उद्योग स्वचालन के लिए MICR आवश्यक है ।"
+      }
+    },
+    {
+      "question_id": 7,
+      "question": {
+        "en": "Which device is used to convert a printed document or photo into a digital (soft copy) format on the computer?",
+        "hi": "प्रिंटेड दस्तावेज़ या फोटो को कंप्यूटर पर डिजिटल (सॉफ्ट कॉपी) फॉर्मेट में बदलने के लिए किस डिवाइस का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "Printer", "hi": "प्रिंटर"},
+        "b": {"en": "Scanner", "hi": "स्कैनर (Scanner)"},
+        "c": {"en": "Plotter", "hi": "प्लॉटर"},
+        "d": {"en": "OCR", "hi": "OCR"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It works like a photocopier but sends the image to the computer instead of paper.",
+        "hi": "यह फोटोकॉपीयर की तरह काम करता है लेकिन इमेज को कागज के बजाय कंप्यूटर पर भेजता है।"
+      },
+      "explanation": {
+        "en": "A scanner is an input device that 'scans' images or text from paper and converts them into digital files that you can edit or save on your computer. This is the opposite of a printer.",
+        "hi": "स्कैनर एक इनपुट डिवाइस है जो कागज से छवियों या टेक्स्ट को 'स्कैन' करता है और उन्हें डिजिटल फाइलों में बदल देता है जिन्हें आप अपने कंप्यूटर पर संपादित या सहेज सकते हैं । यह प्रिंटर के विपरीत है।"
+      },
+      "key_takeaway": {
+        "en": "Scanner = Input device to digitize paper documents.",
+        "hi": "स्कैनर = कागजी दस्तावेजों को डिजिटल बनाने के लिए इनपुट डिवाइस ।"
+      }
+    },
+    {
+      "question_id": 8,
+      "question": {
+        "en": "What is the function of 'OCR' technology in computing?",
+        "hi": "कंप्यूटिंग में 'OCR' तकनीक का कार्य क्या है?"
+      },
+      "options": {
+        "a": {"en": "To play high-definition videos", "hi": "हाई-डेफिनिशन वीडियो चलाने के लिए"},
+        "b": {"en": "To recognize and convert printed text into editable data", "hi": "मुद्रित टेक्स्ट को पहचानने और संपादन योग्य डेटा में बदलने के लिए"},
+        "c": {"en": "To cool down the CPU", "hi": "CPU को ठंडा करने के लिए"},
+        "d": {"en": "To read magnetic stripes on cards", "hi": "कार्ड पर चुंबकीय पट्टियों को पढ़ने के लिए"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It stands for Optical Character Recognition.",
+        "hi": "इसका अर्थ ऑप्टिकल कैरेक्टर रिकग्निशन है।"
+      },
+      "explanation": {
+        "en": "OCR (Optical Character Recognition) is a technology used to read text from a scanned image or document and convert it into a format that a word processor (like MS Word) can understand and edit.",
+        "hi": "OCR (ऑप्टिकल कैरेक्टर रिकग्निशन) एक तकनीक है जिसका उपयोग स्कैन की गई छवि या दस्तावेज़ से टेक्स्ट पढ़ने और उसे ऐसे फॉर्मेट में बदलने के लिए किया जाता है जिसे वर्ड प्रोसेसर (जैसे MS Word) समझ और संपादित कर सके ।"
+      },
+      "key_takeaway": {
+        "en": "OCR turns images of text into actual editable text.",
+        "hi": "OCR टेक्स्ट की छवियों को वास्तविक संपादन योग्य टेक्स्ट में बदल देता है ।"
+      }
+    },
+    {
+      "question_id": 9,
+      "question": {
+        "en": "Which device allows a user to draw directly on the computer screen or a specialized pad as if using a real pen?",
+        "hi": "कौन सा उपकरण उपयोगकर्ता को कंप्यूटर स्क्रीन या विशेष पैड पर सीधे चित्र बनाने की अनुमति देता है जैसे कि असली पेन का उपयोग कर रहा हो?"
+      },
+      "options": {
+        "a": {"en": "Joystick", "hi": "जॉयस्टिक"},
+        "b": {"en": "Light Pen", "hi": "लाइट पेन (Light Pen)"},
+        "c": {"en": "Magnetic Stripe Reader", "hi": "मैग्नेटिक स्ट्राइप रीडर"},
+        "d": {"en": "Plotter", "hi": "प्लॉटर"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is a light-sensitive input pointing device.",
+        "hi": "यह एक प्रकाश-संवेदनशील इनपुट पॉइंटिंग डिवाइस है।"
+      },
+      "explanation": {
+        "en": "A Light Pen is used to select menu items or draw directly on the monitor screen. It is very useful for engineers and designers who need precise control while drawing shapes.",
+        "hi": "लाइट पेन का उपयोग मेनू आइटम चुनने या सीधे मॉनिटर स्क्रीन पर चित्र बनाने के लिए किया जाता है । यह उन इंजीनियरों और डिजाइनरों के लिए बहुत उपयोगी है जिन्हें आकृतियाँ बनाते समय सटीक नियंत्रण की आवश्यकता होती है।"
+      },
+      "key_takeaway": {
+        "en": "Light Pen = Touch-based input for drawing and selection.",
+        "hi": "लाइट पेन = ड्राइंग और चयन के लिए टच-आधारित इनपुट ।"
+      }
+    },
+    {
+      "question_id": 10,
+      "question": {
+        "en": "Where would you typically find a 'Bar Code Reader' in use?",
+        "hi": "आमतौर पर आप 'बार कोड रीडर' का उपयोग कहाँ देखेंगे?"
+      },
+      "options": {
+        "a": {"en": "In a music studio", "hi": "म्यूजिक स्टूडियो में"},
+        "b": {"en": "At a supermarket checkout counter", "hi": "सुपरमार्केट चेकआउट काउंटर पर"},
+        "c": {"en": "Inside the CPU cabinet", "hi": "CPU कैबिनेट के अंदर"},
+        "d": {"en": "To take family photos", "hi": "पारिवारिक फोटो लेने के लिए"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It reads the vertical black and white lines on product labels.",
+        "hi": "यह उत्पाद लेबल पर लंबवत काली और सफेद रेखाओं को पढ़ता है।"
+      },
+      "explanation": {
+        "en": "A Bar Code Reader is an input device used to read the price and details of products from the barcode (lines) printed on the packaging. It sends this data instantly to the computer for billing.",
+        "hi": "बार कोड रीडर एक इनपुट डिवाइस है जिसका उपयोग पैकेजिंग पर छपे बारकोड (लाइनों) से उत्पादों की कीमत और विवरण पढ़ने के लिए किया जाता है । यह बिलिंग के लिए इस डेटा को तुरंत कंप्यूटर पर भेजता है।"
+      },
+      "key_takeaway": {
+        "en": "Bar Code Reader = Speeding up inventory and sales data entry.",
+        "hi": "बार कोड रीडर = इन्वेंट्री और बिक्री डेटा प्रविष्टि को तेज करना ।"
+      }
+    },
+    {
+      "question_id": 11,
+      "question": {
+        "en": "Which device reads the data hidden in the dark stripe on the back of credit cards or ID cards?",
+        "hi": "कौन सा उपकरण क्रेडिट कार्ड या आईडी कार्ड के पीछे डार्क पट्टी में छिपे डेटा को पढ़ता है?"
+      },
+      "options": {
+        "a": {"en": "OCR", "hi": "OCR"},
+        "b": {"en": "MICR", "hi": "MICR"},
+        "c": {"en": "Magnetic Stripe Reader", "hi": "मैग्नेटिक स्ट्राइप रीडर (Magnetic Stripe Reader)"},
+        "d": {"en": "Digital Camera", "hi": "डिजिटल कैमरा"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "The stripe on the card contains magnetic particles representing data.",
+        "hi": "कार्ड पर पट्टी में डेटा का प्रतिनिधित्व करने वाले चुंबकीय कण होते हैं।"
+      },
+      "explanation": {
+        "en": "Magnetic Stripe Readers are used to read information from the magnetic strip on the back of cards like ATM cards, Credit cards, and security badges. When you swipe your card, this device reads your account details.",
+        "hi": "मैग्नेटिक स्ट्राइप रीडर का उपयोग ATM कार्ड, क्रेडिट कार्ड और सुरक्षा बैज जैसे कार्ड के पीछे मैग्नेटिक स्ट्रिप से जानकारी पढ़ने के लिए किया जाता है । जब आप अपना कार्ड स्वाइप करते हैं, तो यह डिवाइस आपके खाते का विवरण पढ़ता है।"
+      },
+      "key_takeaway": {
+        "en": "Magnetic Stripe Reader = Input for swipable cards.",
+        "hi": "मैग्नेटिक स्ट्राइप रीडर = स्वाइप करने योग्य कार्डों के लिए इनपुट ।"
+      }
+    },
+    {
+      "question_id": 12,
+      "question": {
+        "en": "Which output device is used to produce high-quality architectural drawings, maps, and large banners?",
+        "hi": "उच्च गुणवत्ता वाले आर्किटेक्चरल चित्र, मानचित्र और बड़े बैनर बनाने के लिए किस आउटपुट डिवाइस का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "Speaker", "hi": "स्पीकर"},
+        "b": {"en": "Plotter", "hi": "प्लॉटर (Plotter)"},
+        "c": {"en": "Monitor", "hi": "मॉनिटर"},
+        "d": {"en": "Keyboard", "hi": "कीबोर्ड"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is like a printer but uses pens to draw continuous lines.",
+        "hi": "यह एक प्रिंटर की तरह है लेकिन निरंतर रेखाएं खींचने के लिए पेन का उपयोग करता है।"
+      },
+      "explanation": {
+        "en": "A Plotter is a specialized output device used for printing large-scale, high-quality vector graphics such as engineering blueprints and posters. Standard printers cannot handle the large sizes that plotters can.",
+        "hi": "प्लॉटर एक विशेष आउटपुट डिवाइस है जिसका उपयोग इंजीनियरिंग ब्लूप्रिंट और पोस्टर जैसे बड़े पैमाने पर, उच्च गुणवत्ता वाले वेक्टर ग्राफिक्स को प्रिंट करने के लिए किया जाता है । मानक प्रिंटर उन बड़े आकारों को नहीं संभाल सकते जो प्लॉटर संभाल सकते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Plotter = Output device for large, precise technical drawings.",
+        "hi": "प्लॉटर = बड़े, सटीक तकनीकी चित्रों के लिए आउटपुट डिवाइस ।"
+      }
+    },
+    {
+      "question_id": 13,
+      "question": {
+        "en": "Which of the following is used to project computer images onto a large screen for presentations?",
+        "hi": "प्रस्तुतियों के लिए कंप्यूटर छवियों को एक बड़ी स्क्रीन पर प्रोजेक्ट करने के लिए निम्नलिखित में से किसका उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "Scanner", "hi": "स्कैनर"},
+        "b": {"en": "Projector", "hi": "प्रोजेक्टर (Projector)"},
+        "c": {"en": "VDU", "hi": "VDU"},
+        "d": {"en": "Printer", "hi": "प्रिंटर"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is an output device commonly used in classrooms and meetings.",
+        "hi": "यह एक आउटपुट डिवाइस है जिसका उपयोग आमतौर पर कक्षाओं और बैठकों में किया जाता है।"
+      },
+      "explanation": {
+        "en": "A Projector takes the video signal from the computer and projects it as an image on a wall or screen. This allows many people to see the computer's output at once.",
+        "hi": "प्रोजेक्टर कंप्यूटर से वीडियो सिग्नल लेता है और इसे दीवार या स्क्रीन पर एक छवि के रूप में प्रोजेक्ट करता है । यह कई लोगों को एक साथ कंप्यूटर के आउटपुट को देखने की अनुमति देता है।"
+      },
+      "key_takeaway": {
+        "en": "Projector = Output device for large-scale audience viewing.",
+        "hi": "प्रोजेक्टर = बड़े पैमाने पर दर्शकों को दिखाने के लिए आउटपुट डिवाइस ।"
+      }
+    },
+    {
+      "question_id": 14,
+      "question": {
+        "en": "What is the primary difference between Primary Memory (RAM) and Secondary Memory (Hard Disk)?",
+        "hi": "प्राइमरी मेमोरी (RAM) और सेकेंडरी मेमोरी (हार्ड डिस्क) के बीच मुख्य अंतर क्या है?"
+      },
+      "options": {
+        "a": {"en": "Primary memory is larger", "hi": "प्राइमरी मेमोरी बड़ी होती है"},
+        "b": {"en": "Primary memory is temporary (volatile), Secondary is permanent", "hi": "प्राइमरी मेमोरी अस्थायी (volatile) है, सेकेंडरी स्थायी है"},
+        "c": {"en": "Secondary memory is faster", "hi": "सेकेंडरी मेमोरी तेज़ होती है"},
+        "d": {"en": "There is no difference", "hi": "कोई अंतर नहीं है"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Think about what happens to data when you turn off the computer.",
+        "hi": "सोचें कि जब आप कंप्यूटर बंद करते हैं तो डेटा का क्या होता है।"
+      },
+      "explanation": {
+        "en": "Primary memory (RAM) is volatile, meaning data is lost when power goes out. Secondary memory (Hard Disk, Pen Drive) is non-volatile and keeps your files safe even after the computer is turned off[cite: 1084, 1144].",
+        "hi": "प्राइमरी मेमोरी (RAM) परिवर्तनशील (volatile) है, जिसका अर्थ है कि बिजली जाने पर डेटा नष्ट हो जाता है। सेकेंडरी मेमोरी (हार्ड डिस्क, पेन ड्राइव) अपरिवर्तनीय है और कंप्यूटर बंद होने के बाद भी आपकी फाइलों को सुरक्षित रखती है [cite: 1084, 1144]।"
+      },
+      "key_takeaway": {
+        "en": "RAM = Temporary/Active work area; Hard Disk = Permanent Storage.",
+        "hi": "RAM = अस्थायी/सक्रिय कार्य क्षेत्र; हार्ड डिस्क = स्थायी भंडारण ।"
+      }
+    },
+    {
+      "question_id": 15,
+      "question": {
+        "en": "Which of these is an example of an 'Optical' storage device?",
+        "hi": "इनमें से कौन 'ऑप्टिकल' स्टोरेज डिवाइस का एक उदाहरण है?"
+      },
+      "options": {
+        "a": {"en": "Hard Disk", "hi": "हार्ड डिस्क"},
+        "b": {"en": "CD & DVD", "hi": "CD और DVD"},
+        "c": {"en": "Pen Drive", "hi": "पेन ड्राइव"},
+        "d": {"en": "RAM", "hi": "RAM"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "These devices use laser light to read and write data.",
+        "hi": "ये उपकरण डेटा पढ़ने और लिखने के लिए लेजर लाइट का उपयोग करते हैं।"
+      },
+      "explanation": {
+        "en": "CDs and DVDs are optical storage media. They use light (lasers) to store digital data on a shiny surface. Hard disks use magnetic fields, and pen drives use flash memory.",
+        "hi": "CD और DVD ऑप्टिकल स्टोरेज मीडिया हैं। वे एक चमकदार सतह पर डिजिटल डेटा स्टोर करने के लिए प्रकाश (लेजर) का उपयोग करते हैं । हार्ड डिस्क चुंबकीय क्षेत्र का उपयोग करती हैं, और पेन ड्राइव फ्लैश मेमोरी का उपयोग करते हैं।"
+      },
+      "key_takeaway": {
+        "en": "CD and DVD = Optical secondary memory.",
+        "hi": "CD और DVD = ऑप्टिकल सेकेंडरी मेमोरी ।"
+      }
+    },
+    {
+      "question_id": 16,
+      "question": {
+        "en": "Arrange these units of memory from SMALLEST to LARGEST correctly.",
+        "hi": "मेमोरी की इन इकाइयों को सबसे छोटे से सबसे बड़े क्रम में सही ढंग से व्यवस्थित करें।"
+      },
+      "options": {
+        "a": {"en": "MB, GB, TB, KB", "hi": "MB, GB, TB, KB"},
+        "b": {"en": "Bit, Nibble, Byte, KB", "hi": "Bit, Nibble, Byte, KB"},
+        "c": {"en": "GB, MB, KB, Byte", "hi": "GB, MB, KB, Byte"},
+        "d": {"en": "Byte, Bit, Nibble, KB", "hi": "Byte, Bit, Nibble, KB"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "A bit is just a 0 or 1; it's the very start of the scale.",
+        "hi": "एक बिट केवल 0 या 1 है; यह पैमाने की शुरुआत है।"
+      },
+      "explanation": {
+        "en": "The correct order is: Bit (1 bit) -> Nibble (4 bits) -> Byte (8 bits) -> KB (1024 bytes). This is the standard hierarchy for measuring digital information[cite: 1084, 1145].",
+        "hi": "सही क्रम है: बिट (1 बिट) -> निबल (4 बिट्स) -> बाइट (8 बिट्स) -> KB (1024 बाइट्स)। यह डिजिटल जानकारी को मापने का मानक पदानुक्रम है [cite: 1084, 1145]।"
+      },
+      "key_takeaway": {
+        "en": "Memory hierarchy: Bit < Nibble < Byte < KB < MB < GB < TB.",
+        "hi": "मेमोरी पदानुक्रम: Bit < Nibble < Byte < KB < MB < GB < TB ।"
+      }
+    },
+    {
+      "question_id": 17,
+      "question": {
+        "en": "Which type of ROM can be erased by exposing it to strong ultraviolet light?",
+        "hi": "किस प्रकार के ROM को तेज पराबैंगनी (ultraviolet) प्रकाश के संपर्क में लाकर मिटाया जा सकता है?"
+      },
+      "options": {
+        "a": {"en": "PROM", "hi": "PROM"},
+        "b": {"en": "EPROM", "hi": "EPROM (Erasable Programmable ROM)"},
+        "c": {"en": "EEPROM", "hi": "EEPROM"},
+        "d": {"en": "RAM", "hi": "RAM"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "The 'E' stands for Erasable.",
+        "hi": "'E' का अर्थ इरेजेबल (Erasable) है।"
+      },
+      "explanation": {
+        "en": "EPROM stands for Erasable Programmable Read-Only Memory. It is a type of non-volatile memory that can be erased and reprogrammed many times[cite: 1144].",
+        "hi": "EPROM का अर्थ इरेजेबल प्रोग्रामेबल रीड-ओनली मेमोरी है। यह एक प्रकार की नॉन-वोलेटाइल मेमोरी है जिसे कई बार मिटाया और पुन: प्रोग्राम किया जा सकता है [cite: 1144]।"
+      },
+      "key_takeaway": {
+        "en": "ROM comes in various types like PROM, EPROM, and EEPROM.",
+        "hi": "ROM विभिन्न प्रकारों में आता है जैसे PROM, EPROM, और EEPROM ।"
+      }
+    },
+    {
+      "question_id": 18,
+      "question": {
+        "en": "Which of these memory units is equal to 1024 Gigabytes (GB)?",
+        "hi": "इनमें से कौन सी मेमोरी इकाई 1024 गीगाबाइट (GB) के बराबर है?"
+      },
+      "options": {
+        "a": {"en": "1 Megabyte (MB)", "hi": "1 मेगाबाइट (MB)"},
+        "b": {"en": "1 Terabyte (TB)", "hi": "1 टेराबाइट (TB)"},
+        "c": {"en": "1 Kilobyte (KB)", "hi": "1 किलोबाइट (KB)"},
+        "d": {"en": "1 Petabyte (PB)", "hi": "1 पेटाबाइट (PB)"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "TB is the next unit after GB in the memory scale.",
+        "hi": "मेमोरी स्केल में GB के बाद अगली इकाई TB है।"
+      },
+      "explanation": {
+        "en": "Computer memory units jump by powers of 2 (specifically 1024). 1024 KB = 1 MB, 1024 MB = 1 GB, and 1024 GB = 1 TB.",
+        "hi": "कंप्यूटर मेमोरी यूनिट्स 2 की पावर (विशेष रूप से 1024) से बढ़ती हैं। 1024 KB = 1 MB, 1024 MB = 1 GB, और 1024 GB = 1 TB ।"
+      },
+      "key_takeaway": {
+        "en": "1 TB = 1024 GB.",
+        "hi": "1 TB = 1024 GB ।"
+      }
+    },
+    {
+      "question_id": 19,
+      "question": {
+        "en": "A 'Digital Camera' acts as an ______ device because it captures real-world images and sends them to the computer.",
+        "hi": "एक 'डिजिटल कैमरा' एक ______ डिवाइस के रूप में कार्य करता है क्योंकि यह वास्तविक दुनिया की छवियों को कैप्चर करता है और उन्हें कंप्यूटर पर भेजता है।"
+      },
+      "options": {
+        "a": {"en": "Output", "hi": "आउटपुट"},
+        "b": {"en": "Input", "hi": "इनपुट (Input)"},
+        "c": {"en": "Storage", "hi": "स्टोरेज"},
+        "d": {"en": "Processing", "hi": "प्रोसेसिंग"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Data (images) is moving FROM the outside world INTO the computer.",
+        "hi": "डेटा (छवियां) बाहरी दुनिया से कंप्यूटर के अंदर जा रहा है।"
+      },
+      "explanation": {
+        "en": "A digital camera captures photos or videos and converts them into digital data that the computer can use. Since it provides data to the computer system, it is an input device.",
+        "hi": "एक डिजिटल कैमरा फोटो या वीडियो कैप्चर करता है और उन्हें डिजिटल डेटा में बदल देता है जिसे कंप्यूटर उपयोग कर सकता है । चूंकि यह कंप्यूटर सिस्टम को डेटा प्रदान करता है, इसलिए यह एक इनपुट डिवाइस है।"
+      },
+      "key_takeaway": {
+        "en": "Digital Camera = Multimedia input device.",
+        "hi": "डिजिटल कैमरा = मल्टीमीडिया इनपुट डिवाइस ।"
+      }
+    },
+    {
+      "question_id": 20,
+      "question": {
+        "en": "What is the primary role of the 'Arithmetic Logic Unit' (ALU) within the CPU?",
+        "hi": "CPU के भीतर 'अरिथमेटिक लॉजिक यूनिट' (ALU) की प्राथमिक भूमिका क्या है?"
+      },
+      "options": {
+        "a": {"en": "To store documents permanently", "hi": "दस्तावेजों को स्थायी रूप से स्टोर करने के लिए"},
+        "b": {"en": "To perform mathematical calculations and logical comparisons", "hi": "गणितीय गणना और तार्किक तुलना करने के लिए"},
+        "c": {"en": "To display text on the monitor", "hi": "मॉनिटर पर टेक्स्ट प्रदर्शित करने के लिए"},
+        "d": {"en": "To cool the system", "hi": "सिस्टम को ठंडा करने के लिए"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Think of 'Arithmetic' (Math) and 'Logic' (True/False decisions).",
+        "hi": "'अरिथमेटिक' (गणित) और 'लॉजिक' (सही/गलत निर्णय) के बारे में सोचें।"
+      },
+      "explanation": {
+        "en": "The ALU is the part of the CPU where the actual data processing happens. It adds, subtracts, and makes logical decisions like 'is A greater than B?'[cite: 1084, 1145].",
+        "hi": "ALU CPU का वह भाग है जहाँ वास्तविक डेटा प्रोसेसिंग होती है। यह जोड़ता है, घटाता है, और 'क्या A, B से बड़ा है?' जैसे तार्किक निर्णय लेता है [cite: 1084, 1145]।"
+      },
+      "key_takeaway": {
+        "en": "ALU = Calculation and decision center.",
+        "hi": "ALU = गणना और निर्णय केंद्र ।"
+      }
+    },
+    {
+      "question_id": 21,
+      "question": {
+        "en": "Which storage device is highly portable and uses 'Flash Memory' to store data?",
+        "hi": "कौन सा स्टोरेज डिवाइस अत्यधिक पोर्टेबल है और डेटा स्टोर करने के लिए 'फ्लैश मेमोरी' का उपयोग करता है?"
+      },
+      "options": {
+        "a": {"en": "Hard Disk", "hi": "हार्ड डिस्क"},
+        "b": {"en": "Pen Drive", "hi": "पेन ड्राइव (Pen Drive)"},
+        "c": {"en": "DVD", "hi": "DVD"},
+        "d": {"en": "Monitor", "hi": "मॉनिटर"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is small, fits in a pocket, and plugs into a USB port.",
+        "hi": "यह छोटा है, जेब में फिट हो जाता है, और USB पोर्ट में लग जाता है।"
+      },
+      "explanation": {
+        "en": "A Pen Drive is a secondary storage device that uses flash memory chips. It has no moving parts and is very durable for carrying files between different computers.",
+        "hi": "पेन ड्राइव एक सेकेंडरी स्टोरेज डिवाइस है जो फ्लैश मेमोरी चिप्स का उपयोग करती है। इसमें कोई हिलने वाला भाग नहीं है और यह विभिन्न कंप्यूटरों के बीच फाइलों को ले जाने के लिए बहुत टिकाऊ है ।"
+      },
+      "key_takeaway": {
+        "en": "Pen Drive = Flash-based portable secondary memory.",
+        "hi": "पेन ड्राइव = फ्लैश-आधारित पोर्टेबल सेकेंडरी मेमोरी ।"
+      }
+    },
+    {
+      "question_id": 22,
+      "question": {
+        "en": "What happens to the data stored in RAM when you turn off the computer?",
+        "hi": "जब आप कंप्यूटर बंद करते हैं तो RAM में संग्रहीत डेटा का क्या होता है?"
+      },
+      "options": {
+        "a": {"en": "It is saved automatically to the Hard Disk", "hi": "यह हार्ड डिस्क में अपने आप सहेज लिया जाता है"},
+        "b": {"en": "It is lost forever (deleted)", "hi": "यह हमेशा के लिए नष्ट हो जाता है (हटा दिया जाता है)"},
+        "c": {"en": "It is printed", "hi": "यह प्रिंट हो जाता है"},
+        "d": {"en": "It stays in RAM until you turn it back on", "hi": "जब तक आप इसे वापस चालू नहीं करते यह RAM में ही रहता है"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "RAM is 'Volatile' memory.",
+        "hi": "RAM 'वोलेटाइल' (परिवर्तनशील) मेमोरी है।"
+      },
+      "explanation": {
+        "en": "RAM (Random Access Memory) is volatile. It only holds data while the computer is receiving electricity. This is why you must 'save' your work to a hard disk before turning off the PC[cite: 1144].",
+        "hi": "RAM (रैंडम एक्सेस मेमोरी) वोलेटाइल है। यह केवल तब तक डेटा रखता है जब तक कंप्यूटर को बिजली मिल रही हो। यही कारण है कि आपको PC बंद करने से पहले अपने काम को हार्ड डिस्क में 'सेव' करना चाहिए [cite: 1144]।"
+      },
+      "key_takeaway": {
+        "en": "Volatile memory requires power to keep data[cite: 1144].",
+        "hi": "वोलेटाइल मेमोरी को डेटा रखने के लिए पावर की आवश्यकता होती है [cite: 1144]।"
+      }
+    },
+    {
+      "question_id": 23,
+      "question": {
+        "en": "Which output device is used to hear music or sounds from the computer?",
+        "hi": "कंप्यूटर से संगीत या ध्वनियाँ सुनने के लिए किस आउटपुट डिवाइस का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "Microphone", "hi": "माइक्रोफोन"},
+        "b": {"en": "Speaker", "hi": "स्पीकर (Speaker)"},
+        "c": {"en": "Projector", "hi": "प्रोजेक्टर"},
+        "d": {"en": "VDU", "hi": "VDU"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It converts electrical signals into sound waves.",
+        "hi": "यह विद्युत संकेतों को ध्वनि तरंगों में बदलता है।"
+      },
+      "explanation": {
+        "en": "Speakers are output devices that produce audio. When you play a movie or a song, the computer sends the digital sound data to the speakers.",
+        "hi": "स्पीकर आउटपुट डिवाइस हैं जो ऑडियो उत्पन्न करते हैं। जब आप कोई फिल्म या गाना चलाते हैं, तो कंप्यूटर डिजिटल ध्वनि डेटा स्पीकर को भेजता है ।"
+      },
+      "key_takeaway": {
+        "en": "Speaker = Audio output device.",
+        "hi": "स्पीकर = ऑडियो आउटपुट डिवाइस ।"
+      }
+    },
+    {
+      "question_id": 24,
+      "question": {
+        "en": "What is the full form of 'ROM'?",
+        "hi": "'ROM' का फुल फॉर्म क्या है?"
+      },
+      "options": {
+        "a": {"en": "Random Only Memory", "hi": "रैंडम ओनली मेमोरी"},
+        "b": {"en": "Read Only Memory", "hi": "रीड ओनली मेमोरी (Read Only Memory)"},
+        "c": {"en": "Rapid Operating Module", "hi": "रैपिड ऑपरेटिंग मॉड्यूल"},
+        "d": {"en": "Real Object Monitor", "hi": "रियल ऑब्जेक्ट मॉनिटर"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "You can read the data from it, but generally cannot write or change it easily.",
+        "hi": "आप इससे डेटा पढ़ सकते हैं, लेकिन आम तौर पर इसे आसानी से लिख या बदल नहीं सकते।"
+      },
+      "explanation": {
+        "en": "Read-Only Memory (ROM) is a type of storage that holds permanent instructions for the computer, like the software needed to 'start up' the system[cite: 1144]. It does not lose data when power is off.",
+        "hi": "रीड-ओनली मेमोरी (ROM) एक प्रकार का स्टोरेज है जो कंप्यूटर के लिए स्थायी निर्देश रखता है, जैसे सिस्टम को 'स्टार्ट अप' करने के लिए आवश्यक सॉफ़्टवेयर [cite: 1144]। पावर बंद होने पर यह डेटा नहीं खोता है।"
+      },
+      "key_takeaway": {
+        "en": "ROM = Non-volatile, permanent instruction storage[cite: 1144].",
+        "hi": "ROM = गैर-परिवर्तनशील, स्थायी निर्देश भंडारण [cite: 1144]।"
+      }
+    },
+    {
+      "question_id": 25,
+      "question": {
+        "en": "Which secondary storage device is found inside the computer cabinet and stores the operating system and user files?",
+        "hi": "कौन सा सेकेंडरी स्टोरेज डिवाइस कंप्यूटर कैबिनेट के अंदर पाया जाता है और ऑपरेटिंग सिस्टम और यूजर फाइलों को स्टोर करता है?"
+      },
+      "options": {
+        "a": {"en": "RAM", "hi": "RAM"},
+        "b": {"en": "Hard Disk", "hi": "हार्ड डिस्क (Hard Disk)"},
+        "c": {"en": "Mouse", "hi": "माउस"},
+        "d": {"en": "Keyboard", "hi": "कीबोर्ड"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is a high-capacity magnetic disk.",
+        "hi": "यह एक उच्च क्षमता वाली चुंबकीय डिस्क है।"
+      },
+      "explanation": {
+        "en": "The Hard Disk is the main storage device of a computer. It can store massive amounts of data (measured in GB or TB) permanently. Everything you 'save' goes here.",
+        "hi": "हार्ड डिस्क कंप्यूटर का मुख्य स्टोरेज डिवाइस है। यह स्थायी रूप से भारी मात्रा में डेटा (GB या TB में मापा गया) स्टोर कर सकता है । आप जो कुछ भी 'सेव' करते हैं वह यहीं जाता है।"
+      },
+      "key_takeaway": {
+        "en": "Hard Disk = Main permanent storage unit.",
+        "hi": "हार्ड डिस्क = मुख्य स्थायी भंडारण इकाई ।"
+      }
+    },
+    {
+      "question_id": 26,
+      "question": {
+        "en": "How many bytes are there in one 'Kilobyte' (KB)?",
+        "hi": "एक 'किलोबाइट' (KB) में कितने बाइट्स होते हैं?"
+      },
+      "options": {
+        "a": {"en": "1000 Bytes", "hi": "1000 बाइट्स"},
+        "b": {"en": "1024 Bytes", "hi": "1024 बाइट्स"},
+        "c": {"en": "8 Bytes", "hi": "8 बाइट्स"},
+        "d": {"en": "512 Bytes", "hi": "512 बाइट्स"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Computers use binary logic, so memory units are multiples of 2.",
+        "hi": "कंप्यूटर बाइनरी लॉजिक का उपयोग करते हैं, इसलिए मेमोरी इकाइयाँ 2 की मल्टीपल होती हैं।"
+      },
+      "explanation": {
+        "en": "Although 'Kilo' usually means 1000 in daily life, in computer science, 1 KB is exactly 1024 bytes.",
+        "hi": "यद्यपि दैनिक जीवन में 'किलो' का अर्थ आमतौर पर 1000 होता है, कंप्यूटर विज्ञान में, 1 KB ठीक 1024 बाइट्स होता है ।"
+      },
+      "key_takeaway": {
+        "en": "Standard memory multiplier = 1024.",
+        "hi": "मानक मेमोरी मल्टीप्लायर = 1024 ।"
+      }
+    },
+    {
+      "question_id": 27,
+      "question": {
+        "en": "Which of these devices is used for 'pointing' and selecting icons on the desktop?",
+        "hi": "डेस्कटॉप पर आइकन को 'पॉइंट' करने और चुनने के लिए इनमें से किस उपकरण का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "Printer", "hi": "प्रिंटर"},
+        "b": {"en": "Mouse", "hi": "माउस (Mouse)"},
+        "c": {"en": "Speaker", "hi": "स्पीकर"},
+        "d": {"en": "Hard Disk", "hi": "हार्ड डिस्क"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It usually has a left click, right click, and a scroll button.",
+        "hi": "इसमें आमतौर पर एक लेफ्ट क्लिक, राइट क्लिक और एक स्क्रॉल बटन होता है।"
+      },
+      "explanation": {
+        "en": "The Mouse is a pointing input device that controls a cursor on the screen. It allows you to interact with the Graphical User Interface (GUI) by clicking and dragging objects.",
+        "hi": "माउस एक पॉइंटिंग इनपुट डिवाइस है जो स्क्रीन पर कर्सर को नियंत्रित करता है। यह आपको वस्तुओं को क्लिक और ड्रैग करके ग्राफिकल यूजर इंटरफेस (GUI) के साथ इंटरैक्ट करने की अनुमति देता है ।"
+      },
+      "key_takeaway": {
+        "en": "Mouse = Primary graphical input device.",
+        "hi": "माउस = प्राथमिक ग्राफिकल इनपुट डिवाइस ।"
+      }
+    },
+    {
+      "question_id": 28,
+      "question": {
+        "en": "What is the characteristic of a computer that means it does not make mistakes on its own?",
+        "hi": "कंप्यूटर की वह विशेषता क्या है जिसका अर्थ है कि वह अपने आप गलतियाँ नहीं करता है?"
+      },
+      "options": {
+        "a": {"en": "Speed", "hi": "गति"},
+        "b": {"en": "Accuracy", "hi": "सटीकता (Accuracy)"},
+        "c": {"en": "Storage", "hi": "भंडारण"},
+        "d": {"en": "No IQ", "hi": "कोई IQ नहीं"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It refers to the degree of perfection in the processing.",
+        "hi": "यह प्रोसेसिंग में पूर्णता की डिग्री को संदर्भित करता है।"
+      },
+      "explanation": {
+        "en": "Accuracy means the computer provides error-free results. If you give the correct input (e.g., 25*4), the computer will always provide the correct output (100) every single time without fail.",
+        "hi": "सटीकता (Accuracy) का अर्थ है कि कंप्यूटर त्रुटिहीन परिणाम प्रदान करता है। यदि आप सही इनपुट (जैसे, 25*4) देते हैं, तो कंप्यूटर हर बार बिना किसी असफलता के सही आउटपुट (100) प्रदान करेगा ।"
+      },
+      "key_takeaway": {
+        "en": "Accuracy is a core strength of computer systems.",
+        "hi": "सटीकता कंप्यूटर सिस्टम की एक मुख्य ताकत है ।"
+      }
+    },
+    {
+      "question_id": 29,
+      "question": {
+        "en": "Which component of the computer system is considered an 'Impact' or 'Non-impact' hardware for producing hard copies?",
+        "hi": "हार्ड कॉपी तैयार करने के लिए कंप्यूटर सिस्टम के किस घटक को 'इम्पैक्ट' या 'नॉन-इम्पैक्ट' हार्डवेयर माना जाता है?"
+      },
+      "options": {
+        "a": {"en": "Monitor", "hi": "मॉनिटर"},
+        "b": {"en": "Printer", "hi": "प्रिंटर (Printer)"},
+        "c": {"en": "Scanner", "hi": "स्कैनर"},
+        "d": {"en": "CPU", "hi": "CPU"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It prints text or graphics on paper.",
+        "hi": "यह कागज पर टेक्स्ट या ग्राफिक्स प्रिंट करता है।"
+      },
+      "explanation": {
+        "en": "Printers are categorized into Impact (like Dot Matrix) and Non-impact (like Inkjet or Laser) types based on how they apply ink to paper.",
+        "hi": "प्रिंटर को कागज पर स्याही लगाने के तरीके के आधार पर इम्पैक्ट (जैसे डॉट मैट्रिक्स) और नॉन-इम्पैक्ट (जैसे इंकजेट या लेजर) प्रकारों में वर्गीकृत किया जाता है ।"
+      },
+      "key_takeaway": {
+        "en": "Printer = Output device for permanent hard copies.",
+        "hi": "प्रिंटर = स्थायी हार्ड प्रतियों के लिए आउटपुट डिवाइस ।"
+      }
+    },
+    {
+      "question_id": 30,
+      "question": {
+        "en": "In the computer's functional block diagram, what is the third unit besides Input and Output units?",
+        "hi": "कंप्यूटर के फंक्शनल ब्लॉक डायग्राम में, इनपुट और आउटपुट यूनिट के अलावा तीसरी यूनिट क्या है?"
+      },
+      "options": {
+        "a": {"en": "Power Unit", "hi": "पावर यूनिट"},
+        "b": {"en": "Processing Unit (CPU)", "hi": "प्रोसेसिंग यूनिट (CPU)"},
+        "c": {"en": "Cooling Unit", "hi": "कूलिंग यूनिट"},
+        "d": {"en": "Network Unit", "hi": "नेटवर्क यूनिट"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is where all the 'thinking' and calculation happens.",
+        "hi": "यही वह जगह है जहाँ सारा 'सोच-विचार' और गणना होती है।"
+      },
+      "explanation": {
+        "en": "A computer functions through three stages: Input (receiving data), Processing (calculating/thinking via CPU), and Output (showing result)[cite: 1145]. This is known as the IPO cycle.",
+        "hi": "एक कंप्यूटर तीन चरणों के माध्यम से कार्य करता है: इनपुट (डेटा प्राप्त करना), प्रोसेसिंग (CPU के माध्यम से गणना/सोच-विचार), और आउटपुट (परिणाम दिखाना) [cite: 1145]। इसे IPO चक्र के रूप में जाना जाता है।"
+      },
+      "key_takeaway": {
+        "en": "IPO Cycle = Input -> Process -> Output[cite: 1145].",
+        "hi": "IPO चक्र = इनपुट -> प्रोसेस -> आउटपुट [cite: 1145]।"
+      }
+    }
+  ]
+}
