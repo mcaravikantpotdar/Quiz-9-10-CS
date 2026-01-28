@@ -1,0 +1,794 @@
+{
+  "metadata": {
+    "chapter_number": 4,
+    "chapter_title": "Digital Presentation (MS-PowerPoint)",
+    "chapter_title_hindi": "डिजिटल प्रेजेंटेशन (MS-PowerPoint)",
+    "subject": "Computer Science - Class 9",
+    "board": "HPBOSE",
+    "total_questions": 30,
+    "version": "1.0",
+    "naming_convention": "09_CS_CH04_Digital_Presentation.json"
+  },
+  "questions": [
+    {
+      "question_id": 1,
+      "question": {
+        "en": "What is Microsoft PowerPoint primarily used for?",
+        "hi": "माइक्रोसॉफ्ट पावरपॉइंट मुख्य रूप से किसके लिए उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "Calculating budget and accounts", "hi": "बजट और खातों की गणना करने के लिए"},
+        "b": {"en": "Creating visual presentations to share ideas", "hi": "विचारों को साझा करने के लिए विजुअल प्रेजेंटेशन बनाने के लिए"},
+        "c": {"en": "Sending and receiving emails", "hi": "ईमेल भेजने और प्राप्त करने के लिए"},
+        "d": {"en": "Typing long text-only books", "hi": "केवल टेक्स्ट वाली लंबी किताबें टाइप करने के लिए"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Think of a teacher using a screen to show pictures and points while teaching.",
+        "hi": "पढ़ते समय चित्र और बिंदु दिखाने के लिए स्क्रीन का उपयोग करने वाले शिक्षक के बारे में सोचें।"
+      },
+      "explanation": {
+        "en": "MS-PowerPoint is a presentation software. It allows you to combine text, images, sound, and animation onto 'slides' to make information easier to understand for an audience. It is widely used in schools and offices.",
+        "hi": "MS-PowerPoint एक प्रेजेंटेशन सॉफ्टवेयर है। यह आपको दर्शकों के लिए जानकारी को समझना आसान बनाने के लिए 'स्लाइड' पर टेक्स्ट, चित्र, ध्वनि और एनीमेशन को संयोजित करने की अनुमति देता है। इसका उपयोग स्कूलों और कार्यालयों में व्यापक रूप से किया जाता है।"
+      },
+      "key_takeaway": {
+        "en": "PowerPoint = Tool for effective visual communication.",
+        "hi": "पावरपॉइंट = प्रभावी विजुअल कम्युनिकेशन के लिए टूल।"
+      }
+    },
+    {
+      "question_id": 2,
+      "question": {
+        "en": "What is an individual page in a PowerPoint presentation called?",
+        "hi": "पावरपॉइंट प्रेजेंटेशन में एक व्यक्तिगत पेज को क्या कहा जाता है?"
+      },
+      "options": {
+        "a": {"en": "Sheet", "hi": "शीट"},
+        "b": {"en": "Document", "hi": "दस्तावेज़"},
+        "c": {"en": "Slide", "hi": "स्लाइड (Slide)"},
+        "d": {"en": "Frame", "hi": "फ्रेम"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "Just like a book has 'pages', a presentation has ______.",
+        "hi": "जैसे एक किताब में 'पेज' होते हैं, वैसे ही एक प्रेजेंटेशन में ______ होते हैं।"
+      },
+      "explanation": {
+        "en": "In Word, we work on 'Pages'; in Excel, we work on 'Worksheets'; but in PowerPoint, the basic unit of a file is called a 'Slide'. You can have as many slides as you need in one presentation.",
+        "hi": "वर्ड में, हम 'पेज' पर काम करते हैं; एक्सेल में, हम 'वर्कशीट' पर काम करते हैं; लेकिन पावरपॉइंट में, फ़ाइल की मूल इकाई को 'स्लाइड' कहा जाता है। एक प्रेजेंटेशन में आपकी ज़रूरत के अनुसार कई स्लाइड हो सकती हैं।"
+      },
+      "key_takeaway": {
+        "en": "Slide = The fundamental unit of a PowerPoint file.",
+        "hi": "स्लाइड = पावरपॉइंट फ़ाइल की मौलिक इकाई।"
+      }
+    },
+    {
+      "question_id": 3,
+      "question": {
+        "en": "What is the standard file extension for a PowerPoint presentation?",
+        "hi": "पावरपॉइंट प्रेजेंटेशन के लिए मानक फ़ाइल एक्सटेंशन क्या है?"
+      },
+      "options": {
+        "a": {"en": ".docx", "hi": ".docx"},
+        "b": {"en": ".pptx", "hi": ".pptx"},
+        "c": {"en": ".txt", "hi": ".txt"},
+        "d": {"en": ".bmp", "hi": ".bmp"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "This was specifically mentioned in your Model Question Paper.",
+        "hi": "इसका उल्लेख विशेष रूप से आपके मॉडल प्रश्न पत्र में किया गया था।"
+      },
+      "explanation": {
+        "en": "Modern PowerPoint files are saved with the '.pptx' extension. Older versions used '.ppt'. The 'x' stands for the XML format which makes files smaller and safer.",
+        "hi": "आधुनिक पावरपॉइंट फ़ाइलें '.pptx' एक्सटेंशन के साथ सहेजी जाती हैं। पुराने संस्करणों में '.ppt' का उपयोग किया जाता था। 'x' का अर्थ XML फॉर्मेट है जो फ़ाइलों को छोटा और सुरक्षित बनाता है।"
+      },
+      "key_takeaway": {
+        "en": ".pptx = Microsoft PowerPoint Presentation.",
+        "hi": ".pptx = माइक्रोसॉफ्ट पावरपॉइंट प्रेजेंटेशन।"
+      }
+    },
+    {
+      "question_id": 4,
+      "question": {
+        "en": "Which key is used to start a 'Slide Show' from the very first slide?",
+        "hi": "बिल्कुल पहली स्लाइड से 'स्लाइड शो' शुरू करने के लिए किस कुंजी का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "F1", "hi": "F1"},
+        "b": {"en": "F3", "hi": "F3"},
+        "c": {"en": "F5", "hi": "F5"},
+        "d": {"en": "F7", "hi": "F7"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "It is a single Function key at the top of your keyboard.",
+        "hi": "यह आपके कीबोर्ड के शीर्ष पर एक सिंगल फंक्शन की (Function key) है।"
+      },
+      "explanation": {
+        "en": "Pressing the F5 key is the quickest way to start your presentation in full-screen mode from the beginning. If you want to start from the 'current' slide, you use Shift + F5.",
+        "hi": "F5 कुंजी दबाना अपनी प्रेजेंटेशन को शुरू से फुल-स्क्रीन मोड में शुरू करने का सबसे तेज़ तरीका है। यदि आप 'वर्तमान' स्लाइड से शुरू करना चाहते हैं, तो आप Shift + F5 का उपयोग करते हैं।"
+      },
+      "key_takeaway": {
+        "en": "F5 = Start Slide Show from Slide 1.",
+        "hi": "F5 = स्लाइड 1 से स्लाइड शो शुरू करें।"
+      }
+    },
+    {
+      "question_id": 5,
+      "question": {
+        "en": "What is the dotted rectangular box on a new slide that allows you to enter text or insert objects called?",
+        "hi": "एक नई स्लाइड पर वह बिंदुदार आयताकार बॉक्स क्या कहलाता है जो आपको टेक्स्ट दर्ज करने या ऑब्जेक्ट डालने की अनुमति देता है?"
+      },
+      "options": {
+        "a": {"en": "Textbox", "hi": "टेक्स्टबॉक्स"},
+        "b": {"en": "Placeholder", "hi": "प्लेसहोल्डर (Placeholder)"},
+        "c": {"en": "Layout Box", "hi": "लेआउट बॉक्स"},
+        "d": {"en": "Drawing Area", "hi": "ड्राइंग एरिया"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It 'holds' the place for your content.",
+        "hi": "यह आपकी सामग्री के लिए जगह 'होल्ड' (hold) करता है।"
+      },
+      "explanation": {
+        "en": "Placeholders are boxes with dotted borders that appear on new slides. They act as containers for content like titles, body text, charts, or pictures. You just click inside them to start adding your work.",
+        "hi": "प्लेसहोल्डर बिंदुदार बॉर्डर वाले बॉक्स होते हैं जो नई स्लाइड पर दिखाई देते हैं। वे टाइटल, बॉडी टेक्स्ट, चार्ट या चित्रों जैसी सामग्री के लिए कंटेनर के रूप में कार्य करते हैं। आप अपना काम जोड़ना शुरू करने के लिए बस उनके अंदर क्लिक करते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Placeholders = Dotted containers for slide content.",
+        "hi": "प्लेसहोल्डर = स्लाइड सामग्री के लिए बिंदुदार कंटेनर।"
+      }
+    },
+    {
+      "question_id": 6,
+      "question": {
+        "en": "Which view is used to create and design individual slides, where you do most of your work?",
+        "hi": "व्यक्तिगत स्लाइड बनाने और डिजाइन करने के लिए किस दृश्य (view) का उपयोग किया जाता है, जहाँ आप अपना अधिकांश काम करते हैं?"
+      },
+      "options": {
+        "a": {"en": "Normal View", "hi": "नॉर्मल व्यू (Normal View)"},
+        "b": {"en": "Slide Sorter View", "hi": "स्लाइड सॉर्टर व्यू"},
+        "c": {"en": "Reading View", "hi": "रीडिंग व्यू"},
+        "d": {"en": "Outline View", "hi": "आउटलाइन व्यू"}
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "This is the default view when you open PowerPoint.",
+        "hi": "पावरपॉइंट खोलने पर यह डिफ़ॉल्ट व्यू होता है।"
+      },
+      "explanation": {
+        "en": "Normal View is the main editing view. It has three parts: the Slide Pane (where you design the current slide), the Thumbnails Pane (on the left), and the Notes Pane (at the bottom).",
+        "hi": "नॉर्मल व्यू मुख्य एडिटिंग व्यू है। इसके तीन भाग होते हैं: स्लाइड पैन (जहाँ आप वर्तमान स्लाइड डिजाइन करते हैं), थंबनेल पैन (बाईं ओर), और नोट्स पैन (नीचे की ओर)।"
+      },
+      "key_takeaway": {
+        "en": "Normal View = Editing and Design mode.",
+        "hi": "नॉर्मल व्यू = एडिटिंग और डिजाइन मोड।"
+      }
+    },
+    {
+      "question_id": 7,
+      "question": {
+        "en": "Which view displays all slides as miniature versions (thumbnails) to easily rearrange their order?",
+        "hi": "कौन सा व्यू सभी स्लाइड्स को छोटे रूप (थंबनेल) में प्रदर्शित करता है ताकि उनके क्रम को आसानी से बदला जा सके?"
+      },
+      "options": {
+        "a": {"en": "Normal View", "hi": "नॉर्मल व्यू"},
+        "b": {"en": "Slide Sorter View", "hi": "स्लाइड सॉर्टर व्यू (Slide Sorter View)"},
+        "c": {"en": "Slide Show View", "hi": "स्लाइड शो व्यू"},
+        "d": {"en": "Notes Page View", "hi": "नोट्स पेज व्यू"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Use this view when you want to 'sort' your slides.",
+        "hi": "जब आप अपनी स्लाइड्स को 'सॉर्ट' (क्रम में) करना चाहें तो इस व्यू का उपयोग करें।"
+      },
+      "explanation": {
+        "en": "Slide Sorter View shows all slides on a single screen as small cards. It is perfect for seeing the flow of your presentation and for dragging slides to move them to a new position.",
+        "hi": "स्लाइड सॉर्टर व्यू एक ही स्क्रीन पर सभी स्लाइड्स को छोटे कार्ड के रूप में दिखाता है। यह आपकी प्रेजेंटेशन के प्रवाह को देखने और स्लाइड्स को खींचकर नई स्थिति में ले जाने के लिए सबसे अच्छा है।"
+      },
+      "key_takeaway": {
+        "en": "Slide Sorter = Organizing and rearranging slides.",
+        "hi": "स्लाइड सॉर्टर = स्लाइड्स को व्यवस्थित करना और क्रम बदलना।"
+      }
+    },
+    {
+      "question_id": 8,
+      "question": {
+        "en": "Which of the following describes the 'Slide Show' view?",
+        "hi": "निम्नलिखित में से कौन 'स्लाइड शो' व्यू का वर्णन करता है?"
+      },
+      "options": {
+        "a": {"en": "A view to type notes for the speaker", "hi": "वक्ता के लिए नोट्स टाइप करने का व्यू"},
+        "b": {"en": "A full-screen view used to present the slides to an audience", "hi": "दर्शकों के सामने स्लाइड पेश करने के लिए उपयोग किया जाने वाला फुल-स्क्रीन व्यू"},
+        "c": {"en": "A view to delete multiple slides at once", "hi": "एक बार में कई स्लाइड्स को डिलीट करने का व्यू"},
+        "d": {"en": "The view where you change the color of the text", "hi": "वह व्यू जहाँ आप टेक्स्ट का रंग बदलते हैं"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It hides all the PowerPoint toolbars and menus.",
+        "hi": "यह सभी पावरपॉइंट टूलबार और मेनू को छिपा देता है।"
+      },
+      "explanation": {
+        "en": "Slide Show view is the 'Final Result'. It displays your presentation one slide at a time on the full computer screen (or projector), showing all animations and transitions to the audience.",
+        "hi": "स्लाइड शो व्यू 'अंतिम परिणाम' है। यह आपकी प्रेजेंटेशन को फुल कंप्यूटर स्क्रीन (या प्रोजेक्टर) पर एक बार में एक स्लाइड के रूप में प्रदर्शित करता है, जो दर्शकों को सभी एनिमेशन और ट्रांज़िशन दिखाता है।"
+      },
+      "key_takeaway": {
+        "en": "Slide Show = Presentation mode for the audience.",
+        "hi": "स्लाइड शो = दर्शकों के लिए प्रेजेंटेशन मोड।"
+      }
+    },
+    {
+      "question_id": 9,
+      "question": {
+        "en": "What is a 'Slide Layout'?",
+        "hi": "'स्लाइड लेआउट' (Slide Layout) क्या है?"
+      },
+      "options": {
+        "a": {"en": "The background color of the slide", "hi": "स्लाइड का बैकग्राउंड रंग"},
+        "b": {"en": "The arrangement of placeholders on a slide", "hi": "स्लाइड पर प्लेसहोल्डर्स की व्यवस्था"},
+        "c": {"en": "The name of the presentation", "hi": "प्रेजेंटेशन का नाम"},
+        "d": {"en": "The sound played during a slide show", "hi": "स्लाइड शो के दौरान बजने वाली ध्वनि"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Common types include 'Title Slide', 'Title and Content', and 'Blank'.",
+        "hi": "सामान्य प्रकारों में 'टाइटल स्लाइड', 'टाइटल एंड कंटेंट' और 'ब्लैंक' शामिल हैं।"
+      },
+      "explanation": {
+        "en": "Slide Layout determines where your content (text, images) will be placed. For example, a 'Comparison' layout gives you two boxes side-by-side to show differences between two things.",
+        "hi": "स्लाइड लेआउट यह निर्धारित करता है कि आपकी सामग्री (टेक्स्ट, चित्र) कहाँ रखी जाएगी। उदाहरण के लिए, एक 'तुलना' (Comparison) लेआउट आपको दो चीजों के बीच अंतर दिखाने के लिए साथ-साथ दो बॉक्स देता है।"
+      },
+      "key_takeaway": {
+        "en": "Layout = Structure of a slide.",
+        "hi": "लेआउट = स्लाइड की संरचना।"
+      }
+    },
+    {
+      "question_id": 10,
+      "question": {
+        "en": "What is the shortcut key to insert a 'New Slide' into your current presentation?",
+        "hi": "अपनी वर्तमान प्रेजेंटेशन में 'नई स्लाइड' (New Slide) डालने की शॉर्टकट कुंजी क्या है?"
+      },
+      "options": {
+        "a": {"en": "Ctrl + N", "hi": "Ctrl + N"},
+        "b": {"en": "Ctrl + M", "hi": "Ctrl + M"},
+        "c": {"en": "Ctrl + S", "hi": "Ctrl + S"},
+        "d": {"en": "Ctrl + P", "hi": "Ctrl + P"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Warning: Ctrl + N opens a new Presentation file, not just a slide.",
+        "hi": "चेतावनी: Ctrl + N एक नई प्रेजेंटेशन फ़ाइल खोलता है, न कि केवल एक स्लाइड।"
+      },
+      "explanation": {
+        "en": "Students often confuse Ctrl+N with Ctrl+M. Ctrl + N starts a whole new PowerPoint file. To add just one more slide to the file you are already working on, use Ctrl + M.",
+        "hi": "छात्र अक्सर Ctrl+N और Ctrl+M के बीच भ्रमित हो जाते हैं। Ctrl + N एक पूरी नई पावरपॉइंट फ़ाइल शुरू करता है। जिस फ़ाइल पर आप पहले से काम कर रहे हैं उसमें बस एक और स्लाइड जोड़ने के लिए, Ctrl + M का उपयोग करें।"
+      },
+      "key_takeaway": {
+        "en": "Ctrl + M = Insert a new slide.",
+        "hi": "Ctrl + M = एक नई स्लाइड डालें।"
+      }
+    },
+    {
+      "question_id": 11,
+      "question": {
+        "en": "Which feature is used to apply a consistent set of colors, fonts, and backgrounds to all slides instantly?",
+        "hi": "सभी स्लाइड्स पर तुरंत रंगों, फोंट और बैकग्राउंड का एक सुसंगत सेट लागू करने के लिए किस सुविधा का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "Transition Effects", "hi": "ट्रांज़िशन इफेक्ट्स"},
+        "b": {"en": "Design Templates (Themes)", "hi": "डिजाइन टेम्पलेट्स (थीम)"},
+        "c": {"en": "Animation Pane", "hi": "एनीमेशन पैन"},
+        "d": {"en": "WordArt", "hi": "वर्डआर्ट"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "These pre-designed layouts help you make a professional-looking presentation quickly.",
+        "hi": "ये पूर्व-डिज़ाइन किए गए लेआउट आपको जल्दी से एक पेशेवर दिखने वाली प्रेजेंटेशन बनाने में मदद करते हैं।"
+      },
+      "explanation": {
+        "en": "Design Templates (or Themes) are pre-made styles. If you select one, PowerPoint automatically changes the background and font style of every slide in your presentation to match that style.",
+        "hi": "डिजाइन टेम्पलेट्स (या थीम) पहले से बनी शैलियाँ (styles) हैं। यदि आप एक चुनते हैं, तो पावरपॉइंट उस शैली से मिलान करने के लिए आपकी प्रेजेंटेशन की प्रत्येक स्लाइड के बैकग्राउंड और फ़ॉन्ट स्टाइल को स्वचालित रूप से बदल देता है।"
+      },
+      "key_takeaway": {
+        "en": "Themes = Professional design with one click.",
+        "hi": "थीम = एक क्लिक के साथ पेशेवर डिज़ाइन।"
+      }
+    },
+    {
+      "question_id": 12,
+      "question": {
+        "en": "What is the difference between 'Transitions' and 'Animations'?",
+        "hi": "'ट्रांज़िशन' (Transitions) और 'एनीमेशन' (Animations) के बीच क्या अंतर है?"
+      },
+      "options": {
+        "a": {"en": "Transitions apply to slide movement; Animations apply to objects on a slide", "hi": "ट्रांज़िशन स्लाइड की गति पर लागू होते हैं; एनीमेशन स्लाइड पर ऑब्जेक्ट्स पर लागू होते हैं"},
+        "b": {"en": "Transitions are for sound only; Animations are for text only", "hi": "ट्रांज़िशन केवल ध्वनि के लिए हैं; एनीमेशन केवल टेक्स्ट के लिए हैं"},
+        "c": {"en": "Transitions happen only at the end; Animations happen at the start", "hi": "ट्रांज़िशन केवल अंत में होते हैं; एनीमेशन शुरुआत में होते हैं"},
+        "d": {"en": "There is no difference", "hi": "कोई अंतर नहीं है"}
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "Think: How does Slide 1 change to Slide 2? That is a Transition.",
+        "hi": "सोचें: स्लाइड 1, स्लाइड 2 में कैसे बदलती है? वह एक ट्रांज़िशन है।"
+      },
+      "explanation": {
+        "en": "A Transition is the visual effect that occurs when you move from one slide to the next (like Fade or Push). An Animation is the visual effect applied to a single object (like a word or a picture) to make it move or appear on a slide.",
+        "hi": "ट्रांज़िशन वह विजुअल इफेक्ट है जो तब होता है जब आप एक स्लाइड से दूसरी स्लाइड पर जाते हैं (जैसे फेड या पुश)। एनीमेशन वह विजुअल इफेक्ट है जो किसी एक ऑब्जेक्ट (जैसे शब्द या चित्र) पर उसे स्लाइड पर घुमाने या दिखाने के लिए लगाया जाता है।"
+      },
+      "key_takeaway": {
+        "en": "Transition = Slide-to-Slide; Animation = Object inside a Slide.",
+        "hi": "ट्रांज़िशन = स्लाइड-टू-स्लाइड; एनीमेशन = स्लाइड के अंदर का ऑब्जेक्ट।"
+      }
+    },
+    {
+      "question_id": 13,
+      "question": {
+        "en": "Which command is used to add a faded text or image behind the main content of a slide?",
+        "hi": "स्लाइड की मुख्य सामग्री के पीछे एक धुंधला टेक्स्ट या चित्र जोड़ने के लिए किस कमांड का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "Shadow", "hi": "शैडो (Shadow)"},
+        "b": {"en": "Watermark", "hi": "वाटरमार्क (Watermark)"},
+        "c": {"en": "Footer", "hi": "फुटर"},
+        "d": {"en": "Highlight", "hi": "हाइलाइट"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is often used to display 'Confidential' or 'Draft' in a document.",
+        "hi": "इसका उपयोग अक्सर दस्तावेज़ में 'Confidential' या 'Draft' प्रदर्शित करने के लिए किया जाता है।"
+      },
+      "explanation": {
+        "en": "A Watermark is a semi-transparent image or text placed in the background. It stays behind your text and images without making the slide content difficult to read.",
+        "hi": "वाटरमार्क बैकग्राउंड में रखा गया एक अर्ध-पारदर्शी चित्र या टेक्स्ट होता है। यह स्लाइड की सामग्री को पढ़ने में मुश्किल बनाए बिना आपके टेक्स्ट और चित्रों के पीछे रहता है।"
+      },
+      "key_takeaway": {
+        "en": "Watermark = Transparent background indicator.",
+        "hi": "वाटरमार्क = पारदर्शी बैकग्राउंड इंडिकेटर।"
+      }
+    },
+    {
+      "question_id": 14,
+      "question": {
+        "en": "Where is the 'Header and Footer' option located in MS-PowerPoint?",
+        "hi": "MS-PowerPoint में 'हेडर और फुटर' (Header and Footer) विकल्प कहाँ स्थित है?"
+      },
+      "options": {
+        "a": {"en": "Home Tab", "hi": "होम टैब"},
+        "b": {"en": "Design Tab", "hi": "डिजाइन टैब"},
+        "c": {"en": "Insert Tab", "hi": "इंसर्ट टैब (Insert Tab)"},
+        "d": {"en": "Review Tab", "hi": "रिव्यू टैब"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "You use this tab to 'add' something new to your slides.",
+        "hi": "आप अपनी स्लाइड्स में कुछ नया 'जोड़ने' के लिए इस टैब का उपयोग करते हैं।"
+      },
+      "explanation": {
+        "en": "The Header and Footer option allows you to add text (like the presentation date or name) to the top or bottom of every slide. Since you are 'adding' a component, it is found under the Insert tab.",
+        "hi": "हेडर और फुटर विकल्प आपको प्रत्येक स्लाइड के ऊपर या नीचे टेक्स्ट (जैसे प्रेजेंटेशन की तारीख या नाम) जोड़ने की अनुमति देता है। चूंकि आप एक घटक 'जोड़' रहे हैं, यह इंसर्ट टैब के तहत पाया जाता है।"
+      },
+      "key_takeaway": {
+        "en": "Insert Tab = Place to add multimedia, shapes, and footer info.",
+        "hi": "इंसर्ट टैब = मल्टीमीडिया, शेप्स और फुटर जानकारी जोड़ने की जगह।"
+      }
+    },
+    {
+      "question_id": 15,
+      "question": {
+        "en": "Which feature allows you to repeat the presentation again and again automatically?",
+        "hi": "कौन सी सुविधा आपको प्रेजेंटेशन को स्वचालित रूप से बार-बार दोहराने की अनुमति देती है?"
+      },
+      "options": {
+        "a": {"en": "Loop continuously until 'Esc'", "hi": "जब तक 'Esc' न दबाया जाए तब तक लगातार लूप करें"},
+        "b": {"en": "Transition Timer", "hi": "ट्रांज़िशन टाइमर"},
+        "c": {"en": "Slide Sorter", "hi": "स्लाइड सॉर्टर"},
+        "d": {"en": "Animation Painter", "hi": "एनीमेशन पेंटर"}
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "This is often used for advertisement screens in shops.",
+        "hi": "इसका उपयोग अक्सर दुकानों में विज्ञापन स्क्रीन के लिए किया जाता है।"
+      },
+      "explanation": {
+        "en": "In the 'Set Up Slide Show' settings, you can check 'Loop continuously until Esc'. This means when the last slide ends, the presentation automatically restarts from slide 1.",
+        "hi": "'सेट अप स्लाइड शो' सेटिंग्स में, आप 'Loop continuously until Esc' को चेक कर सकते हैं। इसका मतलब है कि जब आखिरी स्लाइड खत्म हो जाती है, तो प्रेजेंटेशन अपने आप स्लाइड 1 से फिर से शुरू हो जाती है।"
+      },
+      "key_takeaway": {
+        "en": "Looping = Continuous automated playback.",
+        "hi": "लूपिंग = निरंतर स्वचालित प्लेबैक।"
+      }
+    },
+    {
+      "question_id": 16,
+      "question": {
+        "en": "How can you change the background color of a single slide without affecting others?",
+        "hi": "दूसरों को प्रभावित किए बिना एक अकेली स्लाइड का बैकग्राउंड रंग आप कैसे बदल सकते हैं?"
+      },
+      "options": {
+        "a": {"en": "Delete the slide and recreate it", "hi": "स्लाइड को डिलीट करें और फिर से बनाएं"},
+        "b": {"en": "Right-click the slide -> Format Background", "hi": "स्लाइड पर राइट-क्लिक करें -> फॉर्मेट बैकग्राउंड"},
+        "c": {"en": "Change the Theme", "hi": "थीम बदलें"},
+        "d": {"en": "This is not possible", "hi": "यह संभव नहीं है"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Look for the option to 'Format' the specific slide background.",
+        "hi": "विशिष्ट स्लाइड बैकग्राउंड को 'फॉर्मेट' करने का विकल्प देखें।"
+      },
+      "explanation": {
+        "en": "By right-clicking a slide and choosing 'Format Background', you can apply a specific color, gradient, or picture to just that one slide. Themes, however, usually change all slides at once.",
+        "hi": "किसी स्लाइड पर राइट-क्लिक करके और 'फॉर्मेट बैकग्राउंड' चुनकर, आप केवल उसी एक स्लाइड पर एक विशिष्ट रंग, ग्रेडिएंट या चित्र लागू कर सकते हैं। हालाँकि, थीम आमतौर पर एक साथ सभी स्लाइड्स को बदल देती हैं।"
+      },
+      "key_takeaway": {
+        "en": "Format Background = Individual slide styling.",
+        "hi": "फॉर्मेट बैकग्राउंड = व्यक्तिगत स्लाइड स्टाइलिंग।"
+      }
+    },
+    {
+      "question_id": 17,
+      "question": {
+        "en": "Which key on the keyboard allows you to stop a running slide show immediately?",
+        "hi": "कीबोर्ड की कौन सी कुंजी आपको चलते हुए स्लाइड शो को तुरंत रोकने की अनुमति देती है?"
+      },
+      "options": {
+        "a": {"en": "Enter", "hi": "एंटर"},
+        "b": {"en": "Spacebar", "hi": "स्पेसबार"},
+        "c": {"en": "Esc (Escape)", "hi": "Esc (एस्केप)"},
+        "d": {"en": "Shift", "hi": "शिफ्ट"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "It is located at the very top-left corner of the keyboard.",
+        "hi": "यह कीबोर्ड के बिल्कुल ऊपर-बाएं कोने में स्थित है।"
+      },
+      "explanation": {
+        "en": "The Esc key stands for 'Escape'. Pressing it tells PowerPoint to exit the full-screen Slide Show view and return to the Normal editing view.",
+        "hi": "Esc कुंजी का अर्थ 'Escape' है। इसे दबाने से पावरपॉइंट फुल-स्क्रीन स्लाइड शो व्यू से बाहर निकल जाता है और नॉर्मल एडिटिंग व्यू पर वापस आ जाता है।"
+      },
+      "key_takeaway": {
+        "en": "Esc = Exit Slide Show mode.",
+        "hi": "Esc = स्लाइड शो मोड से बाहर निकलें।"
+      }
+    },
+    {
+      "question_id": 18,
+      "question": {
+        "en": "What is the 'Notes Pane' used for in MS-PowerPoint?",
+        "hi": "MS-PowerPoint में 'नोट्स पैन' (Notes Pane) का उपयोग किस लिए किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "To store confidential passwords", "hi": "गोपनीय पासवर्ड स्टोर करने के लिए"},
+        "b": {"en": "To write speaking points for the presenter that are not seen by the audience", "hi": "प्रस्तुतकर्ता के लिए बोलने वाले बिंदु लिखने के लिए जो दर्शकों को नहीं दिखते"},
+        "c": {"en": "To add titles to the slide", "hi": "स्लाइड में टाइटल जोड़ने के लिए"},
+        "d": {"en": "To draw shapes", "hi": "आकृतियाँ बनाने के लिए"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "This area is at the bottom of the Normal View screen.",
+        "hi": "यह क्षेत्र नॉर्मल व्यू स्क्रीन के निचले भाग में होता है।"
+      },
+      "explanation": {
+        "en": "The Notes Pane allows the presenter to write hints or extra information. During the presentation, the audience sees only the slide, but the speaker can see these notes to help them remember what to say.",
+        "hi": "नोट्स पैन प्रस्तुतकर्ता को संकेत या अतिरिक्त जानकारी लिखने की अनुमति देता है। प्रेजेंटेशन के दौरान, दर्शक केवल स्लाइड देखते हैं, लेकिन वक्ता इन नोट्स को देख सकता है ताकि उन्हें याद रहे कि क्या कहना है।"
+      },
+      "key_takeaway": {
+        "en": "Notes Pane = Presenter's secret guide.",
+        "hi": "नोट्स पैन = प्रस्तुतकर्ता का गुप्त गाइड।"
+      }
+    },
+    {
+      "question_id": 19,
+      "question": {
+        "en": "How do you duplicate an existing slide quickly in PowerPoint?",
+        "hi": "पावरपॉइंट में किसी मौजूदा स्लाइड की डुप्लीकेट कॉपी जल्दी से कैसे बनाई जाती है?"
+      },
+      "options": {
+        "a": {"en": "Ctrl + C and Ctrl + V", "hi": "Ctrl + C और Ctrl + V"},
+        "b": {"en": "Ctrl + D", "hi": "Ctrl + D"},
+        "c": {"en": "Right-click -> Duplicate Slide", "hi": "राइट-क्लिक करें -> डुप्लीकेट स्लाइड"},
+        "d": {"en": "All of the above", "hi": "उपरोक्त सभी"}
+      },
+      "correct_option": "d",
+      "hint": {
+        "en": "There are multiple ways to copy a slide.",
+        "hi": "स्लाइड को कॉपी करने के कई तरीके हैं।"
+      },
+      "explanation": {
+        "en": "To save time, you can duplicate a slide instead of creating a new one. You can use Copy/Paste, or the faster Ctrl + D shortcut, or simply right-click the thumbnail and choose 'Duplicate Slide'.",
+        "hi": "समय बचाने के लिए, आप नई स्लाइड बनाने के बजाय एक स्लाइड की डुप्लीकेट कॉपी बना सकते हैं। आप कॉपी/पेस्ट, या तेज़ Ctrl + D शॉर्टकट का उपयोग कर सकते हैं, या बस थंबनेल पर राइट-क्लिक करें और 'डुप्लीकेट स्लाइड' चुनें।"
+      },
+      "key_takeaway": {
+        "en": "Ctrl + D = Duplicate Slide/Object.",
+        "hi": "Ctrl + D = डुप्लीकेट स्लाइड/ऑब्जेक्ट।"
+      }
+    },
+    {
+      "question_id": 20,
+      "question": {
+        "en": "Which feature allows you to change the color of every instance of a specific word throughout the presentation?",
+        "hi": "कौन सी सुविधा आपको पूरी प्रेजेंटेशन में किसी विशिष्ट शब्द के हर उदाहरण का रंग बदलने की अनुमति देती है?"
+      },
+      "options": {
+        "a": {"en": "Slide Master", "hi": "स्लाइड मास्टर (Slide Master)"},
+        "b": {"en": "Find and Replace", "hi": "फाइंड और रिप्लेस"},
+        "c": {"en": "WordArt", "hi": "वर्डआर्ट"},
+        "d": {"en": "Design Tab", "hi": "डिजाइन टैब"}
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "This is the 'Master' slide that controls the look of all other slides.",
+        "hi": "यह 'मास्टर' स्लाइड है जो अन्य सभी स्लाइड्स के लुक को नियंत्रित करती है।"
+      },
+      "explanation": {
+        "en": "The Slide Master is the top slide in a hierarchy. If you change a font color or add a logo to the Slide Master, it automatically appears on every slide in your presentation.",
+        "hi": "स्लाइड मास्टर पदानुक्रम (hierarchy) में सबसे ऊपर की स्लाइड है। यदि आप स्लाइड मास्टर में फ़ॉन्ट का रंग बदलते हैं या लोगो जोड़ते हैं, तो यह आपकी प्रेजेंटेशन की प्रत्येक स्लाइड पर अपने आप दिखाई देने लगता है।"
+      },
+      "key_takeaway": {
+        "en": "Slide Master = Global styling tool.",
+        "hi": "स्लाइड मास्टर = ग्लोबल स्टाइलिंग टूल।"
+      }
+    },
+    {
+      "question_id": 21,
+      "question": {
+        "en": "What happens if you click 'Hide Slide' on a specific slide thumbnail?",
+        "hi": "यदि आप किसी विशिष्ट स्लाइड थंबनेल पर 'हाइड स्लाइड' (Hide Slide) क्लिक करते हैं तो क्या होता है?"
+      },
+      "options": {
+        "a": {"en": "The slide is deleted forever", "hi": "स्लाइड हमेशा के लिए डिलीट हो जाती है"},
+        "b": {"en": "The slide stays in the file but is not shown during the Slide Show", "hi": "स्लाइड फ़ाइल में रहती है लेकिन स्लाइड शो के दौरान नहीं दिखाई जाती है"},
+        "c": {"en": "The text on the slide becomes invisible", "hi": "स्लाइड पर टेक्स्ट अदृश्य हो जाता है"},
+        "d": {"en": "The slide moves to the end of the presentation", "hi": "स्लाइड प्रेजेंटेशन के अंत में चली जाती है"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is like marking a page in a book to skip while reading out loud.",
+        "hi": "यह जोर से पढ़ते समय किताब के किसी पेज को छोड़ने के लिए चिह्नित करने जैसा है।"
+      },
+      "explanation": {
+        "en": "Hiding a slide is useful if you have extra information that you might not need for every audience. You keep the work, but the viewers won't see it when you press F5.",
+        "hi": "स्लाइड को छिपाना तब उपयोगी होता है जब आपके पास अतिरिक्त जानकारी हो जिसकी आपको हर दर्शक के लिए आवश्यकता न हो। आप काम को फ़ाइल में रखते हैं, लेकिन जब आप F5 दबाते हैं तो दर्शक उसे नहीं देख पाएंगे।"
+      },
+      "key_takeaway": {
+        "en": "Hide Slide = Skip during presentation mode.",
+        "hi": "स्लाइड छिपाएं = प्रेजेंटेशन मोड के दौरान छोड़ें।"
+      }
+    },
+    {
+      "question_id": 22,
+      "question": {
+        "en": "Can you add sounds and music to a PowerPoint presentation?",
+        "hi": "क्या आप पावरपॉइंट प्रेजेंटेशन में ध्वनि और संगीत जोड़ सकते हैं?"
+      },
+      "options": {
+        "a": {"en": "No, only images and text are allowed", "hi": "नहीं, केवल चित्रों और टेक्स्ट की अनुमति है"},
+        "b": {"en": "Yes, but only for one slide", "hi": "हाँ, लेकिन केवल एक स्लाइड के लिए"},
+        "c": {"en": "Yes, you can add audio to one slide or across the whole presentation", "hi": "हाँ, आप एक स्लाइड पर या पूरी प्रेजेंटेशन में ऑडियो जोड़ सकते हैं"},
+        "d": {"en": "Only if you have a special printer", "hi": "केवल तभी जब आपके पास विशेष प्रिंटर हो"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "Use the 'Audio' button in the Insert tab.",
+        "hi": "इंसर्ट टैब में 'ऑडियो' बटन का उपयोग करें।"
+      },
+      "explanation": {
+        "en": "PowerPoint is multimedia-friendly. You can insert recorded narration, sound effects, or background music to make your presentation more engaging.",
+        "hi": "पावरपॉइंट मल्टीमीडिया-फ्रेंडली है। आप अपनी प्रेजेंटेशन को अधिक आकर्षक बनाने के लिए रिकॉर्ड किया गया वर्णन, ध्वनि प्रभाव या बैकग्राउंड संगीत डाल सकते हैं।"
+      },
+      "key_takeaway": {
+        "en": "PowerPoint supports Audio, Video, and Graphics.",
+        "hi": "पावरपॉइंट ऑडियो, वीडियो और ग्राफिक्स का समर्थन करता है।"
+      }
+    },
+    {
+      "question_id": 23,
+      "question": {
+        "en": "What is the function of the 'Entrance' animation effect?",
+        "hi": "'एंट्रेंस' (Entrance) एनीमेशन इफेक्ट का कार्य क्या है?"
+      },
+      "options": {
+        "a": {"en": "To make an object leave the slide", "hi": "किसी ऑब्जेक्ट को स्लाइड से बाहर ले जाने के लिए"},
+        "b": {"en": "To control how an object appears on the slide", "hi": "यह नियंत्रित करने के लिए कि कोई ऑब्जेक्ट स्लाइड पर कैसे दिखाई देता है"},
+        "c": {"en": "To change the color of the background", "hi": "बैकग्राउंड का रंग बदलने के लिए"},
+        "d": {"en": "To save the presentation", "hi": "प्रेजेंटेशन को सेव करने के लिए"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Example: A title 'Flying In' from the side.",
+        "hi": "उदाहरण: एक टाइटल साइड से 'उड़कर' (Flying In) आना।"
+      },
+      "explanation": {
+        "en": "Entrance effects (like Appear, Fade, or Fly In) determine how an object enters the slide area. Without an entrance effect, the object is visible as soon as the slide opens.",
+        "hi": "एंट्रेंस इफेक्ट (जैसे अपीयर, फेड, या फ्लाई इन) यह निर्धारित करते हैं कि कोई ऑब्जेक्ट स्लाइड क्षेत्र में कैसे प्रवेश करता है। एंट्रेंस इफेक्ट के बिना, स्लाइड खुलते ही ऑब्जेक्ट दिखाई देता है।"
+      },
+      "key_takeaway": {
+        "en": "Entrance Animations = Visual entry of objects.",
+        "hi": "एंट्रेंस एनीमेशन = ऑब्जेक्ट्स की विजुअल एंट्री।"
+      }
+    },
+    {
+      "question_id": 24,
+      "question": {
+        "en": "Which feature allows you to see a list of all animations applied to a slide?",
+        "hi": "कौन सी सुविधा आपको स्लाइड पर लागू सभी एनिमेशन की सूची देखने की अनुमति देती है?"
+      },
+      "options": {
+        "a": {"en": "Animation Pane", "hi": "एनीमेशन पैन (Animation Pane)"},
+        "b": {"en": "Slide Pane", "hi": "स्लाइड पैन"},
+        "c": {"en": "Taskbar", "hi": "टास्कबार"},
+        "d": {"en": "Status Bar", "hi": "स्टेटस बार"}
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "It appears on the right side of the screen when activated.",
+        "hi": "सक्रिय होने पर यह स्क्रीन के दाईं ओर दिखाई देता है।"
+      },
+      "explanation": {
+        "en": "The Animation Pane shows you the order of your animations. You can use it to reorder them, change their timing, or decide if they should start on a mouse click or automatically.",
+        "hi": "एनीमेशन पैन आपको आपके एनिमेशन का क्रम दिखाता है। आप इसका उपयोग उनका क्रम बदलने, उनके समय को बदलने, या यह तय करने के लिए कर सकते हैं कि वे माउस क्लिक पर शुरू हों या स्वचालित रूप से।"
+      },
+      "key_takeaway": {
+        "en": "Animation Pane = Control center for object movement.",
+        "hi": "एनीमेशन पैन = ऑब्जेक्ट की गति के लिए नियंत्रण केंद्र।"
+      }
+    },
+    {
+      "question_id": 25,
+      "question": {
+        "en": "How do you navigate to the 'next' slide during a Slide Show?",
+        "hi": "स्लाइड शो के दौरान 'अगली' स्लाइड पर आप कैसे जाते हैं?"
+      },
+      "options": {
+        "a": {"en": "Pressing the Right Arrow key", "hi": "दायां एरो (Arrow) की दबाकर"},
+        "b": {"en": "Clicking the left mouse button", "hi": "बायां माउस बटन क्लिक करके"},
+        "c": {"en": "Pressing the Spacebar", "hi": "स्पेसबार दबाकर"},
+        "d": {"en": "All of the above", "hi": "उपरोक्त सभी"}
+      },
+      "correct_option": "d",
+      "hint": {
+        "en": "There are many ways to move forward in a presentation.",
+        "hi": "प्रेजेंटेशन में आगे बढ़ने के कई तरीके हैं।"
+      },
+      "explanation": {
+        "en": "PowerPoint gives you many ways to advance slides so you can choose the most comfortable one while presenting. Left-click, Spacebar, Enter, and the Right/Down Arrow keys all move to the next slide.",
+        "hi": "पावरपॉइंट आपको स्लाइड आगे बढ़ाने के कई तरीके देता है ताकि आप प्रेजेंटेशन देते समय सबसे आरामदायक तरीका चुन सकें। लेफ्ट-क्लिक, स्पेसबार, एंटर, और राइट/डाउन एरो की, ये सभी अगली स्लाइड पर ले जाते हैं।"
+      },
+      "key_takeaway": {
+        "en": "User input (Click/Key) triggers the next slide.",
+        "hi": "उपयोगकर्ता इनपुट (क्लिक/कुंजी) अगली स्लाइड को ट्रिगर करता है।"
+      }
+    },
+    {
+      "question_id": 26,
+      "question": {
+        "en": "What is 'Rehearse Timings' used for?",
+        "hi": "'रिहर्स टाइमिंग्स' (Rehearse Timings) का उपयोग किस लिए किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "To check the spelling of the text", "hi": "टेक्स्ट की स्पेलिंग जाँचने के लिए"},
+        "b": {"en": "To record how much time you spend on each slide to automate the show", "hi": "शो को स्वचालित करने के लिए प्रत्येक स्लाइड पर आपके द्वारा बिताए गए समय को रिकॉर्ड करने के लिए"},
+        "c": {"en": "To change the font size", "hi": "फ़ॉन्ट साइज़ बदलने के लिए"},
+        "d": {"en": "To print the slides", "hi": "स्लाइड्स को प्रिंट करने के लिए"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It helps you practice your speech and sync it with slide changes.",
+        "hi": "यह आपको अपने भाषण का अभ्यास करने और इसे स्लाइड परिवर्तनों के साथ सिंक करने में मदद करता है।"
+      },
+      "explanation": {
+        "en": "Rehearse Timings allows you to run the slide show while PowerPoint records the time you take. You can then save these timings so the slides advance on their own at the exact right moment.",
+        "hi": "रिहर्स टाइमिंग्स आपको स्लाइड शो चलाने की अनुमति देता है जबकि पावरपॉइंट आपके द्वारा लिए गए समय को रिकॉर्ड करता है। फिर आप इन समयों को सहेज सकते हैं ताकि स्लाइड बिल्कुल सही समय पर अपने आप आगे बढ़ें।"
+      },
+      "key_takeaway": {
+        "en": "Rehearse Timings = Creating an automated, timed presentation.",
+        "hi": "रिहर्स टाइमिंग्स = एक स्वचालित, समयबद्ध प्रेजेंटेशन बनाना।"
+      }
+    },
+    {
+      "question_id": 27,
+      "question": {
+        "en": "Which of these allows you to add decorative, artistic text to your slide?",
+        "hi": "इनमें से कौन आपको अपनी स्लाइड में सजावटी, कलात्मक टेक्स्ट जोड़ने की अनुमति देता है?"
+      },
+      "options": {
+        "a": {"en": "Notepad", "hi": "नोटपैड"},
+        "b": {"en": "WordArt", "hi": "वर्डआर्ट (WordArt)"},
+        "c": {"en": "Status Bar", "hi": "स्टेटस बार"},
+        "d": {"en": "Title Bar", "hi": "टाइटल बार"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is a feature shared with MS-Word for fancy text styles.",
+        "hi": "फैंसी टेक्स्ट स्टाइल के लिए यह MS-Word के साथ साझा की गई एक सुविधा है।"
+      },
+      "explanation": {
+        "en": "WordArt lets you turn plain text into artistic shapes with shadows, outlines, and gradients. It is great for making your slide titles look eye-catching.",
+        "hi": "वर्डआर्ट आपको साधारण टेक्स्ट को छाया, आउटलाइन और ग्रेडिएंट के साथ कलात्मक आकृतियों में बदलने देता है। यह आपकी स्लाइड के शीर्षकों को आकर्षक बनाने के लिए बहुत अच्छा है।"
+      },
+      "key_takeaway": {
+        "en": "WordArt = Stylized decorative text.",
+        "hi": "वर्डआर्ट = स्टाइलिश सजावटी टेक्स्ट।"
+      }
+    },
+    {
+      "question_id": 28,
+      "question": {
+        "en": "To select all objects on a slide at once, which keyboard shortcut is used?",
+        "hi": "एक स्लाइड पर सभी ऑब्जेक्ट्स को एक साथ चुनने के लिए, किस कीबोर्ड शॉर्टकट का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "Ctrl + C", "hi": "Ctrl + C"},
+        "b": {"en": "Ctrl + V", "hi": "Ctrl + V"},
+        "c": {"en": "Ctrl + A", "hi": "Ctrl + A"},
+        "d": {"en": "Ctrl + S", "hi": "Ctrl + S"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "The 'A' stands for 'All'.",
+        "hi": "'A' का अर्थ 'All' (सभी) है।"
+      },
+      "explanation": {
+        "en": "Just like in MS-Word, Ctrl + A is a universal shortcut in Windows apps to select 'All'. On a slide, it will highlight every text box, image, and shape simultaneously.",
+        "hi": "जैसे MS-Word में होता है, Ctrl + A विंडोज ऐप्स में 'All' चुनने के लिए एक सार्वभौमिक शॉर्टकट है। एक स्लाइड पर, यह एक साथ हर टेक्स्ट बॉक्स, चित्र और आकृति को हाइलाइट कर देगा।"
+      },
+      "key_takeaway": {
+        "en": "Ctrl + A = Select All.",
+        "hi": "Ctrl + A = सभी चुनें।"
+      }
+    },
+    {
+      "question_id": 29,
+      "question": {
+        "en": "What is a 'Theme' in PowerPoint?",
+        "hi": "पावरपॉइंट में 'थीम' (Theme) क्या है?"
+      },
+      "options": {
+        "a": {"en": "The name of the user", "hi": "उपयोगकर्ता का नाम"},
+        "b": {"en": "A combination of colors, fonts, and effects that can be applied to the whole presentation", "hi": "रंगों, फोंट और इफेक्ट्स का एक संयोजन जिसे पूरी प्रेजेंटेशन पर लागू किया जा सकता है"},
+        "c": {"en": "A password to open the file", "hi": "फ़ाइल खोलने के लिए पासवर्ड"},
+        "d": {"en": "The speed of the processor", "hi": "प्रोसेसर की गति"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It ensures everything in your presentation looks like it belongs together.",
+        "hi": "यह सुनिश्चित करता है कि आपकी प्रेजेंटेशन की हर चीज़ एक जैसी और सुसंगत दिखे।"
+      },
+      "explanation": {
+        "en": "A Theme is a full package of design. Instead of choosing colors and fonts for every slide manually, applying a Theme gives your whole presentation a unified, professional look in one click.",
+        "hi": "थीम डिजाइन का एक पूरा पैकेज है। हर स्लाइड के लिए मैन्युअल रूप से रंग और फोंट चुनने के बजाय, थीम लागू करने से आपकी पूरी प्रेजेंटेशन को एक क्लिक में एक एकीकृत, पेशेवर रूप मिलता है।"
+      },
+      "key_takeaway": {
+        "en": "Themes = Uniformity and professional aesthetics.",
+        "hi": "थीम = एकरूपता और पेशेवर सौंदर्य।"
+      }
+    },
+    {
+      "question_id": 30,
+      "question": {
+        "en": "Which tab allows you to set the 'Animation' for a specific picture on a slide?",
+        "hi": "कौन सा टैब आपको स्लाइड पर किसी विशिष्ट चित्र के लिए 'एनीमेशन' सेट करने की अनुमति देता है?"
+      },
+      "options": {
+        "a": {"en": "Home", "hi": "होम"},
+        "b": {"en": "Transitions", "hi": "ट्रांज़िशन"},
+        "c": {"en": "Animations", "hi": "एनीमेशन (Animations)"},
+        "d": {"en": "Slide Show", "hi": "स्लाइड शो"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "The name of the tab is exactly what you want to do.",
+        "hi": "टैब का नाम बिल्कुल वही है जो आप करना चाहते हैं।"
+      },
+      "explanation": {
+        "en": "The Animations tab contains all the tools to make objects move. You first click the object you want to animate, then select an effect from this tab.",
+        "hi": "एनीमेशन टैब में ऑब्जेक्ट्स को घुमाने के सभी टूल होते हैं। आप पहले उस ऑब्जेक्ट पर क्लिक करते हैं जिसे आप एनिमेट करना चाहते हैं, फिर इस टैब से एक इफेक्ट चुनते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Animations Tab = Controls object-level motion effects.",
+        "hi": "एनीमेशन टैब = ऑब्जेक्ट-स्तर के मोशन इफेक्ट्स को नियंत्रित करता है।"
+      }
+    }
+  ]
+}
