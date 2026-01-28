@@ -1,0 +1,794 @@
+{
+  "metadata": {
+    "chapter_number": 4,
+    "chapter_title": "Digital Data Tabulation - Spreadsheet (MS-Excel)",
+    "chapter_title_hindi": "डिजिटल डेटा सारणीकरण - स्प्रेडशीट (MS-Excel)",
+    "subject": "Computer Science - Class 10",
+    "board": "HPBOSE",
+    "total_questions": 30,
+    "version": "1.0",
+    "naming_convention": "10_CS_CH04_Spreadsheet.json"
+  },
+  "questions": [
+    {
+      "question_id": 1,
+      "question": {
+        "en": "What is the basic difference between a 'Worksheet' and a 'Workbook' in MS-Excel?",
+        "hi": "MS-Excel में 'वर्कशीट' (Worksheet) और 'वर्कबुक' (Workbook) के बीच बुनियादी अंतर क्या है?"
+      },
+      "options": {
+        "a": {"en": "A Worksheet is a collection of Workbooks", "hi": "वर्कशीट वर्कबुक का एक संग्रह है"},
+        "b": {"en": "A Workbook is the Excel file that contains one or more Worksheets", "hi": "वर्कबुक वह एक्सेल फ़ाइल है जिसमें एक या अधिक वर्कशीट होती हैं"},
+        "c": {"en": "They are exactly the same thing", "hi": "वे बिल्कुल एक ही चीज़ हैं"},
+        "d": {"en": "A Worksheet is used for text, a Workbook for numbers", "hi": "वर्कशीट का उपयोग टेक्स्ट के लिए और वर्कबुक का नंबरों के लिए किया जाता है"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Think of a Workbook as a physical 'Register' and a Worksheet as a 'Page' inside it.",
+        "hi": "वर्कबुक को एक भौतिक 'रजिस्टर' के रूप में सोचें और वर्कशीट को उसके अंदर का एक 'पेज'।"
+      },
+      "explanation": {
+        "en": "In Excel, the entire file you save is called a Workbook. Inside that file, you can have multiple 'sheets' (tabs at the bottom). Each of those grid-style pages is a Worksheet. By default, a workbook starts with one or three sheets depending on the version.",
+        "hi": "एक्सेल में, आपके द्वारा सेव की गई पूरी फ़ाइल को वर्कबुक कहा जाता है। उस फ़ाइल के अंदर, आपके पास कई 'शीट्स' (नीचे के टैब) हो सकते हैं। उन ग्रिड-शैली के पेजों में से प्रत्येक एक वर्कशीट है। डिफ़ॉल्ट रूप से, एक वर्कबुक संस्करण के आधार पर एक या तीन शीट्स से शुरू होती है।"
+      },
+      "key_takeaway": {
+        "en": "Workbook = File; Worksheet = Page.",
+        "hi": "वर्कबुक = फ़ाइल; वर्कशीट = पेज।"
+      }
+    },
+    {
+      "question_id": 2,
+      "question": {
+        "en": "What is the intersection of a vertical column and a horizontal row in a spreadsheet called?",
+        "hi": "स्प्रेडशीट में एक ऊर्ध्वाधर कॉलम (column) और एक क्षैतिज रो (row) के कटान बिंदु को क्या कहा जाता है?"
+      },
+      "options": {
+        "a": {"en": "Box", "hi": "बॉक्स"},
+        "b": {"en": "Block", "hi": "ब्लॉक"},
+        "c": {"en": "Cell", "hi": "सेल (Cell)"},
+        "d": {"en": "Grid", "hi": "ग्रिड"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "It is the smallest rectangular unit where you type your data.",
+        "hi": "यह सबसे छोटी आयताकार इकाई है जहाँ आप अपना डेटा टाइप करते हैं।"
+      },
+      "explanation": {
+        "en": "A Worksheet is made of thousands of little rectangles. Each rectangle is formed where a Row (labeled 1, 2, 3...) meets a Column (labeled A, B, C...). This meeting point is called a Cell.",
+        "hi": "एक वर्कशीट हज़ारों छोटे आयतों से बनी होती है। प्रत्येक आयत वहां बनता है जहां एक रो (संख्या 1, 2, 3...) एक कॉलम (अक्षर A, B, C...) से मिलती है। इस मिलन बिंदु को सेल कहा जाता है।"
+      },
+      "key_takeaway": {
+        "en": "The Cell is the fundamental unit for storing data in Excel.",
+        "hi": "सेल एक्सेल में डेटा स्टोर करने की मूलभूत इकाई है।"
+      }
+    },
+    {
+      "question_id": 3,
+      "question": {
+        "en": "How is a cell address (reference) correctly written in Excel?",
+        "hi": "एक्सेल में सेल एड्रेस (रेफरेंस) सही ढंग से कैसे लिखा जाता है?"
+      },
+      "options": {
+        "a": {"en": "Row number followed by Column letter (e.g., 5A)", "hi": "रो नंबर और उसके बाद कॉलम अक्षर (जैसे, 5A)"},
+        "b": {"en": "Column letter followed by Row number (e.g., A5)", "hi": "कॉलम अक्षर और उसके बाद रो नंबर (जैसे, A5)"},
+        "c": {"en": "Only the letter (e.g., A)", "hi": "केवल अक्षर (जैसे, A)"},
+        "d": {"en": "Only the number (e.g., 5)", "hi": "केवल नंबर (जैसे, 5)"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Always look at the top letter first, then the side number.",
+        "hi": "हमेशा पहले ऊपर का अक्षर देखें, फिर बगल का नंबर।"
+      },
+      "explanation": {
+        "en": "A cell address tells you its exact location. You first name the column it belongs to (A, B, C...) and then the row (1, 2, 3...). So, 'A5' means the cell in Column A and Row 5.",
+        "hi": "एक सेल एड्रेस आपको उसकी सटीक स्थिति बताता है। आप पहले उस कॉलम का नाम देते हैं जिससे वह संबंधित है (A, B, C...) और फिर रो (1, 2, 3...)। इसलिए, 'A5' का अर्थ कॉलम A और रो 5 में स्थित सेल है।"
+      },
+      "key_takeaway": {
+        "en": "Cell Address = Column Letter + Row Number.",
+        "hi": "सेल एड्रेस = कॉलम अक्षर + रो नंबर।"
+      }
+    },
+    {
+      "question_id": 4,
+      "question": {
+        "en": "Every formula in MS-Excel must strictly begin with which symbol?",
+        "hi": "MS-Excel में प्रत्येक फ़ॉर्मूला कड़ाई से किस प्रतीक के साथ शुरू होना चाहिए?"
+      },
+      "options": {
+        "a": {"en": "+", "hi": "+"},
+        "b": {"en": "@", "hi": "@"},
+        "c": {"en": "=", "hi": "= (बराबर)"},
+        "d": {"en": "#", "hi": "#"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "Without this symbol, Excel will treat your math as plain text.",
+        "hi": "इस प्रतीक के बिना, एक्सेल आपके गणित को साधारण टेक्स्ट मानेगा।"
+      },
+      "explanation": {
+        "en": "This is a mandatory rule in Excel. To tell Excel to 'calculate' something instead of just 'displaying' it, you must start with the equal to (=) sign. Example: =5+2 will show 7, but 5+2 will just show the text '5+2'.",
+        "hi": "यह एक्सेल में एक अनिवार्य नियम है। एक्सेल को केवल 'दिखाने' के बजाय कुछ 'गणना' करने के लिए कहने के लिए, आपको बराबर (=) चिह्न से शुरू करना होगा। उदाहरण: =5+2 से 7 दिखेगा, लेकिन 5+2 से केवल '5+2' टेक्स्ट दिखेगा।"
+      },
+      "key_takeaway": {
+        "en": "All formulas start with '='. This was explicitly asked in the Model Paper.",
+        "hi": "सभी फ़ॉर्मूले '=' से शुरू होते हैं। यह मॉडल पेपर में विशेष रूप से पूछा गया था।"
+      }
+    },
+    {
+      "question_id": 5,
+      "question": {
+        "en": "What is the function of the 'Auto Fill' feature in Excel?",
+        "hi": "एक्सेल में 'ऑटो फिल' (Auto Fill) सुविधा का कार्य क्या है?"
+      },
+      "options": {
+        "a": {"en": "To automatically save the file every minute", "hi": "हर मिनट फ़ाइल को स्वचालित रूप से सहेजने के लिए"},
+        "b": {"en": "To automatically complete a series of data like numbers, days, or months", "hi": "नंबरों, दिनों या महीनों जैसे डेटा की एक श्रृंखला को स्वचालित रूप से पूरा करने के लिए"},
+        "c": {"en": "To fill the cell with a random color", "hi": "सेल को रैंडम रंग से भरने के लिए"},
+        "d": {"en": "To fix spelling mistakes automatically", "hi": "वर्तनी की गलतियों को स्वचालित रूप से ठीक करने के लिए"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "If you type 'Monday' and drag the corner down, it fills Tuesday, Wednesday, etc.",
+        "hi": "यदि आप 'Monday' टाइप करते हैं और कोने को नीचे खींचते हैं, तो यह मंगलवार, बुधवार आदि भर देता है।"
+      },
+      "explanation": {
+        "en": "Auto Fill is a time-saving tool. If you provide a pattern (like 1, 2 or January), you can drag the 'Fill Handle' (small green square at cell corner) to let Excel finish the series for you. It also works to copy formulas down a column.",
+        "hi": "ऑटो फिल समय बचाने वाला टूल है। यदि आप एक पैटर्न (जैसे 1, 2 या जनवरी) प्रदान करते हैं, तो आप 'फिल हैंडल' (सेल के कोने पर छोटा हरा वर्ग) को खींच सकते हैं ताकि एक्सेल आपके लिए श्रृंखला को पूरा कर सके। यह कॉलम में नीचे की ओर फ़ॉर्मूले कॉपी करने के लिए भी काम करता है।"
+      },
+      "key_takeaway": {
+        "en": "Auto Fill = Pattern-based series completion.",
+        "hi": "ऑटो फिल = पैटर्न-आधारित श्रृंखला पूर्णता।"
+      }
+    },
+    {
+      "question_id": 6,
+      "question": {
+        "en": "Which bar in the Excel window allows you to enter or edit the data and formulas present in an active cell?",
+        "hi": "एक्सेल विंडो में कौन सी पट्टी आपको सक्रिय सेल में मौजूद डेटा और फ़ॉर्मूले को दर्ज करने या संपादित करने की अनुमति देती है?"
+      },
+      "options": {
+        "a": {"en": "Status Bar", "hi": "स्टेटस बार"},
+        "b": {"en": "Formula Bar", "hi": "फ़ॉर्मूला बार (Formula Bar)"},
+        "c": {"en": "Menu Bar", "hi": "मेनू बार"},
+        "d": {"en": "Title Bar", "hi": "टाइटल बार"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is located just above the column headers (A, B, C...).",
+        "hi": "यह कॉलम हेडर्स (A, B, C...) के ठीक ऊपर स्थित होता है।"
+      },
+      "explanation": {
+        "en": "The Formula Bar is very important. While a cell might show the 'result' (like 100), the Formula Bar shows you the actual calculation (like =50+50). You can click here to change the logic of your math easily.",
+        "hi": "फ़ॉर्मूला बार बहुत महत्वपूर्ण है। जबकि एक सेल 'परिणाम' (जैसे 100) दिखा सकता है, फ़ॉर्मूला बार आपको वास्तविक गणना (जैसे =50+50) दिखाता है। आप अपने गणित के लॉजिक को आसानी से बदलने के लिए यहाँ क्लिक कर सकते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Formula Bar = Place to view/edit hidden cell logic.",
+        "hi": "फ़ॉर्मूला बार = छिपे हुए सेल लॉजिक को देखने/संपादित करने की जगह।"
+      }
+    },
+    {
+      "question_id": 7,
+      "question": {
+        "en": "To select an entire column in a worksheet, where should you click?",
+        "hi": "वर्कशीट में पूरे कॉलम को चुनने के लिए, आपको कहाँ क्लिक करना चाहिए?"
+      },
+      "options": {
+        "a": {"en": "On the first cell of the row", "hi": "रो के पहले सेल पर"},
+        "b": {"en": "On the Column Heading letter (e.g., 'B')", "hi": "कॉलम हेडिंग अक्षर पर (जैसे, 'B')"},
+        "c": {"en": "On the Status Bar", "hi": "स्टेटस बार पर"},
+        "d": {"en": "On the Formula Bar", "hi": "फ़ॉर्मूला बार पर"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Clicking the letter at the very top highlights everything from Row 1 to Row 1,048,576.",
+        "hi": "बिल्कुल ऊपर वाले अक्षर पर क्लिक करने से रो 1 से रो 1,048,576 तक सब कुछ हाईलाइट हो जाता है।"
+      },
+      "explanation": {
+        "en": "By clicking on a Column Header (the letters A, B, C...), Excel highlights every single cell in that vertical line. This is useful if you want to change the font or color for a whole category of data at once.",
+        "hi": "कॉलम हेडर (अक्षर A, B, C...) पर क्लिक करके, एक्सेल उस ऊर्ध्वाधर लाइन के प्रत्येक सेल को हाईलाइट कर देता है। यह तब उपयोगी होता है जब आप एक साथ डेटा की पूरी श्रेणी के लिए फ़ॉन्ट या रंग बदलना चाहते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Click Column Letter = Select Column; Click Row Number = Select Row.",
+        "hi": "कॉलम अक्षर पर क्लिक = कॉलम चयन; रो नंबर पर क्लिक = रो चयन।"
+      }
+    },
+    {
+      "question_id": 8,
+      "question": {
+        "en": "Which mouse pointer shape indicates that you can 'Move' the contents of a selected cell to a new location?",
+        "hi": "माउस पॉइंटर का कौन सा आकार इंगित करता है कि आप चुने गए सेल की सामग्री को नए स्थान पर 'स्थानांतरित' (Move) कर सकते हैं?"
+      },
+      "options": {
+        "a": {"en": "Thick White Cross", "hi": "मोटी सफेद क्रॉस"},
+        "b": {"en": "Four-headed Arrow", "hi": "चार सिरों वाला तीर (Four-headed Arrow)"},
+        "c": {"en": "Thin Black Cross", "hi": "पतली काली क्रॉस"},
+        "d": {"en": "I-beam", "hi": "I-बीम"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "This pointer appears when you hover over the border of a selected cell.",
+        "hi": "यह पॉइंटर तब दिखाई देता है जब आप चुने गए सेल के बॉर्डर पर माउस ले जाते हैं।"
+      },
+      "explanation": {
+        "en": "In Excel, the mouse changes shape for different tasks: 1. Thick White Cross is for selecting. 2. Thin Black Cross (at corner) is for Auto Fill. 3. Four-headed Arrow is for dragging/moving the whole cell to another spot.",
+        "hi": "एक्सेल में, अलग-अलग कार्यों के लिए माउस अपना आकार बदलता है: 1. मोटी सफेद क्रॉस चुनने के लिए है। 2. पतली काली क्रॉस (कोने पर) ऑटो फिल के लिए है। 3. चार सिरों वाला तीर पूरे सेल को दूसरी जगह ले जाने/ड्रैग करने के लिए है।"
+      },
+      "key_takeaway": {
+        "en": "Pointer shapes help you identify the active tool.",
+        "hi": "पॉइंटर के आकार आपको सक्रिय टूल की पहचान करने में मदद करते हैं।"
+      }
+    },
+    {
+      "question_id": 9,
+      "question": {
+        "en": "What is the result of the following Excel formula: =10 + 20 * 2?",
+        "hi": "निम्नलिखित एक्सेल फ़ॉर्मूले का परिणाम क्या होगा: =10 + 20 * 2?"
+      },
+      "options": {
+        "a": {"en": "60", "hi": "60"},
+        "b": {"en": "50", "hi": "50"},
+        "c": {"en": "30", "hi": "30"},
+        "d": {"en": "40", "hi": "40"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Excel follows the BODMAS rule: Multiplication happens before Addition.",
+        "hi": "एक्सेल BODMAS नियम का पालन करता है: जोड़ से पहले गुणा होता है।"
+      },
+      "explanation": {
+        "en": "Excel calculates math based on operator precedence. First, it does 20 * 2 = 40. Then, it adds 10 + 40 = 50. If you wanted the addition first, you would need to use brackets: =(10+20)*2.",
+        "hi": "एक्सेल ऑपरेटर प्राथमिकता के आधार पर गणित की गणना करता है। सबसे पहले, यह 20 * 2 = 40 करता है। फिर, यह 10 + 40 = 50 जोड़ता है। यदि आप पहले जोड़ना चाहते थे, तो आपको कोष्ठक का उपयोग करना होगा: =(10+20)*2।"
+      },
+      "key_takeaway": {
+        "en": "Excel follows standard mathematical order of operations.",
+        "hi": "एक्सेल गणितीय संचालन के मानक क्रम का पालन करता है।"
+      }
+    },
+    {
+      "question_id": 10,
+      "question": {
+        "en": "Which mathematical operator is used for 'Division' in MS-Excel?",
+        "hi": "MS-Excel में 'विभाजन' (Division) के लिए किस गणितीय ऑपरेटर का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "\\", "hi": "\\"},
+        "b": {"en": "/", "hi": "/ (Forward Slash)"},
+        "c": {"en": "÷", "hi": "÷"},
+        "d": {"en": "%", "hi": "%"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is the slanted line found near the Shift key on most keyboards.",
+        "hi": "यह अधिकांश कीबोर्ड पर शिफ्ट की (Shift key) के पास पाई जाने वाली तिरछी रेखा है।"
+      },
+      "explanation": {
+        "en": "In Excel, standard symbols are used for math: + (add), - (subtract), * (multiply), and / (divide). The symbol '÷' used in paper math is not used in programming or Excel.",
+        "hi": "एक्सेल में, गणित के लिए मानक प्रतीकों का उपयोग किया जाता है: + (जोड़), - (घटाव), * (गुणा), और / (भाग)। कागजी गणित में प्रयुक्त प्रतीक '÷' का उपयोग प्रोग्रामिंग या एक्सेल में नहीं किया जाता है।"
+      },
+      "key_takeaway": {
+        "en": "/ = Division; * = Multiplication.",
+        "hi": "/ = भाग; * = गुणा।"
+      }
+    },
+    {
+      "question_id": 11,
+      "question": {
+        "en": "By default, how is 'Text' data and 'Numeric' data aligned in an Excel cell?",
+        "hi": "डिफ़ॉल्ट रूप से, एक्सेल सेल में 'टेक्स्ट' डेटा और 'न्यूमेरिक' (संख्यात्मक) डेटा कैसे अलाइन होते हैं?"
+      },
+      "options": {
+        "a": {"en": "Both are Left aligned", "hi": "दोनों बाईं ओर (Left) अलाइन होते हैं"},
+        "b": {"en": "Text is Left aligned; Numbers are Right aligned", "hi": "टेक्स्ट बाईं ओर (Left) और नंबर दाईं ओर (Right) अलाइन होते हैं"},
+        "c": {"en": "Text is Right aligned; Numbers are Left aligned", "hi": "टेक्स्ट दाईं ओर और नंबर बाईं ओर अलाइन होते हैं"},
+        "d": {"en": "Both are Centered", "hi": "दोनों केंद्र (Center) में होते हैं"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Look at a fresh spreadsheet: names are on the left side of the box, but prices/marks are on the right.",
+        "hi": "एक नई स्प्रेडशीट को देखें: नाम बॉक्स के बाईं ओर होते हैं, लेकिन कीमत/अंक दाईं ओर होते हैं।"
+      },
+      "explanation": {
+        "en": "Excel automatically recognizes the type of data. Text is aligned to the left so it's easy to read. Numbers are aligned to the right so that decimal points and digits line up vertically for easier comparison and math.",
+        "hi": "एक्सेल स्वचालित रूप से डेटा के प्रकार को पहचानता है। टेक्स्ट को बाईं ओर अलाइन किया जाता है ताकि इसे पढ़ना आसान हो। नंबरों को दाईं ओर अलाइन किया जाता है ताकि दशमलव बिंदु और अंक तुलना और गणित के लिए लंबवत रूप से एक लाइन में रहें।"
+      },
+      "key_takeaway": {
+        "en": "Default alignment: Text (Left), Numbers (Right).",
+        "hi": "डिफ़ॉल्ट अलाइनमेंट: टेक्स्ट (बायां), नंबर (दायां)।"
+      }
+    },
+    {
+      "question_id": 12,
+      "question": {
+        "en": "Which function is used to find the largest value in a range of cells (e.g., finding the highest marks in a class)?",
+        "hi": "सेल्स की एक रेंज में सबसे बड़ा मान खोजने के लिए किस फंक्शन का उपयोग किया जाता है (जैसे, कक्षा में उच्चतम अंक खोजना)?"
+      },
+      "options": {
+        "a": {"en": "=HIGH()", "hi": "=HIGH()"},
+        "b": {"en": "=LARGE()", "hi": "=LARGE()"},
+        "c": {"en": "=MAX()", "hi": "=MAX()"},
+        "d": {"en": "=TOP()", "hi": "=TOP()"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "It stands for 'Maximum'.",
+        "hi": "इसका अर्थ 'मैक्सिमम' (Maximum) है।"
+      },
+      "explanation": {
+        "en": "The =MAX() function scans a list of numbers and returns the biggest one. For example, =MAX(B2:B10) will look at all marks from cell B2 to B10 and tell you the highest score.",
+        "hi": "=MAX() फंक्शन नंबरों की एक सूची को स्कैन करता है और सबसे बड़ा नंबर लौटाता है। उदाहरण के लिए, =MAX(B2:B10) सेल B2 से B10 तक के सभी अंकों को देखेगा और आपको उच्चतम स्कोर बताएगा।"
+      },
+      "key_takeaway": {
+        "en": "MAX = Largest value; MIN = Smallest value.",
+        "hi": "MAX = सबसे बड़ा मान; MIN = सबसे छोटा मान।"
+      }
+    },
+    {
+      "question_id": 13,
+      "question": {
+        "en": "In Excel, what happens when you use 'Relative Referencing' while copying a formula?",
+        "hi": "एक्सेल में, जब आप फ़ॉर्मूला कॉपी करते समय 'रिलेटिव रेफरेंसिंग' (Relative Referencing) का उपयोग करते हैं तो क्या होता है?"
+      },
+      "options": {
+        "a": {"en": "The cell addresses remain exactly the same", "hi": "सेल एड्रेस बिल्कुल वही रहते हैं"},
+        "b": {"en": "The cell addresses change automatically based on the new position", "hi": "सेल एड्रेस नई स्थिति के आधार पर स्वचालित रूप से बदल जाते हैं"},
+        "c": {"en": "The formula is deleted", "hi": "फ़ॉर्मूला डिलीट हो जाता है"},
+        "d": {"en": "The cell turns red", "hi": "सेल लाल हो जाता है"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "If you copy =A1+B1 down one row, it becomes =A2+B2. This is 'Relative'.",
+        "hi": "यदि आप =A1+B1 को एक रो नीचे कॉपी करते हैं, तो यह =A2+B2 बन जाता है। यह 'रिलेटिव' है।"
+      },
+      "explanation": {
+        "en": "Relative referencing is the default behavior. If you write a formula to add two cells on the left, and copy that formula down, Excel intelligently assumes you want to add the two cells on the left of the 'new' position as well.",
+        "hi": "रिलेटिव रेफरेंसिंग डिफ़ॉल्ट व्यवहार है। यदि आप बाईं ओर के दो सेल्स को जोड़ने के लिए एक फ़ॉर्मूला लिखते हैं, और उस फ़ॉर्मूले को नीचे कॉपी करते हैं, तो एक्सेल समझदारी से मान लेता है कि आप 'नई' स्थिति के बाईं ओर के दो सेल्स को भी जोड़ना चाहते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Relative Reference = Address changes during copy.",
+        "hi": "रिलेटिव रेफरेंस = कॉपी के दौरान एड्रेस बदल जाता है।"
+      }
+    },
+    {
+      "question_id": 14,
+      "question": {
+        "en": "Which symbol is used to make a cell reference 'Absolute' so that it does not change when copied?",
+        "hi": "सेल रेफरेंस को 'एब्सोल्यूट' (Absolute) बनाने के लिए किस प्रतीक का उपयोग किया जाता है ताकि कॉपी करने पर वह न बदले?"
+      },
+      "options": {
+        "a": {"en": "#", "hi": "#"},
+        "b": {"en": "$", "hi": "$ (डॉलर)"},
+        "c": {"en": "&amp;", "hi": "&amp;"},
+        "d": {"en": "!", "hi": "!"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Example: $A$1 will always point to cell A1, no matter where you copy it.",
+        "hi": "उदाहरण: $A$1 हमेशा सेल A1 की ओर इशारा करेगा, चाहे आप इसे कहीं भी कॉपी करें।"
+      },
+      "explanation": {
+        "en": "To 'lock' a cell address, we use the dollar sign ($). If you have a tax rate in cell G1 and you want all formulas to use exactly G1, you write it as $G$1. This is called Absolute Referencing.",
+        "hi": "सेल एड्रेस को 'लॉक' करने के लिए, हम डॉलर चिह्न ($) का उपयोग करते हैं। यदि आपके पास सेल G1 में टैक्स रेट है और आप चाहते हैं कि सभी फ़ॉर्मूले ठीक G1 का उपयोग करें, तो आप इसे $G$1 के रूप में लिखते हैं। इसे एब्सोल्यूट रेफरेंसिंग कहा जाता है।"
+      },
+      "key_takeaway": {
+        "en": "$ sign = Locks row or column in a formula.",
+        "hi": "$ चिह्न = फ़ॉर्मूले में रो या कॉलम को लॉक करता है।"
+      }
+    },
+    {
+      "question_id": 15,
+      "question": {
+        "en": "What does the =SUM(A1:A5) function do?",
+        "hi": "=SUM(A1:A5) फंक्शन क्या करता है?"
+      },
+      "options": {
+        "a": {"en": "Counts the number of cells from A1 to A5", "hi": "A1 से A5 तक सेल्स की संख्या गिनता है"},
+        "b": {"en": "Adds all the numeric values in cells A1, A2, A3, A4, and A5", "hi": "सेल A1, A2, A3, A4 और A5 के सभी संख्यात्मक मानों को जोड़ता है"},
+        "c": {"en": "Finds the average of cells A1 to A5", "hi": "A1 से A5 तक के सेल्स का औसत ज्ञात करता है"},
+        "d": {"en": "Deletes the contents of A1 to A5", "hi": "A1 से A5 की सामग्री को डिलीट करता है"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "The colon (:) means 'through' or 'range'.",
+        "hi": "कोलन (:) का अर्थ 'से' या 'रेंज' (दूरी) है।"
+      },
+      "explanation": {
+        "en": "The SUM function is the most common function in Excel. It totals up a range of numbers. Instead of writing =A1+A2+A3+A4+A5, you can simply write =SUM(A1:A5) to get the total.",
+        "hi": "SUM फंक्शन एक्सेल में सबसे सामान्य फंक्शन है। यह नंबरों की एक रेंज का योग करता है। =A1+A2+A3+A4+A5 लिखने के बजाय, आप कुल योग प्राप्त करने के लिए बस =SUM(A1:A5) लिख सकते हैं।"
+      },
+      "key_takeaway": {
+        "en": "SUM = Mathematical Total of a range.",
+        "hi": "SUM = एक रेंज का गणितीय कुल योग।"
+      }
+    },
+    {
+      "question_id": 16,
+      "question": {
+        "en": "Which logical function checks if a condition is met and returns one value if TRUE and another if FALSE?",
+        "hi": "कौन सा लॉजिकल फंक्शन जाँचता है कि क्या कोई शर्त पूरी हुई है और सत्य होने पर एक मान और असत्य होने पर दूसरा मान लौटाता है?"
+      },
+      "options": {
+        "a": {"en": "=CHECK()", "hi": "=CHECK()"},
+        "b": {"en": "=IF()", "hi": "=IF()"},
+        "c": {"en": "=WHEN()", "hi": "=WHEN()"},
+        "d": {"en": "=SUM()", "hi": "=SUM()"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Example: If marks > 33, then 'Pass', else 'Fail'.",
+        "hi": "उदाहरण: यदि अंक > 33, तो 'पास', अन्यथा 'फ़ेल'।"
+      },
+      "explanation": {
+        "en": "The =IF() function is used for decision-making. Syntax: =IF(condition, value_if_true, value_if_false). It helps automate grading or categorization in a spreadsheet.",
+        "hi": "=IF() फंक्शन का उपयोग निर्णय लेने के लिए किया जाता है। सिंटैक्स: =IF(शर्त, सत्य_होने_पर_मान, असत्य_होने_पर_मान)। यह स्प्रेडशीट में ग्रेडिंग या वर्गीकरण को स्वचालित करने में मदद करता है।"
+      },
+      "key_takeaway": {
+        "en": "IF function = Logical decision making.",
+        "hi": "IF फंक्शन = तार्किक निर्णय लेना।"
+      }
+    },
+    {
+      "question_id": 17,
+      "question": {
+        "en": "What is a 'Chart' in MS-Excel?",
+        "hi": "MS-Excel में 'चार्ट' (Chart) क्या है?"
+      },
+      "options": {
+        "a": {"en": "A way to delete data", "hi": "डेटा डिलीट करने का एक तरीका"},
+        "b": {"en": "A graphical representation of numeric data", "hi": "संख्यात्मक डेटा का एक ग्राफिकल प्रतिनिधित्व (चित्र के रूप में)"},
+        "c": {"en": "The name of the Excel file", "hi": "एक्सेल फ़ाइल का नाम"},
+        "d": {"en": "A tool to change font size", "hi": "फ़ॉन्ट साइज़ बदलने का एक टूल"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It turns columns of numbers into bars, pies, or lines.",
+        "hi": "यह नंबरों के कॉलम को बार, पाई या लाइनों में बदल देता है।"
+      },
+      "explanation": {
+        "en": "Charts make it easy to understand trends and patterns. Instead of looking at 100 rows of sales data, a 'Line Chart' or 'Bar Chart' shows you instantly if sales are going up or down.",
+        "hi": "चार्ट रुझानों और पैटर्न को समझना आसान बनाते हैं। बिक्री डेटा की 100 पंक्तियों को देखने के बजाय, एक 'लाइन चार्ट' या 'बार चार्ट' आपको तुरंत दिखाता है कि बिक्री बढ़ रही है या घट रही है।"
+      },
+      "key_takeaway": {
+        "en": "Chart = Visualizing data for better analysis.",
+        "hi": "चार्ट = बेहतर विश्लेषण के लिए डेटा को विजुअलाइज करना।"
+      }
+    },
+    {
+      "question_id": 18,
+      "question": {
+        "en": "Which type of chart is best for showing the 'percentage' contribution of different parts to a whole?",
+        "hi": "पूरे हिस्से में विभिन्न भागों के 'प्रतिशत' योगदान को दिखाने के लिए किस प्रकार का चार्ट सबसे अच्छा है?"
+      },
+      "options": {
+        "a": {"en": "Bar Chart", "hi": "बार चार्ट"},
+        "b": {"en": "Line Chart", "hi": "लाइन चार्ट"},
+        "c": {"en": "Pie Chart", "hi": "पाई चार्ट (Pie Chart)"},
+        "d": {"en": "Scatter Chart", "hi": "स्कैटर चार्ट"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "It looks like a circle sliced into pieces.",
+        "hi": "यह टुकड़ों में कटे हुए एक घेरे (circle) जैसा दिखता है।"
+      },
+      "explanation": {
+        "en": "A Pie Chart represents data as slices of a circle. It is the best choice for showing proportions, like how a student spends their 24-hour day (8 hrs sleep, 6 hrs school, etc.).",
+        "hi": "एक पाई चार्ट डेटा को एक वृत्त के स्लाइस के रूप में दर्शाता है। यह अनुपात दिखाने के लिए सबसे अच्छा विकल्प है, जैसे कि एक छात्र अपना 24 घंटे का दिन कैसे बिताता है (8 घंटे नींद, 6 घंटे स्कूल, आदि)।"
+      },
+      "key_takeaway": {
+        "en": "Pie Chart = Showing parts of a whole (Proportions).",
+        "hi": "पाई चार्ट = संपूर्ण के हिस्सों को दिखाना (अनुपात)।"
+      }
+    },
+    {
+      "question_id": 19,
+      "question": {
+        "en": "What is a 'Macro' in MS-Excel?",
+        "hi": "MS-Excel में 'मैक्रो' (Macro) क्या है?"
+      },
+      "options": {
+        "a": {"en": "A very large spreadsheet", "hi": "एक बहुत बड़ी स्प्रेडशीट"},
+        "b": {"en": "A tool to record a sequence of actions to automate repetitive tasks", "hi": "दोहराव वाले कार्यों को स्वचालित करने के लिए क्रियाओं के अनुक्रम को रिकॉर्ड करने का एक टूल"},
+        "c": {"en": "A type of chart", "hi": "एक प्रकार का चार्ट"},
+        "d": {"en": "A hardware device", "hi": "एक हार्डवेयर डिवाइस"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is like 'recording' a video of your clicks and playing it back to save time.",
+        "hi": "यह आपके क्लिक का एक वीडियो 'रिकॉर्ड' करने और समय बचाने के लिए इसे वापस चलाने जैसा है।"
+      },
+      "explanation": {
+        "en": "If you have to perform the same formatting or calculations every day, you can record a Macro. Once recorded, you can run it with one click, and Excel will repeat all those steps perfectly for you.",
+        "hi": "यदि आपको हर दिन एक ही फ़ॉर्मैटिंग या गणना करनी पड़ती है, तो आप एक मैक्रो रिकॉर्ड कर सकते हैं। एक बार रिकॉर्ड होने के बाद, आप इसे एक क्लिक से चला सकते हैं, और एक्सेल आपके लिए उन सभी चरणों को पूरी तरह से दोहराएगा।"
+      },
+      "key_takeaway": {
+        "en": "Macro = Automation of repeated steps.",
+        "hi": "मैक्रो = बार-बार होने वाले चरणों का स्वचालन (Automation)।"
+      }
+    },
+    {
+      "question_id": 20,
+      "question": {
+        "en": "Which tab in Excel 2010 contains the 'Charts' group?",
+        "hi": "एक्सेल 2010 के किस टैब में 'चार्ट्स' (Charts) समूह होता है?"
+      },
+      "options": {
+        "a": {"en": "Home", "hi": "होम"},
+        "b": {"en": "Insert", "hi": "इंसर्ट (Insert)"},
+        "c": {"en": "Page Layout", "hi": "पेज लेआउट"},
+        "d": {"en": "Data", "hi": "डेटा"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "You use this tab whenever you want to 'add' something new (like images or charts) to the sheet.",
+        "hi": "जब भी आप शीट में कुछ नया (जैसे चित्र या चार्ट) 'जोड़ना' (add) चाहते हैं, तो आप इस टैब का उपयोग करते हैं।"
+      },
+      "explanation": {
+        "en": "The Insert tab is the home for all external objects. Whether you want to add a Table, a Picture, a Shape, or a Chart, you will find them under this tab.",
+        "hi": "इंसर्ट टैब सभी बाहरी ऑब्जेक्ट्स का घर है। चाहे आप टेबल, चित्र, आकार या चार्ट जोड़ना चाहते हों, आप उन्हें इसी टैब के अंतर्गत पाएंगे।"
+      },
+      "key_takeaway": {
+        "en": "Insert Tab = Place to add visual objects.",
+        "hi": "इंसर्ट टैब = विजुअल ऑब्जेक्ट्स जोड़ने की जगह।"
+      }
+    },
+    {
+      "question_id": 21,
+      "question": {
+        "en": "What is the shortcut key to 'Undo' your last action in Excel?",
+        "hi": "एक्सेल में अपने पिछले कार्य को 'अनडू' (Undo) करने की शॉर्टकट कुंजी क्या है?"
+      },
+      "options": {
+        "a": {"en": "Ctrl + Y", "hi": "Ctrl + Y"},
+        "b": {"en": "Ctrl + Z", "hi": "Ctrl + Z"},
+        "c": {"en": "Ctrl + S", "hi": "Ctrl + S"},
+        "d": {"en": "Ctrl + X", "hi": "Ctrl + X"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is the same universal shortcut used in MS-Word.",
+        "hi": "यह वही सार्वभौमिक शॉर्टकट है जिसका उपयोग MS-Word में किया जाता है।"
+      },
+      "explanation": {
+        "en": "If you accidentally delete a formula or type the wrong data, Ctrl + Z will reverse that mistake and bring the previous data back.",
+        "hi": "यदि आप गलती से कोई फ़ॉर्मूला डिलीट कर देते हैं या गलत डेटा टाइप कर देते हैं, तो Ctrl + Z उस गलती को उलट देगा और पिछले डेटा को वापस ले आएगा।"
+      },
+      "key_takeaway": {
+        "en": "Ctrl + Z = Reversing mistakes.",
+        "hi": "Ctrl + Z = गलतियों को सुधारना।"
+      }
+    },
+    {
+      "question_id": 22,
+      "question": {
+        "en": "To see how the worksheet will look on paper before printing, which feature should you use?",
+        "hi": "प्रिंट करने से पहले वर्कशीट कागज पर कैसी दिखेगी, यह देखने के लिए आपको किस सुविधा का उपयोग करना चाहिए?"
+      },
+      "options": {
+        "a": {"en": "Page Layout View", "hi": "पेज लेआउट व्यू"},
+        "b": {"en": "Print Preview", "hi": "प्रिंट प्रीव्यू (Print Preview)"},
+        "c": {"en": "Web View", "hi": "वेब व्यू"},
+        "d": {"en": "Outline View", "hi": "आउटलाइन व्यू"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "This helps you check if all columns are fitting on one page.",
+        "hi": "यह आपको यह जांचने में मदद करता है कि क्या सभी कॉलम एक पेज पर फिट हो रहे हैं।"
+      },
+      "explanation": {
+        "en": "Print Preview is essential in Excel because spreadsheets can be very wide. It shows you the margins and page breaks so you don't waste paper printing a half-cut table.",
+        "hi": "एक्सेल में प्रिंट प्रीव्यू आवश्यक है क्योंकि स्प्रेडशीट्स बहुत चौड़ी हो सकती हैं। यह आपको मार्जिन और पेज ब्रेक दिखाता है ताकि आप आधी कटी हुई टेबल को प्रिंट करके कागज बर्बाद न करें।"
+      },
+      "key_takeaway": {
+        "en": "Print Preview = Printing simulation.",
+        "hi": "प्रिंट प्रीव्यू = प्रिंटिंग का पूर्वावलोकन।"
+      }
+    },
+    {
+      "question_id": 23,
+      "question": {
+        "en": "Which of the following is a 'Mixed Reference'?",
+        "hi": "निम्नलिखित में से कौन सा 'मिक्स्ड रेफरेंस' (Mixed Reference) है?"
+      },
+      "options": {
+        "a": {"en": "A1", "hi": "A1"},
+        "b": {"en": "$A$1", "hi": "$A$1"},
+        "c": {"en": "$A1 or A$1", "hi": "$A1 या A$1"},
+        "d": {"en": "A:A", "hi": "A:A"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "It has only one dollar sign, either before the letter or before the number.",
+        "hi": "इसमें केवल एक डॉलर का चिह्न होता है, या तो अक्षर से पहले या नंबर से पहले।"
+      },
+      "explanation": {
+        "en": "Mixed referencing is a combination of Relative and Absolute. For example, $A1 locks the Column A but let's the Row change. A$1 locks the Row 1 but let's the Column change.",
+        "hi": "मिक्स्ड रेफरेंसिंग रिलेटिव और एब्सोल्यूट का संयोजन है। उदाहरण के लिए, $A1 कॉलम A को लॉक करता है लेकिन रो को बदलने देता है। A$1 रो 1 को लॉक करता है लेकिन कॉलम को बदलने देता है।"
+      },
+      "key_takeaway": {
+        "en": "Mixed Reference = One part locked, one part free.",
+        "hi": "मिक्स्ड रेफरेंस = एक हिस्सा लॉक, एक हिस्सा खुला।"
+      }
+    },
+    {
+      "question_id": 24,
+      "question": {
+        "en": "What is the shortcut key to quickly 'Save' an Excel workbook?",
+        "hi": "एक्सेल वर्कबुक को जल्दी से 'सेव' (Save) करने की शॉर्टकट कुंजी क्या है?"
+      },
+      "options": {
+        "a": {"en": "Ctrl + S", "hi": "Ctrl + S"},
+        "b": {"en": "Ctrl + V", "hi": "Ctrl + V"},
+        "c": {"en": "Alt + S", "hi": "Alt + S"},
+        "d": {"en": "Shift + S", "hi": "Shift + S"}
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "Use the first letter of 'Save'.",
+        "hi": "'Save' के पहले अक्षर का उपयोग करें।"
+      },
+      "explanation": {
+        "en": "Regularly pressing Ctrl + S ensures that your latest work is written to the hard disk. In the exam, it is a common basic question for all MS-Office apps.",
+        "hi": "नियमित रूप से Ctrl + S दबाने से यह सुनिश्चित होता है कि आपका नवीनतम कार्य हार्ड डिस्क पर सहेजा गया है। परीक्षा में, यह सभी MS-Office ऐप्स के लिए एक सामान्य बुनियादी प्रश्न है।"
+      },
+      "key_takeaway": {
+        "en": "Ctrl + S = Save.",
+        "hi": "Ctrl + S = सेव।"
+      }
+    },
+    {
+      "question_id": 25,
+      "question": {
+        "en": "Which function calculates the average of a range of cells?",
+        "hi": "कौन सा फंक्शन सेल्स की एक रेंज का औसत (average) निकालता है?"
+      },
+      "options": {
+        "a": {"en": "=AVG()", "hi": "=AVG()"},
+        "b": {"en": "=AVERAGE()", "hi": "=AVERAGE()"},
+        "c": {"en": "=MEAN()", "hi": "=MEAN()"},
+        "d": {"en": "=TOTAL() / COUNT()", "hi": "=TOTAL() / COUNT()"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Unlike SUM or MAX, this function uses the FULL word.",
+        "hi": "SUM या MAX के विपरीत, यह फंक्शन पूरा (FULL) शब्द उपयोग करता है।"
+      },
+      "explanation": {
+        "en": "The =AVERAGE() function adds up all numbers in a range and then divides by the count of those numbers. Note that Excel requires the full word 'AVERAGE', not the short form 'AVG'.",
+        "hi": "=AVERAGE() फंक्शन एक रेंज के सभी नंबरों को जोड़ता है और फिर उन नंबरों की संख्या से भाग देता है। ध्यान दें कि एक्सेल को पूरे शब्द 'AVERAGE' की आवश्यकता होती है, न कि संक्षिप्त रूप 'AVG' की।"
+      },
+      "key_takeaway": {
+        "en": "AVERAGE() = Arithmetic Mean.",
+        "hi": "AVERAGE() = अंकगणितीय माध्य।"
+      }
+    },
+    {
+      "question_id": 26,
+      "question": {
+        "en": "In the model question paper, which shortcut key is mentioned for 'Closing' a document in MS-Excel?",
+        "hi": "मॉडल प्रश्न पत्र में, MS-Excel में दस्तावेज़ को 'बंद' (Closing) करने के लिए किस शॉर्टकट कुंजी का उल्लेख किया गया है?"
+      },
+      "options": {
+        "a": {"en": "Ctrl + P", "hi": "Ctrl + P"},
+        "b": {"en": "Ctrl + N", "hi": "Ctrl + N"},
+        "c": {"en": "Alt + F4", "hi": "Alt + F4"},
+        "d": {"en": "None of these", "hi": "इनमें से कोई नहीं"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "This key combination is used to close the active application window in Windows.",
+        "hi": "इस की संयोजन का उपयोग विंडोज में सक्रिय एप्लिकेशन विंडो को बंद करने के लिए किया जाता है।"
+      },
+      "explanation": {
+        "en": "According to the HPBOSE Class 10 Model Paper, Alt + F4 is the standard way to close the Excel application. Ctrl + W can close a single workbook, but Alt + F4 closes the whole program.",
+        "hi": "HPBOSE कक्षा 10 मॉडल पेपर के अनुसार, Alt + F4 एक्सेल एप्लिकेशन को बंद करने का मानक तरीका है। Ctrl + W एक वर्कबुक को बंद कर सकता है, लेकिन Alt + F4 पूरे प्रोग्राम को बंद कर देता है।"
+      },
+      "key_takeaway": {
+        "en": "Alt + F4 = Close active window.",
+        "hi": "Alt + F4 = सक्रिय विंडो बंद करें।"
+      }
+    },
+    {
+      "question_id": 27,
+      "question": {
+        "en": "What does a 'Line Chart' represent best?",
+        "hi": "एक 'लाइन चार्ट' (Line Chart) सबसे अच्छी तरह क्या दर्शाता है?"
+      },
+      "options": {
+        "a": {"en": "Proportions of a whole", "hi": "पूरे के अनुपात"},
+        "b": {"en": "Trends of data over a period of time", "hi": "समय की अवधि में डेटा के रुझान (trends)"},
+        "c": {"en": "Alphabetical names", "hi": "वर्णानुक्रमिक नाम"},
+        "d": {"en": "Individual unconnected dots", "hi": "व्यक्तिगत असंबद्ध बिंदु"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Think of a hospital heartbeat monitor or a stock market graph.",
+        "hi": "अस्पताल के हार्टबीट मॉनिटर या शेयर बाजार के ग्राफ के बारे में सोचें।"
+      },
+      "explanation": {
+        "en": "A line chart connects individual data points with a line. It is used to show how data changes over continuous time (like monthly rainfall or temperature changes throughout a year).",
+        "hi": "एक लाइन चार्ट व्यक्तिगत डेटा बिंदुओं को एक रेखा से जोड़ता है। इसका उपयोग यह दिखाने के लिए किया जाता है कि निरंतर समय में डेटा कैसे बदलता है (जैसे मासिक वर्षा या पूरे वर्ष तापमान में बदलाव)।"
+      },
+      "key_takeaway": {
+        "en": "Line Chart = Time-based trends.",
+        "hi": "लाइन चार्ट = समय-आधारित रुझान।"
+      }
+    },
+    {
+      "question_id": 28,
+      "question": {
+        "en": "Which of these is the correct way to specify a range from cell A1 to A10?",
+        "hi": "इनमें से कौन सा सेल A1 से A10 तक की रेंज निर्दिष्ट करने का सही तरीका है?"
+      },
+      "options": {
+        "a": {"en": "A1 to A10", "hi": "A1 to A10"},
+        "b": {"en": "A1-A10", "hi": "A1-A10"},
+        "c": {"en": "A1:A10", "hi": "A1:A10"},
+        "d": {"en": "A1,A10", "hi": "A1,A10"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "The symbol used is the 'Colon'.",
+        "hi": "प्रयुक्त प्रतीक 'कोलन' (Colon) है।"
+      },
+      "explanation": {
+        "en": "In Excel formulas, a colon (:) is used to indicate a range. A1:A10 tells Excel to include every cell from A1 down to A10. A comma (,) would mean only A1 and A10.",
+        "hi": "एक्सेल फ़ॉर्मूले में, रेंज को इंगित करने के लिए कोलन (:) का उपयोग किया जाता है। A1:A10 एक्सेल को A1 से A10 तक के प्रत्येक सेल को शामिल करने के लिए कहता है। कोमा (,) का अर्थ केवल A1 और A10 होगा।"
+      },
+      "key_takeaway": {
+        "en": ": = Range; , = Individual cells.",
+        "hi": ": = रेंज; , = व्यक्तिगत सेल।"
+      }
+    },
+    {
+      "question_id": 29,
+      "question": {
+        "en": "Which function returns the smallest number in a selected range?",
+        "hi": "कौन सा फंक्शन चुनी गई रेंज में सबसे छोटा नंबर लौटाता है?"
+      },
+      "options": {
+        "a": {"en": "=MINIMUM()", "hi": "=MINIMUM()"},
+        "b": {"en": "=SMALL()", "hi": "=SMALL()"},
+        "c": {"en": "=MIN()", "hi": "=MIN()"},
+        "d": {"en": "=LOW()", "hi": "=LOW()"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "It is the opposite of MAX.",
+        "hi": "यह MAX का उल्टा है।"
+      },
+      "explanation": {
+        "en": "The =MIN() function is used to find the minimum value. For example, if you want to find the student who scored the lowest marks, you use =MIN(B2:B50).",
+        "hi": "=MIN() फंक्शन का उपयोग न्यूनतम मान खोजने के लिए किया जाता है। उदाहरण के लिए, यदि आप उस छात्र को खोजना चाहते हैं जिसने सबसे कम अंक प्राप्त किए हैं, तो आप =MIN(B2:B50) का उपयोग करते हैं।"
+      },
+      "key_takeaway": {
+        "en": "MIN = Minimum value.",
+        "hi": "MIN = न्यूनतम मान।"
+      }
+    },
+    {
+      "question_id": 30,
+      "question": {
+        "en": "What are 'Headers and Footers' used for in an Excel sheet?",
+        "hi": "एक्सेल शीट में 'हेडर और फुटर' (Header and Footer) का उपयोग किस लिए किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "To hide the first and last rows", "hi": "पहली और आखिरी रो को छिपाने के लिए"},
+        "b": {"en": "To place repetitive information like Page Numbers or Title at the top/bottom of every printed page", "hi": "प्रत्येक प्रिंटेड पेज के ऊपर/नीचे पेज नंबर या टाइटल जैसी दोहराई जाने वाली जानकारी रखने के लिए"},
+        "c": {"en": "To perform complex math", "hi": "जटिल गणित करने के लिए"},
+        "d": {"en": "To insert a chart", "hi": "चार्ट डालने के लिए"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "They only appear on the printed pages, not usually on the main grid screen.",
+        "hi": "वे केवल प्रिंटेड पेजों पर दिखाई देते हैं, आमतौर पर मुख्य ग्रिड स्क्रीन पर नहीं।"
+      },
+      "explanation": {
+        "en": "Headers (top) and Footers (bottom) are standard in all professional documents. In Excel, you use them to ensure your company name, the date, or 'Page 1 of 10' appears on every sheet you hand out after printing.",
+        "hi": "हेडर (शीर्ष) और फुटर (नीचे) सभी पेशेवर दस्तावेजों में मानक होते हैं। एक्सेल में, आप इनका उपयोग यह सुनिश्चित करने के लिए करते हैं कि आपकी कंपनी का नाम, तारीख, या 'पेज 1 का 10' आपके द्वारा प्रिंट के बाद दिए जाने वाले प्रत्येक शीट पर दिखाई दे।"
+      },
+      "key_takeaway": {
+        "en": "Header/Footer = Metadata for printed documentation.",
+        "hi": "हेडर/फुटर = प्रिंटेड डॉक्युमेंटेशन के लिए मेटाडेटा।"
+      }
+    }
+  ]
+}
