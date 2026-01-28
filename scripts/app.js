@@ -3,7 +3,7 @@ class QuizApp {
         this.quizEngine = new QuizEngine();
         this.SCRIPT_URL = "https://script.google.com/macros/s/AKfycbxDHJPeQcjK0OuG1mJU6jHYzVJEREoEUcrwBYDy7iZQs3_gViXScf_27PRzVrGiNjY/exec";
         this.ADMIN_PASSWORD = "Admin@2026"; 
-        this.GITHUB_CONFIG = { owner: "mcaravikantpotdar", repo: "Quiz", path: "jsons" };
+        this.GITHUB_CONFIG = { owner: "mcaravikantpotdar", repo: "Quiz-9-10-CS", path: "jsons" };
         this.currentAttempts = {}; this.hintUsed = {}; this.shuffledOrders = {}; 
         this.selectedQuizFile = null; this.availableQuizzes = []; 
         this.scoreboardData = []; this.sortConfig = { key: 'date', asc: false };
