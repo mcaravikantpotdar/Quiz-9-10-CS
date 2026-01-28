@@ -1,0 +1,794 @@
+{
+  "metadata": {
+    "chapter_number": 2,
+    "chapter_title": "Basic Concepts of Operating System (MS-Windows)",
+    "chapter_title_hindi": "ऑपरेटिंग सिस्टम की बुनियादी अवधारणाएं (MS-Windows)",
+    "subject": "Computer Science - Class 9",
+    "board": "HPBOSE",
+    "total_questions": 30,
+    "version": "1.0",
+    "naming_convention": "09_CS_CH02_Operating_System_Basics.json"
+  },
+  "questions": [
+    {
+      "question_id": 1,
+      "question": {
+        "en": "What is an Operating System (OS)?",
+        "hi": "ऑपरेटिंग सिस्टम (OS) क्या है?"
+      },
+      "options": {
+        "a": {"en": "A device used to print documents", "hi": "दस्तावेज़ प्रिंट करने के लिए उपयोग किया जाने वाला उपकरण"},
+        "b": {"en": "A software that acts as an interface between the user and the computer hardware", "hi": "एक सॉफ्टवेयर जो उपयोगकर्ता और कंप्यूटर हार्डवेयर के बीच इंटरफेस के रूप में कार्य करता है"},
+        "c": {"en": "A part of the CPU used for math", "hi": "CPU का एक हिस्सा जिसका उपयोग गणित के लिए किया जाता है"},
+        "d": {"en": "A type of permanent storage like a Hard Disk", "hi": "हार्ड डिस्क की तरह स्थायी स्टोरेज का एक प्रकार"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Without this software, you cannot interact with the computer's hardware.",
+        "hi": "इस सॉफ्टवेयर के बिना, आप कंप्यूटर के हार्डवेयर के साथ बातचीत नहीं कर सकते।"
+      },
+      "explanation": {
+        "en": "Think of the Operating System as a translator. The computer hardware only understands electricity and binary, while we understand English or Hindi. The OS sits in the middle, taking our commands and making the hardware work. Examples include MS-Windows, Linux, and Android.",
+        "hi": "ऑपरेटिंग सिस्टम को एक अनुवादक (translator) के रूप में सोचें। कंप्यूटर हार्डवेयर केवल बिजली और बाइनरी समझता है, जबकि हम हिंदी या अंग्रेजी समझते हैं। OS बीच में बैठता है, हमारे आदेश लेता है और हार्डवेयर से काम करवाता है। उदाहरणों में MS-Windows, Linux और Android शामिल हैं।"
+      },
+      "key_takeaway": {
+        "en": "OS = Manager/Bridge between User and Hardware.",
+        "hi": "OS = उपयोगकर्ता और हार्डवेयर के बीच प्रबंधक/सेतु।"
+      }
+    },
+    {
+      "question_id": 2,
+      "question": {
+        "en": "Which of the following is a primary function of an Operating System?",
+        "hi": "निम्नलिखित में से कौन सा ऑपरेटिंग सिस्टम का प्राथमिक कार्य है?"
+      },
+      "options": {
+        "a": {"en": "Memory Management", "hi": "मेमोरी मैनेजमेंट"},
+        "b": {"en": "File and Folder Management", "hi": "फ़ाइल और फ़ोल्डर मैनेजमेंट"},
+        "c": {"en": "Processor and Device Management", "hi": "प्रोसेसर और डिवाइस मैनेजमेंट"},
+        "d": {"en": "All of the above", "hi": "उपरोक्त सभी"}
+      },
+      "correct_option": "d",
+      "hint": {
+        "en": "The OS manages almost every resource inside and outside the computer.",
+        "hi": "OS कंप्यूटर के अंदर और बाहर लगभग हर संसाधन का प्रबंधन करता है।"
+      },
+      "explanation": {
+        "en": "The OS is the manager of the computer. It decides which program gets to use the CPU (Processor Management), where files are saved (File Management), and which part of the RAM is used by an app (Memory Management).",
+        "hi": "OS कंप्यूटर का मैनेजर है। यह तय करता है कि किस प्रोग्राम को CPU का उपयोग करना है (Processor Management), फाइलें कहां सेव होंगी (File Management), और ऐप द्वारा RAM के किस हिस्से का उपयोग किया जाएगा (Memory Management)।"
+      },
+      "key_takeaway": {
+        "en": "The OS performs Resource Management for the whole system.",
+        "hi": "OS पूरे सिस्टम के लिए संसाधन प्रबंधन (Resource Management) करता है।"
+      }
+    },
+    {
+      "question_id": 3,
+      "question": {
+        "en": "What is the main screen area that appears after you turn on the computer and log on to Windows?",
+        "hi": "कंप्यूटर चालू करने और विंडोज में लॉग ऑन करने के बाद दिखाई देने वाला मुख्य स्क्रीन क्षेत्र क्या है?"
+      },
+      "options": {
+        "a": {"en": "Windows Explorer", "hi": "विंडोज एक्सप्लोरर"},
+        "b": {"en": "Desktop", "hi": "डेस्कटॉप (Desktop)"},
+        "c": {"en": "Control Panel", "hi": "कंट्रोल पैनल"},
+        "d": {"en": "Recycle Bin", "hi": "रिसायकल बिन"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is like the top of your physical study table where you keep your tools.",
+        "hi": "यह आपकी भौतिक पढ़ाई की मेज के ऊपर के हिस्से जैसा है जहाँ आप अपने उपकरण रखते हैं।"
+      },
+      "explanation": {
+        "en": "The Desktop is the primary user interface of Windows. It contains the wallpaper, icons of important programs, and the taskbar at the bottom. It is your 'home base' for all computer activities.",
+        "hi": "डेस्कटॉप विंडोज का प्राथमिक यूजर इंटरफेस है। इसमें वॉलपेपर, महत्वपूर्ण प्रोग्रामों के आइकन और नीचे टास्कबार होता है। यह सभी कंप्यूटर गतिविधियों के लिए आपका 'मुख्य आधार' है।"
+      },
+      "key_takeaway": {
+        "en": "Desktop = The starting working area of Windows.",
+        "hi": "डेस्कटॉप = विंडोज का शुरुआती कार्य क्षेत्र।"
+      }
+    },
+    {
+      "question_id": 4,
+      "question": {
+        "en": "What are the small pictures or symbols representing files, folders, or programs on the desktop called?",
+        "hi": "डेस्कटॉप पर फाइलों, फोल्डरों या प्रोग्रामों का प्रतिनिधित्व करने वाले छोटे चित्रों या प्रतीकों को क्या कहा जाता है?"
+      },
+      "options": {
+        "a": {"en": "Taskbars", "hi": "टास्कबार"},
+        "b": {"en": "Icons", "hi": "आइकन (Icons)"},
+        "c": {"en": "Wallpaper", "hi": "वॉलपेपर"},
+        "d": {"en": "Pointers", "hi": "पॉइंटर"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "They act as graphical shortcuts to open applications.",
+        "hi": "वे एप्लिकेशन खोलने के लिए ग्राफिकल शॉर्टकट के रूप में कार्य करते हैं।"
+      },
+      "explanation": {
+        "en": "Icons are small graphical representations. Instead of typing a long command to open a game, you just double-click its Icon. Examples include 'This PC' and 'Recycle Bin'.",
+        "hi": "आइकन छोटे ग्राफिकल चित्र होते हैं। गेम खोलने के लिए लंबी कमांड टाइप करने के बजाय, आप बस उसके आइकन पर डबल-क्लिक करते हैं। उदाहरणों में 'This PC' और 'Recycle Bin' शामिल हैं।"
+      },
+      "key_takeaway": {
+        "en": "Icon = Graphical representation of a file or app.",
+        "hi": "आइकन = किसी फाइल या ऐप का ग्राफिकल रूप।"
+      }
+    },
+    {
+      "question_id": 5,
+      "question": {
+        "en": "Where do deleted files and folders go after they are removed from the computer?",
+        "hi": "कंप्यूटर से हटाए जाने के बाद डिलीट की गई फाइलें और फोल्डर कहां जाते हैं?"
+      },
+      "options": {
+        "a": {"en": "My Computer", "hi": "माय कंप्यूटर"},
+        "b": {"en": "Control Panel", "hi": "कंट्रोल पैनल"},
+        "c": {"en": "Recycle Bin", "hi": "रिसायकल बिन (Recycle Bin)"},
+        "d": {"en": "Taskbar", "hi": "टास्कबार"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "It is like a dustbin for your digital files where they stay until you empty it.",
+        "hi": "यह आपकी डिजिटल फाइलों के लिए एक कूड़ेदान की तरह है जहाँ वे तब तक रहती हैं जब तक आप इसे खाली नहीं कर देते।"
+      },
+      "explanation": {
+        "en": "When you delete a file, Windows moves it to the Recycle Bin. This allows you to 'Restore' (bring back) the file if you deleted it by mistake. If you empty the Recycle Bin, the files are gone permanently.",
+        "hi": "जब आप किसी फाइल को डिलीट करते हैं, तो विंडोज उसे रिसायकल बिन में ले जाता है। यदि आपने गलती से इसे डिलीट कर दिया है, तो यह आपको फाइल को 'रिस्टोर' (वापस लाने) की अनुमति देता है। यदि आप रिसायकल बिन खाली कर देते हैं, तो फाइलें स्थायी रूप से चली जाती हैं।"
+      },
+      "key_takeaway": {
+        "en": "Recycle Bin = Temporary storage for deleted items.",
+        "hi": "रिसायकल बिन = डिलीट किए गए आइटमों के लिए अस्थायी स्टोरेज।"
+      }
+    },
+    {
+      "question_id": 6,
+      "question": {
+        "en": "By default, where is the Taskbar located on the Windows screen?",
+        "hi": "डिफ़ॉल्ट रूप से, विंडोज स्क्रीन पर टास्कबार कहां स्थित होता है?"
+      },
+      "options": {
+        "a": {"en": "Top", "hi": "ऊपर (Top)"},
+        "b": {"en": "Bottom", "hi": "नीचे (Bottom)"},
+        "c": {"en": "Left", "hi": "बाएं (Left)"},
+        "d": {"en": "Right", "hi": "दाएं (Right)"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is the long horizontal bar that contains the Start button.",
+        "hi": "यह लंबी क्षैतिज पट्टी है जिसमें स्टार्ट बटन होता है।"
+      },
+      "explanation": {
+        "en": "The Taskbar is the long bar usually located at the very bottom of the screen. It shows which programs are currently open and provides quick access to the Start menu and system clock.",
+        "hi": "टास्कबार वह लंबी पट्टी है जो आमतौर पर स्क्रीन के बिल्कुल नीचे स्थित होती है। यह दिखाता है कि वर्तमान में कौन से प्रोग्राम खुले हैं और स्टार्ट मेनू और सिस्टम घड़ी तक त्वरित पहुंच प्रदान करता है।"
+      },
+      "key_takeaway": {
+        "en": "Taskbar = Horizontal bar at the bottom of the desktop.",
+        "hi": "टास्कबार = डेस्कटॉप के नीचे स्थित क्षैतिज पट्टी।"
+      }
+    },
+    {
+      "question_id": 7,
+      "question": {
+        "en": "Which button on the taskbar is used to access all installed programs and settings in Windows?",
+        "hi": "विंडोज में सभी इंस्टॉल किए गए प्रोग्राम और सेटिंग्स तक पहुंचने के लिए टास्कबार पर किस बटन का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "Minimize Button", "hi": "मिनिमाइज बटन"},
+        "b": {"en": "Start Button", "hi": "स्टार्ट बटन (Start Button)"},
+        "c": {"en": "Close Button", "hi": "क्लोज बटन"},
+        "d": {"en": "Scroll Button", "hi": "स्क्रॉल बटन"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It usually has the Windows logo and is located at the left end of the taskbar.",
+        "hi": "इसमें आमतौर पर विंडोज लोगो होता है और यह टास्कबार के बाएं छोर पर स्थित होता है।"
+      },
+      "explanation": {
+        "en": "The Start button is the gateway to the computer. Clicking it opens the Start Menu, where you can find all your apps, documents, and power options (Shut down/Restart).",
+        "hi": "स्टार्ट बटन कंप्यूटर का प्रवेश द्वार है। इसे क्लिक करने पर स्टार्ट मेनू खुलता है, जहाँ आप अपने सभी ऐप, दस्तावेज़ और पावर विकल्प (Shut down/Restart) पा सकते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Start Menu = Central hub for launching applications.",
+        "hi": "स्टार्ट मेनू = एप्लिकेशन लॉन्च करने के लिए केंद्रीय हब।"
+      }
+    },
+    {
+      "question_id": 8,
+      "question": {
+        "en": "What is the function of 'Windows Explorer' (or File Explorer)?",
+        "hi": "'विंडोज एक्सप्लोरर' (या फाइल एक्सप्लोरर) का कार्य क्या है?"
+      },
+      "options": {
+        "a": {"en": "To browse the internet", "hi": "इंटरनेट ब्राउज़ करने के लिए"},
+        "b": {"en": "To manage and view files, folders, and directories", "hi": "फाइलों, फोल्डरों और निर्देशिकाओं को प्रबंधित करने और देखने के लिए"},
+        "c": {"en": "To draw and color images", "hi": "चित्र बनाने और रंगने के लिए"},
+        "d": {"en": "To shut down the computer", "hi": "कंप्यूटर को बंद करने के लिए"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is the tool used to organize your data into different drives like C: or D:.",
+        "hi": "यह वह उपकरण है जिसका उपयोग आपके डेटा को C: या D: जैसे विभिन्न ड्राइव में व्यवस्थित करने के लिए किया जाता है।"
+      },
+      "explanation": {
+        "en": "Windows Explorer is a file management application. It allows you to see everything stored on your Hard Disk, Pen Drive, or CD. You use it to copy, move, and organize your folders.",
+        "hi": "विंडोज एक्सप्लोरर एक फाइल मैनेजमेंट एप्लिकेशन है। यह आपको आपकी हार्ड डिस्क, पेन ड्राइव या सीडी पर संग्रहीत हर चीज़ देखने की अनुमति देता है। आप इसका उपयोग अपने फोल्डरों को कॉपी करने, स्थानांतरित करने और व्यवस्थित करने के लिए करते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Windows Explorer = File and Folder navigation tool.",
+        "hi": "विंडोज एक्सप्लोरर = फाइल और फोल्डर नेविगेशन टूल।"
+      }
+    },
+    {
+      "question_id": 9,
+      "question": {
+        "en": "What is the correct way to select a menu item or open a file using a mouse?",
+        "hi": "माउस का उपयोग करके किसी मेनू आइटम को चुनने या किसी फाइल को खोलने का सही तरीका क्या है?"
+      },
+      "options": {
+        "a": {"en": "Right-click for everything", "hi": "हर चीज़ के लिए राइट-क्लिक करें"},
+        "b": {"en": "Left-click once to select, double-click to open", "hi": "चुनने के लिए एक बार लेफ्ट-क्लिक, खोलने के लिए डबल-क्लिक करें"},
+        "c": {"en": "Move the mouse without clicking", "hi": "बिना क्लिक किए माउस घुमाएँ"},
+        "d": {"en": "Scroll the middle wheel only", "hi": "केवल बीच वाला पहिया (wheel) घुमाएँ"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Double-clicking is like knocking twice on a door to enter.",
+        "hi": "डबल-क्लिक करना प्रवेश करने के लिए दरवाजे पर दो बार दस्तक देने जैसा है।"
+      },
+      "explanation": {
+        "en": "In Windows, a single left-click 'highlights' or selects an object. A quick double-click tells the OS to 'Run' or 'Open' that specific program or file.",
+        "hi": "विंडोज में, एक सिंगल लेफ्ट-क्लिक किसी ऑब्जेक्ट को 'हाइलाइट' या चुनता है। एक त्वरित डबल-क्लिक OS को उस विशिष्ट प्रोग्राम या फाइल को 'चलाने' या 'खोलने' के लिए कहता है।"
+      },
+      "key_takeaway": {
+        "en": "Left Click = Selection; Double Click = Execution/Opening.",
+        "hi": "लेफ्ट क्लिक = चयन; डबल क्लिक = निष्पादन/खोलना।"
+      }
+    },
+    {
+      "question_id": 10,
+      "question": {
+        "en": "Which part of a window displays the name of the document or application currently open?",
+        "hi": "विंडो का कौन सा भाग वर्तमान में खुले दस्तावेज़ या एप्लिकेशन का नाम प्रदर्शित करता है?"
+      },
+      "options": {
+        "a": {"en": "Menu Bar", "hi": "मेनू बार"},
+        "b": {"en": "Title Bar", "hi": "टाइटल बार (Title Bar)"},
+        "c": {"en": "Scroll Bar", "hi": "स्क्रॉल बार"},
+        "d": {"en": "Status Bar", "hi": "स्टेटस बार"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is the very first bar at the top of any window.",
+        "hi": "यह किसी भी विंडो के शीर्ष पर सबसे पहली पट्टी होती है।"
+      },
+      "explanation": {
+        "en": "The Title Bar is located at the top of every window. It shows the name of the file you are working on. It also contains the three window control buttons: Minimize, Maximize, and Close.",
+        "hi": "टाइटल बार प्रत्येक विंडो के शीर्ष पर स्थित होता है। यह उस फाइल का नाम दिखाता है जिस पर आप काम कर रहे हैं। इसमें तीन विंडो कंट्रोल बटन भी होते हैं: मिनिमाइज, मैक्सिमाइज और क्लोज।"
+      },
+      "key_takeaway": {
+        "en": "Title Bar = Identification and window controls.",
+        "hi": "टाइटल बार = पहचान और विंडो नियंत्रण।"
+      }
+    },
+    {
+      "question_id": 11,
+      "question": {
+        "en": "What does the 'Minimize' button do to a window?",
+        "hi": "'मिनिमाइज' (Minimize) बटन विंडो के साथ क्या करता है?"
+      },
+      "options": {
+        "a": {"en": "Closes the program permanently", "hi": "प्रोग्राम को स्थायी रूप से बंद कर देता है"},
+        "b": {"en": "Hides the window from the screen and places it on the taskbar", "hi": "विंडो को स्क्रीन से छुपाता है और टास्कबार पर रख देता है"},
+        "c": {"en": "Makes the window fill the entire screen", "hi": "विंडो को पूरी स्क्रीन पर फैला देता है"},
+        "d": {"en": "Deletes the file", "hi": "फाइल को डिलीट कर देता है"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "The icon for this button is a small dash or minus sign (-).",
+        "hi": "इस बटन का आइकन एक छोटा डैश या माइनस (-) चिह्न होता है।"
+      },
+      "explanation": {
+        "en": "Minimizing does NOT close the program. It simply removes the window from view to clear the screen, but keep the app running in the background. You can click its icon on the Taskbar to bring it back.",
+        "hi": "मिनिमाइज करने से प्रोग्राम बंद नहीं होता है। यह स्क्रीन को साफ करने के लिए बस विंडो को दृश्य से हटा देता है, लेकिन ऐप बैकग्राउंड में चलता रहता है। आप इसे वापस लाने के लिए टास्कबार पर इसके आइकन पर क्लिक कर सकते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Minimize = Hide window without closing the app.",
+        "hi": "मिनिमाइज = ऐप बंद किए बिना विंडो को छुपाना।"
+      }
+    },
+    {
+      "question_id": 12,
+      "question": {
+        "en": "Which button is used to make a window fill the entire desktop area?",
+        "hi": "विंडो को पूरे डेस्कटॉप क्षेत्र में फैलाने के लिए किस बटन का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "Close Button", "hi": "क्लोज बटन"},
+        "b": {"en": "Maximize Button", "hi": "मैक्सिमाइज बटन (Maximize Button)"},
+        "c": {"en": "Minimize Button", "hi": "मिनिमाइज बटन"},
+        "d": {"en": "Start Button", "hi": "स्टार्ट बटन"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "The icon looks like a small square.",
+        "hi": "इसका आइकन एक छोटे वर्ग (square) जैसा दिखता है।"
+      },
+      "explanation": {
+        "en": "The Maximize button expands the window to cover the whole screen. Once maximized, this button changes into a 'Restore Down' button (two small squares) to shrink it back.",
+        "hi": "मैक्सिमाइज बटन पूरी स्क्रीन को कवर करने के लिए विंडो का विस्तार करता है। एक बार मैक्सिमाइज होने के बाद, यह बटन इसे वापस छोटा करने के लिए 'रिस्टोर डाउन' बटन (दो छोटे वर्ग) में बदल जाता है।"
+      },
+      "key_takeaway": {
+        "en": "Maximize = Full screen view.",
+        "hi": "मैक्सिमाइज = फुल स्क्रीन व्यू।"
+      }
+    },
+    {
+      "question_id": 13,
+      "question": {
+        "en": "What is the keyboard shortcut to quickly close an active window or program?",
+        "hi": "किसी सक्रिय विंडो या प्रोग्राम को तुरंत बंद करने का कीबोर्ड शॉर्टकट क्या है?"
+      },
+      "options": {
+        "a": {"en": "Ctrl + C", "hi": "Ctrl + C"},
+        "b": {"en": "Alt + F4", "hi": "Alt + F4"},
+        "c": {"en": "Ctrl + Alt + Del", "hi": "Ctrl + Alt + Del"},
+        "d": {"en": "Windows + D", "hi": "Windows + D"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "This shortcut is mentioned in the Model Question Paper.",
+        "hi": "इस शॉर्टकट का उल्लेख मॉडल प्रश्न पत्र में किया गया है।"
+      },
+      "explanation": {
+        "en": "Pressing Alt and F4 keys together is the standard Windows shortcut to close the window currently in use. If no window is open, it brings up the Shut Down menu.",
+        "hi": "Alt और F4 कुंजियों को एक साथ दबाना वर्तमान में उपयोग की जा रही विंडो को बंद करने का मानक विंडोज शॉर्टकट है। यदि कोई विंडो खुली नहीं है, तो यह शट डाउन मेनू लाता है।"
+      },
+      "key_takeaway": {
+        "en": "Alt + F4 = Close active window shortcut.",
+        "hi": "Alt + F4 = सक्रिय विंडो बंद करने का शॉर्टकट।"
+      }
+    },
+    {
+      "question_id": 14,
+      "question": {
+        "en": "A ______ is a container that holds groups of files to keep them organized.",
+        "hi": "एक ______ एक कंटेनर है जिसमें फाइलों को व्यवस्थित रखने के लिए उनके समूह रखे जाते हैं।"
+      },
+      "options": {
+        "a": {"en": "File", "hi": "फाइल"},
+        "b": {"en": "Folder (Directory)", "hi": "फोल्डर (Directory)"},
+        "c": {"en": "Drive", "hi": "ड्राइव"},
+        "d": {"en": "Icon", "hi": "आइकन"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Its icon is usually yellow and looks like a physical paper folder.",
+        "hi": "इसका आइकन आमतौर पर पीला होता है और भौतिक कागज के फोल्डर जैसा दिखता है।"
+      },
+      "explanation": {
+        "en": "Just like you keep papers in a physical folder, a computer Folder stores files. You can also put folders inside other folders (called sub-folders) to stay organized.",
+        "hi": "जिस तरह आप भौतिक फोल्डर में कागज रखते हैं, उसी तरह कंप्यूटर फोल्डर फाइलों को स्टोर करता है। आप व्यवस्थित रहने के लिए फोल्डरों को अन्य फोल्डरों (जिन्हें सब-फोल्डर कहा जाता है) के अंदर भी रख सकते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Folder = Organizational container for files.",
+        "hi": "फोल्डर = फाइलों के लिए संगठनात्मक कंटेनर।"
+      }
+    },
+    {
+      "question_id": 15,
+      "question": {
+        "en": "What happens when you 'Right-click' on a file or desktop icon?",
+        "hi": "जब आप किसी फाइल या डेस्कटॉप आइकन पर 'राइट-क्लिक' (Right-click) करते हैं तो क्या होता है?"
+      },
+      "options": {
+        "a": {"en": "The file is deleted", "hi": "फाइल डिलीट हो जाती है"},
+        "b": {"en": "It opens a context-sensitive shortcut menu", "hi": "यह एक कॉन्टेक्स्ट-सेंसिटिव शॉर्टकट मेनू खोलता है"},
+        "c": {"en": "The computer restarts", "hi": "कंप्यूटर रीस्टार्ट हो जाता है"},
+        "d": {"en": "The file is renamed", "hi": "फाइल का नाम बदल दिया जाता है"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "This menu provides options like Open, Copy, Paste, Rename, and Delete.",
+        "hi": "यह मेनू ओपन, कॉपी, पेस्ट, रीनेम और डिलीट जैसे विकल्प प्रदान करता है।"
+      },
+      "explanation": {
+        "en": "Right-clicking opens a 'Shortcut Menu' (or Context Menu). This menu shows a list of things you can do with that specific object, like changing properties or making a copy.",
+        "hi": "राइट-क्लिक करने से एक 'शॉर्टकट मेनू' (या कॉन्टेक्स्ट मेनू) खुलता है। यह मेनू उन चीज़ों की सूची दिखाता है जो आप उस विशिष्ट ऑब्जेक्ट के साथ कर सकते हैं, जैसे गुण (properties) बदलना या कॉपी बनाना।"
+      },
+      "key_takeaway": {
+        "en": "Right Click = Accessing options and properties menu.",
+        "hi": "राइट क्लिक = विकल्प और प्रॉपर्टीज मेनू तक पहुंचना।"
+      }
+    },
+    {
+      "question_id": 16,
+      "question": {
+        "en": "Which Windows accessory is a simple text editor used for writing small notes or code?",
+        "hi": "कौन सी विंडोज एक्सेसरी एक साधारण टेक्स्ट एडिटर है जिसका उपयोग छोटे नोट्स या कोड लिखने के लिए किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "MS Paint", "hi": "MS पेंट"},
+        "b": {"en": "Notepad", "hi": "नोटपैड (Notepad)"},
+        "c": {"en": "Calculator", "hi": "कैलकुलेटर"},
+        "d": {"en": "Control Panel", "hi": "कंट्रोल पैनल"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It creates files with the '.txt' extension and lacks advanced formatting features.",
+        "hi": "यह '.txt' एक्सटेंशन वाली फाइलें बनाता है और इसमें उन्नत फ़ॉर्मेटिंग सुविधाओं की कमी होती है।"
+      },
+      "explanation": {
+        "en": "Notepad is the most basic word processor included with Windows. It is fast and used primarily for taking quick notes or writing basic programming code (like HTML).",
+        "hi": "नोटपैड विंडोज के साथ शामिल सबसे बुनियादी वर्ड प्रोसेसर है। यह तेज़ है और मुख्य रूप से त्वरित नोट्स लेने या बुनियादी प्रोग्रामिंग कोड (जैसे HTML) लिखने के लिए उपयोग किया जाता है।"
+      },
+      "key_takeaway": {
+        "en": "Notepad = Basic plain-text editor.",
+        "hi": "नोटपैड = बुनियादी प्लेन-टेक्स्ट एडिटर।"
+      }
+    },
+    {
+      "question_id": 17,
+      "question": {
+        "en": "Which tool in Windows is used for drawing and editing simple images and shapes?",
+        "hi": "विंडोज में किस टूल का उपयोग सरल चित्र और आकृतियाँ बनाने और संपादित करने के लिए किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "WordPad", "hi": "वर्डपैड"},
+        "b": {"en": "MS Paint", "hi": "MS पेंट (Paint)"},
+        "c": {"en": "Notepad", "hi": "नोटपैड"},
+        "d": {"en": "Windows Explorer", "hi": "विंडोज एक्सप्लोरर"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Its icon usually features a palette and a paintbrush.",
+        "hi": "इसके आइकन में आमतौर पर एक पैलेट और पेंटब्रश होता है।"
+      },
+      "explanation": {
+        "en": "MS Paint is a simple graphics app. You can use it to create drawings, color them, or perform basic editing on photos (like cropping or adding text).",
+        "hi": "MS पेंट एक सरल ग्राफिक्स ऐप है। आप इसका उपयोग चित्र बनाने, उन्हें रंगने, या फोटो पर बुनियादी संपादन करने (जैसे क्रॉप करना या टेक्स्ट जोड़ना) के लिए कर सकते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Paint = Basic drawing and image editing software.",
+        "hi": "पेंट = बुनियादी ड्राइंग और इमेज एडिटिंग सॉफ्टवेयर।"
+      }
+    },
+    {
+      "question_id": 18,
+      "question": {
+        "en": "What is the purpose of the 'Control Panel' in Windows?",
+        "hi": "विंडोज में 'कंट्रोल पैनल' (Control Panel) का उद्देश्य क्या है?"
+      },
+      "options": {
+        "a": {"en": "To play games", "hi": "गेम खेलने के लिए"},
+        "b": {"en": "To change system settings and manage hardware/software", "hi": "सिस्टम सेटिंग्स बदलने और हार्डवेयर/सॉफ्टवेयर प्रबंधित करने के लिए"},
+        "c": {"en": "To write letters to friends", "hi": "दोस्तों को पत्र लिखने के लिए"},
+        "d": {"en": "To watch videos", "hi": "वीडियो देखने के लिए"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "This is where you go to uninstall a program or change the mouse pointer speed.",
+        "hi": "यही वह जगह है जहाँ आप किसी प्रोग्राम को अनइंस्टॉल करने या माउस पॉइंटर की गति बदलने के लिए जाते हैं।"
+      },
+      "explanation": {
+        "en": "The Control Panel allows users to view and manipulate system settings. It includes tools to set up hardware (printers, mice), change network settings, and manage user accounts.",
+        "hi": "कंट्रोल पैनल उपयोगकर्ताओं को सिस्टम सेटिंग्स देखने और उनमें बदलाव करने की अनुमति देता है। इसमें हार्डवेयर (प्रिंटर, माउस) सेट करने, नेटवर्क सेटिंग्स बदलने और उपयोगकर्ता खातों को प्रबंधित करने के टूल शामिल हैं।"
+      },
+      "key_takeaway": {
+        "en": "Control Panel = Setting and management center of Windows.",
+        "hi": "कंट्रोल पैनल = विंडोज का सेटिंग और प्रबंधन केंद्र।"
+      }
+    },
+    {
+      "question_id": 19,
+      "question": {
+        "en": "How can you change the system date and time in Windows?",
+        "hi": "विंडोज में सिस्टम की तारीख और समय कैसे बदला जा सकता है?"
+      },
+      "options": {
+        "a": {"en": "By clicking on the Desktop wallpaper", "hi": "डेस्कटॉप वॉलपेपर पर क्लिक करके"},
+        "b": {"en": "Through the Control Panel or by clicking the clock on the taskbar", "hi": "कंट्रोल पैनल के माध्यम से या टास्कबार पर घड़ी पर क्लिक करके"},
+        "c": {"en": "By restarting the computer", "hi": "कंप्यूटर को रीस्टार्ट करके"},
+        "d": {"en": "It cannot be changed", "hi": "इसे बदला नहीं जा सकता"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "The clock is located at the bottom-right corner of the taskbar.",
+        "hi": "घड़ी टास्कबार के नीचे-दाएं कोने में स्थित होती है।"
+      },
+      "explanation": {
+        "en": "You can change time settings by right-clicking the clock in the System Tray (Taskbar) or through the 'Date and Time' settings in the Control Panel.",
+        "hi": "आप सिस्टम ट्रे (टास्कबार) में घड़ी पर राइट-क्लिक करके या कंट्रोल पैनल में 'तारीख और समय' सेटिंग्स के माध्यम से समय सेटिंग्स बदल सकते हैं।"
+      },
+      "key_takeaway": {
+        "en": "System Clock = Management of time and date synchronization.",
+        "hi": "सिस्टम क्लॉक = समय और तारीख सिंक्रनाइज़ेशन का प्रबंधन।"
+      }
+    },
+    {
+      "question_id": 20,
+      "question": {
+        "en": "Which command is used to give a new name to an existing file or folder?",
+        "hi": "किसी मौजूदा फाइल या फोल्डर को नया नाम देने के लिए किस कमांड का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "Copy", "hi": "कॉपी"},
+        "b": {"en": "Rename", "hi": "रीनेम (Rename)"},
+        "c": {"en": "Delete", "hi": "डिलीट"},
+        "d": {"en": "Move", "hi": "मूव"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "You can access this by right-clicking the file or pressing the F2 key.",
+        "hi": "आप फाइल पर राइट-क्लिक करके या F2 कुंजी दबाकर इस तक पहुंच सकते हैं।"
+      },
+      "explanation": {
+        "en": "Renaming is useful when you want to make a file's name more descriptive. For example, changing 'New File' to 'Science Project'.",
+        "hi": "रीनेम करना तब उपयोगी होता है जब आप किसी फाइल के नाम को अधिक वर्णनात्मक बनाना चाहते हैं। उदाहरण के लिए, 'New File' को 'Science Project' में बदलना।"
+      },
+      "key_takeaway": {
+        "en": "Rename = Changing the label of a file/folder.",
+        "hi": "रीनेम = किसी फाइल/फोल्डर का लेबल बदलना।"
+      }
+    },
+    {
+      "question_id": 21,
+      "question": {
+        "en": "What is 'WordPad' in Windows?",
+        "hi": "विंडोज में 'वर्डपैड' (WordPad) क्या है?"
+      },
+      "options": {
+        "a": {"en": "A game", "hi": "एक गेम"},
+        "b": {"en": "A word processor that is more advanced than Notepad but simpler than MS Word", "hi": "एक वर्ड प्रोसेसर जो नोटपैड से उन्नत है लेकिन MS वर्ड से सरल है"},
+        "c": {"en": "A virus protection software", "hi": "एक वायरस सुरक्षा सॉफ्टवेयर"},
+        "d": {"en": "The Windows power button", "hi": "विंडोज पावर बटन"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It allows you to change font styles, bold text, and insert images into documents.",
+        "hi": "यह आपको फोंट स्टाइल बदलने, टेक्स्ट को बोल्ड करने और दस्तावेजों में चित्र डालने की अनुमति देता है।"
+      },
+      "explanation": {
+        "en": "WordPad is a basic rich-text editor. It sits between Notepad (plain text) and MS Word (pro document design). It is good for writing simple letters or reports with basic formatting.",
+        "hi": "वर्डपैड एक बुनियादी रिच-टेक्स्ट एडिटर है। यह नोटपैड (सादा टेक्स्ट) और MS वर्ड (प्रो दस्तावेज़ डिजाइन) के बीच आता है। यह बुनियादी फ़ॉर्मेटिंग के साथ सरल पत्र या रिपोर्ट लिखने के लिए अच्छा है।"
+      },
+      "key_takeaway": {
+        "en": "WordPad = Intermediate text formatting tool.",
+        "hi": "वर्डपैड = मध्यम स्तरीय टेक्स्ट फ़ॉर्मेटिंग टूल।"
+      }
+    },
+    {
+      "question_id": 22,
+      "question": {
+        "en": "Which mouse button is most frequently used to 'click' or 'select' objects?",
+        "hi": "वस्तुओं को 'क्लिक' या 'चुनने' के लिए किस माउस बटन का सबसे अधिक उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "Right Button", "hi": "दायां बटन (Right Button)"},
+        "b": {"en": "Left Button", "hi": "बायां बटन (Left Button)"},
+        "c": {"en": "Scroll Wheel", "hi": "स्क्रॉल व्हील"},
+        "d": {"en": "None", "hi": "कोई नहीं"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is the primary button under your index finger for right-handed users.",
+        "hi": "दाहिने हाथ के उपयोगकर्ताओं के लिए यह उनकी तर्जनी उंगली (index finger) के नीचे वाला प्राथमिक बटन है।"
+      },
+      "explanation": {
+        "en": "The Left mouse button is the primary tool for interaction. We use it to click buttons, select icons, drag windows, and open files.",
+        "hi": "बायां माउस बटन बातचीत के लिए प्राथमिक उपकरण है। हम इसका उपयोग बटन क्लिक करने, आइकन चुनने, विंडो ड्रैग करने और फाइलें खोलने के लिए करते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Left Button = Selection and Primary Interaction.",
+        "hi": "बायां बटन = चयन और प्राथमिक बातचीत।"
+      }
+    },
+    {
+      "question_id": 23,
+      "question": {
+        "en": "What is the function of the middle 'Scroll Button' on a mouse?",
+        "hi": "माउस पर बीच वाले 'स्क्रॉल बटन' (Scroll Button) का कार्य क्या है?"
+      },
+      "options": {
+        "a": {"en": "To delete files", "hi": "फाइलें डिलीट करने के लिए"},
+        "b": {"en": "To move up and down through a long document or web page", "hi": "किसी लंबे दस्तावेज़ या वेब पेज में ऊपर और नीचे जाने के लिए"},
+        "c": {"en": "To turn off the monitor", "hi": "मॉनिटर बंद करने के लिए"},
+        "d": {"en": "To right-click", "hi": "राइट-क्लिक करने के लिए"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is a wheel that you roll with your finger.",
+        "hi": "यह एक पहिया (wheel) है जिसे आप अपनी उंगली से घुमाते हैं।"
+      },
+      "explanation": {
+        "en": "The Scroll button (or wheel) allows you to move the screen view vertically. This is very useful when reading long books or websites where the page doesn't fit on one screen.",
+        "hi": "स्क्रॉल बटन (या पहिया) आपको स्क्रीन दृश्य को लंबवत रूप से स्थानांतरित करने की अनुमति देता है। यह लंबी किताबें या वेबसाइटें पढ़ते समय बहुत उपयोगी होता है जहाँ पेज एक स्क्रीन पर फिट नहीं होता है।"
+      },
+      "key_takeaway": {
+        "en": "Scroll Button = Vertical navigation tool.",
+        "hi": "स्क्रॉल बटन = लंबवत नेविगेशन टूल।"
+      }
+    },
+    {
+      "question_id": 24,
+      "question": {
+        "en": "Where do you find the 'Calculator' in Windows?",
+        "hi": "विंडोज में 'कैलकुलेटर' कहाँ मिलता है?"
+      },
+      "options": {
+        "a": {"en": "Inside the CPU", "hi": "CPU के अंदर"},
+        "b": {"en": "In the Start Menu under Accessories/Apps", "hi": "एक्सेसरीज/ऐप्स के तहत स्टार्ट मेनू में"},
+        "c": {"en": "On the printer", "hi": "प्रिंटर पर"},
+        "d": {"en": "Inside Windows Explorer", "hi": "विंडोज एक्सप्लोरर के अंदर"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "You can also search for it by typing in the taskbar search box.",
+        "hi": "आप टास्कबार सर्च बॉक्स में टाइप करके भी इसे खोज सकते हैं।"
+      },
+      "explanation": {
+        "en": "Windows includes a virtual Calculator accessory. It can perform simple arithmetic (Standard mode) or complex math (Scientific mode).",
+        "hi": "विंडोज में एक वर्चुअल कैलकुलेटर एक्सेसरी शामिल है। यह सरल अंकगणित (स्टैंडर्ड मोड) या जटिल गणित (साइंटिफिक मोड) कर सकता है।"
+      },
+      "key_takeaway": {
+        "en": "Calculator = Virtual tool for mathematical tasks.",
+        "hi": "कैलकुलेटर = गणितीय कार्यों के लिए वर्चुअल टूल।"
+      }
+    },
+    {
+      "question_id": 25,
+      "question": {
+        "en": "What is a 'File Extension' used for?",
+        "hi": "'फाइल एक्सटेंशन' का उपयोग किस लिए किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "To make the file larger", "hi": "फाइल को बड़ा बनाने के लिए"},
+        "b": {"en": "To identify the type of the file (e.g., image, text, audio)", "hi": "फाइल के प्रकार की पहचान करने के लिए (जैसे इमेज, टेक्स्ट, ऑडियो)"},
+        "c": {"en": "To change the computer's name", "hi": "कंप्यूटर का नाम बदलने के लिए"},
+        "d": {"en": "To connect to the internet", "hi": "इंटरनेट से जुड़ने के लिए"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Examples include .txt, .jpg, .mp3.",
+        "hi": "उदाहरणों में .txt, .jpg, .mp3 शामिल हैं।"
+      },
+      "explanation": {
+        "en": "An extension is the suffix at the end of a filename (after the dot). It tells the OS which program should open that file. For example, .txt opens in Notepad, and .jpg opens in a photo viewer.",
+        "hi": "एक्सटेंशन फाइल नाम के अंत में (डॉट के बाद) लगने वाला प्रत्यय है। यह OS को बताता है कि कौन सा प्रोग्राम उस फाइल को खोलना चाहिए। उदाहरण के लिए, .txt नोटपैड में खुलता है, और .jpg फोटो व्यूअर में खुलता है।"
+      },
+      "key_takeaway": {
+        "en": "Extension = File type identifier.",
+        "hi": "एक्सटेंशन = फाइल प्रकार पहचानकर्ता।"
+      }
+    },
+    {
+      "question_id": 26,
+      "question": {
+        "en": "Which feature allow us to see files and folders as small, medium, or large 'Icons' in Windows Explorer?",
+        "hi": "विंडोज एक्सप्लोरर में कौन सी सुविधा हमें फाइलों और फोल्डरों को छोटे, मध्यम या बड़े 'आइकन' के रूप में देखने की अनुमति देती है?"
+      },
+      "options": {
+        "a": {"en": "Edit Menu", "hi": "एडिट मेनू"},
+        "b": {"en": "View Menu/Tab", "hi": "व्यू (View) मेनू/टैब"},
+        "c": {"en": "File Menu", "hi": "फाइल मेनू"},
+        "d": {"en": "Help Menu", "hi": "हेल्प मेनू"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "This menu controls how things 'look' on the screen.",
+        "hi": "यह मेनू नियंत्रित करता है कि चीज़ें स्क्रीन पर कैसी 'दिखती' हैं।"
+      },
+      "explanation": {
+        "en": "The 'View' tab or menu in Explorer lets you change the layout. You can choose 'Details' to see file size, or 'Large Icons' to see a preview of photos.",
+        "hi": "एक्सप्लोरर में 'व्यू' (View) टैब या मेनू आपको लेआउट बदलने देता है। आप फाइल का आकार देखने के लिए 'Details' चुन सकते हैं, या फोटो का प्रीव्यू देखने के लिए 'Large Icons' चुन सकते हैं।"
+      },
+      "key_takeaway": {
+        "en": "View settings = Visual layout management.",
+        "hi": "व्यू सेटिंग्स = विजुअल लेआउट प्रबंधन।"
+      }
+    },
+    {
+      "question_id": 27,
+      "question": {
+        "en": "What does 'GUI' stand for, which is the basic design of Windows?",
+        "hi": "विंडोज के मूल डिजाइन 'GUI' का क्या अर्थ है?"
+      },
+      "options": {
+        "a": {"en": "General User Index", "hi": "जनरल यूजर इंडेक्स"},
+        "b": {"en": "Graphical User Interface", "hi": "ग्राफिकल यूजर इंटरफेस (Graphical User Interface)"},
+        "c": {"en": "Global Unit Identity", "hi": "ग्लोबल यूनिट आइडेंटिटी"},
+        "d": {"en": "Great User Interaction", "hi": "ग्रेट यूजर इंटरैक्शन"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It means using pictures, icons, and menus instead of typing commands.",
+        "hi": "इसका मतलब कमांड टाइप करने के बजाय चित्रों, आइकन और मेनू का उपयोग करना है।"
+      },
+      "explanation": {
+        "en": "Windows is a Graphical User Interface. In early computers, people had to type commands (Text interface). GUI made computers easy for everyone by allowing interaction through visual icons and pointing devices (Mouse).",
+        "hi": "विंडोज एक ग्राफिकल यूजर इंटरफेस है। शुरुआती कंप्यूटरों में, लोगों को कमांड टाइप करनी पड़ती थी (टेक्स्ट इंटरफेस)। GUI ने विजुअल आइकन और पॉइंटिंग डिवाइस (माउस) के माध्यम से बातचीत की अनुमति देकर कंप्यूटर को सभी के लिए आसान बना दिया।"
+      },
+      "key_takeaway": {
+        "en": "GUI = Visual interaction (Icons/Windows).",
+        "hi": "GUI = विजुअल इंटरेक्शन (आइकन/विंडोज)।"
+      }
+    },
+    {
+      "question_id": 28,
+      "question": {
+        "en": "In Windows, where are your default photos usually stored?",
+        "hi": "विंडोज में, आपकी डिफ़ॉल्ट तस्वीरें आमतौर पर कहां स्टोर होती हैं?"
+      },
+      "options": {
+        "a": {"en": "Downloads folder", "hi": "डाउनलोड फोल्डर"},
+        "b": {"en": "Pictures folder", "hi": "पिक्चर्स (Pictures) फोल्डर"},
+        "c": {"en": "Desktop", "hi": "डेस्कटॉप"},
+        "d": {"en": "Recycle Bin", "hi": "रिसायकल बिन"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Windows provides specific system folders for different types of media.",
+        "hi": "विंडोज विभिन्न प्रकार के मीडिया के लिए विशिष्ट सिस्टम फोल्डर प्रदान करता है।"
+      },
+      "explanation": {
+        "en": "The 'Pictures' folder (inside Documents or User folder) is the default location where Windows apps and cameras save image files.",
+        "hi": "'पिक्चर्स' फोल्डर (दस्तावेज़ या उपयोगकर्ता फोल्डर के अंदर) वह डिफ़ॉल्ट स्थान है जहाँ विंडोज ऐप और कैमरे इमेज फाइलें सहेजते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Standard Library Folders = Pictures, Music, Videos, Documents.",
+        "hi": "मानक लाइब्रेरी फोल्डर = पिक्चर्स, म्यूजिक, वीडियो, डॉक्युमेंट।"
+      }
+    },
+    {
+      "question_id": 29,
+      "question": {
+        "en": "What is 'My Computer' (or 'This PC') used for?",
+        "hi": "'माय कंप्यूटर' (या 'This PC') का उपयोग किस लिए किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "To see available disk drives and hardware resources", "hi": "उपलब्ध डिस्क ड्राइव और हार्डवेयर संसाधनों को देखने के लिए"},
+        "b": {"en": "To play music only", "hi": "केवल संगीत चलाने के लिए"},
+        "c": {"en": "To clean the monitor", "hi": "मॉनिटर साफ करने के लिए"},
+        "d": {"en": "To type a bio-data", "hi": "बायो-डेटा टाइप करने के लिए"}
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "It shows you your C:, D:, and external drives.",
+        "hi": "यह आपको आपकी C:, D: और बाहरी ड्राइव दिखाता है।"
+      },
+      "explanation": {
+        "en": "'This PC' icon opens a window that displays all the storage drives connected to your computer. It gives you a complete overview of your computer's storage and connected devices like CD drives or Pen drives.",
+        "hi": "'This PC' आइकन एक विंडो खोलता है जो आपके कंप्यूटर से जुड़े सभी स्टोरेज ड्राइव को प्रदर्शित करता है। यह आपको आपके कंप्यूटर के स्टोरेज और सीडी ड्राइव या पेन ड्राइव जैसे कनेक्टेड डिवाइसों का पूरा विवरण देता है।"
+      },
+      "key_takeaway": {
+        "en": "This PC = Overview of system storage and drives.",
+        "hi": "This PC = सिस्टम स्टोरेज और ड्राइव का विवरण।"
+      }
+    },
+    {
+      "question_id": 30,
+      "question": {
+        "en": "Which of these bars is usually at the bottom of a window and shows information about the status of the file (like page number)?",
+        "hi": "इनमें से कौन सी पट्टी आमतौर पर विंडो के नीचे होती है और फाइल की स्थिति (जैसे पेज नंबर) के बारे में जानकारी दिखाती है?"
+      },
+      "options": {
+        "a": {"en": "Title Bar", "hi": "टाइटल बार"},
+        "b": {"en": "Status Bar", "hi": "स्टेटस बार (Status Bar)"},
+        "c": {"en": "Menu Bar", "hi": "मेनू बार"},
+        "d": {"en": "Taskbar", "hi": "टास्कबार"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It provides 'status' updates of your current document.",
+        "hi": "यह आपके वर्तमान दस्तावेज़ के 'स्टेटस' अपडेट प्रदान करता है।"
+      },
+      "explanation": {
+        "en": "The Status Bar is at the very bottom of an application window. In MS Word, it shows the page count and word count. In Explorer, it shows how many items are in a folder.",
+        "hi": "स्टेटस बार एप्लिकेशन विंडो के बिल्कुल नीचे होता है। MS वर्ड में, यह पेज संख्या और शब्द संख्या दिखाता है। एक्सप्लोरर में, यह दिखाता है कि फोल्डर में कितने आइटम हैं।"
+      },
+      "key_takeaway": {
+        "en": "Status Bar = Bottom bar for informative feedback.",
+        "hi": "स्टेटस बार = सूचनात्मक फीडबैक के लिए नीचे की पट्टी।"
+      }
+    }
+  ]
+}
