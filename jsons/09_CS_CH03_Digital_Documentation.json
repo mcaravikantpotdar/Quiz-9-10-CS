@@ -1,0 +1,794 @@
+{
+  "metadata": {
+    "chapter_number": 3,
+    "chapter_title": "Digital Documentation - Word Processing (Elementary)",
+    "chapter_title_hindi": "डिजिटल दस्तावेजीकरण - वर्ड प्रोसेसिंग (प्रारंभिक)",
+    "subject": "Computer Science - Class 9",
+    "board": "HPBOSE",
+    "total_questions": 30,
+    "version": "1.0",
+    "naming_convention": "09_CS_CH03_Digital_Documentation.json"
+  },
+  "questions": [
+    {
+      "question_id": 1,
+      "question": {
+        "en": "What is Microsoft Word primarily used for?",
+        "hi": "माइक्रोसॉफ्ट वर्ड मुख्य रूप से किसके लिए उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "Creating and editing text-based documents", "hi": "टेक्स्ट-आधारित दस्तावेज़ बनाने और संपादित करने के लिए"},
+        "b": {"en": "Solving complex mathematical calculations", "hi": "जटिल गणितीय गणनाओं को हल करने के लिए"},
+        "c": {"en": "Designing complex databases", "hi": "जटिल डेटाबेस डिजाइन करने के लिए"},
+        "d": {"en": "Editing high-quality videos", "hi": "उच्च गुणवत्ता वाले वीडियो संपादित करने के लिए"}
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "It is like a digital notebook where you can type letters and reports.",
+        "hi": "यह एक डिजिटल नोटबुक की तरह है जहाँ आप पत्र और रिपोर्ट टाइप कर सकते हैं।"
+      },
+      "explanation": {
+        "en": "Microsoft Word is a 'Word Processor'. Its main job is to help you type, format, and save text documents like letters, essays, and school projects. It is like a digital version of a pen and paper, but with more tools to make the page look beautiful.",
+        "hi": "माइक्रोसॉफ्ट वर्ड एक 'वर्ड प्रोसेसर' है। इसका मुख्य काम आपको पत्र, निबंध और स्कूल प्रोजेक्ट जैसे टेक्स्ट दस्तावेज़ टाइप करने, फॉर्मेट करने और सेव करने में मदद करना है। यह पेन और पेपर का एक डिजिटल संस्करण है, लेकिन पेज को सुंदर बनाने के लिए इसमें अधिक टूल हैं।"
+      },
+      "key_takeaway": {
+        "en": "MS-Word = Professional document creation tool.",
+        "hi": "MS-Word = पेशेवर दस्तावेज़ निर्माण टूल।"
+      }
+    },
+    {
+      "question_id": 2,
+      "question": {
+        "en": "What is the standard file extension for documents saved in modern versions of MS-Word?",
+        "hi": "MS-Word के आधुनिक संस्करणों में सहेजे गए दस्तावेज़ों के लिए मानक फ़ाइल एक्सटेंशन क्या है?"
+      },
+      "options": {
+        "a": {"en": ".txt", "hi": ".txt"},
+        "b": {"en": ".xls", "hi": ".xls"},
+        "c": {"en": ".docx", "hi": ".docx"},
+        "d": {"en": ".ppt", "hi": ".ppt"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "The extension starts with '.doc' and ends with an 'x'.",
+        "hi": "एक्सटेंशन '.doc' से शुरू होता है और 'x' पर समाप्त होता है।"
+      },
+      "explanation": {
+        "en": "Every file on a computer has an 'extension' that tells the computer which app should open it. Modern Word files use '.docx'. Older versions (before 2007) used '.doc'.",
+        "hi": "कंप्यूटर पर प्रत्येक फ़ाइल का एक 'एक्सटेंशन' होता है जो कंप्यूटर को बताता है कि कौन सा ऐप उसे खोलना चाहिए। आधुनिक वर्ड फ़ाइलें '.docx' का उपयोग करती हैं। पुराने संस्करणों (2007 से पहले) में '.doc' का उपयोग किया जाता था।"
+      },
+      "key_takeaway": {
+        "en": ".docx = Modern Microsoft Word Document.",
+        "hi": ".docx = आधुनिक माइक्रोसॉफ्ट वर्ड दस्तावेज़।"
+      }
+    },
+    {
+      "question_id": 3,
+      "question": {
+        "en": "Which keyboard shortcut is used to create a 'New' blank document in MS-Word?",
+        "hi": "MS-Word में 'नया' (New) खाली दस्तावेज़ बनाने के लिए किस कीबोर्ड शॉर्टकट का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "Ctrl + S", "hi": "Ctrl + S"},
+        "b": {"en": "Ctrl + N", "hi": "Ctrl + N"},
+        "c": {"en": "Ctrl + O", "hi": "Ctrl + O"},
+        "d": {"en": "Ctrl + P", "hi": "Ctrl + P"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "The shortcut uses the first letter of the word 'New'.",
+        "hi": "शॉर्टकट 'New' शब्द के पहले अक्षर का उपयोग करता है।"
+      },
+      "explanation": {
+        "en": "Instead of clicking through menus, you can press the Control (Ctrl) and 'N' keys together to instantly open a fresh, blank page to start typing.",
+        "hi": "मेनू पर क्लिक करने के बजाय, आप टाइपिंग शुरू करने के लिए तुरंत एक नया, खाली पेज खोलने के लिए कंट्रोल (Ctrl) और 'N' कुंजियों को एक साथ दबा सकते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Ctrl + N = New Document.",
+        "hi": "Ctrl + N = नया दस्तावेज़।"
+      }
+    },
+    {
+      "question_id": 4,
+      "question": {
+        "en": "To permanently store your document on the computer's hard disk, which command should you use?",
+        "hi": "अपने दस्तावेज़ को कंप्यूटर की हार्ड डिस्क पर स्थायी रूप से संग्रहीत करने के लिए, आपको किस कमांड का उपयोग करना चाहिए?"
+      },
+      "options": {
+        "a": {"en": "Open", "hi": "ओपन"},
+        "b": {"en": "Print", "hi": "प्रिंट"},
+        "c": {"en": "Save", "hi": "सेव (Save)"},
+        "d": {"en": "New", "hi": "न्यू"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "The shortcut is Ctrl + S.",
+        "hi": "इसका शॉर्टकट Ctrl + S है।"
+      },
+      "explanation": {
+        "en": "Until you 'Save' a document, it stays in the temporary memory (RAM) and can be lost if power goes out. 'Saving' writes the file onto the hard disk so you can access it later.",
+        "hi": "जब तक आप किसी दस्तावेज़ को 'सेव' नहीं करते, वह अस्थायी मेमोरी (RAM) में रहता है और बिजली जाने पर नष्ट हो सकता है। 'सेव' करने से फ़ाइल हार्ड डिस्क पर लिख दी जाती है ताकि आप इसे बाद में देख सकें।"
+      },
+      "key_takeaway": {
+        "en": "Ctrl + S = Save Document.",
+        "hi": "Ctrl + S = दस्तावेज़ सहेजें (Save)।"
+      }
+    },
+    {
+      "question_id": 5,
+      "question": {
+        "en": "Which bar is located at the very top of the Word window and shows the name of the active document?",
+        "hi": "वर्ड विंडो के बिल्कुल शीर्ष पर कौन सी पट्टी स्थित होती है और सक्रिय दस्तावेज़ का नाम दिखाती है?"
+      },
+      "options": {
+        "a": {"en": "Status Bar", "hi": "स्टेटस बार"},
+        "b": {"en": "Menu Bar", "hi": "मेनू बार"},
+        "c": {"en": "Title Bar", "hi": "टाइटल बार (Title Bar)"},
+        "d": {"en": "Scroll Bar", "hi": "स्क्रॉल बार"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "It holds the 'Title' of your file.",
+        "hi": "इसमें आपकी फ़ाइल का 'टाइटल' (शीर्षक) होता है।"
+      },
+      "explanation": {
+        "en": "The Title Bar is the first thing you see at the top. It displays the filename (like 'Document1' or 'My Homework'). It also contains the minimize, maximize, and close buttons on the right.",
+        "hi": "टाइटल बार वह पहली चीज़ है जिसे आप सबसे ऊपर देखते हैं। यह फ़ाइल का नाम (जैसे 'Document1' या 'My Homework') प्रदर्शित करता है। इसमें दाईं ओर मिनिमाइज, मैक्सिमाइज और क्लोज बटन भी होते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Title Bar = Page Identity + Window Control.",
+        "hi": "टाइटल बार = पेज की पहचान + विंडो नियंत्रण।"
+      }
+    },
+    {
+      "question_id": 6,
+      "question": {
+        "en": "What is the function of 'Bold' text formatting?",
+        "hi": "'बोल्ड' (Bold) टेक्स्ट फ़ॉर्मेटिंग का कार्य क्या है?"
+      },
+      "options": {
+        "a": {"en": "To make the text slanted", "hi": "टेक्स्ट को तिरछा करने के लिए"},
+        "b": {"en": "To make the text thicker and darker", "hi": "टेक्स्ट को मोटा और गहरा बनाने के लिए"},
+        "c": {"en": "To put a line under the text", "hi": "टेक्स्ट के नीचे एक लाइन खींचने के लिए"},
+        "d": {"en": "To delete the text", "hi": "टेक्स्ट को डिलीट करने के लिए"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Shortcut: Ctrl + B.",
+        "hi": "शॉर्टकट: Ctrl + B।"
+      },
+      "explanation": {
+        "en": "Bold is used to highlight important words or headings. It makes the letters look heavier compared to the surrounding text, making them stand out. Example: **Important Notice**.",
+        "hi": "बोल्ड का उपयोग महत्वपूर्ण शब्दों या शीर्षकों को हाइलाइट करने के लिए किया जाता है। यह अक्षरों को आसपास के टेक्स्ट की तुलना में भारी दिखाता है, जिससे वे अलग दिखते हैं। उदाहरण: **महत्वपूर्ण सूचना**।"
+      },
+      "key_takeaway": {
+        "en": "Ctrl + B = Bold (Heavy Text).",
+        "hi": "Ctrl + B = बोल्ड (मोटा टेक्स्ट)।"
+      }
+    },
+    {
+      "question_id": 7,
+      "question": {
+        "en": "Which feature is used to place a line underneath selected text?",
+        "hi": "चुने गए टेक्स्ट के नीचे लाइन खींचने के लिए किस सुविधा का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "Italic", "hi": "इटैलिक"},
+        "b": {"en": "Bold", "hi": "बोल्ड"},
+        "c": {"en": "Underline", "hi": "अंडरलाइन (Underline)"},
+        "d": {"en": "Strikethrough", "hi": "स्ट्राइकथ्रू"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "Shortcut: Ctrl + U.",
+        "hi": "शॉर्टकट: Ctrl + U।"
+      },
+      "explanation": {
+        "en": "Underline draws a horizontal line directly beneath the text you have selected. It is often used for titles or links. Example: <u>Chapter 1</u>.",
+        "hi": "अंडरलाइन आपके द्वारा चुने गए टेक्स्ट के ठीक नीचे एक क्षैतिज रेखा खींचता है। इसका उपयोग अक्सर शीर्षकों या लिंक के लिए किया जाता है। उदाहरण: <u>अध्याय 1</u>।"
+      },
+      "key_takeaway": {
+        "en": "Ctrl + U = Underline.",
+        "hi": "Ctrl + U = अंडरलाइन।"
+      }
+    },
+    {
+      "question_id": 8,
+      "question": {
+        "en": "If you want to slant your text to make it look emphasized or stylistic, which option do you use?",
+        "hi": "यदि आप अपने टेक्स्ट को तिरछा करना चाहते हैं ताकि वह उभरा हुआ या स्टाइलिश दिखे, तो आप किस विकल्प का उपयोग करते हैं?"
+      },
+      "options": {
+        "a": {"en": "Underline", "hi": "अंडरलाइन"},
+        "b": {"en": "Italic", "hi": "इटैलिक (Italic)"},
+        "c": {"en": "Bold", "hi": "बोल्ड"},
+        "d": {"en": "Superscript", "hi": "सुपरस्क्रिप्ट"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Shortcut: Ctrl + I.",
+        "hi": "शॉर्टकट: Ctrl + I।"
+      },
+      "explanation": {
+        "en": "The Italic feature tilts the text slightly to the right. It is commonly used for book titles, foreign words, or emphasizing a specific word in a sentence. Example: *This is Italic*.",
+        "hi": "इटैलिक सुविधा टेक्स्ट को थोड़ा दाईं ओर झुका देती है। इसका उपयोग आमतौर पर पुस्तक के शीर्षकों, विदेशी शब्दों, या वाक्य में किसी विशिष्ट शब्द पर जोर देने के लिए किया जाता है। उदाहरण: *यह इटैलिक है*।"
+      },
+      "key_takeaway": {
+        "en": "Ctrl + I = Italic (Slanted Text).",
+        "hi": "Ctrl + I = इटैलिक (तिरछा टेक्स्ट)।"
+      }
+    },
+    {
+      "question_id": 9,
+      "question": {
+        "en": "Which alignment places your text exactly in the middle of the left and right margins?",
+        "hi": "कौन सा अलाइनमेंट आपके टेक्स्ट को बाएँ और दाएँ मार्जिन के ठीक बीच में रखता है?"
+      },
+      "options": {
+        "a": {"en": "Align Left", "hi": "अलाइन लेफ्ट"},
+        "b": {"en": "Align Right", "hi": "अलाइन राइट"},
+        "c": {"en": "Center", "hi": "सेंटर (Center)"},
+        "d": {"en": "Justify", "hi": "जस्टिफाई"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "This is typically used for main headings of a report.",
+        "hi": "आमतौर पर इसका उपयोग रिपोर्ट के मुख्य शीर्षकों के लिए किया जाता है।"
+      },
+      "explanation": {
+        "en": "Center alignment ensures the text is balanced in the middle of the page. It is the most common style for titles. Shortcut: Ctrl + E.",
+        "hi": "सेंटर अलाइनमेंट यह सुनिश्चित करता है कि टेक्स्ट पेज के बीच में संतुलित है। यह शीर्षकों के लिए सबसे सामान्य शैली है। शॉर्टकट: Ctrl + E।"
+      },
+      "key_takeaway": {
+        "en": "Ctrl + E = Center Alignment.",
+        "hi": "Ctrl + E = सेंटर अलाइनमेंट।"
+      }
+    },
+    {
+      "question_id": 10,
+      "question": {
+        "en": "What does the 'Justify' alignment do to your paragraph?",
+        "hi": "'जस्टिफाई' (Justify) अलाइनमेंट आपके पैराग्राफ के साथ क्या करता है?"
+      },
+      "options": {
+        "a": {"en": "Pushes all text to the left only", "hi": "सभी टेक्स्ट को केवल बाईं ओर धकेलता है"},
+        "b": {"en": "Aligns text to both the left and right margins evenly", "hi": "टेक्स्ट को बाएँ और दाएँ दोनों मार्जिन पर समान रूप से अलाइन करता है"},
+        "c": {"en": "Pushes all text to the right only", "hi": "सभी टेक्स्ट को केवल दाईं ओर धकेलता है"},
+        "d": {"en": "Adds space between every single letter", "hi": "हर एक अक्षर के बीच स्थान जोड़ता है"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Newspapers and books use this to make the edges of paragraphs look straight on both sides.",
+        "hi": "समाचार पत्र और किताबें इसका उपयोग पैराग्राफ के किनारों को दोनों तरफ से सीधा दिखाने के लिए करते हैं।"
+      },
+      "explanation": {
+        "en": "Justify alignment adds extra space between words so that each line starts at the left margin and ends exactly at the right margin. This makes the document look very neat and formal. Shortcut: Ctrl + J.",
+        "hi": "जस्टिफाई अलाइनमेंट शब्दों के बीच अतिरिक्त स्थान जोड़ता है ताकि प्रत्येक लाइन बाएं मार्जिन से शुरू हो और ठीक दाएं मार्जिन पर समाप्त हो। इससे दस्तावेज़ बहुत साफ और औपचारिक दिखता है। शॉर्टकट: Ctrl + J।"
+      },
+      "key_takeaway": {
+        "en": "Justify = Straight edges on both sides of the paragraph.",
+        "hi": "जस्टिफाई = पैराग्राफ के दोनों तरफ सीधे किनारे।"
+      }
+    },
+    {
+      "question_id": 11,
+      "question": {
+        "en": "What are the blank spaces around the edges of a page where no text is printed called?",
+        "hi": "पेज के किनारों के आसपास के वे खाली स्थान क्या कहलाते हैं जहाँ कोई टेक्स्ट प्रिंट नहीं होता है?"
+      },
+      "options": {
+        "a": {"en": "Gutters", "hi": "गटर"},
+        "b": {"en": "Margins", "hi": "मार्जिन (Margins)"},
+        "c": {"en": "Tabs", "hi": "टैब"},
+        "d": {"en": "Paddings", "hi": "पैडिंग"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "There are four types: Top, Bottom, Left, and Right.",
+        "hi": "ये चार प्रकार के होते हैं: टॉप, बॉटम, लेफ्ट और राइट।"
+      },
+      "explanation": {
+        "en": "Margins are the white spaces that surround the text on a page. They act as a border. You can adjust them to fit more text on a page (narrow margins) or to give the text more breathing room (wide margins).",
+        "hi": "मार्जिन वे सफेद स्थान हैं जो एक पेज पर टेक्स्ट के चारों ओर होते हैं। वे एक बॉर्डर की तरह काम करते हैं। आप उन्हें एक पेज पर अधिक टेक्स्ट फिट करने (संकीर्ण मार्जिन) या टेक्स्ट को अधिक जगह देने (चौड़े मार्जिन) के लिए समायोजित कर सकते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Margins = Blank borders of the page.",
+        "hi": "मार्जिन = पेज के खाली बॉर्डर।"
+      }
+    },
+    {
+      "question_id": 12,
+      "question": {
+        "en": "Which command is used to see how your document will look on paper before you actually print it?",
+        "hi": "वास्तव में प्रिंट करने से पहले आपका दस्तावेज़ कागज पर कैसा दिखेगा, यह देखने के लिए किस कमांड का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "Web Layout", "hi": "वेब लेआउट"},
+        "b": {"en": "Print Preview", "hi": "प्रिंट प्रीव्यू (Print Preview)"},
+        "c": {"en": "Draft View", "hi": "ड्राफ्ट व्यू"},
+        "d": {"en": "Outline View", "hi": "आउटलाइन व्यू"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It helps you save paper by checking for errors before printing.",
+        "hi": "यह प्रिंट करने से पहले त्रुटियों की जांच करके कागज बचाने में आपकी मदद करता है।"
+      },
+      "explanation": {
+        "en": "Print Preview shows exactly how the text, images, and margins will appear on the physical sheet of paper. It allows you to make final adjustments to page setup.",
+        "hi": "प्रिंट प्रीव्यू ठीक-ठीक दिखाता है कि टेक्स्ट, चित्र और मार्जिन कागज की भौतिक शीट पर कैसे दिखाई देंगे। यह आपको पेज सेटअप में अंतिम समायोजन करने की अनुमति देता है।"
+      },
+      "key_takeaway": {
+        "en": "Always check Print Preview to avoid wasting paper.",
+        "hi": "कागज बर्बाद करने से बचने के लिए हमेशा प्रिंट प्रीव्यू की जांच करें।"
+      }
+    },
+    {
+      "question_id": 13,
+      "question": {
+        "en": "The space between two lines of text in a paragraph is known as ______.",
+        "hi": "एक पैराग्राफ में टेक्स्ट की दो लाइनों के बीच के स्थान को ______ के रूप में जाना जाता है।"
+      },
+      "options": {
+        "a": {"en": "Paragraph Spacing", "hi": "पैराग्राफ स्पेसिंग"},
+        "b": {"en": "Line Spacing", "hi": "लाइन स्पेसिंग (Line Spacing)"},
+        "c": {"en": "Character Spacing", "hi": "कैरेक्टर स्पेसिंग"},
+        "d": {"en": "Word Spacing", "hi": "वर्ड स्पेसिंग"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Common settings include Single (1.0) and Double (2.0).",
+        "hi": "सामान्य सेटिंग्स में सिंगल (1.0) और डबल (2.0) शामिल हैं।"
+      },
+      "explanation": {
+        "en": "Line Spacing determines the vertical distance between the lines of text. Increasing it (like using Double Spacing) makes a document easier to read and leave comments between lines.",
+        "hi": "लाइन स्पेसिंग टेक्स्ट की लाइनों के बीच की ऊर्ध्वाधर दूरी निर्धारित करती है। इसे बढ़ाने से (जैसे डबल स्पेसिंग का उपयोग करना) दस्तावेज़ को पढ़ना आसान हो जाता है और लाइनों के बीच टिप्पणी छोड़ना आसान होता है।"
+      },
+      "key_takeaway": {
+        "en": "Line Spacing = Vertical gap between lines.",
+        "hi": "लाइन स्पेसिंग = लाइनों के बीच ऊर्ध्वाधर अंतर।"
+      }
+    },
+    {
+      "question_id": 14,
+      "question": {
+        "en": "What do we call the text that is printed at the very top of every page in a document?",
+        "hi": "किसी दस्तावेज़ के प्रत्येक पेज के बिल्कुल शीर्ष पर प्रिंट होने वाले टेक्स्ट को हम क्या कहते हैं?"
+      },
+      "options": {
+        "a": {"en": "Footer", "hi": "फुटर"},
+        "b": {"en": "Header", "hi": "हेडर (Header)"},
+        "c": {"en": "Heading", "hi": "हेडिंग"},
+        "d": {"en": "Title", "hi": "टाइटल"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Just like your 'Head' is at the top of your body.",
+        "hi": "जैसे आपका 'सिर' (Head) आपके शरीर के शीर्ष पर होता है।"
+      },
+      "explanation": {
+        "en": "A Header is a section of the document that appears in the top margin. Once you set a Header, it repeats automatically on every single page. It is used for book titles or author names.",
+        "hi": "हेडर दस्तावेज़ का वह भाग है जो टॉप मार्जिन में दिखाई देता है। एक बार जब आप हेडर सेट कर लेते हैं, तो यह हर एक पेज पर अपने आप दोहराया जाता है। इसका उपयोग पुस्तक के शीर्षकों या लेखक के नामों के लिए किया जाता है।"
+      },
+      "key_takeaway": {
+        "en": "Header = Recurring text at the top.",
+        "hi": "हेडर = शीर्ष पर बार-बार आने वाला टेक्स्ट।"
+      }
+    },
+    {
+      "question_id": 15,
+      "question": {
+        "en": "Which feature repeats information like 'Page Number' or 'Date' at the bottom of every page?",
+        "hi": "कौन सी सुविधा प्रत्येक पेज के निचले भाग में 'पेज नंबर' या 'तारीख' जैसी जानकारी दोहराती है?"
+      },
+      "options": {
+        "a": {"en": "Header", "hi": "हेडर"},
+        "b": {"en": "Footer", "hi": "फुटर (Footer)"},
+        "c": {"en": "Endnote", "hi": "एंडनोट"},
+        "d": {"en": "Subscript", "hi": "सबस्क्रिप्ट"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Just like your 'Foot' is at the bottom of your body.",
+        "hi": "जैसे आपका 'पैर' (Foot) आपके शरीर के निचले हिस्से में होता है।"
+      },
+      "explanation": {
+        "en": "A Footer is located in the bottom margin of a page. It is the perfect place to put automatic page numbers so the reader knows which page they are on.",
+        "hi": "फुटर पेज के निचले मार्जिन में स्थित होता है। यह स्वचालित पेज नंबर डालने के लिए सबसे सही जगह है ताकि पाठक को पता चले कि वे किस पेज पर हैं।"
+      },
+      "key_takeaway": {
+        "en": "Footer = Recurring text at the bottom.",
+        "hi": "फुटर = नीचे की ओर बार-बार आने वाला टेक्स्ट।"
+      }
+    },
+    {
+      "question_id": 16,
+      "question": {
+        "en": "Which key on the keyboard is used to check spelling and grammar errors in a Word document?",
+        "hi": "वर्ड दस्तावेज़ में वर्तनी (spelling) और व्याकरण (grammar) की त्रुटियों की जाँच करने के लिए कीबोर्ड पर किस कुंजी का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "F1", "hi": "F1"},
+        "b": {"en": "F5", "hi": "F5"},
+        "c": {"en": "F7", "hi": "F7"},
+        "d": {"en": "F12", "hi": "F12"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "It is a function key in the top row of your keyboard.",
+        "hi": "यह आपके कीबोर्ड की शीर्ष पंक्ति में एक फंक्शन की (function key) है।"
+      },
+      "explanation": {
+        "en": "Pressing F7 launches the 'Spelling and Grammar' check. MS-Word will then scan your entire document and suggest corrections for misspelled words or incorrect sentences.",
+        "hi": "F7 दबाने से 'स्पेलिंग और ग्रामर' चेक शुरू हो जाता है। इसके बाद MS-Word आपके पूरे दस्तावेज़ को स्कैन करेगा और गलत वर्तनी वाले शब्दों या गलत वाक्यों के लिए सुधार का सुझाव देगा।"
+      },
+      "key_takeaway": {
+        "en": "F7 = Spelling & Grammar Check shortcut.",
+        "hi": "F7 = स्पेलिंग और ग्रामर चेक शॉर्टकट।"
+      }
+    },
+    {
+      "question_id": 17,
+      "question": {
+        "en": "How does MS-Word visually indicate a potential 'Spelling' error in your text?",
+        "hi": "MS-Word आपके टेक्स्ट में संभावित 'स्पेलिंग' (वर्तनी) त्रुटि को दृश्य रूप से कैसे इंगित करता है?"
+      },
+      "options": {
+        "a": {"en": "Green wavy underline", "hi": "हरी लहरदार अंडरलाइन"},
+        "b": {"en": "Red wavy underline", "hi": "लाल लहरदार अंडरलाइन"},
+        "c": {"en": "Blue straight line", "hi": "नीली सीधी रेखा"},
+        "d": {"en": "Bold text", "hi": "बोल्ड टेक्स्ट"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Red is the universal color for 'Stop' or 'Error'.",
+        "hi": "लाल 'रुकें' या 'त्रुटि' के लिए सार्वभौमिक रंग है।"
+      },
+      "explanation": {
+        "en": "If you type a word that is not in the Word dictionary (like a misspelling), Word puts a red squiggly line under it to catch your attention.",
+        "hi": "यदि आप ऐसा शब्द टाइप करते हैं जो वर्ड डिक्शनरी में नहीं है (जैसे गलत वर्तनी), तो वर्ड आपका ध्यान खींचने के लिए उसके नीचे एक लाल लहरदार रेखा खींच देता है।"
+      },
+      "key_takeaway": {
+        "en": "Red Wavy Line = Spelling Error.",
+        "hi": "लाल लहरदार रेखा = स्पेलिंग की त्रुटि।"
+      }
+    },
+    {
+      "question_id": 18,
+      "question": {
+        "en": "What does a 'Green' wavy underline signify in MS-Word?",
+        "hi": "MS-Word में 'हरी' लहरदार अंडरलाइन क्या दर्शाती है?"
+      },
+      "options": {
+        "a": {"en": "Spelling Error", "hi": "स्पेलिंग की त्रुटि"},
+        "b": {"en": "Grammar Error", "hi": "व्याकरण (Grammar) की त्रुटि"},
+        "c": {"en": "Hyperlink", "hi": "हाइपरलिंक"},
+        "d": {"en": "Formatted text", "hi": "फॉर्मेटेड टेक्स्ट"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It appears if you miss a full stop or use the wrong tense.",
+        "hi": "यह तब दिखाई देता है जब आप पूर्ण विराम छोड़ देते हैं या गलत काल (tense) का उपयोग करते हैं।"
+      },
+      "explanation": {
+        "en": "A green wavy line means the spelling is correct, but the grammar is wrong (like 'They is going' instead of 'They are going'). Note: In newer versions, this might also appear as a double blue line.",
+        "hi": "एक हरी लहरदार रेखा का मतलब है कि स्पेलिंग सही है, लेकिन व्याकरण गलत है (जैसे 'They are going' के बजाय 'They is going')। नोट: नए संस्करणों में, यह डबल नीली रेखा के रूप में भी दिखाई दे सकता है।"
+      },
+      "key_takeaway": {
+        "en": "Green/Blue Lines = Grammatical suggestions.",
+        "hi": "हरी/नीली रेखाएं = व्याकरण संबंधी सुझाव।"
+      }
+    },
+    {
+      "question_id": 19,
+      "question": {
+        "en": "Which option is used to change the 'Orientation' of a page from vertical to horizontal?",
+        "hi": "पेज के 'ओरिएंटेशन' (Orientation) को लंबवत से क्षैतिज में बदलने के लिए किस विकल्प का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "Portrait", "hi": "पोर्ट्रेट"},
+        "b": {"en": "Landscape", "hi": "लैंडस्केप (Landscape)"},
+        "c": {"en": "Margin", "hi": "मार्जिन"},
+        "d": {"en": "Size", "hi": "साइज़"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "This orientation is wider than it is tall, like a painting of a landscape.",
+        "hi": "यह ओरिएंटेशन लंबा होने के बजाय चौड़ा होता है, जैसे किसी परिदृश्य (landscape) की पेंटिंग।"
+      },
+      "explanation": {
+        "en": "Orientation has two modes: 1. Portrait (default, vertical) and 2. Landscape (horizontal). Landscape is often used for certificates or wide tables.",
+        "hi": "ओरिएंटेशन के दो मोड होते हैं: 1. पोर्ट्रेट (डिफ़ॉल्ट, लंबवत) और 2. लैंडस्केप (क्षैतिज)। लैंडस्केप का उपयोग अक्सर प्रमाणपत्रों या चौड़ी टेबल के लिए किया जाता है।"
+      },
+      "key_takeaway": {
+        "en": "Landscape = Horizontal page; Portrait = Vertical page.",
+        "hi": "लैंडस्केप = क्षैतिज पेज; पोर्ट्रेट = लंबवत पेज।"
+      }
+    },
+    {
+      "question_id": 20,
+      "question": {
+        "en": "What is the shortcut key to 'Undo' your last action in MS-Word?",
+        "hi": "MS-Word में अपने पिछले कार्य को 'Undo' (वापस लेने) के लिए शॉर्टकट कुंजी क्या है?"
+      },
+      "options": {
+        "a": {"en": "Ctrl + Y", "hi": "Ctrl + Y"},
+        "b": {"en": "Ctrl + Z", "hi": "Ctrl + Z"},
+        "c": {"en": "Ctrl + X", "hi": "Ctrl + X"},
+        "d": {"en": "Ctrl + V", "hi": "Ctrl + V"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "This is a lifesaver if you accidentally delete something.",
+        "hi": "यदि आप गलती से कुछ डिलीट कर देते हैं तो यह आपके लिए बहुत मददगार है।"
+      },
+      "explanation": {
+        "en": "The 'Undo' command allows you to reverse your last action. If you accidentally deleted a paragraph, pressing Ctrl + Z will bring it back immediately.",
+        "hi": "'Undo' कमांड आपको अपने पिछले कार्य को उलटने की अनुमति देता है। यदि आपने गलती से एक पैराग्राफ डिलीट कर दिया है, तो Ctrl + Z दबाने से वह तुरंत वापस आ जाएगा।"
+      },
+      "key_takeaway": {
+        "en": "Ctrl + Z = Undo (Go back one step).",
+        "hi": "Ctrl + Z = अनडू (एक कदम पीछे जाएँ)।"
+      }
+    },
+    {
+      "question_id": 21,
+      "question": {
+        "en": "Which command allows you to remove text from one location and place it in another?",
+        "hi": "कौन सी कमांड आपको एक स्थान से टेक्स्ट हटाने और उसे दूसरे स्थान पर रखने की अनुमति देती है?"
+      },
+      "options": {
+        "a": {"en": "Copy and Paste", "hi": "कॉपी और पेस्ट"},
+        "b": {"en": "Cut and Paste", "hi": "कट और पेस्ट (Cut and Paste)"},
+        "c": {"en": "Undo and Redo", "hi": "अनडू और रिडू"},
+        "d": {"en": "Delete and New", "hi": "डिलीट और न्यू"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Shortcut for Cut is Ctrl + X.",
+        "hi": "कट का शॉर्टकट Ctrl + X है।"
+      },
+      "explanation": {
+        "en": "When you 'Cut' text, it is removed from its original spot and kept in the 'Clipboard'. When you 'Paste' (Ctrl + V), it appears in the new spot. This is also called 'Moving' text.",
+        "hi": "जब आप टेक्स्ट को 'कट' (Cut) करते हैं, तो वह अपने मूल स्थान से हट जाता है और 'क्लिपबोर्ड' में रखा जाता है। जब आप 'पेस्ट' (Ctrl + V) करते हैं, तो वह नए स्थान पर दिखाई देता है। इसे टेक्स्ट को 'स्थानांतरित करना' (Moving) भी कहा जाता है।"
+      },
+      "key_takeaway": {
+        "en": "Cut (Ctrl+X) removes; Copy (Ctrl+C) duplicates; Paste (Ctrl+V) places.",
+        "hi": "कट (Ctrl+X) हटाता है; कॉपी (Ctrl+C) डुप्लीकेट बनाता है; पेस्ट (Ctrl+V) रखता है।"
+      }
+    },
+    {
+      "question_id": 22,
+      "question": {
+        "en": "How can you change the appearance of text characters (style of the letters)?",
+        "hi": "आप टेक्स्ट कैरेक्टर की उपस्थिति (अक्षरों की शैली) कैसे बदल सकते हैं?"
+      },
+      "options": {
+        "a": {"en": "By changing the Font Size", "hi": "फ़ॉन्ट साइज़ बदलकर"},
+        "b": {"en": "By changing the Font Type (Face)", "hi": "फ़ॉन्ट टाइप (फेस) बदलकर"},
+        "c": {"en": "By changing the Page Margin", "hi": "पेज मार्जिन बदलकर"},
+        "d": {"en": "By using the Scroll Bar", "hi": "स्क्रॉल बार का उपयोग करके"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Examples include Arial, Times New Roman, and Calibri.",
+        "hi": "उदाहरणों में एरियल, टाइम्स न्यू रोमन और कैलिबरी शामिल हैं।"
+      },
+      "explanation": {
+        "en": "The 'Font' or 'Typeface' refers to the design of the letters. Changing the font can make your text look formal (Times New Roman), modern (Arial), or artistic.",
+        "hi": "'फ़ॉन्ट' या 'टाइपफेस' अक्षरों के डिजाइन को संदर्भित करता है। फ़ॉन्ट बदलने से आपका टेक्स्ट औपचारिक (Times New Roman), आधुनिक (Arial), या कलात्मक दिख सकता है।"
+      },
+      "key_takeaway": {
+        "en": "Font Type = Handwriting style of the computer.",
+        "hi": "फ़ॉन्ट टाइप = कंप्यूटर की लिखावट की शैली।"
+      }
+    },
+    {
+      "question_id": 23,
+      "question": {
+        "en": "Which command is used to repeat your last 'Undo' action?",
+        "hi": "आपके पिछले 'Undo' कार्य को दोहराने के लिए किस कमांड का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "Redo", "hi": "रिडू (Redo)"},
+        "b": {"en": "Restore", "hi": "रिस्टोर"},
+        "c": {"en": "Recover", "hi": "रिकवर"},
+        "d": {"en": "Repeat", "hi": "रिपीट"}
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "Shortcut: Ctrl + Y.",
+        "hi": "शॉर्टकट: Ctrl + Y।"
+      },
+      "explanation": {
+        "en": "Redo is the opposite of Undo. If you pressed Undo but then decided you actually liked the change, you press Redo to bring that change back.",
+        "hi": "रिडू (Redo) अनडू (Undo) का विपरीत है। यदि आपने अनडू दबाया लेकिन फिर फैसला किया कि आपको वह बदलाव वास्तव में पसंद आया था, तो आप उस बदलाव को वापस लाने के लिए रिडू दबाते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Ctrl + Y = Redo (Opposite of Undo).",
+        "hi": "Ctrl + Y = रिडू (अनडू का उल्टा)।"
+      }
+    },
+    {
+      "question_id": 24,
+      "question": {
+        "en": "To move the document view up and down to see different parts of a long page, you use the ______.",
+        "hi": "एक लंबे पेज के विभिन्न हिस्सों को देखने के लिए दस्तावेज़ दृश्य को ऊपर और नीचे ले जाने के लिए, आप ______ का उपयोग करते हैं।"
+      },
+      "options": {
+        "a": {"en": "Title Bar", "hi": "टाइटल बार"},
+        "b": {"en": "Menu Bar", "hi": "मेनू बार"},
+        "c": {"en": "Scroll Bar", "hi": "स्क्रॉल बार (Scroll Bar)"},
+        "d": {"en": "Status Bar", "hi": "स्टेटस बार"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "It is a thin bar on the right side of the window.",
+        "hi": "यह विंडो के दाईं ओर एक पतली पट्टी होती है।"
+      },
+      "explanation": {
+        "en": "The Scroll Bar allows you to navigate through a document that is too long to fit on one screen. You can click and drag the scroll box or use the arrows.",
+        "hi": "स्क्रॉल बार आपको उस दस्तावेज़ में नेविगेट करने की अनुमति देता है जो एक स्क्रीन पर फिट होने के लिए बहुत लंबा है। आप स्क्रॉल बॉक्स को क्लिक और ड्रैग कर सकते हैं या तीरों का उपयोग कर सकते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Scroll Bar = Document navigation tool.",
+        "hi": "स्क्रॉल बार = दस्तावेज़ नेविगेशन टूल।"
+      }
+    },
+    {
+      "question_id": 25,
+      "question": {
+        "en": "Which feature helps you find a specific word in a long document and replace it with another word automatically?",
+        "hi": "कौन सी सुविधा आपको एक लंबे दस्तावेज़ में एक विशिष्ट शब्द खोजने और उसे स्वचालित रूप से दूसरे शब्द से बदलने में मदद करती है?"
+      },
+      "options": {
+        "a": {"en": "Spelling Check", "hi": "स्पेलिंग चेक"},
+        "b": {"en": "Find and Replace", "hi": "फाइंड और रिप्लेस (Find and Replace)"},
+        "c": {"en": "Word Count", "hi": "वर्ड काउंट"},
+        "d": {"en": "Thesaurus", "hi": "थिसॉरस"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Shortcut for 'Find' is Ctrl + F.",
+        "hi": "'फाइंड' का शॉर्टकट Ctrl + F है।"
+      },
+      "explanation": {
+        "en": "Find and Replace is very powerful. Imagine you wrote a 50-page story and realized you spelled a character's name wrong. Instead of manually checking every line, this tool does it in one second.",
+        "hi": "फाइंड और रिप्लेस बहुत शक्तिशाली है। कल्पना कीजिए कि आपने 50 पन्नों की कहानी लिखी और महसूस किया कि आपने एक पात्र का नाम गलत लिखा है। हर लाइन को मैन्युअल रूप से जाँचने के बजाय, यह टूल इसे एक सेकंड में कर देता है।"
+      },
+      "key_takeaway": {
+        "en": "Find & Replace = Massive time-saver for large edits.",
+        "hi": "फाइंड और रिप्लेस = बड़े संपादनों के लिए समय की बड़ी बचत।"
+      }
+    },
+    {
+      "question_id": 26,
+      "question": {
+        "en": "What is the small blinking vertical line on the screen where the next character you type will appear?",
+        "hi": "स्क्रीन पर छोटी चमकती हुई ऊर्ध्वाधर लाइन क्या है जहाँ आपके द्वारा टाइप किया जाने वाला अगला अक्षर दिखाई देगा?"
+      },
+      "options": {
+        "a": {"en": "Pointer", "hi": "पॉइंटर"},
+        "b": {"en": "Cursor (Insertion Point)", "hi": "कर्सर (Cursor)"},
+        "c": {"en": "Icon", "hi": "आइकन"},
+        "d": {"en": "Bullet", "hi": "बुलेट"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It shows you exactly where you are 'inserting' text.",
+        "hi": "यह आपको ठीक-ठीक दिखाता है कि आप टेक्स्ट कहाँ 'डाल' (insert) रहे हैं।"
+      },
+      "explanation": {
+        "en": "The Cursor (or Insertion Point) tells you the current typing position. When you move the mouse, you see a pointer, but when you click inside text, you see the blinking cursor.",
+        "hi": "कर्सर (या इंसर्शन पॉइंट) आपको वर्तमान टाइपिंग स्थिति बताता है। जब आप माउस हिलाते हैं, तो आप एक पॉइंटर देखते हैं, लेकिन जब आप टेक्स्ट के अंदर क्लिक करते हैं, तो आपको चमकता हुआ कर्सर दिखाई देता है।"
+      },
+      "key_takeaway": {
+        "en": "Cursor = Your active writing position.",
+        "hi": "कर्सर = आपकी सक्रिय लेखन स्थिति।"
+      }
+    },
+    {
+      "question_id": 27,
+      "question": {
+        "en": "Which key is pressed to start a new paragraph in MS-Word?",
+        "hi": "MS-Word में नया पैराग्राफ शुरू करने के लिए कौन सी कुंजी दबाई जाती है?"
+      },
+      "options": {
+        "a": {"en": "Shift", "hi": "Shift"},
+        "b": {"en": "Enter", "hi": "Enter (एंटर)"},
+        "c": {"en": "Spacebar", "hi": "Spacebar"},
+        "d": {"en": "Tab", "hi": "Tab"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It is the largest key on the right side of the main keyboard.",
+        "hi": "यह मुख्य कीबोर्ड के दाईं ओर की सबसे बड़ी कुंजी है।"
+      },
+      "explanation": {
+        "en": "In word processing, you don't need to press Enter at the end of every line (Word does it automatically). You only press Enter when you finish a paragraph and want to start a new one.",
+        "hi": "वर्ड प्रोसेसिंग में, आपको हर लाइन के अंत में एंटर दबाने की आवश्यकता नहीं होती है (वर्ड इसे अपने आप करता है)। आप केवल तब एंटर दबाते हैं जब आप एक पैराग्राफ समाप्त करते हैं और एक नया शुरू करना चाहते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Enter Key = Paragraph Break.",
+        "hi": "एंटर की = पैराग्राफ ब्रेक।"
+      }
+    },
+    {
+      "question_id": 28,
+      "question": {
+        "en": "Which command would you use to change a document's name or save it in a different folder?",
+        "hi": "दस्तावेज़ का नाम बदलने या उसे किसी अन्य फ़ोल्डर में सहेजने के लिए आप किस कमांड का उपयोग करेंगे?"
+      },
+      "options": {
+        "a": {"en": "Save", "hi": "सेव"},
+        "b": {"en": "Save As", "hi": "सेव एज़ (Save As)"},
+        "c": {"en": "Replace", "hi": "रिप्लेस"},
+        "d": {"en": "Rename", "hi": "रीनेम"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It allows you to create a second copy of an existing file with a new name.",
+        "hi": "यह आपको नए नाम के साथ मौजूदा फ़ाइल की दूसरी प्रति बनाने की अनुमति देता है।"
+      },
+      "explanation": {
+        "en": "While 'Save' simply updates the current file, 'Save As' opens a dialog box that lets you choose a new name, a new file format (like PDF), or a different storage location.",
+        "hi": "जहाँ 'सेव' केवल वर्तमान फ़ाइल को अपडेट करता है, वहीं 'सेव एज़' एक डायलॉग बॉक्स खोलता है जो आपको एक नया नाम, एक नया फ़ाइल फ़ॉर्मेट (जैसे PDF), या एक अलग स्टोरेज स्थान चुनने देता है।"
+      },
+      "key_takeaway": {
+        "en": "Save As = Create a new version of the file.",
+        "hi": "Save एज़ = फ़ाइल का नया संस्करण बनाना।"
+      }
+    },
+    {
+      "question_id": 29,
+      "question": {
+        "en": "What is the purpose of the 'Word Count' feature?",
+        "hi": "'वर्ड काउंट' (Word Count) सुविधा का उद्देश्य क्या है?"
+      },
+      "options": {
+        "a": {"en": "To count the number of words, pages, and characters in a document", "hi": "दस्तावेज़ में शब्दों, पेजों और अक्षरों की संख्या गिनने के लिए"},
+        "b": {"en": "To check the price of the software", "hi": "सॉफ्टवेयर की कीमत जांचने के लिए"},
+        "c": {"en": "To count how many times the computer was turned on", "hi": "यह गिनने के लिए कि कंप्यूटर कितनी बार चालू किया गया था"},
+        "d": {"en": "To calculate math problems inside text", "hi": "टेक्स्ट के अंदर गणित की समस्याओं को हल करने के लिए"}
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "It is useful for students who have to write a 500-word essay.",
+        "hi": "यह उन छात्रों के लिए उपयोगी है जिन्हें 500 शब्दों का निबंध लिखना होता है।"
+      },
+      "explanation": {
+        "en": "Word Count gives you a summary of your document's length. It shows total pages, total words, and even how many spaces you have used.",
+        "hi": "वर्ड काउंट आपको आपके दस्तावेज़ की लंबाई का सारांश देता है। यह कुल पेज, कुल शब्द, और यहाँ तक कि आपने कितने स्पेस उपयोग किए हैं, यह भी दिखाता है।"
+      },
+      "key_takeaway": {
+        "en": "Word Count = Document statistics tool.",
+        "hi": "वर्ड काउंट = दस्तावेज़ सांख्यिकी टूल।"
+      }
+    },
+    {
+      "question_id": 30,
+      "question": {
+        "en": "How can you quickly change the size of your text to make it bigger or smaller?",
+        "hi": "आप अपने टेक्स्ट का आकार बड़ा या छोटा करने के लिए उसे जल्दी से कैसे बदल सकते हैं?"
+      },
+      "options": {
+        "a": {"en": "By changing the Font Color", "hi": "फ़ॉन्ट कलर बदलकर"},
+        "b": {"en": "By adjusting the Font Size number", "hi": "फ़ॉन्ट साइज़ नंबर को समायोजित करके"},
+        "c": {"en": "By changing the margins", "hi": "मार्जिन बदलकर"},
+        "d": {"en": "By restarting MS-Word", "hi": "MS-Word को रीस्टार्ट करके"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "The size is measured in 'points' (e.g., 12, 14, 16).",
+        "hi": "आकार 'पॉइंट्स' में मापा जाता है (जैसे 12, 14, 16)।"
+      },
+      "explanation": {
+        "en": "Font Size determines how large the characters appear. Standard documents use size 11 or 12. Headings are usually larger, like 16 or 18, to make them clearly visible.",
+        "hi": "फ़ॉन्ट साइज़ यह निर्धारित करता है कि अक्षर कितने बड़े दिखाई देते हैं। मानक दस्तावेज़ 11 या 12 आकार का उपयोग करते हैं। शीर्षकों को स्पष्ट रूप से दिखाई देने के लिए आमतौर पर 16 या 18 जैसे बड़े आकार में रखा जाता है।"
+      },
+      "key_takeaway": {
+        "en": "Font Size = Magnitude of text characters.",
+        "hi": "फ़ॉन्ट साइज़ = टेक्स्ट कैरेक्टर का परिमाण।"
+      }
+    }
+  ]
+}
