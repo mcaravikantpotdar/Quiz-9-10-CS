@@ -1,0 +1,142 @@
+{
+  "metadata": {
+    "topic": "MS-PowerPoint: Professional Presentation Skills",
+    "topic_hindi": "MS-PowerPoint: पेशेवर प्रेजेंटेशन कौशल",
+    "subject": "Computer Science",
+    "board": "HPBOSE",
+    "total_questions": 20,
+    "version": "2.0"
+  },
+  "questions": [
+    {
+      "question_id": 1,
+      "question": {
+        "en": "You want the title on your slide to 'Bounce' into view after you click the mouse. Which tab contains this feature?",
+        "hi": "आप चाहते हैं कि माउस क्लिक करने के बाद आपकी स्लाइड का शीर्षक 'बाउंस' (Bounce) करते हुए दिखाई दे। किस टैब में यह सुविधा है?"
+      },
+      "options": {
+        "a": {"en": "Transitions", "hi": "ट्रांज़िशन (Transitions)"},
+        "b": {"en": "Animations", "hi": "एनीमेशन (Animations)"},
+        "c": {"en": "Design", "hi": "डिजाइन"},
+        "d": {"en": "Review", "hi": "रिव्यू"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Transitions are for the 'Whole Slide'; this is for an 'Object' on the slide.",
+        "hi": "ट्रांज़िशन 'पूरी स्लाइड' के लिए हैं; यह स्लाइड पर मौजूद एक 'ऑब्जेक्ट' के लिए है।"
+      },
+      "explanation": {
+        "en": "To make a single text box or image move, you use the 'Animations' tab. You must first select the object, then choose an effect like Bounce or Fly-In. Transition is used only for how the screen changes from one slide to another.",
+        "hi": "किसी एक टेक्स्ट बॉक्स या इमेज को घुमाने के लिए, आप 'एनीमेशन' टैब का उपयोग करते हैं। आपको पहले ऑब्जेक्ट को चुनना होगा, फिर बाउंस या फ्लाई-इन जैसा इफेक्ट चुनना होगा।"
+      },
+      "key_takeaway": {
+        "en": "Animations = Moving objects; Transitions = Moving slides.",
+        "hi": "एनीमेशन = ऑब्जेक्ट्स को घुमाना; ट्रांज़िशन = स्लाइड्स को घुमाना।"
+      }
+    },
+    {
+      "question_id": 2,
+      "question": {
+        "en": "You have a 10-slide presentation and want to see all slides as small thumbnails on one screen to check the order. Which view is best?",
+        "hi": "आपके पास 10-स्लाइड की प्रेजेंटेशन है और आप क्रम की जांच करने के लिए सभी स्लाइड्स को एक ही स्क्रीन पर छोटे थंबनेल के रूप में देखना चाहते हैं। कौन सा व्यू (view) सबसे अच्छा है?"
+      },
+      "options": {
+        "a": {"en": "Normal View", "hi": "नॉर्मल व्यू"},
+        "b": {"en": "Slide Sorter View", "hi": "स्लाइड सॉर्टर व्यू (Slide Sorter View)"},
+        "c": {"en": "Slide Show View", "hi": "स्लाइड शो व्यू"},
+        "d": {"en": "Notes Page View", "hi": "नोट्स पेज व्यू"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "This view is designed for organizing and rearranging your slides.",
+        "hi": "यह व्यू आपकी स्लाइड्स को व्यवस्थित करने और क्रम बदलने के लिए डिज़ाइन किया गया है।"
+      },
+      "explanation": {
+        "en": "Slide Sorter view shows a 'bird's eye view' of your entire presentation. You can easily click and drag slides to move them to a new position, making it much faster to organize than the side-panel in Normal View.",
+        "hi": "स्लाइड सॉर्टर व्यू आपकी पूरी प्रेजेंटेशन का एक विहंगम दृश्य (bird's eye view) दिखाता है। आप स्लाइड्स को नई स्थिति में ले जाने के लिए आसानी से क्लिक और ड्रैग कर सकते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Slide Sorter = Organizational hub for the slide deck.",
+        "hi": "स्लाइड सॉर्टर = स्लाइड डेक के लिए संगठनात्मक हब।"
+      }
+    },
+    {
+      "question_id": 3,
+      "question": {
+        "en": "A student wants their presentation to play automatically like a video, with slides changing every 5 seconds. How can they practically do this?",
+        "hi": "एक छात्र चाहता है कि उसकी प्रेजेंटेशन वीडियो की तरह अपने आप चले, जिसमें हर 5 सेकंड में स्लाइड बदलें। वे व्यावहारिक रूप से ऐसा कैसे कर सकते हैं?"
+      },
+      "options": {
+        "a": {"en": "Click the mouse very fast", "hi": "माउस को बहुत तेज़ क्लिक करें"},
+        "b": {"en": "Transitions Tab -> Advance Slide -> After 00:05.00", "hi": "ट्रांज़िशन टैब -> एडवांस स्लाइड -> After 00:05.00"},
+        "c": {"en": "Copy each slide 5 times", "hi": "प्रत्येक स्लाइड की 5 प्रतियां बनाएं"},
+        "d": {"en": "Animations Tab -> Duration -> 5s", "hi": "एनीमेशन टैब -> ड्यूरेशन -> 5s"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "This setting is found under the 'Timing' group in the Transitions tab.",
+        "hi": "यह सेटिंग ट्रांज़िशन टैब में 'टाइमिंग' (Timing) ग्रुप के तहत पाई जाती है।"
+      },
+      "explanation": {
+        "en": "By unchecking 'On Mouse Click' and checking 'After' in the Transitions tab, you can set a timer. Once the time is up, PowerPoint automatically moves to the next slide. This is perfect for kiosk displays or photo slideshows.",
+        "hi": "ट्रांज़िशन टैब में 'On Mouse Click' को अनचेक करके और 'After' को चेक करके, आप एक टाइमर सेट कर सकते हैं। समय पूरा होते ही, पावरपॉइंट अगली स्लाइड पर अपने आप चला जाता है।"
+      },
+      "key_takeaway": {
+        "en": "Automated slides require the 'Advance Slide After' setting.",
+        "hi": "स्वचालित स्लाइड्स के लिए 'Advance Slide After' सेटिंग की आवश्यकता होती है।"
+      }
+    },
+    {
+      "question_id": 4,
+      "question": {
+        "en": "How do you stop a running Slide Show immediately and return to editing mode?",
+        "hi": "चल रहे स्लाइड शो को तुरंत कैसे रोकें और एडिटिंग मोड पर कैसे वापस आएं?"
+      },
+      "options": {
+        "a": {"en": "Press 'Enter'", "hi": "एंटर (Enter) दबाएं"},
+        "b": {"en": "Press 'Esc' (Escape)", "hi": "एस्केप (Esc) दबाएं"},
+        "c": {"en": "Turn off the monitor", "hi": "मॉनिटर बंद करें"},
+        "d": {"en": "Press 'F5'", "hi": "F5 दबाएं"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Look for the key in the top-left corner of the keyboard.",
+        "hi": "कीबोर्ड के ऊपर-बाएं कोने में की (key) देखें।"
+      },
+      "explanation": {
+        "en": "The 'Esc' key is a universal command in Windows to 'Escape' or cancel the current full-screen operation. In PowerPoint, it ends the slide show and takes you back to the Normal view where you can edit your work.",
+        "hi": "'Esc' की विंडोज में वर्तमान फुल-स्क्रीन ऑपरेशन को रद्द करने या उससे बाहर निकलने (Escape) के लिए एक सार्वभौमिक कमांड है। पावरपॉइंट में, यह स्लाइड शो को समाप्त कर देता है।"
+      },
+      "key_takeaway": {
+        "en": "Esc = Exit Full Screen / End Show.",
+        "hi": "Esc = फुल स्क्रीन से बाहर निकलें / शो समाप्त करें।"
+      }
+    },
+    {
+      "question_id": 5,
+      "question": {
+        "en": "Which key is used to start the slide show from the very first slide?",
+        "hi": "बिल्कुल पहली स्लाइड से स्लाइड शो शुरू करने के लिए किस कुंजी का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "F1", "hi": "F1"},
+        "b": {"en": "F5", "hi": "F5"},
+        "c": {"en": "F7", "hi": "F7"},
+        "d": {"en": "Ctrl + P", "hi": "Ctrl + P"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "This is a single Function key at the top of the keyboard.",
+        "hi": "यह कीबोर्ड के शीर्ष पर एक सिंगल फंक्शन की (Function key) है।"
+      },
+      "explanation": {
+        "en": "F5 is the standard shortcut to launch a presentation. If you are on slide 4 and press F5, it will take you back to slide 1 to start. To start from 'where you are', you would use Shift + F5.",
+        "hi": "F5 प्रेजेंटेशन शुरू करने का मानक शॉर्टकट है। यदि आप स्लाइड 4 पर हैं और F5 दबाते हैं, तो यह आपको शुरू करने के लिए वापस स्लाइड 1 पर ले जाएगा।"
+      },
+      "key_takeaway": {
+        "en": "F5 = Show from Start; Shift+F5 = Show from Current.",
+        "hi": "F5 = शुरुआत से शो; Shift+F5 = वर्तमान से शो।"
+      }
+    }
+  ]
+}
