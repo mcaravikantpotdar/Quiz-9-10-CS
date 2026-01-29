@@ -1,0 +1,530 @@
+{
+  "metadata": {
+    "topic": "Windows 10 Practical Operations",
+    "subject": "Computer Science",
+    "board": "HPBOSE",
+    "total_questions": 20
+  },
+  "questions": [
+    {
+      "question_id": 1,
+      "question": {
+        "en": "You have five different windows open on your screen. What is the fastest practical way to see your desktop without closing any of the programs?",
+        "hi": "आपकी स्क्रीन पर पांच अलग-अलग विंडो खुली हैं। किसी भी प्रोग्राम को बंद किए बिना अपने डेस्कटॉप को देखने का सबसे तेज़ व्यावहारिक तरीका क्या है?"
+      },
+      "options": {
+        "a": {"en": "Minimize each window one by one", "hi": "एक-एक करके प्रत्येक विंडो को मिनिमाइज करें"},
+        "b": {"en": "Click the small blank rectangle at the far right corner of the taskbar", "hi": "टास्कबार के बिल्कुल दाएं कोने में छोटे खाली आयत (rectangle) पर क्लिक करें"},
+        "c": {"en": "Restart the computer", "hi": "कंप्यूटर को रीस्टार्ट करें"},
+        "d": {"en": "Right-click on the Start button", "hi": "स्टार्ट बटन पर राइट-क्लिक करें"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "This area is known as the 'Show Desktop' button.",
+        "hi": "इस क्षेत्र को 'शो डेस्कटॉप' बटन के रूप में जाना जाता है।"
+      },
+      "explanation": {
+        "en": "In Windows 10, the tiny sliver at the very end of the taskbar (past the clock) is a 'Peek' button. Clicking it instantly minimizes all windows. Clicking it again brings them all back. This is faster than clicking the '-' button on every window.",
+        "hi": "विंडोज 10 में, टास्कबार के बिल्कुल अंत में (घड़ी के बाद) एक छोटा हिस्सा 'पीक' (Peek) बटन होता है। इसे क्लिक करने से सभी विंडो तुरंत मिनिमाइज हो जाती हैं। दोबारा क्लिक करने पर वे सब वापस आ जाती हैं। यह हर विंडो पर '-' बटन क्लिक करने से तेज़ है।"
+      },
+      "key_takeaway": {
+        "en": "The 'Show Desktop' button is located at the extreme right of the taskbar.",
+        "hi": "'शो डेस्कटॉप' बटन टास्कबार के बिल्कुल दाईं ओर स्थित होता है।"
+      }
+    },
+    {
+      "question_id": 2,
+      "question": {
+        "en": "A student accidentally deleted a project folder from the Desktop. How can they practically get it back with its original files?",
+        "hi": "एक छात्र ने गलती से डेस्कटॉप से एक प्रोजेक्ट फोल्डर डिलीट कर दिया। वे इसे अपनी मूल फाइलों के साथ व्यावहारिक रूप से वापस कैसे पा सकते हैं?"
+      },
+      "options": {
+        "a": {"en": "Create a new folder with the same name", "hi": "उसी नाम से एक नया फोल्डर बनाएं"},
+        "b": {"en": "Open Recycle Bin, right-click the folder, and select 'Restore'", "hi": "रिसायकल बिन खोलें, फोल्डर पर राइट-क्लिक करें और 'Restore' चुनें"},
+        "c": {"en": "Check the 'Downloads' folder", "hi": "'डाउनलोड' फोल्डर चेक करें"},
+        "d": {"en": "It is impossible to get it back", "hi": "इसे वापस पाना असंभव है"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Restore means to put something back to its original place.",
+        "hi": "रिस्टोर (Restore) का अर्थ है किसी चीज़ को उसके मूल स्थान पर वापस रखना।"
+      },
+      "explanation": {
+        "en": "When you delete a file in Windows, it isn't erased from the hard drive immediately. It moves to a temporary 'holding area' called the Recycle Bin. 'Restore' moves the folder exactly back to the Desktop where it was before.",
+        "hi": "जब आप विंडोज में कोई फाइल डिलीट करते हैं, तो वह हार्ड ड्राइव से तुरंत नहीं मिटती है। यह रिसायकल बिन नामक एक अस्थायी 'होल्डिंग एरिया' में चली जाती है। 'Restore' विकल्प फोल्डर को ठीक उसी जगह डेस्कटॉप पर वापस ले जाता है जहाँ वह पहले था।"
+      },
+      "key_takeaway": {
+        "en": "Recycle Bin -> Restore = Undo a deletion.",
+        "hi": "रिसायकल बिन -> रिस्टोर = डिलीट किए गए कार्य को वापस लाना।"
+      }
+    },
+    {
+      "question_id": 3,
+      "question": {
+        "en": "You want a specific program (like Notepad) to always be visible as a small icon on the taskbar even when it is closed. Which practical step should you take?",
+        "hi": "आप चाहते हैं कि एक विशिष्ट प्रोग्राम (जैसे नोटपैड) बंद होने पर भी टास्कबार पर एक छोटे आइकन के रूप में हमेशा दिखाई दे। आपको कौन सा व्यावहारिक कदम उठाना चाहिए?"
+      },
+      "options": {
+        "a": {"en": "Copy the Notepad icon and paste it on the screen", "hi": "नोटपैड आइकन को कॉपी करें और स्क्रीन पर पेस्ट करें"},
+        "b": {"en": "Right-click the open program on the taskbar and select 'Pin to taskbar'", "hi": "टास्कबार पर खुले प्रोग्राम पर राइट-क्लिक करें और 'Pin to taskbar' चुनें"},
+        "c": {"en": "Keep the program open all day", "hi": "पूरे दिन प्रोग्राम को खुला रखें"},
+        "d": {"en": "Drag the program into the Recycle Bin", "hi": "प्रोग्राम को रिसायकल बिन में ड्रैग करें"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "To 'Pin' something means to fix it in one place.",
+        "hi": "किसी चीज़ को 'पिन' (Pin) करने का अर्थ है उसे एक जगह पर स्थिर करना।"
+      },
+      "explanation": {
+        "en": "Pinning a program creates a permanent shortcut on the Taskbar. Even after you close the app, the icon stays there. This allows you to launch your favorite apps with a single click instead of searching for them in the Start menu.",
+        "hi": "किसी प्रोग्राम को पिन करने से टास्कबार पर एक स्थायी शॉर्टकट बन जाता है। ऐप बंद करने के बाद भी आइकन वहीं रहता है। इससे आप अपने पसंदीदा ऐप्स को स्टार्ट मेनू में खोजने के बजाय एक क्लिक से शुरू कर सकते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Pin to Taskbar = Quick access for frequently used apps.",
+        "hi": "पिन टू टास्कबार = बार-बार उपयोग किए जाने वाले ऐप्स तक त्वरित पहुंच।"
+      }
+    },
+    {
+      "question_id": 4,
+      "question": {
+        "en": "In File Explorer, you want to move a file from your 'Documents' folder to a 'USB Pen Drive'. Which practical combination of actions is correct?",
+        "hi": "फाइल एक्सप्लोरर में, आप एक फाइल को अपने 'डॉक्यूमेंट' फोल्डर से 'USB पेन ड्राइव' में ले जाना (move) चाहते हैं। कार्यों का कौन सा व्यावहारिक संयोजन सही है?"
+      },
+      "options": {
+        "a": {"en": "Copy the file, then Delete it, then Paste in USB", "hi": "फाइल कॉपी करें, फिर उसे डिलीट करें, फिर USB में पेस्ट करें"},
+        "b": {"en": "Right-click -> Cut, then Right-click -> Paste inside the USB folder", "hi": "राइट-क्लिक -> कट (Cut), फिर USB फोल्डर के अंदर राइट-क्लिक -> पेस्ट (Paste)"},
+        "c": {"en": "Right-click -> Copy, then Right-click -> Paste inside the USB folder", "hi": "राइट-क्लिक -> कॉपी (Copy), फिर USB फोल्डर के अंदर राइट-क्लिक -> पेस्ट (Paste)"},
+        "d": {"en": "Double-click the file and click Save", "hi": "फाइल पर डबल-क्लिक करें और सेव पर क्लिक करें"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "'Cut' removes the original, while 'Copy' leaves the original behind.",
+        "hi": "'कट' मूल फाइल को हटा देता है, जबकि 'कॉपी' मूल फाइल को वहीं रहने देता है।"
+      },
+      "explanation": {
+        "en": "To 'Move' means the file should disappear from the old place and appear in the new one. The standard workflow is 'Cut' (Ctrl+X) and then 'Paste' (Ctrl+V). Using 'Copy' would leave a duplicate in the Documents folder.",
+        "hi": "'Move' का अर्थ है कि फाइल पुराने स्थान से गायब हो जानी चाहिए और नए स्थान पर दिखाई देनी चाहिए। मानक प्रक्रिया 'Cut' (Ctrl+X) और फिर 'Paste' (Ctrl+V) है। 'Copy' का उपयोग करने से डॉक्यूमेंट फोल्डर में एक डुप्लीकेट फाइल रह जाएगी।"
+      },
+      "key_takeaway": {
+        "en": "Cut/Paste = Moving; Copy/Paste = Duplicating.",
+        "hi": "कट/पेस्ट = स्थान बदलना; कॉपी/पेस्ट = डुप्लीकेट बनाना।"
+      }
+    },
+    {
+      "question_id": 5,
+      "question": {
+        "en": "While using a laptop, you notice that your desktop icons are too small to see clearly. How can you practically resize them instantly?",
+        "hi": "लैपटॉप का उपयोग करते समय, आप देखते हैं कि आपके डेस्कटॉप आइकन स्पष्ट रूप से देखने के लिए बहुत छोटे हैं। आप उन्हें व्यावहारिक रूप से तुरंत कैसे बड़ा कर सकते हैं?"
+      },
+      "options": {
+        "a": {"en": "Change the monitor screen", "hi": "मॉनिटर स्क्रीन बदलें"},
+        "b": {"en": "Right-click on desktop -> View -> Large Icons", "hi": "डेस्कटॉप पर राइट-क्लिक -> व्यू (View) -> लार्ज आइकन (Large Icons)"},
+        "c": {"en": "Delete the icons and create new ones", "hi": "आइकन डिलीट करें और नए बनाएं"},
+        "d": {"en": "Use the Calculator accessory", "hi": "कैलकुलेटर एक्सेसरी का उपयोग करें"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "The 'View' menu in the right-click options controls the layout of the desktop.",
+        "hi": "राइट-क्लिक विकल्पों में 'व्यू' (View) मेनू डेस्कटॉप के लेआउट को नियंत्रित करता है।"
+      },
+      "explanation": {
+        "en": "Windows allows you to choose between Small, Medium, and Large icons. Right-clicking the empty space on the desktop gives you the 'View' sub-menu where you can change this setting without going into the Control Panel.",
+        "hi": "विंडोज आपको छोटे, मध्यम और बड़े आइकन के बीच चयन करने की अनुमति देता है। डेस्कटॉप पर खाली जगह पर राइट-क्लिक करने से आपको 'व्यू' (View) सब-मेनू मिलता है जहाँ आप कंट्रोल पैनल में जाए बिना इस सेटिंग को बदल सकते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Desktop View settings = Icon size and Auto-arrange management.",
+        "hi": "डेस्कटॉप व्यू सेटिंग्स = आइकन आकार और ऑटो-अरेंज प्रबंधन।"
+      }
+    },
+    {
+      "question_id": 6,
+      "question": {
+        "en": "You have a document named 'MyPaper' in a folder. You want to change it to 'Final_Exam'. What is the practical step?",
+        "hi": "आपके पास एक फोल्डर में 'MyPaper' नाम का एक दस्तावेज़ है। आप इसे 'Final_Exam' में बदलना चाहते हैं। व्यावहारिक कदम क्या है?"
+      },
+      "options": {
+        "a": {"en": "Select file -> Press F2 -> Type new name -> Press Enter", "hi": "फाइल चुनें -> F2 दबाएं -> नया नाम टाइप करें -> एंटर दबाएं"},
+        "b": {"en": "Delete the file and type it again", "hi": "फाइल डिलीट करें और इसे दोबारा टाइप करें"},
+        "c": {"en": "Open File Explorer and click Start", "hi": "फाइल एक्सप्लोरर खोलें और स्टार्ट पर क्लिक करें"},
+        "d": {"en": "Right-click the Taskbar", "hi": "टास्कबार पर राइट-क्लिक करें"}
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "F2 is the function key for Renaming.",
+        "hi": "F2 नाम बदलने (Rename) के लिए फंक्शन की है।"
+      },
+      "explanation": {
+        "en": "Renaming a file is a basic housekeeping task. Clicking once to select and then pressing F2 is the professional shortcut. After typing, pressing 'Enter' saves the new name.",
+        "hi": "किसी फाइल का नाम बदलना एक बुनियादी कार्य है। चुनने के लिए एक बार क्लिक करना और फिर F2 दबाना पेशेवर शॉर्टकट है। टाइप करने के बाद 'एंटर' दबाने से नया नाम सुरक्षित हो जाता है।"
+      },
+      "key_takeaway": {
+        "en": "Rename = F2 or Right-click -> Rename.",
+        "hi": "रीनेम = F2 या राइट-क्लिक -> रीनेम।"
+      }
+    },
+    {
+      "question_id": 7,
+      "question": {
+        "en": "A student needs to quickly find a file on a computer with thousands of documents. Which Windows feature should they practically use?",
+        "hi": "एक छात्र को हजारों दस्तावेजों वाले कंप्यूटर पर एक फाइल जल्दी से खोजने की आवश्यकता है। उन्हें व्यावहारिक रूप से विंडोज की किस सुविधा का उपयोग करना चाहिए?"
+      },
+      "options": {
+        "a": {"en": "Open every folder one by one", "hi": "एक-एक करके हर फोल्डर खोलें"},
+        "b": {"en": "Type the filename in the Search Box on the Taskbar", "hi": "टास्कबार पर सर्च बॉक्स (Search Box) में फाइल का नाम टाइप करें"},
+        "c": {"en": "Empty the Recycle Bin", "hi": "रिसायकल बिन खाली करें"},
+        "d": {"en": "Change the Desktop Wallpaper", "hi": "डेस्कटॉप वॉलपेपर बदलें"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Look for the magnifying glass icon near the Start button.",
+        "hi": "स्टार्ट बटन के पास मैग्नीफाइंग ग्लास (magnifying glass) आइकन देखें।"
+      },
+      "explanation": {
+        "en": "The Search Box (powered by Cortana in Windows 10) is the fastest way to locate files, apps, or settings. Just type a part of the name, and Windows scans all folders instantly to find matches.",
+        "hi": "सर्च बॉक्स फाइलों, ऐप्स या सेटिंग्स का पता लगाने का सबसे तेज़ तरीका है। बस नाम का एक हिस्सा टाइप करें, और विंडोज मिलान खोजने के लिए तुरंत सभी फोल्डरों को स्कैन करता है।"
+      },
+      "key_takeaway": {
+        "en": "Search Box = Universal location tool for files and apps.",
+        "hi": "सर्च बॉक्स = फाइलों और ऐप्स के लिए सार्वभौमिक टूल।"
+      }
+    },
+    {
+      "question_id": 8,
+      "question": {
+        "en": "Your computer's time is showing 2 hours behind the actual time. Where do you go to fix this?",
+        "hi": "आपके कंप्यूटर का समय वास्तविक समय से 2 घंटे पीछे चल रहा है। इसे ठीक करने के लिए आप कहाँ जाते हैं?"
+      },
+      "options": {
+        "a": {"en": "Notepad", "hi": "नोटपैड"},
+        "b": {"en": "Right-click the clock on taskbar -> Adjust date/time", "hi": "टास्कबार पर घड़ी पर राइट-क्लिक करें -> एडजस्ट डेट/टाइम (Adjust date/time)"},
+        "c": {"en": "Calculator", "hi": "कैलकुलेटर"},
+        "d": {"en": "My Computer -> Hard Disk Properties", "hi": "माय कंप्यूटर -> हार्ड डिस्क प्रॉपर्टीज"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "The clock is located in the System Tray (Bottom Right).",
+        "hi": "घड़ी सिस्टम ट्रे (नीचे दाईं ओर) में स्थित होती है।"
+      },
+      "explanation": {
+        "en": "System time is managed through 'Date & Time' settings. Right-clicking the time on the taskbar is the practical shortcut to jump straight to these settings without searching through the full Control Panel.",
+        "hi": "सिस्टम का समय 'डेट एंड टाइम' सेटिंग्स के माध्यम से प्रबंधित किया जाता है। टास्कबार पर समय पर राइट-क्लिक करना पूरे कंट्रोल पैनल में खोजे बिना सीधे इन सेटिंग्स पर जाने का व्यावहारिक शॉर्टकट है।"
+      },
+      "key_takeaway": {
+        "en": "Date/Time Adjustment = Through settings or Taskbar clock menu.",
+        "hi": "तारीख/समय समायोजन = सेटिंग्स या टास्कबार क्लॉक मेनू के माध्यम से।"
+      }
+    },
+    {
+      "question_id": 9,
+      "question": {
+        "en": "How can you practically tell if a file on your desktop is a 'Shortcut' or the 'Original' file?",
+        "hi": "आप व्यावहारिक रूप से कैसे बता सकते हैं कि आपके डेस्कटॉप पर कोई फाइल 'शॉर्टकट' (Shortcut) है या 'मूल' (Original) फाइल?"
+      },
+      "options": {
+        "a": {"en": "Shortcuts have a small arrow on the bottom-left of the icon", "hi": "शॉर्टकट के आइकन के नीचे-बाएं ओर एक छोटा तीर (arrow) होता है"},
+        "b": {"en": "Original files are always red", "hi": "मूल फाइलें हमेशा लाल होती हैं"},
+        "c": {"en": "Shortcuts cannot be deleted", "hi": "शॉर्टकट को डिलीट नहीं किया जा सकता"},
+        "d": {"en": "There is no difference in appearance", "hi": "दिखने में कोई अंतर नहीं होता"}
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "A shortcut is just a 'link' to the real file stored elsewhere.",
+        "hi": "शॉर्टकट केवल कहीं और संग्रहीत वास्तविक फाइल का एक 'लिंक' है।"
+      },
+      "explanation": {
+        "en": "Windows marks shortcuts with a small 'Jump Arrow' icon. If you delete a shortcut, the original file is safe. But if you delete a file without an arrow, the real data is gone to the Recycle Bin.",
+        "hi": "विंडोज शॉर्टकट को एक छोटे 'जंप एरो' आइकन के साथ चिह्नित करता है। यदि आप शॉर्टकट डिलीट करते हैं, तो मूल फाइल सुरक्षित रहती है। लेकिन यदि आप बिना तीर वाली फाइल डिलीट करते हैं, तो वास्तविक डेटा रिसायकल बिन में चला जाता है।"
+      },
+      "key_takeaway": {
+        "en": "Shortcut Arrow = Pointer to an original location.",
+        "hi": "शॉर्टकट एरो = मूल स्थान की ओर इशारा करने वाला पॉइंटर।"
+      }
+    },
+    {
+      "question_id": 10,
+      "question": {
+        "en": "A window is taking up the whole screen. You want to see the desktop icons behind it but NOT hide the window completely. Which button do you click?",
+        "hi": "एक विंडो पूरी स्क्रीन घेरे हुए है। आप इसके पीछे डेस्कटॉप आइकन देखना चाहते हैं लेकिन विंडो को पूरी तरह से छिपाना (hide) नहीं चाहते हैं। आप किस बटन पर क्लिक करते हैं?"
+      },
+      "options": {
+        "a": {"en": "Close (X)", "hi": "क्लोज (X)"},
+        "b": {"en": "Minimize (-)", "hi": "मिनिमाइज (-)"},
+        "c": {"en": "Restore Down (Middle button)", "hi": "रिस्टोर डाउन (बीच वाला बटन)"},
+        "d": {"en": "Start", "hi": "स्टार्ट"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "When a window is full screen, the 'Maximize' button changes into this.",
+        "hi": "जब कोई विंडो फुल स्क्रीन होती है, तो 'मैक्सिमाइज' बटन इसमें बदल जाता है।"
+      },
+      "explanation": {
+        "en": "The 'Restore Down' button (looks like two overlapping squares) shrinks the window to a smaller size so it 'floats' on the desktop. This allows you to see other icons or windows while still keeping the program visible.",
+        "hi": "'रिस्टोर डाउन' बटन (दो ओवरलैपिंग वर्गों जैसा दिखता है) विंडो को छोटे आकार में सिकोड़ देता है ताकि वह डेस्कटॉप पर 'तैरने' लगे। इससे आप प्रोग्राम को देखते हुए अन्य आइकन या विंडो देख सकते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Maximize = Full screen; Restore Down = Windowed mode.",
+        "hi": "मैक्सिमाइज = फुल स्क्रीन; रिस्टोर डाउन = विंडो मोड।"
+      }
+    },
+    {
+      "question_id": 11,
+      "question": {
+        "en": "What is the practical result of pressing 'Ctrl + Alt + Delete' keys together?",
+        "hi": "'Ctrl + Alt + Delete' कुंजियों को एक साथ दबाने का व्यावहारिक परिणाम क्या है?"
+      },
+      "options": {
+        "a": {"en": "The computer prints a document", "hi": "कंप्यूटर एक दस्तावेज़ प्रिंट करता है"},
+        "b": {"en": "It opens a security screen with options to Lock, Switch User, or open Task Manager", "hi": "यह लॉक करने, यूजर बदलने या टास्क मैनेजर खोलने के विकल्पों वाली एक सुरक्षा स्क्रीन खोलता है"},
+        "c": {"en": "It deletes all files in the C: drive", "hi": "यह C: ड्राइव की सभी फाइलों को डिलीट कर देता है"},
+        "d": {"en": "It turns up the volume", "hi": "यह वॉल्यूम बढ़ाता है"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Use this if a program is 'Hanging' or not responding.",
+        "hi": "यदि कोई प्रोग्राम 'हैंग' हो रहा है या जवाब नहीं दे रहा है तो इसका उपयोग करें।"
+      },
+      "explanation": {
+        "en": "This is a 'Safety' shortcut. It interrupts the OS to give you control. It's most commonly used to open the 'Task Manager' to force-close a frozen program that won't close normally.",
+        "hi": "यह एक 'सुरक्षा' शॉर्टकट है। यह आपको नियंत्रण देने के लिए OS को बाधित करता है। इसका उपयोग आमतौर पर 'टास्क मैनेजर' खोलने के लिए किया जाता है ताकि किसी हैंग हुए प्रोग्राम को जबरन बंद किया जा सके जो सामान्य रूप से बंद नहीं हो रहा है।"
+      },
+      "key_takeaway": {
+        "en": "Ctrl+Alt+Del = Troubleshooting and Security hub.",
+        "hi": "Ctrl+Alt+Del = समस्या निवारण और सुरक्षा केंद्र।"
+      }
+    },
+    {
+      "question_id": 12,
+      "question": {
+        "en": "You want to uninstall a game that you no longer play. Where in Windows 10 is the practical place to do this?",
+        "hi": "आप एक गेम को अनइंस्टॉल करना चाहते हैं जिसे आप अब नहीं खेलते हैं। विंडोज 10 में ऐसा करने के लिए व्यावहारिक जगह कहाँ है?"
+      },
+      "options": {
+        "a": {"en": "Recycle Bin", "hi": "रिसायकल बिन"},
+        "b": {"en": "Control Panel -> Programs and Features", "hi": "कंट्रोल पैनल -> प्रोग्राम्स एंड फीचर्स (Programs and Features)"},
+        "c": {"en": "My Documents", "hi": "माय डॉक्यूमेंट"},
+        "d": {"en": "Notepad", "hi": "नोटपैड"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Simply deleting the desktop icon does NOT uninstall a program.",
+        "hi": "सिर्फ डेस्कटॉप आइकन डिलीट करने से प्रोग्राम अनइंस्टॉल नहीं होता है।"
+      },
+      "explanation": {
+        "en": "Deleting an icon only removes the shortcut. To completely remove the software from the hard drive, you must use the 'Uninstall' tool in the Control Panel. This ensures all hidden system files of that game are also removed.",
+        "hi": "आइकन डिलीट करने से केवल शॉर्टकट हटता है। हार्ड ड्राइव से सॉफ्टवेयर को पूरी तरह से हटाने के लिए, आपको कंट्रोल पैनल में 'Uninstall' टूल का उपयोग करना चाहिए। यह सुनिश्चित करता है कि उस गेम की सभी छिपी हुई सिस्टम फाइलें भी हट जाएं।"
+      },
+      "key_takeaway": {
+        "en": "Control Panel = Safe software removal (Uninstallation).",
+        "hi": "कंट्रोल पैनल = सुरक्षित सॉफ्टवेयर हटाना (अनइंस्टॉल)।"
+      }
+    },
+    {
+      "question_id": 13,
+      "question": {
+        "en": "To quickly view the properties (like size and date) of a folder, what practical mouse action is used?",
+        "hi": "किसी फोल्डर के गुणों (जैसे आकार और तारीख) को जल्दी से देखने के लिए, किस व्यावहारिक माउस क्रिया का उपयोग किया जाता है?"
+      },
+      "options": {
+        "a": {"en": "Left-click once", "hi": "एक बार लेफ्ट-क्लिक"},
+        "b": {"en": "Double-click", "hi": "डबल-क्लिक"},
+        "c": {"en": "Right-click the folder and select 'Properties'", "hi": "फोल्डर पर राइट-क्लिक करें और 'Properties' चुनें"},
+        "d": {"en": "Drag it to the taskbar", "hi": "इसे टास्कबार पर ड्रैग करें"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "Properties tell you how much space the folder is taking on the disk.",
+        "hi": "प्रॉपर्टीज आपको बताती हैं कि फोल्डर डिस्क पर कितनी जगह घेर रहा है।"
+      },
+      "explanation": {
+        "en": "The Properties window is essential for digital literacy. It tells you the file type (.docx, .jpg), the exact size (KB/MB), and the date it was created or modified.",
+        "hi": "डिजिटल साक्षरता के लिए प्रॉपर्टीज विंडो आवश्यक है। यह आपको फाइल प्रकार (.docx, .jpg), सटीक आकार (KB/MB), और इसके बनाए जाने या बदले जाने की तारीख बताती है।"
+      },
+      "key_takeaway": {
+        "en": "Properties = Metadata and technical details of a file.",
+        "hi": "प्रॉपर्टीज = फाइल का मेटाडेटा और तकनीकी विवरण।"
+      }
+    },
+    {
+      "question_id": 14,
+      "question": {
+        "en": "Which of these is the practical way to create a 'New Folder' on the desktop?",
+        "hi": "डेस्कटॉप पर 'नया फोल्डर' बनाने का व्यावहारिक तरीका इनमें से कौन सा है?"
+      },
+      "options": {
+        "a": {"en": "Right-click on empty space -> New -> Folder", "hi": "खाली जगह पर राइट-क्लिक -> न्यू (New) -> फोल्डर (Folder)"},
+        "b": {"en": "Press the Power button on the CPU", "hi": "CPU पर पावर बटन दबाएं"},
+        "c": {"en": "Open Calculator and type 'New'", "hi": "कैलकुलेटर खोलें और 'New' टाइप करें"},
+        "d": {"en": "Click the clock on the taskbar", "hi": "टास्कबार पर घड़ी पर क्लिक करें"}
+      },
+      "correct_option": "a",
+      "hint": {
+        "en": "The 'New' sub-menu allows you to create many types of items.",
+        "hi": "'न्यू' (New) सब-मेनू आपको कई प्रकार की चीज़ें बनाने की अनुमति देता है।"
+      },
+      "explanation": {
+        "en": "Right-clicking the desktop wallpaper is the standard way to interact with the Desktop environment. The 'New' option allows you to instantly create a folder to start organizing your files.",
+        "hi": "डेस्कटॉप वॉलपेपर पर राइट-क्लिक करना डेस्कटॉप वातावरण के साथ बातचीत करने का मानक तरीका है। 'न्यू' विकल्प आपको अपनी फाइलों को व्यवस्थित करने के लिए तुरंत एक फोल्डर बनाने की अनुमति देता है।"
+      },
+      "key_takeaway": {
+        "en": "Context Menu -> New = Creating containers for data.",
+        "hi": "कॉन्टेक्स्ट मेनू -> न्यू = डेटा के लिए कंटेनर बनाना।"
+      }
+    },
+    {
+      "question_id": 15,
+      "question": {
+        "en": "In Windows 10, how can you practically move an open window to the left half of the screen precisely?",
+        "hi": "विंडोज 10 में, आप व्यावहारिक रूप से एक खुली हुई विंडो को स्क्रीन के बाएं आधे हिस्से में सटीक रूप से कैसे ले जा सकते हैं?"
+      },
+      "options": {
+        "a": {"en": "Manually resize it using the mouse", "hi": "माउस का उपयोग करके इसे मैन्युअल रूप से छोटा-बड़ा करें"},
+        "b": {"en": "Drag the window's title bar to the extreme left edge of the screen", "hi": "विंडो की टाइटल बार को स्क्रीन के बिल्कुल बाएं किनारे तक ड्रैग करें"},
+        "c": {"en": "Press the Start button", "hi": "स्टार्ट बटन दबाएं"},
+        "d": {"en": "Right-click the clock", "hi": "घड़ी पर राइट-क्लिक करें"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "This feature is called 'Snap Assist'.",
+        "hi": "इस सुविधा को 'स्नैप असिस्ट' (Snap Assist) कहा जाता है।"
+      },
+      "explanation": {
+        "en": "Snap Assist is a multitasking feature. By dragging a window to the left or right edge until the mouse touches the border, Windows 'snaps' it to exactly 50% of the screen. This is great for comparing two documents side-by-side.",
+        "hi": "स्नैप असिस्ट एक मल्टीटास्किंग फीचर है। माउस के बॉर्डर छूने तक विंडो को बाएं या दाएं किनारे पर ड्रैग करने से, विंडोज उसे स्क्रीन के ठीक 50% हिस्से में 'स्नैप' (चिपका) कर देता है। यह दो दस्तावेजों की साथ-साथ तुलना करने के लिए बहुत अच्छा है।"
+      },
+      "key_takeaway": {
+        "en": "Snap Assist = Efficient screen split for multitasking.",
+        "hi": "स्नैप असिस्ट = मल्टीटास्किंग के लिए कुशल स्क्रीन स्प्लिट।"
+      }
+    },
+    {
+      "question_id": 16,
+      "question": {
+        "en": "You want to change your desktop background to a photo of your family. Where is the practical place to do this?",
+        "hi": "आप अपने डेस्कटॉप बैकग्राउंड को अपने परिवार की फोटो में बदलना चाहते हैं। ऐसा करने के लिए व्यावहारिक जगह कहाँ है?"
+      },
+      "options": {
+        "a": {"en": "Inside the Recycle Bin", "hi": "रिसायकल बिन के अंदर"},
+        "b": {"en": "Right-click Desktop -> Personalize -> Background", "hi": "डेस्कटॉप पर राइट-क्लिक -> पर्सनलाइज (Personalize) -> बैकग्राउंड (Background)"},
+        "c": {"en": "MS Word -> Page Layout", "hi": "MS वर्ड -> पेज लेआउट"},
+        "d": {"en": "Control Panel -> Clock", "hi": "कंट्रोल पैनल -> घड़ी"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "Personalize is the menu for changing how Windows 'looks'.",
+        "hi": "पर्सनलाइज विंडोज के 'दिखने' के तरीके को बदलने का मेनू है।"
+      },
+      "explanation": {
+        "en": "Personalization settings allow you to change the Wallpaper, Colors, and Lock Screen. You can browse your computer for any image (.jpg or .png) and set it as your background.",
+        "hi": "पर्सनलाइजेशन सेटिंग्स आपको वॉलपेपर, रंग और लॉक स्क्रीन बदलने की अनुमति देती हैं। आप अपने कंप्यूटर में किसी भी इमेज (.jpg या .png) को खोज सकते हैं और उसे अपने बैकग्राउंड के रूप में सेट कर सकते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Personalization = Visual customization hub.",
+        "hi": "पर्सनलाइजेशन = विजुअल कस्टमाइजेशन हब।"
+      }
+    },
+    {
+      "question_id": 17,
+      "question": {
+        "en": "A student needs to do a quick calculation of 458 x 12. Which Windows accessory is the most practical to open?",
+        "hi": "एक छात्र को 458 x 12 की त्वरित गणना करने की आवश्यकता है। किस विंडोज एक्सेसरी को खोलना सबसे व्यावहारिक है?"
+      },
+      "options": {
+        "a": {"en": "Notepad", "hi": "नोटपैड"},
+        "b": {"en": "Calculator", "hi": "कैलकुलेटर (Calculator)"},
+        "c": {"en": "MS Paint", "hi": "MS पेंट"},
+        "d": {"en": "WordPad", "hi": "वर्डपैड"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "It works exactly like a hand-held electronic calculator.",
+        "hi": "यह बिल्कुल हाथ में पकड़ने वाले इलेक्ट्रॉनिक कैलकुलेटर की तरह काम करता है।"
+      },
+      "explanation": {
+        "en": "The Calculator app is a built-in accessory in Windows 10. It has different modes like Standard, Scientific, and Programmer. It is the best tool for quick math while working on other tasks.",
+        "hi": "कैलकुलेटर ऐप विंडोज 10 में एक इन-बिल्ट एक्सेसरी है। इसमें स्टैंडर्ड, साइंटिफिक और प्रोग्रामर जैसे अलग-अलग मोड हैं। अन्य कार्यों पर काम करते समय त्वरित गणित के लिए यह सबसे अच्छा टूल है।"
+      },
+      "key_takeaway": {
+        "en": "Calculator = Virtual mathematical assistant.",
+        "hi": "कैलकुलेटर = वर्चुअल गणितीय सहायक।"
+      }
+    },
+    {
+      "question_id": 18,
+      "question": {
+        "en": "When using File Explorer, you see folders named 'C:', 'D:', and 'E:'. What do these letters practically represent?",
+        "hi": "फाइल एक्सप्लोरर का उपयोग करते समय, आप 'C:', 'D:', और 'E:' नाम के फोल्डर देखते हैं। ये अक्षर व्यावहारिक रूप से क्या दर्शाते हैं?"
+      },
+      "options": {
+        "a": {"en": "Different Users of the computer", "hi": "कंप्यूटर के विभिन्न उपयोगकर्ता"},
+        "b": {"en": "Partitions (sections) of the Hard Disk drive", "hi": "हार्ड डिस्क ड्राइव के विभाजन (सेक्शन)"},
+        "c": {"en": "The quality of the computer speed", "hi": "कंप्यूटर की गति की गुणवत्ता"},
+        "d": {"en": "Types of internet connections", "hi": "इंटरनेट कनेक्शन के प्रकार"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "'C:' is usually where the Windows Operating System is installed.",
+        "hi": "'C:' आमतौर पर वह जगह है जहाँ विंडोज ऑपरेटिंग सिस्टम इंस्टॉल होता है।"
+      },
+      "explanation": {
+        "en": "Your hard drive is often divided into sections called 'Drives' or 'Partitions'. C: is the main system drive. D: and E: are typically used to store personal files so they stay safe if Windows (C:) needs to be reinstalled.",
+        "hi": "आपकी हार्ड ड्राइव को अक्सर 'ड्राइव' या 'विभाजन' (Partitions) नामक खंडों में विभाजित किया जाता है। C: मुख्य सिस्टम ड्राइव है। D: और E: का उपयोग आमतौर पर व्यक्तिगत फाइलों को स्टोर करने के लिए किया जाता है ताकि यदि विंडोज (C:) को दोबारा इंस्टॉल करने की आवश्यकता हो तो वे सुरक्षित रहें।"
+      },
+      "key_takeaway": {
+        "en": "Drive Letters = Identifiers for storage partitions.",
+        "hi": "ड्राइव लेटर्स = स्टोरेज विभाजनों के पहचानकर्ता।"
+      }
+    },
+    {
+      "question_id": 19,
+      "question": {
+        "en": "You want to shut down your computer safely. What is the standard practical sequence?",
+        "hi": "आप अपने कंप्यूटर को सुरक्षित रूप से बंद (shut down) करना चाहते हैं। मानक व्यावहारिक क्रम क्या है?"
+      },
+      "options": {
+        "a": {"en": "Pull the power plug from the wall", "hi": "दीवार से पावर प्लग खींच लें"},
+        "b": {"en": "Press and hold the CPU power button", "hi": "CPU पावर बटन को दबाकर रखें"},
+        "c": {"en": "Start Button -> Power icon -> Shut down", "hi": "स्टार्ट बटन -> पावर आइकन -> शट डाउन (Shut down)"},
+        "d": {"en": "Close the monitor and walk away", "hi": "मॉनिटर बंद करें और चले जाएं"}
+      },
+      "correct_option": "c",
+      "hint": {
+        "en": "Software shutdown allows Windows to save all system data correctly.",
+        "hi": "सॉफ्टवेयर शटडाउन विंडोज को सभी सिस्टम डेटा को सही ढंग से सहेजने की अनुमति देता है।"
+      },
+      "explanation": {
+        "en": "Shutting down through the Start Menu is 'Software Shutdown'. It tells Windows to close all programs and stop the hard drive safely. Turning off the power directly can damage your files or the hard disk.",
+        "hi": "स्टार्ट मेनू के माध्यम से बंद करना 'सॉफ्टवेयर शटडाउन' है। यह विंडोज को सभी प्रोग्राम बंद करने और हार्ड ड्राइव को सुरक्षित रूप से रोकने के लिए कहता है। सीधे पावर बंद करने से आपकी फाइलें या हार्ड डिस्क खराब हो सकती है।"
+      },
+      "key_takeaway": {
+        "en": "Proper Shutdown = System health and data integrity.",
+        "hi": "उचित शटडाउन = सिस्टम स्वास्थ्य और डेटा सुरक्षा।"
+      }
+    },
+    {
+      "question_id": 20,
+      "question": {
+        "en": "You want to see a list of all programs currently running and how much memory they are using. Which practical tool provides this?",
+        "hi": "आप वर्तमान में चल रहे सभी प्रोग्रामों की सूची और वे कितनी मेमोरी उपयोग कर रहे हैं, यह देखना चाहते हैं। कौन सा व्यावहारिक टूल यह जानकारी प्रदान करता है?"
+      },
+      "options": {
+        "a": {"en": "Recycle Bin", "hi": "रिसायकल बिन"},
+        "b": {"en": "Task Manager", "hi": "टास्क मैनेजर (Task Manager)"},
+        "c": {"en": "Notepad", "hi": "नोटपैड"},
+        "d": {"en": "MS Paint", "hi": "MS पेंट"}
+      },
+      "correct_option": "b",
+      "hint": {
+        "en": "You can open this by right-clicking the Taskbar.",
+        "hi": "आप टास्कबार पर राइट-क्लिक करके इसे खोल सकते हैं।"
+      },
+      "explanation": {
+        "en": "Task Manager is the 'Doctor' of your computer. It shows you if a program is using too much CPU or RAM and slowing down the PC. You can also use it to 'End Task' if a program stops responding.",
+        "hi": "टास्क मैनेजर आपके कंप्यूटर का 'डॉक्टर' है। यह आपको दिखाता है कि क्या कोई प्रोग्राम बहुत अधिक CPU या RAM का उपयोग कर रहा है और पीसी को धीमा कर रहा है। यदि कोई प्रोग्राम जवाब देना बंद कर देता है तो आप 'End Task' करने के लिए भी इसका उपयोग कर सकते हैं।"
+      },
+      "key_takeaway": {
+        "en": "Task Manager = Real-time performance monitoring.",
+        "hi": "टास्क मैनेजर = रीयल-टाइम प्रदर्शन निगरानी।"
+      }
+    }
+  ]
+}
