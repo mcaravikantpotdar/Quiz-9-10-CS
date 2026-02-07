@@ -28,8 +28,8 @@
         "hi": "यह इकाई यह मापती है कि प्रिंटर हर सेकंड रिबन पर कितने व्यक्तिगत अक्षर या चिन्ह मार सकता है।"
       },
       "explanation": {
-        [cite_start]"en": "Dot Matrix printers are 'Character Printers'. They create text by striking pins against a ribbon one character at a time. Therefore, their speed is measured in 'Characters Per Second' (cps). Laser printers, which print a whole page at once, use 'ppm'[cite: 1162, 1164].",
-        "hi": "डॉट मैट्रिक्स प्रिंटर 'कैरेक्टर प्रिंटर' होते हैं। वे एक बार में एक कैरेक्टर के हिसाब से रिबन पर पिन मारकर टेक्स्ट बनाते हैं। इसलिए, उनकी गति को 'कैरेक्टर प्रति सेकंड' (cps) में मापा जाता है। [cite_start]लेजर प्रिंटर, जो एक बार में पूरा पेज प्रिंट करते हैं, 'ppm' का उपयोग करते हैं [cite: 1162, 1164]।"
+        "en": "Dot Matrix printers are 'Character Printers'. They create text by striking pins against a ribbon one character at a time. Therefore, their speed is measured in 'Characters Per Second' (cps). Laser printers, which print a whole page at once, use 'ppm'.",
+        "hi": "डॉट मैट्रिक्स प्रिंटर 'कैरेक्टर प्रिंटर' होते हैं। वे एक बार में एक कैरेक्टर के हिसाब से रिबन पर पिन मारकर टेक्स्ट बनाते हैं। इसलिए, उनकी गति को 'कैरेक्टर प्रति सेकंड' (cps) में मापा जाता है। लेजर प्रिंटर, जो एक बार में पूरा पेज प्रिंट करते हैं, 'ppm' का उपयोग करते हैं."
       },
       "key_takeaway": {
         "en": "cps = Characters Per Second (Speed unit for Dot Matrix printers).",
@@ -54,8 +54,8 @@
         "hi": "यह प्रिंटर एक विशेष प्रकार के कागज पर चित्र बनाने के लिए गर्मी (heat) का उपयोग करता है।"
       },
       "explanation": {
-        "en": "Traditional Fax machines use 'Thermal Printers'. These printers use a heat-sensitive paper that turns black when heated by the printer's head. [cite_start]Modern fax machines may use laser or inkjet technology, but basic thermal printing remains the classic standard for compact faxing[cite: 1169, 1173].",
-        "hi": "पारंपरिक फैक्स मशीनें 'थर्मल प्रिंटर' का उपयोग करती हैं। ये प्रिंटर गर्मी के प्रति संवेदनशील कागज का उपयोग करते हैं जो प्रिंटर के हेड द्वारा गर्म होने पर काला हो जाता है। [cite_start]आधुनिक फैक्स मशीनें लेजर या इंकजेट तकनीक का उपयोग कर सकती हैं, लेकिन बुनियादी थर्मल प्रिंटिंग कॉम्पैक्ट फैक्सिंग के लिए क्लासिक मानक बनी हुई है [cite: 1169, 1173]।"
+        "en": "Traditional Fax machines use 'Thermal Printers'. These printers use a heat-sensitive paper that turns black when heated by the printer's head. Modern fax machines may use laser or inkjet technology, but basic thermal printing remains the classic standard for compact faxing.",
+        "hi": "पारंपरिक फैक्स मशीनें 'थर्मल प्रिंटर' का उपयोग करती हैं। ये प्रिंटर गर्मी के प्रति संवेदनशील कागज का उपयोग करते हैं जो प्रिंटर के हेड द्वारा गर्म होने पर काला हो जाता है। आधुनिक फैक्स मशीनें लेजर या इंकजेट तकनीक का उपयोग कर सकती हैं, लेकिन बुनियादी थर्मल प्रिंटिंग कॉम्पैक्ट फैक्सिंग के लिए क्लासिक मानक बनी हुई है."
       },
       "key_takeaway": {
         "en": "Thermal printers are common in fax machines and bill receipt printers.",
@@ -80,8 +80,8 @@
         "hi": "एक शिक्षक पूरी कक्षा को दिखाने के लिए कांच के आधार पर एक 'ट्रांसपेरेंसी' (पारदर्शी शीट) रखता है।"
       },
       "explanation": {
-        "en": "An OHP uses a powerful light source and a lens system to enlarge and project information written or printed on transparent plastic sheets (transparencies). [cite_start]It allows a speaker to face the audience while showing notes on a large wall or screen[cite: 1205, 1221].",
-        "hi": "एक OHP पारदर्शी प्लास्टिक शीट (ट्रांसपेरेंसी) पर लिखी या मुद्रित जानकारी को बड़ा करने और प्रोजेक्ट करने के लिए एक शक्तिशाली प्रकाश स्रोत और लेंस सिस्टम का उपयोग करता है। [cite_start]यह वक्ता को एक बड़ी दीवार या स्क्रीन पर नोट्स दिखाते समय दर्शकों के सामने रहने की अनुमति देता है [cite: 1205, 1221]।"
+        "en": "An OHP uses a powerful light source and a lens system to enlarge and project information written or printed on transparent plastic sheets (transparencies). It allows a speaker to face the audience while showing notes on a large wall or screen.",
+        "hi": "एक OHP पारदर्शी प्लास्टिक शीट (ट्रांसपेरेंसी) पर लिखी या मुद्रित जानकारी को बड़ा करने और प्रोजेक्ट करने के लिए एक शक्तिशाली प्रकाश स्रोत और लेंस सिस्टम का उपयोग करता है। यह वक्ता को एक बड़ी दीवार या स्क्रीन पर नोट्स दिखाते समय दर्शकों के सामने रहने की अनुमति देता है."
       },
       "key_takeaway": {
         "en": "OHP projects content from physical transparent sheets without needing a computer connection.",
@@ -106,8 +106,8 @@
         "hi": "यह एक छोटे सेमीकंडक्टर प्रकाश स्रोत को संदर्भित करता है जो बिजली गुजरने पर चमकता है।"
       },
       "explanation": {
-        "en": "LED stands for Light Emitting Diode. LED screens are actually LCD screens that use tiny LEDs as a backlight instead of old fluorescent lamps. [cite_start]This makes them thinner, brighter, and more energy-efficient[cite: 1205, 1221].",
-        "hi": "LED का अर्थ लाइट एमिटिंग डायोड है। LED स्क्रीन वास्तव में LCD स्क्रीन होती हैं जो पुराने फ्लोरोसेंट लैंप के बजाय बैकलाइट के रूप में छोटे LED का उपयोग करती हैं। [cite_start]यह उन्हें पतला, उज्ज्वल और अधिक ऊर्जा-कुशल बनाता है [cite: 1205, 1221]।"
+        "en": "LED stands for Light Emitting Diode. LED screens are actually LCD screens that use tiny LEDs as a backlight instead of old fluorescent lamps. This makes them thinner, brighter, and more energy-efficient.",
+        "hi": "LED का अर्थ लाइट एमिटिंग डायोड है। LED स्क्रीन वास्तव में LCD स्क्रीन होती हैं जो पुराने फ्लोरोसेंट लैंप के बजाय बैकलाइट के रूप में छोटे LED का उपयोग करती हैं। यह उन्हें पतला, उज्ज्वल और अधिक ऊर्जा-कुशल बनाता है."
       },
       "key_takeaway": {
         "en": "LED screens offer superior brightness and lower power consumption than standard LCDs.",
@@ -132,8 +132,8 @@
         "hi": "यह उपकरण कागज पर निरंतर, सटीक रेखाएं खींचने के लिए मैकेनिकल पेन का उपयोग करता है।"
       },
       "explanation": {
-        "en": "A Plotter is a specialized output device for vector graphics. Instead of printing tiny dots like a regular printer, it moves a physical pen across paper to draw perfectly smooth and precise lines. [cite_start]Engineers and architects use them for maps and blueprints[cite: 1221].",
-        "hi": "प्लॉटर वेक्टर ग्राफिक्स के लिए एक विशेष आउटपुट डिवाइस है। एक नियमित प्रिंटर की तरह छोटे डॉट्स प्रिंट करने के बजाय, यह पूरी तरह से चिकनी और सटीक रेखाएं खींचने के लिए कागज पर एक भौतिक पेन चलाता है। [cite_start]इंजीनियर और आर्किटेक्ट इनका उपयोग मानचित्रों और ब्लूप्रिंट के लिए करते हैं [cite: 1221]।"
+        "en": "A Plotter is a specialized output device for vector graphics. Instead of printing tiny dots like a regular printer, it moves a physical pen across paper to draw perfectly smooth and precise lines. Engineers and architects use them for maps and blueprints.",
+        "hi": "प्लॉटर वेक्टर ग्राफिक्स के लिए एक विशेष आउटपुट डिवाइस है। एक नियमित प्रिंटर की तरह छोटे डॉट्स प्रिंट करने के बजाय, यह पूरी तरह से चिकनी और सटीक रेखाएं खींचने के लिए कागज पर एक भौतिक पेन चलाता है। इंजीनियर और आर्किटेक्ट इनका उपयोग मानचित्रों और ब्लूप्रिंट के लिए करते हैं."
       },
       "key_takeaway": {
         "en": "Plotters provide high precision for continuous line graphics.",
@@ -158,8 +158,8 @@
         "hi": "डिस्प्ले का नाम ही आपको बताता है कि अंदर क्या सामग्री है।"
       },
       "explanation": {
-        "en": "LCD stands for Liquid Crystal Display. It uses the light-modulating properties of liquid crystals that do not emit light directly. [cite_start]Instead, they act as shutters to block or allow light from a backlight to form pictures on the screen[cite: 1221].",
-        "hi": "LCD का अर्थ लिक्विड क्रिस्टल डिस्प्ले है। यह लिक्विड क्रिस्टल के प्रकाश-संशोधित गुणों का उपयोग करता है जो सीधे प्रकाश उत्सर्जित नहीं करते हैं। [cite_start]इसके बजाय, वे स्क्रीन पर चित्र बनाने के लिए बैकलाइट से प्रकाश को रोकने या अनुमति देने के लिए शटर के रूप में कार्य करते हैं [cite: 1221]।"
+        "en": "LCD stands for Liquid Crystal Display. It uses the light-modulating properties of liquid crystals that do not emit light directly. Instead, they act as shutters to block or allow light from a backlight to form pictures on the screen.",
+        "hi": "LCD का अर्थ लिक्विड क्रिस्टल डिस्प्ले है। यह लिक्विड क्रिस्टल के प्रकाश-संशोधित गुणों का उपयोग करता है जो सीधे प्रकाश उत्सर्जित नहीं करते हैं। इसके बजाय, वे स्क्रीन पर चित्र बनाने के लिए बैकलाइट से प्रकाश को रोकने या अनुमति देने के लिए शटर के रूप में कार्य करते हैं."
       },
       "key_takeaway": {
         "en": "LCDs require an external light source (backlight) to make pixels visible.",
@@ -184,8 +184,8 @@
         "hi": "पोर्टेबिलिटी और बिजली के बिलों के बारे में सोचें।"
       },
       "explanation": {
-        "en": "LED screens are much thinner and more energy-efficient than bulky CRT monitors. [cite_start]Because they use tiny diodes instead of large vacuum tubes, they stay cool even after hours of use and help save electricity[cite: 1205, 1221].",
-        "hi": "LED स्क्रीन भारी CRT मॉनिटर की तुलना में बहुत पतली और अधिक ऊर्जा-कुशल होती हैं। [cite_start]क्योंकि वे बड़ी वैक्यूम ट्यूबों के बजाय छोटे डायोड का उपयोग करते हैं, वे घंटों उपयोग के बाद भी ठंडे रहते हैं और बिजली बचाने में मदद करते हैं [cite: 1205, 1221]।"
+        "en": "LED screens are much thinner and more energy-efficient than bulky CRT monitors. Because they use tiny diodes instead of large vacuum tubes, they stay cool even after hours of use and help save electricity.",
+        "hi": "LED स्क्रीन भारी CRT मॉनिटर की तुलना में बहुत पतली और अधिक ऊर्जा-कुशल होती हैं। क्योंकि वे बड़ी वैक्यूम ट्यूबों के बजाय छोटे डायोड का उपयोग करते हैं, वे घंटों उपयोग के बाद भी ठंडे रहते हैं और बिजली बचाने में मदद करते हैं."
       },
       "key_takeaway": {
         "en": "LED technology is eco-friendly and space-saving.",
@@ -210,8 +210,8 @@
         "hi": "इस डिस्प्ले में प्रत्येक पिक्सेल एक छोटे नियॉन लाइट बल्ब की तरह है।"
       },
       "explanation": {
-        "en": "Plasma displays use small cells containing electrically charged ionized gases. Unlike LCDs, which need a separate light at the back, each plasma cell produces its own light. [cite_start]This results in very high contrast and great color quality, though they consume more power than LEDs[cite: 1221].",
-        "hi": "प्लाज्मा डिस्प्ले बिजली से चार्ज आयनित गैसों वाले छोटे सेल का उपयोग करते हैं। LCD के विपरीत, जिन्हें पीछे एक अलग लाइट की आवश्यकता होती है, प्रत्येक प्लाज्मा सेल अपना स्वयं का प्रकाश उत्पन्न करता है। [cite_start]इसके परिणामस्वरूप बहुत उच्च कंट्रास्ट और बेहतरीन रंग गुणवत्ता मिलती है, हालांकि वे LED की तुलना में अधिक बिजली की खपत करते हैं [cite: 1221]।"
+        "en": "Plasma displays use small cells containing electrically charged ionized gases. Unlike LCDs, which need a separate light at the back, each plasma cell produces its own light. This results in very high contrast and great color quality, though they consume more power than LEDs.",
+        "hi": "प्लाज्मा डिस्प्ले बिजली से चार्ज आयनित गैसों वाले छोटे सेल का उपयोग करते हैं। LCD के विपरीत, जिन्हें पीछे एक अलग लाइट की आवश्यकता होती है, प्रत्येक प्लाज्मा सेल अपना स्वयं का प्रकाश उत्पन्न करता है। इसके परिणामस्वरूप बहुत उच्च कंट्रास्ट और बेहतरीन रंग गुणवत्ता मिलती है, हालांकि वे LED की तुलना में अधिक बिजली की खपत करते हैं."
       },
       "key_takeaway": {
         "en": "Plasma = Self-illuminating pixels using gas cells.",
@@ -236,8 +236,8 @@
         "hi": "यह डिजिटल टेक्स्ट या इमेज को भौतिक कागज पर स्थानांतरित करता है।"
       },
       "explanation": {
-        "en": "A printer is the primary device for generating hard copies. [cite_start]It takes data from the computer and applies ink or toner onto paper to create a permanent physical version of the file[cite: 1221].",
-        "hi": "हार्ड कॉपी तैयार करने के लिए प्रिंटर प्राथमिक उपकरण है। [cite_start]यह कंप्यूटर से डेटा लेता है और फ़ाइल का स्थायी भौतिक संस्करण बनाने के लिए कागज पर स्याही या टोनर लगाता है [cite: 1221]।"
+        "en": "A printer is the primary device for generating hard copies. It takes data from the computer and applies ink or toner onto paper to create a permanent physical version of the file.",
+        "hi": "हार्ड कॉपी तैयार करने के लिए प्रिंटर प्राथमिक उपकरण है। यह कंप्यूटर से डेटा लेता है और फ़ाइल का स्थायी भौतिक संस्करण बनाने के लिए कागज पर स्याही या टोनर लगाता है."
       },
       "key_takeaway": {
         "en": "Printer = Device for physical output (Hard Copy).",
@@ -262,8 +262,8 @@
         "hi": "यह प्रिंटर लेजर बीम और टोनर नामक सूखे इंक पाउडर का उपयोग करता है।"
       },
       "explanation": {
-        "en": "Laser printers are non-impact because they don't hit a ribbon. They use static electricity and laser light to attract toner powder onto paper. [cite_start]They are valued for their speed and sharp, professional-quality text[cite: 1205, 1221].",
-        "hi": "लेजर प्रिंटर नॉन-इम्पैक्ट होते हैं क्योंकि वे रिबन पर प्रहार नहीं करते हैं। वे कागज पर टोनर पाउडर को आकर्षित करने के लिए स्थिर बिजली और लेजर प्रकाश का उपयोग करते हैं। [cite_start]वे अपनी गति और स्पष्ट, पेशेवर-गुणवत्ता वाले टेक्स्ट के लिए जाने जाते हैं [cite: 1205, 1221]।"
+        "en": "Laser printers are non-impact because they don't hit a ribbon. They use static electricity and laser light to attract toner powder onto paper. They are valued for their speed and sharp, professional-quality text.",
+        "hi": "लेजर प्रिंटर नॉन-इम्पैक्ट होते हैं क्योंकि वे रिबन पर प्रहार नहीं करते हैं। वे कागज पर टोनर पाउडर को आकर्षित करने के लिए स्थिर बिजली और लेजर प्रकाश का उपयोग करते हैं। वे अपनी गति और स्पष्ट, पेशेवर-गुणवत्ता वाले टेक्स्ट के लिए जाने जाते हैं."
       },
       "key_takeaway": {
         "en": "Laser printers are quiet and offer the highest print quality for documents.",
@@ -288,8 +288,8 @@
         "hi": "एक मेज पर चित्र बनाने के बारे में सोचें जहाँ कागज हिलता नहीं है।"
       },
       "explanation": {
-        "en": "In a flatbed plotter, the paper is placed on a flat horizontal table. One or more pens move over the paper to draw the image. [cite_start]The size of the drawing is limited by the size of the plotter's bed[cite: 1221].",
-        "hi": "फ्लैटबेड प्लॉटर में, कागज को एक सपाट क्षैतिज मेज पर रखा जाता है। चित्र बनाने के लिए एक या अधिक पेन कागज के ऊपर चलते हैं। [cite_start]ड्राइंग का आकार प्लॉटर के बेड के आकार तक सीमित होता है [cite: 1221]।"
+        "en": "In a flatbed plotter, the paper is placed on a flat horizontal table. One or more pens move over the paper to draw the image. The size of the drawing is limited by the size of the plotter's bed.",
+        "hi": "फ्लैटबेड प्लॉटर में, कागज को एक सपाट क्षैतिज मेज पर रखा जाता है। चित्र बनाने के लिए एक या अधिक पेन कागज के ऊपर चलते हैं। ड्राइंग का आकार प्लॉटर के बेड के आकार तक सीमित होता है."
       },
       "key_takeaway": {
         "en": "Flatbed Plotter = Paper remains stationary during the drawing process.",
@@ -314,8 +314,8 @@
         "hi": "इसे भौतिक कागज को किसी ऐसी चीज़ में बदलना होगा जो तार के माध्यम से यात्रा कर सके।"
       },
       "explanation": {
-        "en": "The process of a Fax (Facsimile) involves scanning the paper to detect dark and light areas. [cite_start]These areas are turned into electronic pulses that travel through telephone lines to another machine[cite: 1205, 1221].",
-        "hi": "फैक्स की प्रक्रिया में डार्क और लाइट क्षेत्रों का पता लगाने के लिए कागज को स्कैन करना शामिल है। [cite_start]इन क्षेत्रों को इलेक्ट्रॉनिक दालों में बदल दिया जाता है जो टेलीफोन लाइनों के माध्यम से दूसरी मशीन तक जाती हैं [cite: 1205, 1221]।"
+        "en": "The process of a Fax (Facsimile) involves scanning the paper to detect dark and light areas. These areas are turned into electronic pulses that travel through telephone lines to another machine.",
+        "hi": "फैक्स की प्रक्रिया में डार्क और लाइट क्षेत्रों का पता लगाने के लिए कागज को स्कैन करना शामिल है। इन क्षेत्रों को इलेक्ट्रॉनिक दालों में बदल दिया जाता है जो टेलीफोन लाइनों के माध्यम से दूसरी मशीन तक जाती हैं."
       },
       "key_takeaway": {
         "en": "Fax machines combine scanning and printing technologies for remote communication.",
@@ -340,8 +340,8 @@
         "hi": "यह कंप्यूटर स्क्रीन को दीवार या किसी बड़ी स्क्रीन पर प्रोजेक्ट करता है।"
       },
       "explanation": {
-        "en": "A Digital Projector connects to a computer and projects its output onto a large white surface. [cite_start]This is essential for classroom teaching and business presentations where a small monitor isn't enough[cite: 1221].",
-        "hi": "एक डिजिटल प्रोजेक्टर कंप्यूटर से जुड़ता है और उसके आउटपुट को एक बड़ी सफेद सतह पर प्रोजेक्ट करता है। [cite_start]यह कक्षा शिक्षण और व्यावसायिक प्रस्तुतियों के लिए आवश्यक है जहाँ एक छोटा मॉनिटर पर्याप्त नहीं होता है [cite: 1221]।"
+        "en": "A Digital Projector connects to a computer and projects its output onto a large white surface. This is essential for classroom teaching and business presentations where a small monitor isn't enough.",
+        "hi": "एक डिजिटल प्रोजेक्टर कंप्यूटर से जुड़ता है और उसके आउटपुट को एक बड़ी सफेद सतह पर प्रोजेक्ट करता है। यह कक्षा शिक्षण और व्यावसायिक प्रस्तुतियों के लिए आवश्यक है जहाँ एक छोटा मॉनिटर पर्याप्त नहीं होता है."
       },
       "key_takeaway": {
         "en": "Projector = Large-scale visual output.",
@@ -366,8 +366,8 @@
         "hi": "मल्टीमीडिया का अर्थ है अभिव्यक्ति के एक से अधिक माध्यमों (जैसे वीडियो + ऑडियो) का उपयोग करना।"
       },
       "explanation": {
-        "en": "Speakers are essential for any computer system used for entertainment or education. [cite_start]They provide the sound output that accompanies videos, games, and music, completing the multimedia experience[cite: 1221].",
-        "hi": "मनोरंजन या शिक्षा के लिए उपयोग किए जाने वाले किसी भी कंप्यूटर सिस्टम के लिए स्पीकर आवश्यक हैं। [cite_start]वे वीडियो, गेम और संगीत के साथ ध्वनि आउटपुट प्रदान करते हैं, जिससे मल्टीमीडिया अनुभव पूरा होता है [cite: 1221]।"
+        "en": "Speakers are essential for any computer system used for entertainment or education. They provide the sound output that accompanies videos, games, and music, completing the multimedia experience.",
+        "hi": "मनोरंजन या शिक्षा के लिए उपयोग किए जाने वाले किसी भी कंप्यूटर सिस्टम के लिए स्पीकर आवश्यक हैं। वे वीडियो, गेम और संगीत के साथ ध्वनि आउटपुट प्रदान करते हैं, जिससे मल्टीमीडिया अनुभव पूरा होता है."
       },
       "key_takeaway": {
         "en": "Audio output is a core pillar of digital literacy and multimedia.",
@@ -392,8 +392,8 @@
         "hi": "प्लॉटर का नाम हिलने वाले भाग के आकार को संदर्भित करता है।"
       },
       "explanation": {
-        "en": "A Drum Plotter consists of a drum that rotates back and forth. The paper is mounted on this drum. As the drum rotates, the pens move side-to-side to draw on the paper. [cite_start]This design allows for very long drawings[cite: 1221].",
-        "hi": "एक ड्रम प्लॉटर में एक ड्रम होता है जो आगे-पीछे घूमता है। कागज इसी ड्रम पर लगाया जाता है। जैसे-जैसे ड्रम घूमता है, पेन कागज पर चित्र बनाने के लिए अगल-बगल चलते हैं। [cite_start]यह डिज़ाइन बहुत लंबी ड्राइंग की अनुमति देता [cite: 1221]।"
+        "en": "A Drum Plotter consists of a drum that rotates back and forth. The paper is mounted on this drum. As the drum rotates, the pens move side-to-side to draw on the paper. This design allows for very long drawings.",
+        "hi": "एक ड्रम प्लॉटर में एक ड्रम होता है जो आगे-पीछे घूमता है। कागज इसी ड्रम पर लगाया जाता है। जैसे-जैसे ड्रम घूमता है, पेन कागज पर चित्र बनाने के लिए अगल-बगल चलते हैं। यह डिज़ाइन बहुत लंबी ड्राइंग की अनुमति देता है."
       },
       "key_takeaway": {
         "en": "Drum Plotters are preferred for continuous, large-scale output.",
@@ -418,8 +418,8 @@
         "hi": "उस कीमत के बारे में सोचें जो आप पहली बार इसे खरीदते समय दुकान पर देते हैं।"
       },
       "explanation": {
-        "en": "Laser printers involve complex internal parts (lasers, mirrors, drums), making them more expensive to purchase than simple inkjet printers. [cite_start]However, their operating cost (per page) is lower over time[cite: 1205, 1221].",
-        "hi": "लेजर प्रिंटर में जटिल आंतरिक भाग (लेजर, दर्पण, ड्रम) शामिल होते हैं, जिससे उन्हें साधारण इंकजेट प्रिंटर की तुलना में खरीदना अधिक महंगा होता है। [cite_start]हालांकि, समय के साथ उनकी परिचालन लागत (प्रति पेज) कम होती है [cite: 1205, 1221]।"
+        "en": "Laser printers involve complex internal parts (lasers, mirrors, drums), making them more expensive to purchase than simple inkjet printers. However, their operating cost (per page) is lower over time.",
+        "hi": "लेजर प्रिंटर में जटिल आंतरिक भाग (लेजर, दर्पण, ड्रम) शामिल होते हैं, जिससे उन्हें साधारण इंकजेट प्रिंटर की तुलना में खरीदना अधिक महंगा होता है। हालांकि, समय के साथ उनकी परिचालन लागत (प्रति पेज) कम होती है."
       },
       "key_takeaway": {
         "en": "Laser printers have higher initial cost but lower long-term printing costs.",
@@ -444,8 +444,8 @@
         "hi": "ट्रांसपेरेंसी स्पष्ट प्लास्टिक शीट होती हैं जिन पर नोट्स होते हैं।"
       },
       "explanation": {
-        "en": "The OHP is designed specifically to project information from transparencies. [cite_start]It allows a teacher to write on the sheet while explaining, and the work is projected live on a screen for students[cite: 1205, 1221].",
-        "hi": "OHP को विशेष रूप से ट्रांसपेरेंसी से जानकारी प्रोजेक्ट करने के लिए डिज़ाइन किया गया है। [cite_start]यह एक शिक्षक को समझाते समय शीट पर लिखने की अनुमति देता है, और काम छात्रों के लिए स्क्रीन पर लाइव प्रोजेक्ट किया जाता है [cite: 1205, 1221]।"
+        "en": "The OHP is designed specifically to project information from transparencies. It allows a teacher to write on the sheet while explaining, and the work is projected live on a screen for students.",
+        "hi": "OHP को विशेष रूप से ट्रांसपेरेंसी से जानकारी प्रोजेक्ट करने के लिए डिज़ाइन किया गया है। यह एक शिक्षक को समझाते समय शीट पर लिखने की अनुमति देता है, और काम छात्रों के लिए स्क्रीन पर लाइव प्रोजेक्ट किया जाता है."
       },
       "key_takeaway": {
         "en": "OHP handling is a basic skill for classroom digital literacy.",
@@ -470,8 +470,8 @@
         "hi": "यह उन व्यक्तिगत बिंदुओं की संख्या को संदर्भित करता है जो स्क्रीन इमेज बनाते हैं।"
       },
       "explanation": {
-        "en": "Screen resolution is measured by the number of pixels displayed. A pixel is a single point on the graphic image. [cite_start]The more pixels per square inch, the better the resolution/clarity[cite: 1221].",
-        "hi": "स्क्रीन रेजोल्यूशन प्रदर्शित पिक्सेल की संख्या से मापा जाता है। एक पिक्सेल ग्राफिक इमेज पर एक एकल बिंदु होता है। [cite_start]प्रति वर्ग इंच जितने अधिक पिक्सेल होंगे, रेजोल्यूशन/स्पष्टता उतनी ही बेहतर होगी [cite: 1221]।"
+        "en": "Screen resolution is measured by the number of pixels displayed. A pixel is a single point on the graphic image. The more pixels per square inch, the better the resolution/clarity.",
+        "hi": "स्क्रीन रेजोल्यूशन प्रदर्शित पिक्सेल की संख्या से मापा जाता है। एक पिक्सेल ग्राफिक इमेज पर एक एकल बिंदु होता है। प्रति वर्ग इंच जितने अधिक पिक्सेल होंगे, रेजोल्यूशन/स्पष्टता उतनी ही बेहतर होगी."
       },
       "key_takeaway": {
         "en": "Resolution = Width x Height in Pixels.",
@@ -496,8 +496,8 @@
         "hi": "जैसे ही आप डिवाइस बंद करते हैं आउटपुट गायब हो जाता है।"
       },
       "explanation": {
-        "en": "A Monitor (Visual Display Unit) provides temporary output. This is called a 'Soft Copy'. [cite_start]Printers and plotters provide 'Hard Copies', which are permanent physical records[cite: 1221].",
-        "hi": "एक मॉनिटर (विजुअल डिस्प्ले यूनिट) अस्थायी आउटपुट प्रदान करता है। इसे 'सॉफ्ट कॉपी' कहा जाता है। [cite_start]प्रिंटर और प्लॉटर 'हार्ड कॉपी' प्रदान करते हैं, जो स्थायी भौतिक रिकॉर्ड होते हैं [cite: 1221]।"
+        "en": "A Monitor (Visual Display Unit) provides temporary output. This is called a 'Soft Copy'. Printers and plotters provide 'Hard Copies', which are permanent physical records.",
+        "hi": "एक मॉनिटर (विजुअल डिस्प्ले यूनिट) अस्थायी आउटपुट प्रदान करता है। इसे 'सॉफ्ट कॉपी' कहा जाता है। प्रिंटर और प्लॉटर 'हार्ड कॉपी' प्रदान करते हैं, जो स्थायी भौतिक रिकॉर्ड होते हैं."
       },
       "key_takeaway": {
         "en": "Visual output is mostly transient (soft copy).",
@@ -522,8 +522,8 @@
         "hi": "लेजर प्रिंटर पुराने इम्पैक्ट प्रिंटरों की तुलना में बहुत तेज़ होते हैं और गति को पेजों में मापते हैं।"
       },
       "explanation": {
-        "en": "Laser printer speed is measured in Pages Per Minute (ppm). [cite_start]A standard office laser printer can usually print between 15 to 30 pages every minute[cite: 1221].",
-        "hi": "लेजर प्रिंटर की गति को पेज प्रति मिनट (ppm) में मापा जाता है। [cite_start]एक मानक कार्यालय लेजर प्रिंटर आमतौर पर हर मिनट 15 से 30 पेज प्रिंट कर सकता है [cite: 1221]।"
+        "en": "Laser printer speed is measured in Pages Per Minute (ppm). A standard office laser printer can usually print between 15 to 30 pages every minute.",
+        "hi": "लेजर प्रिंटर की गति को पेज प्रति मिनट (ppm) में मापा जाता है। एक मानक कार्यालय लेजर प्रिंटर आमतौर पर हर मिनट 15 से 30 पेज प्रिंट कर सकता है."
       },
       "key_takeaway": {
         "en": "PPM is the standard unit for non-impact printer speeds.",
@@ -548,8 +548,8 @@
         "hi": "यह आपको एक भौतिक दस्तावेज़ को 'डिजिटाइज़' (डिजिटल रूप में) करने की अनुमति देता है।"
       },
       "explanation": {
-        "en": "While printers are output, Scanners are input. They read physical text or images and send them into the computer. [cite_start]They are vital for advanced document management[cite: 1221].",
-        "hi": "जबकि प्रिंटर आउटपुट हैं, स्कैनर इनपुट हैं। वे भौतिक टेक्स्ट या इमेज पढ़ते हैं और उन्हें कंप्यूटर में भेजते हैं। [cite_start]वे उन्नत दस्तावेज़ प्रबंधन के लिए महत्वपूर्ण हैं [cite: 1221]।"
+        "en": "While printers are output, Scanners are input. They read physical text or images and send them into the computer. They are vital for advanced document management.",
+        "hi": "जबकि प्रिंटर आउटपुट हैं, स्कैनर इनपुट हैं। वे भौतिक टेक्स्ट या इमेज पढ़ते हैं और उन्हें कंप्यूटर में भेजते हैं। वे उन्नत दस्तावेज़ प्रबंधन के लिए महत्वपूर्ण हैं."
       },
       "key_takeaway": {
         "en": "Scanner = Paper to Digital converter.",
@@ -574,8 +574,8 @@
         "hi": "OLED स्क्रीन बहुत बेहतर ब्लैक कलर और स्मूथ मोशन (गति) पैदा करती हैं।"
       },
       "explanation": {
-        [cite_start]"en": "Modern gamers and professionals prefer LED (OLED) screens because they can change colors extremely fast and offer perfect black levels by turning off individual pixels completely[cite: 1221].",
-        [cite_start]"hi": "आधुनिक गेमर्स और पेशेवर LED (OLED) स्क्रीन पसंद करते हैं क्योंकि वे बहुत तेजी से रंग बदल सकते हैं और व्यक्तिगत पिक्सेल को पूरी तरह से बंद करके सटीक ब्लैक लेवल प्रदान करते हैं [cite: 1221]।"
+        "en": "Modern gamers and professionals prefer LED (OLED) screens because they can change colors extremely fast and offer perfect black levels by turning off individual pixels completely.",
+        "hi": "आधुनिक गेमर्स और पेशेवर LED (OLED) स्क्रीन पसंद करते हैं क्योंकि वे बहुत तेजी से रंग बदल सकते हैं और व्यक्तिगत पिक्सेल को पूरी तरह से बंद करके सटीक ब्लैक लेवल प्रदान करते हैं."
       },
       "key_takeaway": {
         "en": "OLED = Excellence in motion and color contrast.",
@@ -600,8 +600,8 @@
         "hi": "इसका उपयोग ब्लूप्रिंट और मानचित्र बनाने के लिए किया जाता है।"
       },
       "explanation": {
-        "en": "Because plotters draw with physical pens, they can create extremely large, high-quality technical drawings that standard printers cannot. [cite_start]This is mandatory for professional house plans and maps[cite: 1221].",
-        "hi": "चूंकि प्लॉटर भौतिक पेन से चित्र बनाते हैं, वे बहुत बड़े, उच्च गुणवत्ता वाले तकनीकी चित्र बना सकते हैं जो मानक प्रिंटर नहीं बना सकते। [cite_start]पेशेवर घर के नक्शों और मानचित्रों के लिए यह अनिवार्य है [cite: 1221]।"
+        "en": "Because plotters draw with physical pens, they can create extremely large, high-quality technical drawings that standard printers cannot. This is mandatory for professional house plans and maps.",
+        "hi": "चूंकि प्लॉटर भौतिक पेन से चित्र बनाते हैं, वे बहुत बड़े, उच्च गुणवत्ता वाले तकनीकी चित्र बना सकते हैं जो मानक प्रिंटर नहीं बना सकते। पेशेवर घर के नक्शों और मानचित्रों के लिए यह अनिवार्य है."
       },
       "key_takeaway": {
         "en": "Plotter = High-end professional drawing tool.",
@@ -626,8 +626,8 @@
         "hi": "नाम आपको बताता है कि यह एक चरण में कितना प्रिंट करता है।"
       },
       "explanation": {
-        "en": "Line printers are high-speed impact printers. Instead of printing letter by letter, they have a mechanical mechanism that strikes a whole line of text onto the page at the same time. [cite_start]Their speed is measured in LPM (Lines Per Minute)[cite: 1221].",
-        "hi": "लाइन प्रिंटर हाई-स्पीड इम्पैक्ट प्रिंटर हैं। अक्षर दर अक्षर प्रिंट करने के बजाय, उनके पास एक मैकेनिकल तंत्र होता है जो एक ही समय में पेज पर टेक्स्ट की पूरी लाइन को स्ट्राइक करता है। [cite_start]उनकी गति LPM (Lines Per Minute) में मापी जाती है [cite: 1221]।"
+        "en": "Line printers are high-speed impact printers. Instead of printing letter by letter, they have a mechanical mechanism that strikes a whole line of text onto the page at the same time. Their speed is measured in LPM (Lines Per Minute).",
+        "hi": "लाइन प्रिंटर हाई-स्पीड इम्पैक्ट प्रिंटर हैं। अक्षर दर अक्षर प्रिंट करने के बजाय, उनके पास एक मैकेनिकल तंत्र होता है जो एक ही समय में पेज पर टेक्स्ट की पूरी लाइन को स्ट्राइक करता है। उनकी गति LPM (Lines Per Minute) में मापी जाती है."
       },
       "key_takeaway": {
         "en": "Line Printer = High-speed business impact printing.",
@@ -652,8 +652,8 @@
         "hi": "यह वह सपाट, पारदर्शी क्षेत्र है जहाँ नीचे से प्रकाश आता है।"
       },
       "explanation": {
-        "en": "The transparency sheet is placed on the large glass stage or base. [cite_start]Light from a bulb below the glass passes through the transparency and carries the image to the lens above it[cite: 1205, 1221].",
-        "hi": "ट्रांसपेरेंसी शीट को बड़े कांच के स्टेज या आधार पर रखा जाता है। [cite_start]कांच के नीचे एक बल्ब से प्रकाश ट्रांसपेरेंसी से होकर गुजरता है और छवि को उसके ऊपर के लेंस तक ले जाता है [cite: 1205, 1221]।"
+        "en": "The transparency sheet is placed on the large glass stage or base. Light from a bulb below the glass passes through the transparency and carries the image to the lens above it.",
+        "hi": "ट्रांसपेरेंसी शीट को बड़े कांच के स्टेज या आधार पर रखा जाता है। कांच के नीचे एक बल्ब से प्रकाश ट्रांसपेरेंसी से होकर गुजरता है और छवि को उसके ऊपर के लेंस तक ले जाता है."
       },
       "key_takeaway": {
         "en": "Base = Starting point of OHP projection.",
@@ -678,8 +678,8 @@
         "hi": "आपकी त्वचा का प्राकृतिक तेल कांच की सतह पर 'हॉट स्पॉट' (गर्म बिंदु) बना सकता है।"
       },
       "explanation": {
-        "en": "The lamp in an OHP becomes extremely hot. [cite_start]Oils from your fingers can leave residue on the bulb, causing uneven heating which might lead to the glass cracking or the bulb blowing out early[cite: 1205].",
-        "hi": "एक OHP में लैंप बहुत अधिक गर्म हो जाता है। [cite_start]आपकी उंगलियों का तेल बल्ब पर अवशेष छोड़ सकता है, जिससे असमान ताप होता है जिससे कांच टूट सकता है या बल्ब जल्दी खराब हो सकता है [cite: 1205]।"
+        "en": "The lamp in an OHP becomes extremely hot. Oils from your fingers can leave residue on the bulb, causing uneven heating which might lead to the glass cracking or the bulb blowing out early.",
+        "hi": "एक OHP में लैंप बहुत अधिक गर्म हो जाता है। आपकी उंगलियों का तेल बल्ब पर अवशेष छोड़ सकता है, जिससे असमान ताप होता है जिससे कांच टूट सकता है या बल्ब जल्दी खराब हो सकता है."
       },
       "key_takeaway": {
         "en": "Careful handling of OHP parts ensures hardware longevity.",
@@ -704,8 +704,8 @@
         "hi": "पुरानी मशीनों में उपयोग किए जाने वाले थर्मल पेपर की टिकाऊपन (durability) के बारे में सोचें।"
       },
       "explanation": {
-        "en": "Thermal fax paper is sensitive to light and heat. Over time, the printed text can become faint and hard to read. [cite_start]Also, the resolution is generally much lower than a scanned email document[cite: 1205, 1221].",
-        "hi": "थर्मल फैक्स पेपर प्रकाश और गर्मी के प्रति संवेदनशील होता है। समय के साथ, मुद्रित टेक्स्ट धुंधला हो सकता है और पढ़ना मुश्किल हो सकता है। [cite_start]साथ ही, रेजोल्यूशन आमतौर पर स्कैन किए गए ईमेल दस्तावेज़ की तुलना में बहुत कम होता है [cite: 1205, 1221]।"
+        "en": "Thermal fax paper is sensitive to light and heat. Over time, the printed text can become faint and hard to read. Also, the resolution is generally much lower than a scanned email document.",
+        "hi": "थर्मल फैक्स पेपर प्रकाश और गर्मी के प्रति संवेदनशील होता है। समय के साथ, मुद्रित टेक्स्ट धुंधला हो सकता है और पढ़ना मुश्किल हो सकता है। साथ ही, रेजोल्यूशन आमतौर पर स्कैन किए गए ईमेल दस्तावेज़ की तुलना में बहुत कम होता है."
       },
       "key_takeaway": {
         "en": "Fax technology is being replaced by digital scanning and emailing.",
@@ -730,8 +730,8 @@
         "hi": "वे कंप्यूटर पर मीडिया अनुभव का एक प्रमुख हिस्सा हैं।"
       },
       "explanation": {
-        "en": "Multimedia speakers are output devices that allow users to hear sounds from applications. [cite_start]They are designed to reproduce a wide range of frequencies to make music and movie dialogue sound clear[cite: 1221].",
-        "hi": "मल्टीमीडिया स्पीकर आउटपुट डिवाइस हैं जो उपयोगकर्ताओं को एप्लिकेशन से आवाज़ें सुनने की अनुमति देते हैं। [cite_start]उन्हें संगीत और मूवी संवाद को स्पष्ट करने के लिए आवृत्तियों (frequencies) की एक विस्तृत श्रृंखला को पुन: उत्पन्न करने के लिए डिज़ाइन किया गया है [cite: 1221]।"
+        "en": "Multimedia speakers are output devices that allow users to hear sounds from applications. They are designed to reproduce a wide range of frequencies to make music and movie dialogue sound clear.",
+        "hi": "मल्टीमीडिया स्पीकर आउटपुट डिवाइस हैं जो उपयोगकर्ताओं को एप्लिकेशन से आवाज़ें सुनने की अनुमति देते हैं। उन्हें संगीत और मूवी संवाद को स्पष्ट करने के लिए आवृत्तियों (frequencies) की एक विस्तृत श्रृंखला को पुन: उत्पन्न करने के लिए डिज़ाइन किया गया है."
       },
       "key_takeaway": {
         "en": "Speakers convert digital audio data into sound waves.",
@@ -756,8 +756,8 @@
         "hi": "यह डिवाइस रिबन पर कैरेक्टर्स को 'हिट' (प्रहार) करता है।"
       },
       "explanation": {
-        "en": "According to the MQP, the speed of a dot matrix printer is measured in cps (characters per second). [cite_start]This is because it processes individual letters one by one across the line[cite: 1162, 1164].",
-        "hi": "MQP के अनुसार, डॉट मैट्रिक्स प्रिंटर की गति cps (कैरेक्टर प्रति सेकंड) में मापी जाती है। [cite_start]ऐसा इसलिए है क्योंकि यह पूरी लाइन में एक-एक करके व्यक्तिगत अक्षरों को प्रोसेस करता है [cite: 1162, 1164]।"
+        "en": "According to the MQP, the speed of a dot matrix printer is measured in cps (characters per second). This is because it processes individual letters one by one across the line.",
+        "hi": "MQP के अनुसार, डॉट मैट्रिक्स प्रिंटर की गति cps (कैरेक्टर प्रति सेकंड) में मापी जाती है। ऐसा इसलिए है क्योंकि यह पूरी लाइन में एक-एक करके व्यक्तिगत अक्षरों को प्रोसेस करता है."
       },
       "key_takeaway": {
         "en": "Exam focus: Remember cps for Dot Matrix and ppm for Laser/Inkjet.",
@@ -782,8 +782,8 @@
         "hi": "यह तकनीक आधुनिक पतले पैनल वाले टीवी में आम है।"
       },
       "explanation": {
-        "en": "The model paper highlights LED technology as thin and energy-efficient. [cite_start]It uses small Light Emitting Diodes to illuminate the screen, saving electricity compared to older methods[cite: 1205].",
-        "hi": "मॉडल पेपर LED तकनीक को पतली और ऊर्जा-कुशल के रूप में रेखांकित करता है। [cite_start]यह स्क्रीन को रोशन करने के लिए छोटे लाइट एमिटिंग डायोड का उपयोग करता है, जिससे पुराने तरीकों की तुलना में बिजली की बचत होती है [cite: 1205]।"
+        "en": "The model paper highlights LED technology as thin and energy-efficient. It uses small Light Emitting Diodes to illuminate the screen, saving electricity compared to older methods.",
+        "hi": "मॉडल पेपर LED तकनीक को पतली और ऊर्जा-कुशल के रूप में रेखांकित करता है। यह स्क्रीन को रोशन करने के लिए छोटे लाइट एमिटिंग डायोड का उपयोग करता है, जिससे पुराने तरीकों की तुलना में बिजली की बचत होती है."
       },
       "key_takeaway": {
         "en": "LED is currently the most popular consumer display technology.",
