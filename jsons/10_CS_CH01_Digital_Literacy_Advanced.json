@@ -315,7 +315,7 @@
       },
       "explanation": {
         "en": "The process of a Fax (Facsimile) involves scanning the paper to detect dark and light areas. These areas are turned into electronic pulses that travel through telephone lines to another machine.",
-        "hi": "फैक्स की प्रक्रिया में डार्क और लाइट क्षेत्रों का पता लगाने के लिए कागज को स्कैन करना शामिल है। इन क्षेत्रों को इलेक्ट्रॉनिक दालों में बदल दिया जाता है जो टेलीफोन लाइनों के माध्यम से दूसरी मशीन तक जाती हैं."
+        "hi": "फैक्स की प्रक्रिया में डार्क और लाइट क्षेत्रों का पता लगाने के लिए कागज को स्कैन करना शामिल है। इन क्षेत्रों को इलेक्ट्रॉनिक सिग्नल में बदल दिया जाता है जो टेलीफोन लाइनों के माध्यम से दूसरी मशीन तक जाती हैं."
       },
       "key_takeaway": {
         "en": "Fax machines combine scanning and printing technologies for remote communication.",
